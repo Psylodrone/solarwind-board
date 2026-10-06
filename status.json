@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-06T20:19:01.4171883Z",
+    "updated":  "2026-10-06T20:19:32.1916755Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-06T20:18:48.2215481Z",
@@ -41,7 +41,7 @@
                       "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T20:10:51.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -65,6 +65,11 @@
                                       "t":  "2026-10-06T20:19:00.8486134Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-06T20:19:31.3256164Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4370b61 and pushed, card in Accept for the architect"
                                   }
                               ]
                   },
