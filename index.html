@@ -1,1 +1,70 @@
-<!doctype html><meta charset="utf-8"><title>Solar Wind board</title><p>Board monitor: coming with B02.</p>
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Solar Wind board</title>
+<style>
+:root{color-scheme:light dark;--bg:#f4f6f8;--panel:#fff;--text:#202b38;--muted:#617080;--border:#d6dde4;--warn:#a95800;--accent:#286da8}
+@media(prefers-color-scheme:dark){:root{--bg:#141b23;--panel:#202a35;--text:#e3eaf1;--muted:#a0b0c0;--border:#3a4858;--warn:#ffbc66;--accent:#84c4f5}}
+*{box-sizing:border-box}body{margin:0;padding:20px;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,sans-serif}
+header{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}h1{font-size:22px;margin:0}h2{font-size:14px;margin:0 0 12px}
+#updated,.meta,.log{color:var(--muted)}#machines{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+.machine{padding:8px 12px;background:var(--panel);border:1px solid var(--border);border-radius:6px}
+#error{color:var(--warn);margin:12px 0}#error:empty{display:none}
+main{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px;align-items:start}
+.lane{min-width:0;padding:12px;background:var(--panel);border:1px solid var(--border);border-radius:8px}
+.card{padding:12px 0;border-top:1px solid var(--border)}.card:first-of-type{border-top:0}
+.warning{border:1px solid var(--warn);color:var(--warn)}.card.warning{padding:10px;border-radius:5px;margin-bottom:8px}
+.identity{font-weight:650}.meta{font-size:12px;margin:5px 0}.actor{margin:5px 0}.now{color:var(--accent)}
+.log{padding-left:18px;font-size:12px;overflow-wrap:anywhere}.log li{margin:6px 0}
+button{font:inherit;color:var(--accent);background:transparent;border:0;padding:2px 0;cursor:pointer;text-decoration:underline}
+.empty{color:var(--muted);font-size:12px}@media(max-width:560px){body{padding:12px}main{grid-template-columns:1fr}}
+</style>
+<header><h1>Solar Wind board</h1><span id="updated">Waiting for feed</span></header>
+<div id="machines"></div><div id="error" role="status"></div><main id="board"></main>
+<script>
+'use strict';
+const stages=['Ready','In progress','Review','Changes requested','Accept','Needs Taras','Done'];
+const source=new URLSearchParams(location.search).get('src')||'status.json';
+const expanded=new Set();let lastGood=null,lastFeed=null;
+const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n};
+function age(time){const ms=Date.now()-(typeof time==='number'?time:Date.parse(time));if(!Number.isFinite(ms))return 'unknown';
+ const s=Math.max(0,Math.floor(ms/1000));if(s<60)return s+'s ago';if(s<3600)return Math.floor(s/60)+'m ago';
+ if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
+function freshness(){if(lastFeed)document.getElementById('updated').textContent='Updated '+age(lastFeed.updated);}
+function render(feed){
+ const machines=document.getElementById('machines');machines.replaceChildren();
+ for(const [name,m] of Object.entries(feed.machines||{})){
+  const stale=!m.heartbeat||Date.now()-Date.parse(m.heartbeat)>10*60*1000||!Number.isFinite(Date.parse(m.heartbeat));
+  machines.append(node('div',name+' · '+m.watcher+' · heartbeat '+age(m.heartbeat)+(stale?' · stale':''),'machine'+(stale?' warning':'')));
+ }
+ const board=document.getElementById('board');board.replaceChildren();
+ for(const stage of stages){
+  const cards=(feed.cards||[]).filter(c=>c.stage===stage),lane=node('section',null,'lane');
+  lane.append(node('h2',stage+' · '+cards.length));
+  if(!cards.length)lane.append(node('div','No cards','empty'));
+  for(const c of cards){
+   const card=node('article',null,'card'+(stage==='Needs Taras'?' warning':''));
+   card.append(node('div',c.id+' · #'+c.number,'identity'));
+   card.append(node('div',[c.stage,c.machine,c.risk,c.round>0?'round '+c.round:null].filter(Boolean).join(' · '),'meta'));
+   card.append(node('div',(c.actor||'Done')+' · '+age(c.since),'actor'));
+   if(c.now!=null)card.append(node('div',c.now,'now'));
+   const entries=Array.isArray(c.log)?c.log:[],all=expanded.has(c.number),list=node('ul',null,'log');
+   for(const e of all?entries:entries.slice(-3))list.append(node('li',age(e.t)+' · '+e.actor+': '+e.text));
+   card.append(list);
+   if(entries.length>3){const button=node('button',all?'Show last 3':'Show all '+entries.length+' lines');button.type='button';
+    button.setAttribute('aria-expanded',String(all));button.onclick=()=>{if(all)expanded.delete(c.number);else expanded.add(c.number);render(lastFeed)};card.append(button);}
+   lane.append(card);
+  }
+  board.append(lane);
+ }
+ freshness();
+}
+async function refresh(){try{
+ const response=await fetch(source,{cache:'no-store'});if(!response.ok)throw Error('unreachable');
+ const feed=await response.json();if(!feed||!feed.updated||!feed.machines||!Array.isArray(feed.cards))throw Error('invalid feed');
+ lastFeed=feed;lastGood=Date.now();render(feed);document.getElementById('error').textContent='';
+ }catch{document.getElementById('error').textContent='feed unreachable'+(lastGood?' · last good fetch '+age(lastGood):' · no successful fetch yet');}}
+refresh();setInterval(refresh,30000);setInterval(()=>{if(lastFeed)render(lastFeed)},10000);
+</script>
+</html>
