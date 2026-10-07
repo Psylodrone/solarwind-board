@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T10:21:45.0322055Z",
+    "updated":  "2026-10-07T10:22:45.4531172Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T10:20:58.3755969Z",
+                                       "heartbeat":  "2026-10-07T10:22:00.2140327Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,44 @@
                               ]
                   },
                   {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "D02",
+                      "number":  7,
+                      "title":  "Pirate and rocket tuning values",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "T72",
                       "number":  55,
                       "title":  "Pirate tuning (heavy gunship, rocket boat)",
-                      "stage":  "Review",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-07T10:18:10.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T10:21:43.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -79,36 +109,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "D02",
-                      "number":  7,
-                      "title":  "Pirate and rocket tuning values",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
