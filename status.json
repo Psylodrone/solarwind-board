@@ -1,12 +1,87 @@
 {
-    "updated":  "2026-10-07T23:42:37.3077550Z",
+    "updated":  "2026-10-07T23:43:37.6624934Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T23:41:59.8454702Z",
+                                       "heartbeat":  "2026-10-07T23:43:01.5063085Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-63",
+                      "number":  63,
+                      "title":  "Park a stopped run\u0027s leftovers",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:41:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-66",
+                      "number":  66,
+                      "title":  "Date and time on the status page",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:41:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:41:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:41:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-69",
+                      "number":  69,
+                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:41:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-17",
                       "number":  17,
@@ -23,29 +98,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-64",
                       "number":  64,
                       "title":  "Unity noise files don\u0027t block the queue",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T21:33:52.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-07T23:42:23.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -89,6 +149,21 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
