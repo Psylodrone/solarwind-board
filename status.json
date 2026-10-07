@@ -1,29 +1,14 @@
 {
-    "updated":  "2026-10-07T15:27:40.3943082Z",
+    "updated":  "2026-10-07T15:28:17.8438654Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T15:27:31.8718628Z",
+                                       "heartbeat":  "2026-10-07T15:28:11.1620515Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
                   {
-                      "id":  "#62",
-                      "number":  62,
-                      "title":  "Pushes that need Taras stand out",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T11:40:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "#65",
+                      "id":  "SW-65",
                       "number":  65,
                       "title":  "Watcher restart or usage limit never strands a card",
                       "stage":  "Ready",
@@ -38,7 +23,7 @@
                               ]
                   },
                   {
-                      "id":  "#66",
+                      "id":  "SW-66",
                       "number":  66,
                       "title":  "Date and time on the status page",
                       "stage":  "Ready",
@@ -53,7 +38,7 @@
                               ]
                   },
                   {
-                      "id":  "#64",
+                      "id":  "SW-64",
                       "number":  64,
                       "title":  "Unity noise files don\u0027t block the queue",
                       "stage":  "Ready",
@@ -68,7 +53,7 @@
                               ]
                   },
                   {
-                      "id":  "#63",
+                      "id":  "SW-63",
                       "number":  63,
                       "title":  "Park a stopped run\u0027s leftovers",
                       "stage":  "Ready",
@@ -83,7 +68,7 @@
                               ]
                   },
                   {
-                      "id":  "#67",
+                      "id":  "SW-67",
                       "number":  67,
                       "title":  "Board tests pass while a watcher runs",
                       "stage":  "Ready",
@@ -98,7 +83,7 @@
                               ]
                   },
                   {
-                      "id":  "#68",
+                      "id":  "SW-68",
                       "number":  68,
                       "title":  "Antigravity drives board cards",
                       "stage":  "Ready",
@@ -113,7 +98,22 @@
                               ]
                   },
                   {
-                      "id":  "#70",
+                      "id":  "SW-69",
+                      "number":  69,
+                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T15:24:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-70",
                       "number":  70,
                       "title":  "Infrastructure map in Obsidian",
                       "stage":  "In progress",
@@ -128,14 +128,33 @@
                               ]
                   },
                   {
+                      "id":  "SW-62",
+                      "number":  62,
+                      "title":  "Pushes that need Taras stand out",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T15:28:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-07T15:28:17.2904888Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "T74",
                       "number":  60,
                       "title":  "Config edits save themselves",
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-07T15:23:58.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T15:27:39.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -232,7 +251,7 @@
                               ]
                   },
                   {
-                      "id":  "#61",
+                      "id":  "SW-61",
                       "number":  61,
                       "title":  "Task IDs are SW-\u003ccard number\u003e",
                       "stage":  "Done",
@@ -735,7 +754,7 @@
                               ]
                   },
                   {
-                      "id":  "#51",
+                      "id":  "SW-51",
                       "number":  51,
                       "title":  "Check T70 by hand: input after the legacy Input Manager removal",
                       "stage":  "Done",
@@ -765,7 +784,7 @@
                               ]
                   },
                   {
-                      "id":  "#42",
+                      "id":  "SW-42",
                       "number":  42,
                       "title":  "Input: remove the legacy Input Manager (Unity deprecation warning)",
                       "stage":  "Done",
@@ -825,7 +844,7 @@
                               ]
                   },
                   {
-                      "id":  "#9",
+                      "id":  "SW-9",
                       "number":  9,
                       "title":  "Workhorse: gh project scope + standalone Claude Code",
                       "stage":  "Done",
