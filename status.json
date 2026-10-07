@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T11:44:53.6339855Z",
+    "updated":  "2026-10-07T11:45:54.4477610Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T11:44:20.1796016Z",
+                                       "heartbeat":  "2026-10-07T11:45:22.0334595Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -71,11 +71,11 @@
                       "id":  "B09",
                       "number":  56,
                       "title":  "Watcher restarts itself on new watcher code",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T11:40:12.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T11:44:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
