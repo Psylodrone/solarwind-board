@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T13:11:24.6394759Z",
+    "updated":  "2026-10-07T13:12:24.6979497Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T13:11:04.0061685Z",
+                                       "heartbeat":  "2026-10-07T13:12:05.6245977Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -86,11 +86,11 @@
                       "id":  "B11",
                       "number":  59,
                       "title":  "Busy check waits out a script reload",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T13:09:16.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T13:11:03.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
