@@ -46,7 +46,7 @@ function render(feed){
   if(!cards.length)lane.append(node('div','No cards','empty'));
   for(const c of cards){
    const card=node('article',null,'card'+(stage==='Needs Taras'?' warning':''));
-   card.append(node('div',(c.id==='#'+c.number?c.id:c.id+' · #'+c.number)+(c.title?' · '+c.title:''),'identity'));
+   card.append(node('div',(c.id==='#'+c.number||c.id==='SW-'+c.number?c.id:c.id+' · #'+c.number)+(c.title?' · '+c.title:''),'identity'));
    card.append(node('div',[c.stage,c.machine,c.risk,c.round>0?'round '+c.round:null].filter(Boolean).join(' · '),'meta'));
    card.append(node('div',(c.actor||'Done')+' · '+age(c.since),'actor'));
    if(c.now!=null)card.append(node('div',c.now,'now'));
