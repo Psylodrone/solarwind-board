@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T14:25:40.3191738Z",
+    "updated":  "2026-10-07T14:26:40.4195143Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T14:24:57.1746313Z",
+                                       "heartbeat":  "2026-10-07T14:25:59.0451849Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -98,14 +98,29 @@
                               ]
                   },
                   {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "T74",
                       "number":  60,
                       "title":  "Config edits save themselves",
-                      "stage":  "In progress",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T14:12:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T14:25:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -139,21 +154,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
