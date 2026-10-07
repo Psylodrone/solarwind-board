@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-06T20:44:55.2348246Z",
+    "updated":  "2026-10-07T00:42:12.6110330Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-06T20:44:54.0569129Z",
+                                       "heartbeat":  "2026-10-07T00:41:58.7943275Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -13,7 +13,7 @@
                       "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "watcher",
+                      "actor":  "architect",
                       "since":  "2026-10-06T20:20:34.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -22,13 +22,13 @@
                               ]
                   },
                   {
-                      "id":  "FPP1",
-                      "number":  1,
-                      "stage":  "In progress",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "watcher",
-                      "since":  "2026-10-05T18:16:49.0000000Z",
+                      "id":  "B10",
+                      "number":  57,
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T20:45:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -36,13 +36,13 @@
                               ]
                   },
                   {
-                      "id":  "#2",
-                      "number":  2,
-                      "stage":  "In progress",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "watcher",
-                      "since":  "2026-10-05T18:16:54.0000000Z",
+                      "id":  "T73",
+                      "number":  58,
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T20:59:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -120,153 +120,13 @@
                               ]
                   },
                   {
-                      "id":  "#9",
-                      "number":  9,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  null,
-                      "actor":  null,
-                      "since":  "2026-10-05T21:16:46.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B01",
-                      "number":  10,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T12:28:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B03",
-                      "number":  11,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T18:34:05.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "T69",
-                      "number":  41,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-05T21:59:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "#42",
-                      "number":  42,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T12:42:52.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "BT1",
-                      "number":  46,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  null,
-                      "since":  "2026-10-06T12:28:21.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "B02",
                       "number":  47,
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  null,
+                      "actor":  "architect",
                       "since":  "2026-10-06T20:23:24.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B04",
-                      "number":  48,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T12:42:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B05",
-                      "number":  49,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T17:14:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "#51",
-                      "number":  51,
-                      "stage":  "Done",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  null,
-                      "since":  "2026-10-06T12:48:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B06",
-                      "number":  52,
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  null,
-                      "since":  "2026-10-06T18:47:41.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -279,7 +139,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  null,
+                      "actor":  "architect",
                       "since":  "2026-10-06T20:20:20.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -309,6 +169,146 @@
                                       "actor":  "watcher",
                                       "text":  "committed 4370b61 and pushed, card in Accept for the architect"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "B06",
+                      "number":  52,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T18:47:41.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B03",
+                      "number":  11,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T18:34:05.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B05",
+                      "number":  49,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T17:14:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#51",
+                      "number":  51,
+                      "stage":  "Done",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "architect",
+                      "since":  "2026-10-06T12:48:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B04",
+                      "number":  48,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T12:42:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#42",
+                      "number":  42,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T12:42:52.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "BT1",
+                      "number":  46,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T12:28:21.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B01",
+                      "number":  10,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-06T12:28:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "T69",
+                      "number":  41,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-05T21:59:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#9",
+                      "number":  9,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  null,
+                      "actor":  "architect",
+                      "since":  "2026-10-05T21:16:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   }
               ]
