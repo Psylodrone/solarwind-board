@@ -1,20 +1,66 @@
 {
-    "updated":  "2026-10-07T08:29:46.3511381Z",
+    "updated":  "2026-10-07T08:32:04.9282138Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T08:29:05.2721440Z",
+                                       "heartbeat":  "2026-10-07T08:32:03.7599983Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
                   {
-                      "id":  "T72",
-                      "number":  55,
+                      "id":  "P2-01",
+                      "number":  15,
+                      "title":  "Loop facts + playtest recorder; Save returns success",
                       "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T08:16:50.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-07T08:24:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "D02",
+                      "number":  7,
+                      "title":  "Pirate and rocket tuning values",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "T72",
+                      "number":  55,
+                      "title":  "Pirate tuning (heavy gunship, rocket boat)",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T08:29:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -42,54 +88,18 @@
                                       "t":  "2026-10-07T08:29:46.3424504Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 4747k/18k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T08:29:48.5888235Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "P2-01",
-                      "number":  15,
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-07T08:24:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "D01",
-                      "number":  5,
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "D02",
-                      "number":  7,
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
                       "id":  "B10",
                       "number":  57,
+                      "title":  "editor-run.ps1 can wait (busy editor, long test runs)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -148,6 +158,7 @@
                   {
                       "id":  "B08",
                       "number":  54,
+                      "title":  "Task names on the status page",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
@@ -186,6 +197,7 @@
                   {
                       "id":  "D03",
                       "number":  13,
+                      "title":  "Approve the FPP2 proposal",
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
@@ -200,6 +212,7 @@
                   {
                       "id":  "T73",
                       "number":  58,
+                      "title":  "Rocket trails thinner",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
@@ -238,6 +251,7 @@
                   {
                       "id":  "B02",
                       "number":  47,
+                      "title":  "Board monitor (card log, status feed, status website)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -252,6 +266,7 @@
                   {
                       "id":  "B07",
                       "number":  53,
+                      "title":  "Status page fixes (epics, actors, order, P2 ids)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
@@ -290,6 +305,7 @@
                   {
                       "id":  "B06",
                       "number":  52,
+                      "title":  "Progress pushes (watcher says when it starts and moves a card)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -304,6 +320,7 @@
                   {
                       "id":  "B03",
                       "number":  11,
+                      "title":  "Laptop watcher and accept on the board",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -318,6 +335,7 @@
                   {
                       "id":  "B05",
                       "number":  49,
+                      "title":  "Watcher alerts (no silent stalls)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -332,6 +350,7 @@
                   {
                       "id":  "#51",
                       "number":  51,
+                      "title":  "Check T70 by hand: input after the legacy Input Manager removal",
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
@@ -346,6 +365,7 @@
                   {
                       "id":  "B04",
                       "number":  48,
+                      "title":  "Watcher headless editor permissions",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -360,6 +380,7 @@
                   {
                       "id":  "#42",
                       "number":  42,
+                      "title":  "Input: remove the legacy Input Manager (Unity deprecation warning)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -374,6 +395,7 @@
                   {
                       "id":  "BT1",
                       "number":  46,
+                      "title":  "Board README: when a card runs (board test card)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
@@ -388,6 +410,7 @@
                   {
                       "id":  "B01",
                       "number":  10,
+                      "title":  "Task board and watcher (step 1, workhorse)",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -402,6 +425,7 @@
                   {
                       "id":  "T69",
                       "number":  41,
+                      "title":  "Rockets: seeker cone, dash breaks locks, player paints targets",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -416,6 +440,7 @@
                   {
                       "id":  "#9",
                       "number":  9,
+                      "title":  "Workhorse: gh project scope + standalone Claude Code",
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  null,
