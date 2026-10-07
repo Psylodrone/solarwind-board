@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T09:47:42.0307818Z",
+    "updated":  "2026-10-07T09:48:44.6900622Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T09:47:39.9782542Z",
+                                       "heartbeat":  "2026-10-07T09:48:42.4640521Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T08:32:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "P2-01",
-                      "number":  15,
-                      "title":  "Loop facts + playtest recorder; Save returns success",
-                      "stage":  "Accept",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T09:46:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -109,6 +94,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "P2-01",
+                      "number":  15,
+                      "title":  "Loop facts + playtest recorder; Save returns success",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T09:46:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
