@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T13:41:17.8850030Z",
+    "updated":  "2026-10-07T13:42:18.8099605Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T13:41:09.9596301Z",
+                                       "heartbeat":  "2026-10-07T13:42:16.3384275Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,59 @@
                               ]
                   },
                   {
-                      "id":  "#61",
-                      "number":  61,
-                      "title":  "Task IDs are SW-\u003ccard number\u003e",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
+                      "id":  "#65",
+                      "number":  65,
+                      "title":  "Watcher restart or usage limit never strands a card",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-07T11:28:11.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:41:06.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#66",
+                      "number":  66,
+                      "title":  "Date and time on the status page",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:41:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#64",
+                      "number":  64,
+                      "title":  "Unity noise files don\u0027t block the queue",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:41:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#63",
+                      "number":  63,
+                      "title":  "Park a stopped run\u0027s leftovers on a wip branch",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:41:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -79,6 +124,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "#61",
+                      "number":  61,
+                      "title":  "Task IDs are SW-\u003ccard number\u003e",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:40:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
