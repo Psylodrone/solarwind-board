@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T11:28:25.1915235Z",
+    "updated":  "2026-10-07T11:29:25.7791973Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T11:27:33.8868364Z",
+                                       "heartbeat":  "2026-10-07T11:28:36.8513048Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -31,6 +31,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T11:20:40.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#61",
+                      "number":  61,
+                      "title":  "Task IDs are SW-\u003ccard number\u003e",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-07T11:28:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
