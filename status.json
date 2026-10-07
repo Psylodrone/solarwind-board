@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T15:39:54.7946729Z",
+    "updated":  "2026-10-07T15:40:08.8773372Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T15:38:51.0740948Z",
+                                       "heartbeat":  "2026-10-07T15:39:58.2591073Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -148,6 +148,11 @@
                                       "t":  "2026-10-07T15:39:54.2668300Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 12 min, tokens 1391k/8k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:39:56.4685207Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: an unexpected failure"
                                   }
                               ]
                   },
