@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T08:19:53.2470047Z",
+    "updated":  "2026-10-07T08:20:54.0241435Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T08:19:48.8827296Z",
+                                       "heartbeat":  "2026-10-07T08:20:50.5921063Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -15,6 +15,20 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T08:16:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B09",
+                      "number":  56,
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T08:19:33.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -55,51 +69,41 @@
                               ]
                   },
                   {
-                      "id":  "B08",
-                      "number":  54,
-                      "stage":  "Accept",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T06:34:48.0000000Z",
-                      "round":  1,
+                      "id":  "D01",
+                      "number":  5,
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:19:07.7878296Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:30.4663423Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to AGY for review"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:54.2381343Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:19.8833295Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:49.2371471Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 0c73d3f and pushed, card in Accept for the architect"
-                                  }
+
+                              ]
+                  },
+                  {
+                      "id":  "D02",
+                      "number":  7,
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
                       "id":  "B10",
                       "number":  57,
-                      "stage":  "Accept",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T06:58:36.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T08:19:29.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -151,31 +155,41 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
+                      "id":  "B08",
+                      "number":  54,
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T08:19:23.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "D02",
-                      "number":  7,
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
+                                  {
+                                      "t":  "2026-10-07T06:19:07.7878296Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:27:30.4663423Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:27:54.2381343Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:34:19.8833295Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:34:49.2371471Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 0c73d3f and pushed, card in Accept for the architect"
+                                  }
                               ]
                   },
                   {
