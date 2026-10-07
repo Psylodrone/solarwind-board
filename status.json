@@ -1,31 +1,12 @@
 {
-    "updated":  "2026-10-07T19:49:18.2708899Z",
+    "updated":  "2026-10-07T19:50:19.8181891Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T19:49:04.9629823Z",
+                                       "heartbeat":  "2026-10-07T19:50:18.7285014Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-65",
-                      "number":  65,
-                      "title":  "Watcher restart or usage limit never strands a card",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T13:41:06.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T19:49:09.1618382Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-66",
                       "number":  66,
@@ -132,6 +113,25 @@
                               ]
                   },
                   {
+                      "id":  "SW-65",
+                      "number":  65,
+                      "title":  "Watcher restart or usage limit never strands a card",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T19:49:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-07T19:49:09.1618382Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -150,11 +150,11 @@
                       "id":  "SW-62",
                       "number":  62,
                       "title":  "Pushes that need Taras stand out",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T19:03:40.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T19:49:51.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
