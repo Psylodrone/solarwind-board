@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T14:08:50.2805590Z",
+    "updated":  "2026-10-07T14:09:52.4298658Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T14:08:44.9078348Z",
+                                       "heartbeat":  "2026-10-07T14:09:50.5520192Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -70,7 +70,7 @@
                   {
                       "id":  "#63",
                       "number":  63,
-                      "title":  "Park a stopped run\u0027s leftovers on a wip branch",
+                      "title":  "Park a stopped run\u0027s leftovers",
                       "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
@@ -98,29 +98,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "T74",
                       "number":  60,
                       "title":  "Config edits save themselves",
-                      "stage":  "Needs Taras",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T13:15:04.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T14:08:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -139,6 +124,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
