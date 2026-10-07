@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T10:39:54.8378495Z",
+    "updated":  "2026-10-07T10:40:55.0879421Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T10:39:38.9720764Z",
+                                       "heartbeat":  "2026-10-07T10:40:41.6296095Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,6 +16,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T08:32:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "B11",
+                      "number":  59,
+                      "title":  "Busy check waits out a script reload",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T10:39:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
