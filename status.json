@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T15:03:22.0267488Z",
+    "updated":  "2026-10-07T15:04:41.7992648Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T15:03:20.5554049Z",
+                                       "heartbeat":  "2026-10-07T15:04:22.8365645Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -98,29 +98,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "T74",
                       "number":  60,
                       "title":  "Config edits save themselves",
-                      "stage":  "Needs Taras",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T14:25:37.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T15:04:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -153,7 +138,27 @@
                                       "t":  "2026-10-07T14:25:38.4508217Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:04:41.7443220Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
