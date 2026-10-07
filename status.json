@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T10:17:49.4131876Z",
+    "updated":  "2026-10-07T10:18:55.8152989Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T10:17:48.3105424Z",
+                                       "heartbeat":  "2026-10-07T10:18:50.2199713Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,44 +23,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "D02",
-                      "number":  7,
-                      "title":  "Pirate and rocket tuning values",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "T72",
                       "number":  55,
                       "title":  "Pirate tuning (heavy gunship, rocket boat)",
-                      "stage":  "Needs Taras",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T08:29:48.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T10:18:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -93,7 +63,42 @@
                                       "t":  "2026-10-07T08:29:48.5888235Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T10:18:54.8389285Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "D02",
+                      "number":  7,
+                      "title":  "Pirate and rocket tuning values",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
