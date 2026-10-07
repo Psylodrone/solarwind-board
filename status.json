@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T20:20:06.3285968Z",
+    "updated":  "2026-10-07T20:21:11.7660807Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T20:19:58.5100231Z",
+                                       "heartbeat":  "2026-10-07T20:21:07.0658356Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -128,14 +128,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-65",
                       "number":  65,
                       "title":  "Watcher restart or usage limit never strands a card",
-                      "stage":  "Review",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-07T20:16:41.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T20:18:56.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -199,21 +214,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
