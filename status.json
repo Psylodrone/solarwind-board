@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T15:06:44.8872462Z",
+    "updated":  "2026-10-07T15:15:38.3570282Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T15:06:39.7918533Z",
+                                       "heartbeat":  "2026-10-07T15:14:35.5772135Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -141,6 +141,26 @@
                                   },
                                   {
                                       "t":  "2026-10-07T15:04:41.7443220Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:08:02.5745884Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: an unexpected failure"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:08:48.1843382Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:11:47.9056671Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: an unexpected failure"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T15:12:35.4890927Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
