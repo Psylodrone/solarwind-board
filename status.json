@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T23:44:37.8304566Z",
+    "updated":  "2026-10-07T23:45:38.1752849Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T23:44:03.3806044Z",
+                                       "heartbeat":  "2026-10-07T23:45:04.6029579Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -83,14 +83,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-17",
-                      "number":  17,
-                      "title":  "Galaxy discovery into GameState, one save block",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-07T20:09:00.0000000Z",
+                      "id":  "SW-71",
+                      "number":  71,
+                      "title":  "Restart flag: finish current card, then restart",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:43:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -160,6 +160,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-17",
+                      "number":  17,
+                      "title":  "Galaxy discovery into GameState, one save block",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:44:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
