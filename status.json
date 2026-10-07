@@ -1,50 +1,12 @@
 {
-    "updated":  "2026-10-07T07:05:18.2033637Z",
+    "updated":  "2026-10-07T07:06:20.0686111Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T07:04:38.3970528Z",
+                                       "heartbeat":  "2026-10-07T07:05:39.7280482Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "T73",
-                      "number":  58,
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-07T07:02:52.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:59:01.5672044Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:02:52.8032495Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 4 min, tokens 2650k/13k, passing to AGY for review"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:03:12.4070894Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:04:49.9598100Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:05:17.7274088Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 35c21d2 and pushed, card in Accept for the architect"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "B08",
                       "number":  54,
@@ -138,6 +100,44 @@
                                       "t":  "2026-10-07T06:58:37.6744841Z",
                                       "actor":  "watcher",
                                       "text":  "committed 98e06f0 and pushed, card in Accept for the architect"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "T73",
+                      "number":  58,
+                      "stage":  "Accept",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T07:05:17.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-07T06:59:01.5672044Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T07:02:52.8032495Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 4 min, tokens 2650k/13k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T07:03:12.4070894Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T07:04:49.9598100Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T07:05:17.7274088Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 35c21d2 and pushed, card in Accept for the architect"
                                   }
                               ]
                   },
