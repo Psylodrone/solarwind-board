@@ -1,87 +1,12 @@
 {
-    "updated":  "2026-10-07T21:32:44.3263846Z",
+    "updated":  "2026-10-07T21:33:39.0261691Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T21:32:07.8345811Z",
+                                       "heartbeat":  "2026-10-07T21:33:09.5021148Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-66",
-                      "number":  66,
-                      "title":  "Date and time on the status page",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T13:41:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-63",
-                      "number":  63,
-                      "title":  "Park a stopped run\u0027s leftovers",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T13:41:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-67",
-                      "number":  67,
-                      "title":  "Board tests pass while a watcher runs",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T13:43:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T15:20:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-69",
-                      "number":  69,
-                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T15:24:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-17",
                       "number":  17,
@@ -106,7 +31,7 @@
                       "risk":  "risk:small",
                       "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-10-07T21:27:20.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -123,6 +48,11 @@
                                       "t":  "2026-10-07T21:27:41.8473215Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T21:33:38.5066108Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to Claude to check and fix"
                                   }
                               ]
                   },
