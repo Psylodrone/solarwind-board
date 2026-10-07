@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-07T18:57:40.9499177Z",
+    "updated":  "2026-10-07T18:58:07.7308920Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-07T18:57:35.8614561Z",
@@ -128,29 +128,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-62",
                       "number":  62,
                       "title":  "Pushes that need Taras stand out",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T15:39:55.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-07T18:57:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -168,7 +153,27 @@
                                       "t":  "2026-10-07T15:39:56.4685207Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: an unexpected failure"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T18:58:07.4083247Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
