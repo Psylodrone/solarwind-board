@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T07:04:13.6806839Z",
+    "updated":  "2026-10-07T07:04:50.5278746Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T07:03:36.7002856Z",
+                                       "heartbeat":  "2026-10-07T07:04:38.3970528Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -10,12 +10,12 @@
                   {
                       "id":  "T73",
                       "number":  58,
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T06:59:00.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-07T07:02:52.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -32,6 +32,11 @@
                                       "t":  "2026-10-07T07:03:12.4070894Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T07:04:49.9598100Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
