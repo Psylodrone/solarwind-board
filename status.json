@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T15:25:42.1422100Z",
+    "updated":  "2026-10-07T15:26:42.5937930Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T15:25:16.6687831Z",
+                                       "heartbeat":  "2026-10-07T15:26:30.2554097Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -113,14 +113,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "id":  "#70",
+                      "number":  70,
+                      "title":  "Infrastructure map in Obsidian",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "by hand",
+                      "since":  "2026-10-07T15:20:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -131,11 +131,11 @@
                       "id":  "T74",
                       "number":  60,
                       "title":  "Config edits save themselves",
-                      "stage":  "Needs Taras",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T15:16:33.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T15:23:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -204,6 +204,21 @@
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
