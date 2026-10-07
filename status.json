@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-07T20:18:02.8561933Z",
+    "updated":  "2026-10-07T20:18:34.2626971Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-07T20:17:52.3403445Z",
@@ -131,12 +131,12 @@
                       "id":  "SW-65",
                       "number":  65,
                       "title":  "Watcher restart or usage limit never strands a card",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-07T20:14:43.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-07T20:16:41.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -188,6 +188,11 @@
                                       "t":  "2026-10-07T20:17:01.3128292Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T20:18:33.5516270Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "AGY gemini-3.1-pro-high review round 3: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
