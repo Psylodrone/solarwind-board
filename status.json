@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T13:49:34.1051153Z",
+    "updated":  "2026-10-07T13:50:36.5941733Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T13:49:31.9210771Z",
+                                       "heartbeat":  "2026-10-07T13:50:34.8754222Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -76,6 +76,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T13:41:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "#67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:43:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
