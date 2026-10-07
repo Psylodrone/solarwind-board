@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T13:03:22.1889840Z",
+    "updated":  "2026-10-07T13:04:22.5096820Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T13:02:38.0043537Z",
+                                       "heartbeat":  "2026-10-07T13:03:44.7430290Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -68,29 +68,14 @@
                               ]
                   },
                   {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "B11",
                       "number":  59,
                       "title":  "Busy check waits out a script reload",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T11:58:42.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-07T13:02:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -114,6 +99,21 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
