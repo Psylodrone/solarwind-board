@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T20:16:41.1349738Z",
+    "updated":  "2026-10-07T20:17:02.2335929Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T20:15:45.2557997Z",
+                                       "heartbeat":  "2026-10-07T20:16:47.7659880Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -183,6 +183,11 @@
                                       "t":  "2026-10-07T20:16:40.9840086Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 2 min, tokens 361k/2k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T20:17:01.3128292Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
                               ]
                   },
