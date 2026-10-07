@@ -1,26 +1,12 @@
 {
-    "updated":  "2026-10-07T08:23:56.3959250Z",
+    "updated":  "2026-10-07T08:24:58.1423540Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T08:23:55.3131370Z",
+                                       "heartbeat":  "2026-10-07T08:24:57.1117819Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "P2-01",
-                      "number":  15,
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T08:16:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "B09",
                       "number":  56,
@@ -66,6 +52,20 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "P2-01",
+                      "number":  15,
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-07T08:24:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
