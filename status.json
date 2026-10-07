@@ -1,41 +1,12 @@
 {
-    "updated":  "2026-10-07T13:15:08.0621655Z",
+    "updated":  "2026-10-07T13:16:08.5457900Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T13:14:10.9867701Z",
+                                       "heartbeat":  "2026-10-07T13:15:17.2284151Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "T74",
-                      "number":  60,
-                      "title":  "Config edits save themselves",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T11:20:40.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T13:14:08.5135984Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:15:03.2474027Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 647k/2k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:15:05.1671743Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "#62",
                       "number":  62,
@@ -45,36 +16,6 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T11:40:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "#64",
-                      "number":  64,
-                      "title":  "Unity noise files don\u0027t block the queue",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T11:57:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "#66",
-                      "number":  66,
-                      "title":  "Date and time on the status page",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-07T13:02:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -97,14 +38,58 @@
                               ]
                   },
                   {
+                      "id":  "D01",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "T74",
+                      "number":  60,
+                      "title":  "Config edits save themselves",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T13:15:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-07T13:14:08.5135984Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T13:15:03.2474027Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 647k/2k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T13:15:05.1671743Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "B11",
                       "number":  59,
                       "title":  "Busy check waits out a script reload",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-07T13:11:03.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T13:14:22.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -168,21 +153,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 8dc0abb and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "D01",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
