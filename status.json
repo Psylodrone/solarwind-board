@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T20:09:55.0730107Z",
+    "updated":  "2026-10-07T20:11:12.9146992Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T20:09:18.5937207Z",
+                                       "heartbeat":  "2026-10-07T20:10:21.2623146Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -113,6 +113,21 @@
                               ]
                   },
                   {
+                      "id":  "SW-17",
+                      "number":  17,
+                      "title":  "Galaxy discovery into GameState, one save block",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "by hand",
+                      "since":  "2026-10-07T20:09:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-65",
                       "number":  65,
                       "title":  "Watcher restart or usage limit never strands a card",
@@ -121,7 +136,7 @@
                       "risk":  "risk:logic",
                       "actor":  "AGY gemini-3.1-pro-high",
                       "since":  "2026-10-07T20:07:32.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -136,6 +151,21 @@
                                   },
                                   {
                                       "t":  "2026-10-07T20:07:53.6489678Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T20:10:50.2977658Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T20:10:52.4480774Z",
+                                      "actor":  "watcher",
+                                      "text":  "the change set differs from the reviewed one, passing back to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T20:11:12.1623175Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
