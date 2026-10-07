@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T23:48:56.1898145Z",
+    "updated":  "2026-10-07T23:49:56.8090018Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T23:48:10.5840859Z",
+                                       "heartbeat":  "2026-10-07T23:49:11.9673949Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -76,6 +76,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T23:43:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-73",
+                      "number":  73,
+                      "title":  "Claim-row conflicts resolve themselves",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T23:47:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
