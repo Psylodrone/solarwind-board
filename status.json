@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T20:24:19.7150790Z",
+    "updated":  "2026-10-07T20:25:24.9844864Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T20:24:18.1092230Z",
+                                       "heartbeat":  "2026-10-07T20:25:20.1952748Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,21 +91,6 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-07T15:24:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-70",
-                      "number":  70,
-                      "title":  "Infrastructure map in Obsidian",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "by hand",
-                      "since":  "2026-10-07T15:20:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -214,6 +199,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-70",
+                      "number":  70,
+                      "title":  "Infrastructure map in Obsidian",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T20:23:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
