@@ -1,12 +1,27 @@
 {
-    "updated":  "2026-10-07T08:33:06.8488202Z",
+    "updated":  "2026-10-07T08:34:09.2623207Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T08:33:05.5048626Z",
+                                       "heartbeat":  "2026-10-07T08:34:07.8859565Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "B09",
+                      "number":  56,
+                      "title":  "Watcher restarts itself on new watcher code",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-07T08:32:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "P2-01",
                       "number":  15,
