@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-07T07:00:02.2458592Z",
+    "updated":  "2026-10-07T07:01:02.3608404Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-07T06:59:26.4417359Z",
+                                       "heartbeat":  "2026-10-07T07:00:31.0141385Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -10,11 +10,11 @@
                   {
                       "id":  "T73",
                       "number":  58,
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-06T20:59:52.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T06:59:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -26,13 +26,51 @@
                               ]
                   },
                   {
+                      "id":  "B08",
+                      "number":  54,
+                      "stage":  "Accept",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T06:34:48.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-07T06:19:07.7878296Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:27:30.4663423Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:27:54.2381343Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:34:19.8833295Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-07T06:34:49.2371471Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 0c73d3f and pushed, card in Accept for the architect"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "B10",
                       "number":  57,
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-07T06:55:55.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-07T06:58:36.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -80,44 +118,6 @@
                                       "t":  "2026-10-07T06:58:37.6744841Z",
                                       "actor":  "watcher",
                                       "text":  "committed 98e06f0 and pushed, card in Accept for the architect"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "B08",
-                      "number":  54,
-                      "stage":  "Accept",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T06:34:48.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:19:07.7878296Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:30.4663423Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to AGY for review"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:54.2381343Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:19.8833295Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:49.2371471Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 0c73d3f and pushed, card in Accept for the architect"
                                   }
                               ]
                   },
