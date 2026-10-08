@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:21:58.4375040Z",
+    "updated":  "2026-10-08T07:22:58.5194397Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:20:57.5658020Z",
+                                       "heartbeat":  "2026-10-08T07:21:59.6264166Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -146,11 +146,11 @@
                       "id":  "SW-20",
                       "number":  20,
                       "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-08T07:16:25.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T07:21:57.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
