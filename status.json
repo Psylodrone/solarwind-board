@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T09:14:44.9952713Z",
+    "updated":  "2026-10-08T09:15:14.0536713Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T09:14:33.3701905Z",
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-08T09:14:44.0932760Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 0 min, tokens 292k/1k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:14:47.7405722Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
                               ]
                   },
@@ -58,7 +63,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-08T09:15:13.5236290Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
