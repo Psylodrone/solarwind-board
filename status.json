@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T04:02:33.6832502Z",
+    "updated":  "2026-10-08T04:03:00.6582139Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T04:01:39.0600827Z",
+                                       "heartbeat":  "2026-10-08T04:02:41.9141435Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -63,7 +63,7 @@
                       "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-08T01:28:40.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -82,6 +82,11 @@
                                       "t":  "2026-10-08T01:27:47.0970199Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:59.8497883Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
