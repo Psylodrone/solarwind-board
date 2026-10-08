@@ -1,21 +1,36 @@
 {
-    "updated":  "2026-10-08T16:50:07.8498643Z",
+    "updated":  "2026-10-08T16:51:08.5560903Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T16:49:50.6364201Z",
+                                       "heartbeat":  "2026-10-08T16:50:54.0238854Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
                   {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T16:23:31.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-08T16:44:16.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T16:49:05.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -79,21 +94,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed c967dcf1 and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T16:23:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
