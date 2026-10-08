@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:26:28.0684859Z",
+    "updated":  "2026-10-08T07:27:28.9158009Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:26:11.7839530Z",
+                                       "heartbeat":  "2026-10-08T07:27:13.3585685Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -143,14 +143,48 @@
                               ]
                   },
                   {
-                      "id":  "SW-20",
-                      "number":  20,
-                      "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Accept",
+                      "id":  "SW-21",
+                      "number":  21,
+                      "title":  "Fleet state + pilots (Hauler/Fighter, pilot records; no purchase, pilots come fr",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-08T07:21:57.0000000Z",
+                      "since":  "2026-10-08T07:26:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T07:26:27.7763223Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-20",
+                      "number":  20,
+                      "title":  "Inventory reads and writes PlayerState through cargo commands",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T07:26:06.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -214,21 +248,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 18729f0b and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
