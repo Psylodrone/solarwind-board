@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:30:27.7919301Z",
+    "updated":  "2026-10-08T22:31:29.6050883Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:30:26.6414454Z",
+                                       "heartbeat":  "2026-10-08T22:31:28.3566855Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-86",
+                      "number":  86,
+                      "title":  "Headless runs read and write only the repo and review folders",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T22:29:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-84",
                       "number":  84,
                       "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "actor":  "by hand",
-                      "since":  "2026-10-08T22:24:02.0000000Z",
+                      "since":  "2026-10-08T22:29:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
