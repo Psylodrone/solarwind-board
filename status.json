@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T08:02:24.8674876Z",
+    "updated":  "2026-10-08T08:03:26.5299875Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T08:02:22.8059539Z",
+                                       "heartbeat":  "2026-10-08T08:03:25.0359192Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:36:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-76",
-                      "number":  76,
-                      "title":  "Watcher takes Ready cards by priority",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -54,21 +39,6 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-73",
-                      "number":  73,
-                      "title":  "Claim-row conflicts resolve themselves",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T08:00:20.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -170,6 +140,36 @@
                       "risk":  "risk:logic",
                       "actor":  "Taras",
                       "since":  "2026-10-08T07:59:53.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-73",
+                      "number":  73,
+                      "title":  "Claim-row conflicts resolve themselves",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T08:01:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-76",
+                      "number":  76,
+                      "title":  "Watcher takes Ready cards by priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T08:02:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
