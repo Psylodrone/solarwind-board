@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T21:48:40.0743794Z",
+    "updated":  "2026-10-08T21:49:41.0253225Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T21:48:11.3356926Z",
+                                       "heartbeat":  "2026-10-08T21:49:14.5189225Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -11,11 +11,11 @@
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Accept",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T16:49:05.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-08T21:47:16.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -87,21 +87,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Accept",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T20:07:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -125,6 +110,21 @@
                       "risk":  "risk:logic",
                       "actor":  "Taras",
                       "since":  "2026-10-08T09:41:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T21:48:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
