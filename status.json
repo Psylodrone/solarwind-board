@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T09:41:28.4524629Z",
+    "updated":  "2026-10-08T09:42:29.9147427Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T09:41:26.6039795Z",
+                                       "heartbeat":  "2026-10-08T09:42:28.7239795Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -237,6 +237,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T09:41:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
