@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T09:04:03.4223019Z",
+    "updated":  "2026-10-08T09:05:33.3904453Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T09:04:00.4538695Z",
+                                       "heartbeat":  "2026-10-08T09:05:03.6235499Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -38,6 +38,11 @@
                                       "t":  "2026-10-08T07:49:57.3694542Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:05:32.5387987Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: work was left in the working tree"
                                   }
                               ]
                   },
