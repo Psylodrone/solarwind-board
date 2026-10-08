@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T14:47:32.2380858Z",
+    "updated":  "2026-10-08T14:48:43.3665010Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T14:47:29.9000684Z",
+                                       "heartbeat":  "2026-10-08T14:48:33.2054612Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -179,6 +179,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-08T09:48:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-80",
+                      "number":  80,
+                      "title":  "Stopped cards are triaged before they reach Taras",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T14:46:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
