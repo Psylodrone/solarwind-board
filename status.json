@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T09:15:58.5171167Z",
+    "updated":  "2026-10-08T09:16:02.2767095Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T09:15:36.7740272Z",
@@ -72,6 +72,11 @@
                                       "t":  "2026-10-08T09:15:57.5021115Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 1 min, tokens 195k/1k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:16:01.0094857Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
                               ]
                   },
