@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T09:05:33.3904453Z",
+    "updated":  "2026-10-08T09:06:33.5652897Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T09:05:03.6235499Z",
+                                       "heartbeat":  "2026-10-08T09:06:10.1968989Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -20,30 +20,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-22",
-                      "number":  22,
-                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T07:49:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T07:49:57.3694542Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:05:32.5387987Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: work was left in the working tree"
-                                  }
                               ]
                   },
                   {
@@ -179,6 +155,30 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-22",
+                      "number":  22,
+                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T09:05:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T07:49:57.3694542Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:05:32.5387987Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: work was left in the working tree"
+                                  }
                               ]
                   },
                   {
