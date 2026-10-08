@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:48:19.2779870Z",
+    "updated":  "2026-10-08T22:49:20.0227544Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:47:58.9801499Z",
+                                       "heartbeat":  "2026-10-08T22:49:02.8475575Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -79,21 +79,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-84",
-                      "number":  84,
-                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T22:45:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -197,6 +182,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-84",
+                      "number":  84,
+                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T22:47:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
