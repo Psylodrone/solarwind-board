@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T08:00:18.9768106Z",
+    "updated":  "2026-10-08T08:01:22.6403044Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T08:00:16.6536179Z",
+                                       "heartbeat":  "2026-10-08T08:01:19.5002631Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,36 +16,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:36:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-72",
-                      "number":  72,
-                      "title":  "Review snapshot keeps staged deletions",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-73",
-                      "number":  73,
-                      "title":  "Claim-row conflicts resolve themselves",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -84,6 +54,21 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-73",
+                      "number":  73,
+                      "title":  "Claim-row conflicts resolve themselves",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T08:00:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
@@ -170,6 +155,21 @@
                       "risk":  "risk:logic",
                       "actor":  "Taras",
                       "since":  "2026-10-08T07:58:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-72",
+                      "number":  72,
+                      "title":  "Review snapshot keeps staged deletions",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T07:59:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
