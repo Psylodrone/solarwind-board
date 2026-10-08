@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T16:35:09.0489016Z",
+    "updated":  "2026-10-08T16:38:30.5895645Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T16:35:00.7206698Z",
+                                       "heartbeat":  "2026-10-08T16:38:29.0689600Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,44 +23,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-77",
-                      "number":  77,
-                      "title":  "Watcher opens the Unity editor when none is running",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T09:41:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-08T16:25:02.0000000Z",
+                      "since":  "2026-10-08T16:38:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -99,6 +69,36 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T09:41:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
