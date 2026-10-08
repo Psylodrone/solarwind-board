@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T04:03:00.6582139Z",
+    "updated":  "2026-10-08T04:03:42.7798850Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T04:02:41.9141435Z",
@@ -23,48 +23,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-20",
-                      "number":  20,
-                      "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T01:28:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T01:28:16.1703454Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:06.0135435Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:28.6898412Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 207k/2k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:32.8005170Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-50",
                       "number":  50,
                       "title":  "Editor scripts into an Editor-only assembly (PC build fails)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T01:28:40.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-08T04:03:20.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -87,6 +53,16 @@
                                       "t":  "2026-10-08T04:02:59.8497883Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:03:19.9336352Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 189k/2k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:03:41.9805845Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
                               ]
                   },
@@ -208,6 +184,40 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-20",
+                      "number":  20,
+                      "title":  "Inventory reads and writes PlayerState through cargo commands",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T04:02:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T01:28:16.1703454Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:06.0135435Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:28.6898412Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 207k/2k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:32.8005170Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
                               ]
                   },
                   {
