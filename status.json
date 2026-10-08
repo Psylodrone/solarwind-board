@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T10:20:40.4706914Z",
+    "updated":  "2026-10-08T10:21:08.5812282Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T10:20:03.5254554Z",
+                                       "heartbeat":  "2026-10-08T10:21:05.2538560Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -216,6 +216,11 @@
                                       "t":  "2026-10-08T10:20:40.3960168Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 33 min, tokens 11450k/33k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T10:21:07.9636679Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
                               ]
                   },
