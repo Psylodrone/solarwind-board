@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:58:14.9748532Z",
+    "updated":  "2026-10-08T07:59:16.5812659Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:58:13.0901344Z",
+                                       "heartbeat":  "2026-10-08T07:59:15.3145355Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:36:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-69",
-                      "number":  69,
-                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -102,21 +87,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-67",
-                      "number":  67,
-                      "title":  "Board tests pass while a watcher runs",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T07:56:08.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -170,6 +140,36 @@
                       "risk":  "risk:small",
                       "actor":  "Taras",
                       "since":  "2026-10-08T07:55:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T07:57:06.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-69",
+                      "number":  69,
+                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T07:58:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
