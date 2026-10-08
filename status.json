@@ -1,31 +1,12 @@
 {
-    "updated":  "2026-10-08T00:32:23.1164913Z",
+    "updated":  "2026-10-08T00:33:23.3620081Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:32:17.5594897Z",
+                                       "heartbeat":  "2026-10-08T00:33:19.2924768Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-18",
-                      "number":  18,
-                      "title":  "Offline progress (multiplier, catch-up on start, chronological settlement)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T00:29:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T00:31:22.1124799Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-45",
                       "number":  45,
@@ -57,14 +38,123 @@
                               ]
                   },
                   {
+                      "id":  "SW-66",
+                      "number":  66,
+                      "title":  "Date and time on the status page",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-69",
+                      "number":  69,
+                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-73",
+                      "number":  73,
+                      "title":  "Claim-row conflicts resolve themselves",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-18",
+                      "number":  18,
+                      "title":  "Offline progress (multiplier, catch-up on start, chronological settlement)",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T00:31:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T00:31:22.1124799Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-71",
                       "number":  71,
                       "title":  "Restart flag: finish current card, then restart",
-                      "stage":  "Accept",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T00:30:44.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:31:31.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -93,21 +183,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed db2a406 and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
