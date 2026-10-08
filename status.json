@@ -1,12 +1,57 @@
 {
-    "updated":  "2026-10-08T00:29:22.2364815Z",
+    "updated":  "2026-10-08T00:30:14.6961136Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:28:58.6991051Z",
+                                       "heartbeat":  "2026-10-08T00:30:00.4021074Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-18",
+                      "number":  18,
+                      "title":  "Offline progress (multiplier, catch-up on start, chronological settlement)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:29:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-45",
+                      "number":  45,
+                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:29:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-50",
+                      "number":  50,
+                      "title":  "Editor scripts into an Editor-only assembly (PC build fails)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:29:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-71",
                       "number":  71,
@@ -16,7 +61,7 @@
                       "risk":  "risk:logic",
                       "actor":  "AGY gemini-3.1-pro-high",
                       "since":  "2026-10-08T00:26:59.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -33,6 +78,11 @@
                                       "t":  "2026-10-08T00:27:20.2963827Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T00:30:14.4058962Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
