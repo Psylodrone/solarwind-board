@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T00:36:26.6264606Z",
+    "updated":  "2026-10-08T00:37:28.0128275Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:36:25.4679476Z",
+                                       "heartbeat":  "2026-10-08T00:37:26.7587924Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -106,6 +106,36 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:31:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-72",
+                      "number":  72,
+                      "title":  "Review snapshot keeps staged deletions",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:36:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-74",
+                      "number":  74,
+                      "title":  "Untrack the SmartSearch log provider asset",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:36:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
