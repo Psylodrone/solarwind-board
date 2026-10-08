@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T16:44:17.1588616Z",
+    "updated":  "2026-10-08T16:44:40.6954502Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T16:43:39.7232015Z",
@@ -8,29 +8,14 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T16:23:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T16:38:22.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-08T16:44:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -78,7 +63,27 @@
                                       "t":  "2026-10-08T16:44:16.7681628Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 6 min, tokens 953k/4k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T16:44:39.8314105Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T16:23:31.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
