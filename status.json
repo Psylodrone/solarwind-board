@@ -1,42 +1,12 @@
 {
-    "updated":  "2026-10-08T02:02:00.1873982Z",
+    "updated":  "2026-10-08T02:03:01.7813728Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T02:01:58.3116636Z",
+                                       "heartbeat":  "2026-10-08T02:03:00.7101738Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-73",
-                      "number":  73,
-                      "title":  "Claim-row conflicts resolve themselves",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T00:31:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-72",
-                      "number":  72,
-                      "title":  "Review snapshot keeps staged deletions",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T00:36:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-74",
                       "number":  74,
@@ -184,6 +154,36 @@
                       "risk":  "risk:logic",
                       "actor":  "Taras",
                       "since":  "2026-10-08T02:00:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-72",
+                      "number":  72,
+                      "title":  "Review snapshot keeps staged deletions",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T02:01:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-73",
+                      "number":  73,
+                      "title":  "Claim-row conflicts resolve themselves",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T02:01:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
