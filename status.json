@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:12:02.1604436Z",
+    "updated":  "2026-10-08T22:13:02.6687248Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:11:53.9428548Z",
+                                       "heartbeat":  "2026-10-08T22:12:56.3981982Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -38,14 +38,44 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T09:41:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Review",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-08T22:09:29.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T22:11:00.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -154,36 +184,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-77",
-                      "number":  77,
-                      "title":  "Watcher opens the Unity editor when none is running",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T09:41:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
