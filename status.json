@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:38:28.4363286Z",
+    "updated":  "2026-10-08T22:39:29.2905060Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:37:40.0231972Z",
+                                       "heartbeat":  "2026-10-08T22:38:43.1416066Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -53,40 +53,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-78",
-                      "number":  78,
-                      "title":  "One weight rule for unknown item IDs",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T22:36:54.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T09:14:12.1272997Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:14:44.0932760Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 292k/1k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:14:47.7405722Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:38:28.0612911Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-79",
                       "number":  79,
                       "title":  "No serialized fields behind #if in GameBootstrap",
@@ -116,31 +82,36 @@
                               ]
                   },
                   {
-                      "id":  "SW-36",
-                      "number":  36,
-                      "title":  "Ship3rd split; Taras checks feel",
-                      "stage":  "Ready",
+                      "id":  "SW-78",
+                      "number":  78,
+                      "title":  "One weight rule for unknown item IDs",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T22:37:01.0000000Z",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T22:38:27.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-08T22:37:20.9729344Z",
+                                      "t":  "2026-10-08T09:14:12.1272997Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-08T22:37:59.7585959Z",
+                                      "t":  "2026-10-08T09:14:44.0932760Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 355k/3k, result blocked"
+                                      "text":  "Claude implement run finished in 0 min, tokens 292k/1k, result blocked"
                                   },
                                   {
-                                      "t":  "2026-10-08T22:38:03.3551150Z",
+                                      "t":  "2026-10-08T09:14:47.7405722Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:38:28.0612911Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
                               ]
                   },
@@ -187,6 +158,35 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-36",
+                      "number":  36,
+                      "title":  "Ship3rd split; Taras checks feel",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T22:38:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T22:37:20.9729344Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:37:59.7585959Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 355k/3k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:38:03.3551150Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
                               ]
                   },
                   {
