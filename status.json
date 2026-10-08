@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:07:57.4775171Z",
+    "updated":  "2026-10-08T07:08:32.6163269Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:07:28.2132452Z",
+                                       "heartbeat":  "2026-10-08T07:08:30.4948587Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -128,14 +128,44 @@
                               ]
                   },
                   {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T06:27:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-20",
                       "number":  20,
                       "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "In progress",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T05:46:51.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T07:07:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -174,36 +204,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T06:27:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
