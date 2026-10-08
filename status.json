@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:10:29.2286517Z",
+    "updated":  "2026-10-08T07:11:29.3958939Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:09:33.3497231Z",
+                                       "heartbeat":  "2026-10-08T07:10:35.4316657Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -143,29 +143,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-20",
                       "number":  20,
                       "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T07:07:53.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-08T07:10:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -209,6 +194,21 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
