@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:10:34.6688724Z",
+    "updated":  "2026-10-08T22:11:01.9776373Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:09:50.2450888Z",
+                                       "heartbeat":  "2026-10-08T22:10:52.4141437Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -41,11 +41,11 @@
                       "id":  "SW-22",
                       "number":  22,
                       "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T22:08:24.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-08T22:09:29.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -148,6 +148,11 @@
                                       "t":  "2026-10-08T22:10:34.3364471Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "AGY gemini-3.1-pro-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:11:01.3817643Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
                               ]
                   },
