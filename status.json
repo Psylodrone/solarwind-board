@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T00:30:44.6551247Z",
+    "updated":  "2026-10-08T00:31:16.9888322Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:30:00.4021074Z",
+                                       "heartbeat":  "2026-10-08T00:31:15.3077556Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -56,11 +56,11 @@
                       "id":  "SW-71",
                       "number":  71,
                       "title":  "Restart flag: finish current card, then restart",
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-08T00:26:59.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T00:30:44.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
