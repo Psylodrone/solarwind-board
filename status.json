@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T22:46:18.1913240Z",
+    "updated":  "2026-10-08T22:47:19.1679181Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T22:45:54.5025843Z",
+                                       "heartbeat":  "2026-10-08T22:46:55.7149849Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -82,14 +82,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-84",
+                      "number":  84,
+                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T22:45:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-78",
                       "number":  78,
                       "title":  "One weight rule for unknown item IDs",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T22:38:27.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-08T22:45:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -123,21 +138,6 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-84",
-                      "number":  84,
-                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T22:45:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
