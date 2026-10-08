@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T16:23:41.5829914Z",
+    "updated":  "2026-10-08T16:24:24.6321430Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T16:23:40.1152361Z",
@@ -11,15 +11,59 @@
                       "id":  "SW-68",
                       "number":  68,
                       "title":  "Antigravity drives board cards",
-                      "stage":  "Accept",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T14:54:28.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T16:23:31.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-22",
+                      "number":  22,
+                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "AGY",
+                      "since":  "2026-10-08T16:23:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T07:49:57.3694542Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:05:32.5387987Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: work was left in the working tree"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T09:47:19.9776405Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T10:20:40.3960168Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 33 min, tokens 11450k/33k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T10:21:07.9636679Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T16:24:23.7413007Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  }
                               ]
                   },
                   {
@@ -50,45 +94,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-22",
-                      "number":  22,
-                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T10:21:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T07:49:57.3694542Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:05:32.5387987Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: work was left in the working tree"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:47:19.9776405Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T10:20:40.3960168Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 33 min, tokens 11450k/33k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T10:21:07.9636679Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
                               ]
                   },
                   {
