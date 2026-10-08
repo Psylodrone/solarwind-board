@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:50:00.2383955Z",
+    "updated":  "2026-10-08T07:51:01.6265303Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:49:57.7657147Z",
+                                       "heartbeat":  "2026-10-08T07:51:00.4086516Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -143,14 +143,48 @@
                               ]
                   },
                   {
-                      "id":  "SW-21",
-                      "number":  21,
-                      "title":  "Fleet state + pilots (Hauler/Fighter, pilot records; no purchase, pilots come fr",
-                      "stage":  "Accept",
+                      "id":  "SW-22",
+                      "number":  22,
+                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-08T07:46:33.0000000Z",
+                      "since":  "2026-10-08T07:49:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T07:49:57.3694542Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-21",
+                      "number":  21,
+                      "title":  "Fleet state + pilots (Hauler/Fighter, pilot records; no purchase, pilots come fr",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T07:49:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -179,21 +213,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed ffad7600 and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
