@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-08T20:09:13.8247588Z",
+    "updated":  "2026-10-08T20:10:16.0552228Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T20:09:12.5683547Z",
+                                       "heartbeat":  "2026-10-08T20:10:14.7048749Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-08T20:05:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-22",
                       "number":  22,
@@ -94,6 +79,21 @@
                                       "actor":  "watcher",
                                       "text":  "committed c967dcf1 and pushed, card in Accept for the architect"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Accept",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T20:07:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
