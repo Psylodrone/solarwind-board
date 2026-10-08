@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T07:56:11.4225074Z",
+    "updated":  "2026-10-08T07:57:12.9512734Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T07:56:09.0367117Z",
+                                       "heartbeat":  "2026-10-08T07:57:11.6460562Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,36 +16,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:36:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-66",
-                      "number":  66,
-                      "title":  "Date and time on the status page",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-67",
-                      "number":  67,
-                      "title":  "Board tests pass while a watcher runs",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T06:27:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -132,6 +102,21 @@
                               ]
                   },
                   {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "by hand",
+                      "since":  "2026-10-08T07:56:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -170,6 +155,21 @@
                       "risk":  "risk:logic",
                       "actor":  "Taras",
                       "since":  "2026-10-08T07:54:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-66",
+                      "number":  66,
+                      "title":  "Date and time on the status page",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T07:55:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
