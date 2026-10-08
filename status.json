@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T00:18:42.3903875Z",
+    "updated":  "2026-10-08T00:19:43.4609294Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:18:31.2127361Z",
+                                       "heartbeat":  "2026-10-08T00:19:41.3130316Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -26,11 +26,11 @@
                       "id":  "SW-63",
                       "number":  63,
                       "title":  "Park a stopped run\u0027s leftovers",
-                      "stage":  "Review",
+                      "stage":  "Accept",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-08T00:16:13.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T00:19:09.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -73,6 +73,11 @@
                                       "t":  "2026-10-08T00:18:41.6019112Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "AGY gemini-3.1-pro-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T00:19:10.0433628Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4420cf2 and pushed, card in Accept for the architect"
                                   }
                               ]
                   },
