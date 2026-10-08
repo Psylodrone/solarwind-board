@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T00:58:45.2841012Z",
+    "updated":  "2026-10-08T00:59:46.0808768Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T00:58:33.5012762Z",
+                                       "heartbeat":  "2026-10-08T00:59:37.4961613Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -128,6 +128,21 @@
                               ]
                   },
                   {
+                      "id":  "SW-20",
+                      "number":  20,
+                      "title":  "Inventory reads and writes PlayerState through cargo commands",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:59:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-50",
                       "number":  50,
                       "title":  "Editor scripts into an Editor-only assembly (PC build fails)",
@@ -147,14 +162,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-18",
                       "number":  18,
                       "title":  "Offline progress (multiplier, catch-up on start, chronological settlement)",
-                      "stage":  "Accept",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T00:54:14.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-08T00:59:09.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -183,21 +213,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 42e03b0 and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
