@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-08T01:28:16.9544441Z",
+    "updated":  "2026-10-08T01:29:17.7870014Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-08T01:27:47.8661124Z",
+                                       "heartbeat":  "2026-10-08T01:28:50.0814097Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -46,21 +46,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-08T00:31:28.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-68",
-                      "number":  68,
-                      "title":  "Antigravity drives board cards",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T00:31:29.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -131,11 +116,11 @@
                       "id":  "SW-20",
                       "number":  20,
                       "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Ready",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T00:59:24.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T01:28:29.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -150,11 +135,11 @@
                       "id":  "SW-50",
                       "number":  50,
                       "title":  "Editor scripts into an Editor-only assembly (PC build fails)",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T00:54:42.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-08T01:28:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -184,6 +169,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-68",
+                      "number":  68,
+                      "title":  "Antigravity drives board cards",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T01:28:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
