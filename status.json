@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-08T04:02:06.5910982Z",
+    "updated":  "2026-10-08T04:02:33.6832502Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-08T04:01:39.0600827Z",
@@ -43,6 +43,16 @@
                                       "t":  "2026-10-08T04:02:06.0135435Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:28.6898412Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 207k/2k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T04:02:32.8005170Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
                               ]
                   },
