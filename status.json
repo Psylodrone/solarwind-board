@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-09T17:11:37.5764463Z",
+    "updated":  "2026-10-09T17:12:38.5550161Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T17:11:20.6511885Z",
+                                       "heartbeat":  "2026-10-09T17:12:23.0625611Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -38,14 +38,44 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-45",
+                      "number":  45,
+                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-09T06:59:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-79",
                       "number":  79,
                       "title":  "No serialized fields behind #if in GameBootstrap",
-                      "stage":  "Review",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-09T17:03:12.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-09T17:10:36.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -109,36 +139,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-45",
-                      "number":  45,
-                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-09T06:59:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
