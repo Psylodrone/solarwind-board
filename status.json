@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-09T00:19:25.4634804Z",
+    "updated":  "2026-10-09T00:20:25.8845567Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T00:18:42.5713331Z",
+                                       "heartbeat":  "2026-10-09T00:19:44.2313490Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -53,14 +53,44 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-84",
+                      "number":  84,
+                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T22:47:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-79",
                       "number":  79,
                       "title":  "No serialized fields behind #if in GameBootstrap",
-                      "stage":  "Changes requested",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "Claude",
-                      "since":  "2026-10-08T22:54:53.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-09T00:18:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -99,36 +129,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-84",
-                      "number":  84,
-                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T22:47:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
