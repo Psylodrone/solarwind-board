@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-09T00:13:15.0213838Z",
+    "updated":  "2026-10-09T00:14:15.1082382Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T00:12:30.4494556Z",
+                                       "heartbeat":  "2026-10-09T00:13:32.6658394Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -92,14 +92,44 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-84",
+                      "number":  84,
+                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-08T22:47:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-78",
                       "number":  78,
                       "title":  "One weight rule for unknown item IDs",
-                      "stage":  "Accept",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T22:50:38.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-09T00:12:30.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -143,80 +173,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 2aeef1e4 and pushed, card in Accept for the architect"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-77",
-                      "number":  77,
-                      "title":  "Watcher opens the Unity editor when none is running",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T09:41:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-36",
-                      "number":  36,
-                      "title":  "Ship3rd split; Taras checks feel",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T22:38:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T22:37:20.9729344Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:37:59.7585959Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 355k/3k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:38:03.3551150Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-84",
-                      "number":  84,
-                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T22:47:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
