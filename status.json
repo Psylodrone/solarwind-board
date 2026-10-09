@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-09T17:05:36.1282888Z",
+    "updated":  "2026-10-09T17:06:36.2426238Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T17:05:09.5421007Z",
+                                       "heartbeat":  "2026-10-09T17:06:11.4238496Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-69",
-                      "number":  69,
-                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T21:57:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-86",
                       "number":  86,
@@ -31,6 +16,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-08T22:29:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-69",
+                      "number":  69,
+                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-09T17:05:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
