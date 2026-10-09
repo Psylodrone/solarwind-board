@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-09T06:45:17.5859332Z",
+    "updated":  "2026-10-09T06:46:20.3267921Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T06:45:15.5228795Z",
+                                       "heartbeat":  "2026-10-09T06:46:17.7371405Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -41,11 +41,11 @@
                       "id":  "SW-45",
                       "number":  45,
                       "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-08T22:36:51.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-09T06:44:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -61,21 +61,6 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-84",
-                      "number":  84,
-                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-08T22:47:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -129,6 +114,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-84",
+                      "number":  84,
+                      "title":  "Antigravity driver: restart, reviewer and editor-call fixes",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-09T06:44:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
