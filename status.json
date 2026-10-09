@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-09T06:59:43.3972419Z",
+    "updated":  "2026-10-09T07:00:44.9955569Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T06:59:41.8725629Z",
+                                       "heartbeat":  "2026-10-09T07:00:43.6483039Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -31,21 +31,6 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-08T22:29:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-45",
-                      "number":  45,
-                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-09T06:44:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -114,6 +99,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-45",
+                      "number":  45,
+                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-09T06:59:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
