@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-09T18:11:26.4249188Z",
+    "updated":  "2026-10-09T18:12:28.5568084Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-09T18:11:25.1150773Z",
+                                       "heartbeat":  "2026-10-09T18:12:27.1104452Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-86",
-                      "number":  86,
-                      "title":  "Headless runs read and write only the repo and review folders",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-09T18:07:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-69",
                       "number":  69,
@@ -31,6 +16,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-09T17:42:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-86",
+                      "number":  86,
+                      "title":  "Headless runs read and write only the repo and review folders",
+                      "stage":  "Accept",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-09T18:11:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
