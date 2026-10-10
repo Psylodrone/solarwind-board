@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T17:30:38.3352806Z",
+    "updated":  "2026-10-10T17:31:38.9718377Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T17:30:02.2304148Z",
+                                       "heartbeat":  "2026-10-10T17:31:04.0675236Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,63 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-29",
+                      "number":  29,
+                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "Taras",
+                      "since":  "2026-10-10T17:21:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T10:48:10.5343656Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:14.8478130Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:22.6018782Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T11:28:58.6792660Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-blocked)"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Stopped",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-10T17:27:35.0000000Z",
+                      "since":  "2026-10-10T17:30:41.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -188,55 +237,6 @@
                                       "t":  "2026-10-10T17:27:36.2131835Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-29",
-                      "number":  29,
-                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "Taras",
-                      "since":  "2026-10-10T17:21:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T10:48:10.5343656Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:14.8478130Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:22.6018782Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T11:28:58.6792660Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-blocked)"
                                   }
                               ]
                   },
