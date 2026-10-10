@@ -1,31 +1,12 @@
 {
-    "updated":  "2026-10-10T10:44:23.2799075Z",
+    "updated":  "2026-10-10T10:45:24.1235275Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:44:17.7732841Z",
+                                       "heartbeat":  "2026-10-10T10:45:19.7881127Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-25",
-                      "number":  25,
-                      "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "architect",
-                      "since":  "2026-10-10T09:49:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T10:43:22.3936611Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-29",
                       "number":  29,
@@ -54,6 +35,25 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-25",
+                      "number":  25,
+                      "title":  "War table: roster, offers, chance, timers, holds, routes",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:43:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T10:43:22.3936611Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
