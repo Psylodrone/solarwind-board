@@ -1,46 +1,12 @@
 {
-    "updated":  "2026-10-10T22:52:45.3878131Z",
+    "updated":  "2026-10-10T22:53:45.7168818Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T22:52:32.1774778Z",
+                                       "heartbeat":  "2026-10-10T22:53:33.5087706Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-29",
-                      "number":  29,
-                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T22:42:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T10:48:10.5343656Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:14.8478130Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:22.6018782Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T11:28:58.6792660Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-blocked)"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-90",
                       "number":  90,
@@ -82,6 +48,40 @@
                                       "t":  "2026-10-10T22:50:43.6703851Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-29",
+                      "number":  29,
+                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T22:51:53.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T10:48:10.5343656Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:14.8478130Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:22.6018782Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T11:28:58.6792660Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-blocked)"
                                   }
                               ]
                   },
