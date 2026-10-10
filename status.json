@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T13:31:53.3275344Z",
+    "updated":  "2026-10-10T13:32:55.5681719Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T13:31:50.3463807Z",
+                                       "heartbeat":  "2026-10-10T13:32:53.5790343Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -42,14 +42,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "by hand",
+                      "since":  "2026-10-10T13:22:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T13:21:54.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T13:31:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -118,21 +133,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-87",
-                      "number":  87,
-                      "title":  "Parked work follows a card to the other machine",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T13:22:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
