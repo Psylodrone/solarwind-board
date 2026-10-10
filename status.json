@@ -1,12 +1,27 @@
 {
-    "updated":  "2026-10-10T08:14:20.1397796Z",
+    "updated":  "2026-10-10T08:15:21.3255124Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T08:14:18.9341321Z",
+                                       "heartbeat":  "2026-10-10T08:15:20.2256306Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-85",
+                      "number":  85,
+                      "title":  "One headless check replaces Review and Accept; no claims",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-10T08:14:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-45",
                       "number":  45,
@@ -55,45 +70,6 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-24",
-                      "number":  24,
-                      "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T01:05:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T01:04:42.0601949Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T01:05:19.1414861Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-85",
-                      "number":  85,
-                      "title":  "One headless check replaces Review and Accept; no claims",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "Taras",
-                      "since":  "2026-10-10T01:39:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
