@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-10T08:34:51.2092445Z",
+    "updated":  "2026-10-10T08:35:52.8912958Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T08:34:50.0212151Z",
+                                       "heartbeat":  "2026-10-10T08:35:51.6115027Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-85",
-                      "number":  85,
-                      "title":  "One headless check replaces Review and Accept; no claims",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T08:30:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-5",
                       "number":  5,
@@ -31,6 +16,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-85",
+                      "number":  85,
+                      "title":  "One headless check replaces Review and Accept; no claims",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "Taras",
+                      "since":  "2026-10-10T08:34:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
