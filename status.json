@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T10:41:08.1862756Z",
+    "updated":  "2026-10-10T10:41:33.3049419Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T10:41:06.2197133Z",
@@ -41,11 +41,11 @@
                       "id":  "SW-27",
                       "number":  27,
                       "title":  "Harvest and Salvage missions",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T10:12:24.0000000Z",
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-10T10:41:10.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -73,6 +73,16 @@
                                       "t":  "2026-10-10T10:12:26.4921237Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:41:09.2536273Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 29 min, tokens 9725k/109k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:41:32.5771034Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
                               ]
                   },
