@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T08:40:46.5268658Z",
+    "updated":  "2026-10-10T08:41:46.6689337Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T08:40:40.0493637Z",
+                                       "heartbeat":  "2026-10-10T08:41:42.5902682Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -11,11 +11,11 @@
                       "id":  "SW-24",
                       "number":  24,
                       "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-10T08:39:13.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T08:39:45.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -34,6 +34,21 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-80",
+                      "number":  80,
+                      "title":  "Stopped cards restart by themselves after a watcher update",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-10T08:40:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
