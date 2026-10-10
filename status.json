@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T08:39:39.7948229Z",
+    "updated":  "2026-10-10T08:39:45.8127291Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T08:39:38.3215644Z",
@@ -28,6 +28,11 @@
                                       "t":  "2026-10-10T01:05:19.1414861Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T08:39:45.7313797Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
