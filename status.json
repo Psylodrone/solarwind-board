@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T09:31:20.7434695Z",
+    "updated":  "2026-10-10T09:32:21.3043930Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T09:31:06.4026082Z",
+                                       "heartbeat":  "2026-10-10T09:32:08.0326077Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-24",
                       "number":  24,
                       "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-10T09:28:53.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T09:30:19.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -134,21 +149,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 13aae719 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
