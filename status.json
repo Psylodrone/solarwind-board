@@ -1,51 +1,12 @@
 {
-    "updated":  "2026-10-10T08:49:41.2920891Z",
+    "updated":  "2026-10-10T08:50:41.9190395Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T08:48:53.9272504Z",
+                                       "heartbeat":  "2026-10-10T08:49:55.5351051Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-24",
-                      "number":  24,
-                      "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-10T08:39:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T01:04:42.0601949Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T01:05:19.1414861Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T08:39:45.7313797Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T08:49:12.3169123Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 407k/6k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T08:49:41.0188429Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-80",
                       "number":  80,
@@ -74,6 +35,45 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-24",
+                      "number":  24,
+                      "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T08:49:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T01:04:42.0601949Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T01:05:19.1414861Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T08:39:45.7313797Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T08:49:12.3169123Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 407k/6k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T08:49:41.0188429Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
                               ]
                   },
                   {
