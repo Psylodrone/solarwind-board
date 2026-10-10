@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-10T01:40:32.0458406Z",
+    "updated":  "2026-10-10T01:41:32.1480899Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T01:40:18.4685961Z",
+                                       "heartbeat":  "2026-10-10T01:41:19.9874194Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-85",
-                      "number":  85,
-                      "title":  "One headless check replaces Review and Accept; no claims",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T01:03:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-45",
                       "number":  45,
@@ -98,6 +83,21 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-85",
+                      "number":  85,
+                      "title":  "One headless check replaces Review and Accept; no claims",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "Taras",
+                      "since":  "2026-10-10T01:39:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
