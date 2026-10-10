@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T23:13:07.1686857Z",
+    "updated":  "2026-10-10T23:13:32.0654490Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T23:13:05.7291924Z",
@@ -14,7 +14,7 @@
                       "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-10T22:51:53.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -38,18 +38,38 @@
                                       "t":  "2026-10-10T11:28:58.6792660Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T23:13:31.7443058Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
                       "id":  "SW-90",
                       "number":  90,
                       "title":  "Board runs take play-mode screenshots",
-                      "stage":  "Changes requested",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-10T23:08:31.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T23:13:06.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -123,21 +143,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed eda82790 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
