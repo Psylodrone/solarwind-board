@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T10:47:17.3145007Z",
+    "updated":  "2026-10-10T10:47:44.6293664Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:46:21.1614603Z",
+                                       "heartbeat":  "2026-10-10T10:47:23.1526648Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:risky",
                       "actor":  "architect",
                       "since":  "2026-10-10T10:42:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-87",
-                      "number":  87,
-                      "title":  "Parked work follows a card to the other machine",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T10:36:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -58,7 +43,27 @@
                                       "t":  "2026-10-10T10:47:17.1344217Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 4 min, tokens 773k/10k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:47:44.1175502Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:47:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
