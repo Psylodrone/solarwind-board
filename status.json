@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T09:29:50.1270665Z",
+    "updated":  "2026-10-10T09:30:20.5713978Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T09:29:01.8302142Z",
+                                       "heartbeat":  "2026-10-10T09:30:03.7612338Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -26,11 +26,11 @@
                       "id":  "SW-24",
                       "number":  24,
                       "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-10T09:26:39.0000000Z",
+                      "actor":  "AGY gemini-3.1-pro-high",
+                      "since":  "2026-10-10T09:28:53.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -128,6 +128,11 @@
                                       "t":  "2026-10-10T09:29:47.7928540Z",
                                       "actor":  "AGY gemini-3.1-pro-high",
                                       "text":  "AGY gemini-3.1-pro-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T09:30:19.7174679Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 13aae719 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
