@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T23:57:30.5694334Z",
+    "updated":  "2026-10-10T23:58:38.6782248Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T23:56:30.7160161Z",
+                                       "heartbeat":  "2026-10-10T23:58:36.4140330Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-29",
                       "number":  29,
                       "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-10T23:56:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T23:58:02.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -47,7 +62,7 @@
                                   {
                                       "t":  "2026-10-10T10:49:22.6018782Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T11:28:58.6792660Z",
@@ -93,22 +108,12 @@
                                       "t":  "2026-10-10T23:57:30.5739260Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T23:58:02.8044641Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed a1241c3d and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -220,7 +225,7 @@
                                   {
                                       "t":  "2026-10-10T10:47:44.1175502Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T10:55:03.2033704Z",
@@ -240,7 +245,7 @@
                                   {
                                       "t":  "2026-10-10T11:28:31.3804572Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T13:12:56.9220411Z",
@@ -255,7 +260,7 @@
                                   {
                                       "t":  "2026-10-10T13:21:12.3134528Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T13:22:03.4623200Z",
@@ -270,7 +275,7 @@
                                   {
                                       "t":  "2026-10-10T13:31:50.9298442Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T13:33:06.2543753Z",
@@ -285,7 +290,7 @@
                                   {
                                       "t":  "2026-10-10T13:34:47.0748557Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
                                       "t":  "2026-10-10T16:33:31.5856556Z",
@@ -360,7 +365,7 @@
                                   {
                                       "t":  "2026-10-10T17:27:36.2131835Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
