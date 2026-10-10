@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T13:24:04.8189388Z",
+    "updated":  "2026-10-10T13:25:05.4946466Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T13:23:33.4798348Z",
+                                       "heartbeat":  "2026-10-10T13:24:35.9763889Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -39,21 +39,6 @@
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-87",
-                      "number":  87,
-                      "title":  "Parked work follows a card to the other machine",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T13:20:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -123,6 +108,21 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "by hand",
+                      "since":  "2026-10-10T13:22:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
