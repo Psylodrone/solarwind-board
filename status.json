@@ -1,12 +1,36 @@
 {
-    "updated":  "2026-10-10T08:38:58.6163927Z",
+    "updated":  "2026-10-10T08:39:39.7948229Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T08:38:57.4828621Z",
+                                       "heartbeat":  "2026-10-10T08:39:38.3215644Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-24",
+                      "number":  24,
+                      "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-10T08:39:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T01:04:42.0601949Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T01:05:19.1414861Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-5",
                       "number":  5,
@@ -26,11 +50,11 @@
                       "id":  "SW-85",
                       "number":  85,
                       "title":  "One headless check replaces Review and Accept; no claims",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
-                      "actor":  "Taras",
-                      "since":  "2026-10-10T08:34:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T08:39:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -44,7 +68,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-10T08:14:59.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -57,7 +81,7 @@
                                   {
                                       "t":  "2026-10-10T00:27:15.0669690Z",
                                       "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 776k/10k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 776k/10k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-10T00:27:38.1058466Z",
@@ -72,7 +96,7 @@
                                   {
                                       "t":  "2026-10-10T00:31:28.0457903Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 01c93034 and pushed, card in Accept for the architect"
+                                      "text":  "committed 01c93034 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -83,7 +107,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-10T01:02:46.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -98,7 +122,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-10T01:02:40.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -113,7 +137,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-10T00:56:34.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -128,7 +152,7 @@
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-10T00:53:47.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -143,7 +167,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-09T17:30:12.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -191,7 +215,7 @@
                                   {
                                       "t":  "2026-10-09T17:03:11.5302588Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 209k/3k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 0 min, tokens 209k/3k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-09T17:03:35.5260739Z",
@@ -217,7 +241,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-09T06:44:41.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -232,7 +256,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-09T00:12:30.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -260,7 +284,7 @@
                                   {
                                       "t":  "2026-10-08T22:45:56.3107569Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 2099k/9k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 2099k/9k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T22:46:17.3533921Z",
@@ -275,7 +299,7 @@
                                   {
                                       "t":  "2026-10-08T22:50:39.4511416Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 2aeef1e4 and pushed, card in Accept for the architect"
+                                      "text":  "committed 2aeef1e4 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -286,7 +310,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T22:36:35.0000000Z",
                       "round":  3,
                       "now":  null,
@@ -334,7 +358,7 @@
                                   {
                                       "t":  "2026-10-08T16:44:16.7681628Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 953k/4k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 6 min, tokens 953k/4k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T16:44:39.8314105Z",
@@ -349,7 +373,7 @@
                                   {
                                       "t":  "2026-10-08T16:49:06.7898502Z",
                                       "actor":  "watcher",
-                                      "text":  "committed c967dcf1 and pushed, card in Accept for the architect"
+                                      "text":  "committed c967dcf1 and pushed, card Done and issue closed"
                                   },
                                   {
                                       "t":  "2026-10-08T21:47:39.0042222Z",
@@ -359,7 +383,7 @@
                                   {
                                       "t":  "2026-10-08T22:05:02.4222633Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 17 min, tokens 9687k/36k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude fix run finished in 17 min, tokens 9687k/36k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T22:05:23.9551710Z",
@@ -379,7 +403,7 @@
                                   {
                                       "t":  "2026-10-08T22:09:28.9227708Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 783k/5k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 1 min, tokens 783k/5k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T22:09:48.6528436Z",
@@ -405,7 +429,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T21:48:26.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -420,7 +444,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T07:49:33.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -433,7 +457,7 @@
                                   {
                                       "t":  "2026-10-08T07:43:20.9981803Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 17 min, tokens 4588k/17k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 17 min, tokens 4588k/17k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T07:43:42.0907399Z",
@@ -448,7 +472,7 @@
                                   {
                                       "t":  "2026-10-08T07:46:33.7689256Z",
                                       "actor":  "watcher",
-                                      "text":  "committed ffad7600 and pushed, card in Accept for the architect"
+                                      "text":  "committed ffad7600 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -459,7 +483,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T07:26:06.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -507,7 +531,7 @@
                                   {
                                       "t":  "2026-10-08T07:16:25.0074842Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 1380k/5k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 6 min, tokens 1380k/5k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T07:16:46.0599502Z",
@@ -522,7 +546,7 @@
                                   {
                                       "t":  "2026-10-08T07:21:58.3090528Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 18729f0b and pushed, card in Accept for the architect"
+                                      "text":  "committed 18729f0b and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -533,7 +557,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T05:47:52.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -561,7 +585,7 @@
                                   {
                                       "t":  "2026-10-08T04:03:19.9336352Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 189k/2k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 0 min, tokens 189k/2k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T04:03:41.9805845Z",
@@ -576,7 +600,7 @@
                                   {
                                       "t":  "2026-10-08T04:05:58.3514544Z",
                                       "actor":  "watcher",
-                                      "text":  "committed bcac368 and pushed, card in Accept for the architect"
+                                      "text":  "committed bcac368 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -587,7 +611,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T00:59:09.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -600,7 +624,7 @@
                                   {
                                       "t":  "2026-10-08T00:50:49.2395013Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 5936k/26k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 5936k/26k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T00:51:10.3627770Z",
@@ -615,7 +639,7 @@
                                   {
                                       "t":  "2026-10-08T00:54:15.2279355Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 42e03b0 and pushed, card in Accept for the architect"
+                                      "text":  "committed 42e03b0 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -626,7 +650,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T00:31:31.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -639,7 +663,7 @@
                                   {
                                       "t":  "2026-10-08T00:26:58.7898904Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 2032k/13k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 2032k/13k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T00:27:20.2963827Z",
@@ -654,7 +678,7 @@
                                   {
                                       "t":  "2026-10-08T00:30:44.5967040Z",
                                       "actor":  "watcher",
-                                      "text":  "committed db2a406 and pushed, card in Accept for the architect"
+                                      "text":  "committed db2a406 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -665,7 +689,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T00:24:56.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -678,7 +702,7 @@
                                   {
                                       "t":  "2026-10-08T00:07:18.3506999Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 20 min, tokens 1983k/17k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 20 min, tokens 1983k/17k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T00:07:40.3884949Z",
@@ -698,7 +722,7 @@
                                   {
                                       "t":  "2026-10-08T00:16:12.8213960Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 6 min, tokens 815k/7k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude fix run finished in 6 min, tokens 815k/7k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-08T00:16:33.4254299Z",
@@ -713,7 +737,7 @@
                                   {
                                       "t":  "2026-10-08T00:19:10.0433628Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 4420cf2 and pushed, card in Accept for the architect"
+                                      "text":  "committed 4420cf2 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -724,7 +748,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-08T00:13:37.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -737,7 +761,7 @@
                                   {
                                       "t":  "2026-10-07T21:27:19.9087753Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 6 min, tokens 3358k/13k, passing to AGY for review"
+                                      "text":  "Claude implement run finished in 6 min, tokens 3358k/13k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T21:27:41.8473215Z",
@@ -788,7 +812,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T23:44:32.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -803,7 +827,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T21:22:55.0000000Z",
                       "round":  3,
                       "now":  null,
@@ -816,7 +840,7 @@
                                   {
                                       "t":  "2026-10-07T20:07:32.3151053Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 18 min, tokens 1872k/10k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 18 min, tokens 1872k/10k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T20:07:53.6489678Z",
@@ -831,7 +855,7 @@
                                   {
                                       "t":  "2026-10-07T20:10:52.4480774Z",
                                       "actor":  "watcher",
-                                      "text":  "the change set differs from the reviewed one, passing back to AGY for review"
+                                      "text":  "the change set differs from the checked one, passing back for a check"
                                   },
                                   {
                                       "t":  "2026-10-07T20:11:12.1623175Z",
@@ -851,7 +875,7 @@
                                   {
                                       "t":  "2026-10-07T20:16:40.9840086Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 361k/2k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 2 min, tokens 361k/2k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T20:17:01.3128292Z",
@@ -877,7 +901,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T20:23:55.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -892,7 +916,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T19:49:51.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -920,7 +944,7 @@
                                   {
                                       "t":  "2026-10-07T19:00:17.8429893Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 694k/6k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 2 min, tokens 694k/6k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T19:00:39.7395468Z",
@@ -946,7 +970,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T15:29:01.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1024,7 +1048,7 @@
                                   {
                                       "t":  "2026-10-07T15:27:40.0156366Z",
                                       "actor":  "watcher",
-                                      "text":  "committed a576832 and pushed, card in Accept for the architect"
+                                      "text":  "committed a576832 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1035,7 +1059,7 @@
                       "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T13:40:58.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1050,7 +1074,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T13:14:22.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -1078,7 +1102,7 @@
                                   {
                                       "t":  "2026-10-07T13:05:32.4240043Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 3 min, tokens 570k/6k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 3 min, tokens 570k/6k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T13:05:55.2399445Z",
@@ -1098,7 +1122,7 @@
                                   {
                                       "t":  "2026-10-07T13:11:03.1731783Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 527k/5k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 2 min, tokens 527k/5k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T13:11:24.2120540Z",
@@ -1113,7 +1137,7 @@
                                   {
                                       "t":  "2026-10-07T13:13:41.7170251Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 8dc0abb and pushed, card in Accept for the architect"
+                                      "text":  "committed 8dc0abb and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1124,7 +1148,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T11:48:39.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -1172,7 +1196,7 @@
                                   {
                                       "t":  "2026-10-07T11:44:32.9292356Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 4 min, tokens 1006k/5k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude fix run finished in 4 min, tokens 1006k/5k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T11:44:52.8456452Z",
@@ -1187,7 +1211,7 @@
                                   {
                                       "t":  "2026-10-07T11:47:53.7167389Z",
                                       "actor":  "watcher",
-                                      "text":  "committed ae63ba1 and pushed, card in Accept for the architect"
+                                      "text":  "committed ae63ba1 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1198,7 +1222,7 @@
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T11:21:20.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1213,7 +1237,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T10:33:49.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1272,7 +1296,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T09:46:51.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1287,7 +1311,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T08:19:29.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -1300,7 +1324,7 @@
                                   {
                                       "t":  "2026-10-07T06:51:24.7538315Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5106k/26k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5106k/26k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T06:51:45.3083744Z",
@@ -1320,7 +1344,7 @@
                                   {
                                       "t":  "2026-10-07T06:55:55.6567781Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 385k/3k, passing to AGY for review"
+                                      "text":  "Claude fix run finished in 1 min, tokens 385k/3k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T06:56:15.0382818Z",
@@ -1335,7 +1359,7 @@
                                   {
                                       "t":  "2026-10-07T06:58:37.6744841Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 98e06f0 and pushed, card in Accept for the architect"
+                                      "text":  "committed 98e06f0 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1346,7 +1370,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T08:19:23.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1359,7 +1383,7 @@
                                   {
                                       "t":  "2026-10-07T06:27:30.4663423Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T06:27:54.2381343Z",
@@ -1374,7 +1398,7 @@
                                   {
                                       "t":  "2026-10-07T06:34:49.2371471Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 0c73d3f and pushed, card in Accept for the architect"
+                                      "text":  "committed 0c73d3f and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1385,7 +1409,7 @@
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T08:15:29.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1400,7 +1424,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-07T08:15:26.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1413,7 +1437,7 @@
                                   {
                                       "t":  "2026-10-07T07:02:52.8032495Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 4 min, tokens 2650k/13k, passing to AGY for review"
+                                      "text":  "Claude implement run finished in 4 min, tokens 2650k/13k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-07T07:03:12.4070894Z",
@@ -1428,7 +1452,7 @@
                                   {
                                       "t":  "2026-10-07T07:05:17.7274088Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 35c21d2 and pushed, card in Accept for the architect"
+                                      "text":  "committed 35c21d2 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1439,7 +1463,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T20:23:24.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1454,7 +1478,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T20:20:20.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1467,7 +1491,7 @@
                                   {
                                       "t":  "2026-10-06T20:10:52.6070289Z",
                                       "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 1764k/10k, passing to AGY for review"
+                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 1764k/10k, passing to the headless check"
                                   },
                                   {
                                       "t":  "2026-10-06T20:11:13.0904789Z",
@@ -1482,7 +1506,7 @@
                                   {
                                       "t":  "2026-10-06T20:19:31.3256164Z",
                                       "actor":  "watcher",
-                                      "text":  "committed 4370b61 and pushed, card in Accept for the architect"
+                                      "text":  "committed 4370b61 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1493,7 +1517,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T18:47:41.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1508,7 +1532,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T18:34:05.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -1523,7 +1547,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T17:14:16.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1538,7 +1562,7 @@
                       "stage":  "Done",
                       "machine":  null,
                       "risk":  null,
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T12:48:41.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1553,7 +1577,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T12:42:56.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1568,7 +1592,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T12:42:52.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1583,7 +1607,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T12:28:21.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -1598,7 +1622,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-06T12:28:17.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1613,7 +1637,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-05T21:59:15.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -1628,7 +1652,7 @@
                       "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  null,
-                      "actor":  "architect",
+                      "actor":  "watcher",
                       "since":  "2026-10-05T21:16:46.0000000Z",
                       "round":  0,
                       "now":  null,
