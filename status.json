@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T23:56:40.5077965Z",
+    "updated":  "2026-10-10T23:57:30.5694334Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T23:56:30.7160161Z",
@@ -26,12 +26,12 @@
                       "id":  "SW-29",
                       "number":  29,
                       "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T23:29:07.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-10T23:56:18.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -88,6 +88,11 @@
                                       "t":  "2026-10-10T23:56:39.7889661Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T23:57:30.5739260Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
