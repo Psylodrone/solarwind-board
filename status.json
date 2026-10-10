@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T10:42:41.6919342Z",
+    "updated":  "2026-10-10T10:43:16.7925094Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:42:09.2006792Z",
+                                       "heartbeat":  "2026-10-10T10:43:14.8087340Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,6 +16,21 @@
                       "risk":  "risk:risky",
                       "actor":  "architect",
                       "since":  "2026-10-10T09:49:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-29",
+                      "number":  29,
+                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-10T10:42:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -38,14 +53,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-27",
                       "number":  27,
                       "title":  "Harvest and Salvage missions",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-10T10:41:10.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:42:40.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -94,21 +124,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 47663654 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
