@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T13:47:51.9467463Z",
+    "updated":  "2026-10-10T13:48:52.8858691Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T13:47:25.4445726Z",
+                                       "heartbeat":  "2026-10-10T13:48:26.8667099Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -39,21 +39,6 @@
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-87",
-                      "number":  87,
-                      "title":  "Parked work follows a card to the other machine",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T13:45:39.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -159,6 +144,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T13:47:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
