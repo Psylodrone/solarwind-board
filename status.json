@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T10:49:12.0401939Z",
+    "updated":  "2026-10-10T10:49:20.9269456Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T10:48:24.9800838Z",
@@ -8,33 +8,29 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-29",
-                      "number":  29,
-                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
                       "risk":  "risk:risky",
-                      "actor":  "architect",
-                      "since":  "2026-10-10T10:42:52.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:47:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-10T10:48:10.5343656Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
+
                               ]
                   },
                   {
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T10:43:21.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:47:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -56,18 +52,32 @@
                               ]
                   },
                   {
-                      "id":  "SW-87",
-                      "number":  87,
-                      "title":  "Parked work follows a card to the other machine",
+                      "id":  "SW-29",
+                      "number":  29,
+                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
                       "stage":  "Stopped",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-10T10:47:12.0000000Z",
+                      "since":  "2026-10-10T10:49:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-10T10:48:10.5343656Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:14.8478130Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T10:49:22.6018782Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update"
+                                  }
                               ]
                   },
                   {
