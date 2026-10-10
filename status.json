@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T16:56:55.7123213Z",
+    "updated":  "2026-10-10T16:57:26.2274113Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T16:56:53.7890815Z",
@@ -26,11 +26,11 @@
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T16:43:37.0000000Z",
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-10T16:57:03.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -138,6 +138,16 @@
                                       "t":  "2026-10-10T16:43:38.9625734Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T16:57:02.9297190Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 13 min, tokens 4132k/40k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T16:57:25.3061249Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
                               ]
                   },
