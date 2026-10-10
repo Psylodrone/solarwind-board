@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T17:27:05.5882322Z",
+    "updated":  "2026-10-10T17:27:36.7846223Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T17:26:55.7157056Z",
@@ -26,11 +26,11 @@
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude",
-                      "since":  "2026-10-10T17:11:53.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T17:27:06.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -183,6 +183,11 @@
                                       "t":  "2026-10-10T17:27:05.4199704Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 15 min, tokens 4871k/39k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T17:27:36.2131835Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update"
                                   }
                               ]
                   },
