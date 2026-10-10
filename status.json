@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T10:37:00.6881700Z",
+    "updated":  "2026-10-10T10:38:02.2062114Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:36:58.9730484Z",
+                                       "heartbeat":  "2026-10-10T10:38:01.0843991Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-88",
-                      "number":  88,
-                      "title":  "Antigravity runs continue after a refused call",
-                      "stage":  "Review",
+                      "id":  "SW-87",
+                      "number":  87,
+                      "title":  "Parked work follows a card to the other machine",
+                      "stage":  "In progress",
                       "machine":  "laptop",
-                      "risk":  "risk:logic",
+                      "risk":  "risk:risky",
                       "actor":  "by hand",
-                      "since":  "2026-10-10T10:33:48.0000000Z",
+                      "since":  "2026-10-10T10:36:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -85,6 +85,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-88",
+                      "number":  88,
+                      "title":  "Antigravity runs continue after a refused call",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:35:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
