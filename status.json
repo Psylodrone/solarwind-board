@@ -1,51 +1,12 @@
 {
-    "updated":  "2026-10-10T00:31:28.3883510Z",
+    "updated":  "2026-10-10T00:32:30.5113129Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T00:31:25.0178338Z",
+                                       "heartbeat":  "2026-10-10T00:32:27.1255220Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-45",
-                      "number":  45,
-                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "actor":  "AGY gemini-3.1-pro-high",
-                      "since":  "2026-10-10T00:27:14.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T00:12:09.4544582Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T00:27:15.0669690Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 776k/10k, passing to AGY for review"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T00:27:38.1058466Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T00:30:58.8916791Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T00:31:28.0457903Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 01c93034 and pushed, card in Accept for the architect"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-69",
                       "number":  69,
@@ -74,6 +35,45 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-45",
+                      "number":  45,
+                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
+                      "stage":  "Accept",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T00:31:27.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T00:12:09.4544582Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T00:27:15.0669690Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 2 min, tokens 776k/10k, passing to AGY for review"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T00:27:38.1058466Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T00:30:58.8916791Z",
+                                      "actor":  "AGY gemini-3.1-pro-high",
+                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T00:31:28.0457903Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 01c93034 and pushed, card in Accept for the architect"
+                                  }
                               ]
                   },
                   {
