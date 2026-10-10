@@ -1,12 +1,31 @@
 {
-    "updated":  "2026-10-10T00:14:10.9105162Z",
+    "updated":  "2026-10-10T00:15:11.5615108Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T00:13:56.5422810Z",
+                                       "heartbeat":  "2026-10-10T00:14:58.3263161Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-45",
+                      "number":  45,
+                      "title":  "Galaxy map fog of war (visited and surveyed systems, neighbour blips)",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T00:12:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T00:12:09.4544582Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-69",
                       "number":  69,
