@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T10:24:38.3634236Z",
+    "updated":  "2026-10-10T10:25:39.7554665Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:24:36.4204068Z",
+                                       "heartbeat":  "2026-10-10T10:25:38.4961584Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:risky",
                       "actor":  "architect",
                       "since":  "2026-10-10T09:49:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-88",
-                      "number":  88,
-                      "title":  "Antigravity runs continue after a refused call",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T10:22:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -74,6 +59,21 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-88",
+                      "number":  88,
+                      "title":  "Antigravity runs continue after a refused call",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-10T10:24:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
