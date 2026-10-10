@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-10T13:34:07.6285949Z",
+    "updated":  "2026-10-10T13:34:39.5376342Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-10T13:33:56.0339801Z",
@@ -60,11 +60,11 @@
                       "id":  "SW-25",
                       "number":  25,
                       "title":  "War table: roster, offers, chance, timers, holds, routes",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T13:31:50.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-10T13:32:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -137,6 +137,11 @@
                                       "t":  "2026-10-10T13:33:06.2543753Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T13:34:39.2855973Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1086k/11k, result blocked"
                                   }
                               ]
                   },
