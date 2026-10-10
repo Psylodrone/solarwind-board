@@ -1,21 +1,36 @@
 {
-    "updated":  "2026-10-10T16:22:46.9919592Z",
+    "updated":  "2026-10-10T16:23:48.5681411Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T16:22:45.5741599Z",
+                                       "heartbeat":  "2026-10-10T16:23:47.4187537Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
                   {
+                      "id":  "SW-90",
+                      "number":  90,
+                      "title":  "Board runs take play-mode screenshots",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-10T16:21:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-29",
                       "number":  29,
                       "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
                       "risk":  "risk:risky",
                       "actor":  "watcher",
-                      "since":  "2026-10-10T11:28:56.0000000Z",
+                      "since":  "2026-10-10T16:22:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -39,21 +54,6 @@
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-89",
-                      "number":  89,
-                      "title":  "Stopped cards also restart at a time",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T16:19:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -159,6 +159,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-89",
+                      "number":  89,
+                      "title":  "Stopped cards also restart at a time",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T16:21:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
