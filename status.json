@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T01:06:19.6674759Z",
+    "updated":  "2026-10-10T01:07:20.0413245Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T01:05:23.3939214Z",
+                                       "heartbeat":  "2026-10-10T01:06:25.1074586Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -74,6 +74,30 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-24",
+                      "number":  24,
+                      "title":  "Station Crew tab: route requests (rescue offers come with SW-44)",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T01:05:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-10T01:04:42.0601949Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-10T01:05:19.1414861Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
                               ]
                   },
                   {
