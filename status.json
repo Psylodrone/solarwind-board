@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-10T10:12:27.5680742Z",
+    "updated":  "2026-10-10T10:13:27.8994447Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-10T10:12:11.3269116Z",
+                                       "heartbeat":  "2026-10-10T10:13:13.5367127Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,29 @@
                               ]
                   },
                   {
+                      "id":  "SW-88",
+                      "number":  88,
+                      "title":  "Antigravity runs continue after a refused call",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-10T10:13:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-27",
                       "number":  27,
                       "title":  "Harvest and Salvage missions",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-10T10:09:34.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-10T10:12:24.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -62,21 +77,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-80",
-                      "number":  80,
-                      "title":  "Stopped cards restart by themselves after a watcher update",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-10T10:11:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -85,6 +85,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-80",
+                      "number":  80,
+                      "title":  "Stopped cards restart by themselves after a watcher update",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-10T10:13:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
