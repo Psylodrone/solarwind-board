@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:26:19.4025913Z",
+    "updated":  "2026-10-11T11:27:19.9985444Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:26:17.0240587Z",
+                                       "heartbeat":  "2026-10-11T11:27:18.4917887Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -23,14 +23,48 @@
                               ]
                   },
                   {
+                      "id":  "SW-92",
+                      "number":  92,
+                      "title":  "Pipeline file in the tools fingerprint and who\u0027s-who diagram",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T11:26:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T11:26:19.0702539Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-91",
                       "number":  91,
                       "title":  "A run cut short by Taras\u0027s return continues when he leaves",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-11T11:24:10.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T11:25:26.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -164,21 +198,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed afd3319b and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
