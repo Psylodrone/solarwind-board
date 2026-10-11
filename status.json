@@ -1,22 +1,37 @@
 {
-    "updated":  "2026-10-11T11:16:31.1168953Z",
+    "updated":  "2026-10-11T11:17:22.7067715Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:15:58.2441383Z",
+                                       "heartbeat":  "2026-10-11T11:17:00.7996098Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
                   {
+                      "id":  "SW-93",
+                      "number":  93,
+                      "title":  "Leaked Codex helpers are cleared between cards",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-11T11:14:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-91",
                       "number":  91,
                       "title":  "A run cut short by Taras\u0027s return continues when he leaves",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-11T11:09:47.0000000Z",
-                      "round":  0,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-11T11:16:10.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -118,22 +133,17 @@
                                       "t":  "2026-10-11T11:16:30.5658785Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:17:19.5042383Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:17:21.7898272Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-93",
-                      "number":  93,
-                      "title":  "Leaked Codex helpers are cleared between cards",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-11T11:14:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
