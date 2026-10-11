@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:08:47.9570258Z",
+    "updated":  "2026-10-11T11:09:51.1652384Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:08:46.6222634Z",
+                                       "heartbeat":  "2026-10-11T11:09:48.3854703Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -31,7 +31,7 @@
                       "risk":  "risk:logic",
                       "actor":  "watcher",
                       "since":  "2026-10-11T02:15:57.0000000Z",
-                      "round":  3,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -118,6 +118,11 @@
                                       "t":  "2026-10-11T02:15:57.6593733Z",
                                       "actor":  "watcher",
                                       "text":  "committed f567e2b1 and pushed, card Done and issue closed"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:09:47.9252664Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
