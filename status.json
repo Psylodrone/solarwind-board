@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T23:10:09.1572160Z",
+    "updated":  "2026-10-11T23:11:09.6443128Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T23:09:20.2869656Z",
+                                       "heartbeat":  "2026-10-11T23:10:22.8758706Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -68,25 +68,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-19",
-                      "number":  19,
-                      "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T22:58:48.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-11T23:09:08.0940453Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-76",
                       "number":  76,
                       "title":  "Watcher takes Ready cards by priority",
@@ -99,6 +80,25 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-19",
+                      "number":  19,
+                      "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T23:09:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T23:09:08.0940453Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
