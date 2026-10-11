@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-11T11:49:44.0414413Z",
+    "updated":  "2026-10-11T11:50:45.5887200Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:49:42.2339617Z",
+                                       "heartbeat":  "2026-10-11T11:50:44.2286916Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-93",
-                      "number":  93,
-                      "title":  "Leaked Codex helpers are cleared between cards",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-11T11:47:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-5",
                       "number":  5,
@@ -31,6 +16,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-93",
+                      "number":  93,
+                      "title":  "Leaked Codex helpers are cleared between cards",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T11:50:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
