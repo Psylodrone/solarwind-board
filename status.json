@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T22:29:11.5782955Z",
+    "updated":  "2026-10-11T22:30:14.5085729Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T22:29:10.2896101Z",
+                                       "heartbeat":  "2026-10-11T22:30:12.5422561Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -16,21 +16,6 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-11T20:50:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-76",
-                      "number":  76,
-                      "title":  "Watcher takes Ready cards by priority",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T20:50:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -83,14 +68,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-72",
-                      "number":  72,
-                      "title":  "Review snapshot keeps staged deletions",
-                      "stage":  "Review",
+                      "id":  "SW-76",
+                      "number":  76,
+                      "title":  "Watcher takes Ready cards by priority",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "actor":  "by hand",
-                      "since":  "2026-10-11T22:25:52.0000000Z",
+                      "since":  "2026-10-11T22:29:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -106,6 +91,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-72",
+                      "number":  72,
+                      "title":  "Review snapshot keeps staged deletions",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T22:28:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
