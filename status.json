@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T01:25:18.2938256Z",
+    "updated":  "2026-10-11T01:26:03.6425669Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T01:24:48.8016087Z",
+                                       "heartbeat":  "2026-10-11T01:25:52.2392030Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -11,12 +11,12 @@
                       "id":  "SW-91",
                       "number":  91,
                       "title":  "A run cut short by Taras\u0027s return continues when he leaves",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-11T01:02:02.0000000Z",
-                      "round":  0,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-11T01:23:56.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -53,6 +53,11 @@
                                       "t":  "2026-10-11T01:24:17.3089198Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T01:26:02.8307052Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 4 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
