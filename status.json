@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-11T23:56:52.1338902Z",
+    "updated":  "2026-10-11T23:57:54.2034989Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T23:56:50.3328949Z",
+                                       "heartbeat":  "2026-10-11T23:57:52.3175803Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-77",
-                      "number":  77,
-                      "title":  "Watcher opens the Unity editor when none is running",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T20:50:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-95",
                       "number":  95,
@@ -98,14 +83,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-76",
-                      "number":  76,
-                      "title":  "Watcher takes Ready cards by priority",
-                      "stage":  "Review",
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "actor":  "by hand",
-                      "since":  "2026-10-11T23:52:34.0000000Z",
+                      "since":  "2026-10-11T23:56:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -140,6 +125,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-76",
+                      "number":  76,
+                      "title":  "Watcher takes Ready cards by priority",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T23:55:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
