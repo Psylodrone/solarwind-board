@@ -1,31 +1,12 @@
 {
-    "updated":  "2026-10-11T22:31:31.7486663Z",
+    "updated":  "2026-10-11T22:32:32.7220109Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T22:31:14.6784089Z",
+                                       "heartbeat":  "2026-10-11T22:32:17.4989612Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-74",
-                      "number":  74,
-                      "title":  "Untrack the SmartSearch log provider asset",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T20:50:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-11T22:30:30.8536909Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-77",
                       "number":  77,
@@ -84,6 +65,25 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-74",
+                      "number":  74,
+                      "title":  "Untrack the SmartSearch log provider asset",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T22:30:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T22:30:30.8536909Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
