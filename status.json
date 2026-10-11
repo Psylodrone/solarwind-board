@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:24:29.9892422Z",
+    "updated":  "2026-10-11T11:25:27.9844672Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:24:13.6480136Z",
+                                       "heartbeat":  "2026-10-11T11:25:14.9510612Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -26,12 +26,12 @@
                       "id":  "SW-91",
                       "number":  91,
                       "title":  "A run cut short by Taras\u0027s return continues when he leaves",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "actor":  "AGY",
-                      "since":  "2026-10-11T11:17:19.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-11T11:24:10.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -153,6 +153,16 @@
                                       "t":  "2026-10-11T11:24:29.5010044Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:24:56.2741252Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:25:27.3283007Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed afd3319b and pushed, card Done and issue closed"
                                   }
                               ]
                   },
