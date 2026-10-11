@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T21:04:06.6672896Z",
+    "updated":  "2026-10-11T21:04:30.3717235Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T21:03:25.7351962Z",
+                                       "heartbeat":  "2026-10-11T21:04:28.4024066Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -86,11 +86,11 @@
                       "id":  "SW-66",
                       "number":  66,
                       "title":  "Date and time on the status page",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "AGY",
-                      "since":  "2026-10-11T20:51:05.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-11T21:04:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -103,6 +103,11 @@
                                       "t":  "2026-10-11T21:04:06.1986552Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY implement run finished in 6 min, tokens 3502k/49k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T21:04:27.8283885Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
