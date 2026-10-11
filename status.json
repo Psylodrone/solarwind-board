@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T23:36:21.5116079Z",
+    "updated":  "2026-10-11T23:37:22.2359366Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T23:36:12.1971753Z",
+                                       "heartbeat":  "2026-10-11T23:37:14.0686271Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -61,6 +61,21 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-11T22:57:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-100",
+                      "number":  100,
+                      "title":  "Check screenshots for Crew tab, War table and fog of war",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T23:35:31.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
