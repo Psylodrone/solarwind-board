@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T21:52:51.2754096Z",
+    "updated":  "2026-10-11T21:53:52.7070829Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T21:52:49.5516130Z",
+                                       "heartbeat":  "2026-10-11T21:53:51.5238298Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -68,21 +68,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-67",
-                      "number":  67,
-                      "title":  "Board tests pass while a watcher runs",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "by hand",
-                      "since":  "2026-10-11T21:46:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -91,6 +76,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T21:53:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
