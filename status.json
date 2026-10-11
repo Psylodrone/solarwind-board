@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:37:17.0316974Z",
+    "updated":  "2026-10-11T11:37:37.7995420Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:36:34.3078623Z",
+                                       "heartbeat":  "2026-10-11T11:37:35.8498773Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -26,11 +26,11 @@
                       "id":  "SW-92",
                       "number":  92,
                       "title":  "Pipeline file in the tools fingerprint and who\u0027s-who diagram",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
-                      "actor":  "AGY",
-                      "since":  "2026-10-11T11:26:18.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-11T11:37:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-11T11:37:16.2766927Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY implement run finished in 7 min, tokens 2910k/37k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:37:36.0661286Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
