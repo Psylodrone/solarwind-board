@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T22:57:59.3850325Z",
+    "updated":  "2026-10-11T22:59:00.2276117Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T22:57:48.7541057Z",
+                                       "heartbeat":  "2026-10-11T22:58:50.9188272Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -46,6 +46,21 @@
                       "risk":  "risk:logic",
                       "actor":  "architect",
                       "since":  "2026-10-11T22:18:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-99",
+                      "number":  99,
+                      "title":  "Codex cleanup reaches the broker\u0027s pipe",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T22:57:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
