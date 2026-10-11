@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:24:10.0157003Z",
+    "updated":  "2026-10-11T11:24:29.9892422Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:23:11.6738549Z",
+                                       "heartbeat":  "2026-10-11T11:24:13.6480136Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -148,6 +148,11 @@
                                       "t":  "2026-10-11T11:24:09.7199245Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 4 min, tokens 725k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-11T11:24:29.5010044Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
                               ]
                   },
