@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T11:14:58.0304179Z",
+    "updated":  "2026-10-11T11:15:59.8623975Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T11:14:56.8652604Z",
+                                       "heartbeat":  "2026-10-11T11:15:58.2441383Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -109,6 +109,21 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-93",
+                      "number":  93,
+                      "title":  "Leaked Codex helpers are cleared between cards",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-11T11:14:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
