@@ -1,12 +1,106 @@
 {
-    "updated":  "2026-10-11T20:52:09.8207635Z",
+    "updated":  "2026-10-11T20:53:10.6526083Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T20:52:06.1519331Z",
+                                       "heartbeat":  "2026-10-11T20:53:09.1811455Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-74",
+                      "number":  74,
+                      "title":  "Untrack the SmartSearch log provider asset",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T20:50:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-76",
+                      "number":  76,
+                      "title":  "Watcher takes Ready cards by priority",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T20:50:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-72",
+                      "number":  72,
+                      "title":  "Review snapshot keeps staged deletions",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T20:50:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T20:50:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-67",
+                      "number":  67,
+                      "title":  "Board tests pass while a watcher runs",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "by hand",
+                      "since":  "2026-10-11T20:50:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-66",
+                      "number":  66,
+                      "title":  "Date and time on the status page",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T20:51:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T20:51:06.2848589Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-5",
                       "number":  5,
