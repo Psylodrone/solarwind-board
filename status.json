@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T23:00:00.8046581Z",
+    "updated":  "2026-10-11T23:01:01.0230116Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T22:59:52.5473718Z",
+                                       "heartbeat":  "2026-10-11T23:00:54.6512148Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -61,6 +61,21 @@
                       "risk":  "risk:small",
                       "actor":  "architect",
                       "since":  "2026-10-11T22:57:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-19",
+                      "number":  19,
+                      "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T22:58:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
