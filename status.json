@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-11T12:22:05.8908069Z",
+    "updated":  "2026-10-11T12:22:59.8696641Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T12:22:04.4412299Z",
+                                       "heartbeat":  "2026-10-11T12:22:58.4574066Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-94",
-                      "number":  94,
-                      "title":  "Codex cleanup checks every broker of the repo folder",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-11T12:19:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-5",
                       "number":  5,
@@ -31,6 +16,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-94",
+                      "number":  94,
+                      "title":  "Codex cleanup checks every broker of the repo folder",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-11T12:21:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
