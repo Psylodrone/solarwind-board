@@ -28,15 +28,25 @@ button{font:inherit;color:var(--accent);background:transparent;border:0;padding:
 const source=new URLSearchParams(location.search).get('src')||'status.json';
 const expanded=new Set();let lastGood=null,lastFeed=null;
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n};
+const timeFmt = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit', hour12: false });
+const dateFmt = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false });
+function stamp(time) {
+ const ms = typeof time === 'number' ? time : Date.parse(time);
+ if (!Number.isFinite(ms)) return null;
+ const d = new Date(ms), now = new Date();
+ const same = d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
+ return (same ? timeFmt : dateFmt).format(d).replace(/,/g, '');
+}
 function age(time){const ms=Date.now()-(typeof time==='number'?time:Date.parse(time));if(!Number.isFinite(ms))return 'unknown';
  const s=Math.max(0,Math.floor(ms/1000));if(s<60)return s+'s ago';if(s<3600)return Math.floor(s/60)+'m ago';
  if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
-function freshness(){if(lastFeed)document.getElementById('updated').textContent='Updated '+age(lastFeed.updated);}
+function freshness(){if(lastFeed){const t=stamp(lastFeed.updated);document.getElementById('updated').textContent='Updated '+(t?t+' · ':'')+age(lastFeed.updated);}}
 function render(feed){
  const machines=document.getElementById('machines');machines.replaceChildren();
  for(const [name,m] of Object.entries(feed.machines||{})){
   const stale=!m.heartbeat||Date.now()-Date.parse(m.heartbeat)>10*60*1000||!Number.isFinite(Date.parse(m.heartbeat));
-  machines.append(node('div',name+' · '+m.watcher+' · heartbeat '+age(m.heartbeat)+(stale?' · stale':''),'machine'+(stale?' warning':'')));
+  const t = stamp(m.heartbeat);
+  machines.append(node('div', name + ' · ' + m.watcher + ' · heartbeat ' + (t ? t + ' · ' : '') + age(m.heartbeat) + (stale ? ' · stale' : ''), 'machine' + (stale ? ' warning' : '')));
  }
  const board=document.getElementById('board');board.replaceChildren();
  for(const stage of stages){
@@ -48,10 +58,14 @@ function render(feed){
    const card=node('article',null,'card'+(stage==='Needs Taras'?' warning':''));
    card.append(node('div',(c.id==='#'+c.number||c.id==='SW-'+c.number?c.id:c.id+' · #'+c.number)+(c.title?' · '+c.title:''),'identity'));
    card.append(node('div',[c.stage,c.machine,c.risk,c.round>0?'round '+c.round:null].filter(Boolean).join(' · '),'meta'));
-   card.append(node('div',(c.actor||'Done')+' · '+age(c.since),'actor'));
+   const st = stamp(c.since);
+   card.append(node('div', (c.actor || 'Done') + ' · ' + (st ? c.stage + ' since ' + st + ' · ' : '') + age(c.since), 'actor'));
    if(c.now!=null)card.append(node('div',c.now,'now'));
    const entries=Array.isArray(c.log)?c.log:[],all=expanded.has(c.number),list=node('ul',null,'log');
-   for(const e of all?entries:entries.slice(-3))list.append(node('li',age(e.t)+' · '+e.actor+': '+e.text));
+   for(const e of all?entries:entries.slice(-3)) {
+    const t = stamp(e.t);
+    list.append(node('li', (t ? t : age(e.t)) + ' · ' + e.actor + ': ' + e.text));
+   }
    card.append(list);
    if(entries.length>3){const button=node('button',all?'Show last 3':'Show all '+entries.length+' lines');button.type='button';
     button.setAttribute('aria-expanded',String(all));button.onclick=()=>{if(all)expanded.delete(c.number);else expanded.add(c.number);render(lastFeed)};card.append(button);}
