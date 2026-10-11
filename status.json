@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-11T23:38:22.9369339Z",
+    "updated":  "2026-10-11T23:39:23.7226090Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-11T23:38:15.4553649Z",
+                                       "heartbeat":  "2026-10-11T23:39:17.3900756Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -83,14 +83,14 @@
                               ]
                   },
                   {
-                      "id":  "SW-76",
-                      "number":  76,
-                      "title":  "Watcher takes Ready cards by priority",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-11T22:29:58.0000000Z",
+                      "id":  "SW-98",
+                      "number":  98,
+                      "title":  "Station level from trade volume",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-11T23:38:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -114,6 +114,21 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-76",
+                      "number":  76,
+                      "title":  "Watcher takes Ready cards by priority",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "by hand",
+                      "since":  "2026-10-11T23:38:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
