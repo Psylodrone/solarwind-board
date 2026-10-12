@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T16:19:52.0724146Z",
+    "updated":  "2026-10-12T16:20:52.6560353Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T16:19:26.6413981Z",
+                                       "heartbeat":  "2026-10-12T16:20:30.3498958Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,15 +88,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-106",
+                      "number":  106,
+                      "title":  "An interrupted agy stream with a valid footer is not a failed run",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T16:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-26",
                       "number":  26,
                       "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-12T16:17:01.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-12T16:18:46.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -165,22 +181,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 3 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-106",
-                      "number":  106,
-                      "title":  "An interrupted agy stream with a valid footer is not a failed run",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T16:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
