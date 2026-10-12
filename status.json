@@ -1,12 +1,28 @@
 {
-    "updated":  "2026-10-12T20:53:38.1060381Z",
+    "updated":  "2026-10-12T20:54:39.0594962Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T20:53:10.0774633Z",
+                                       "heartbeat":  "2026-10-12T20:54:15.5746788Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T20:53:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-107",
                       "number":  107,
@@ -129,22 +145,6 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-12T15:35:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-109",
-                      "number":  109,
-                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-12T18:19:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
