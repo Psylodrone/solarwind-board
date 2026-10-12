@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T15:31:35.3241657Z",
+    "updated":  "2026-10-12T15:32:40.5281845Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T15:31:33.3750061Z",
+                                       "heartbeat":  "2026-10-12T15:32:36.0945871Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -120,22 +120,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-83",
-                      "number":  83,
-                      "title":  "A run stopped by an expired Claude login is named as such",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T15:29:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-26",
                       "number":  26,
                       "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
@@ -201,6 +185,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-12T11:52:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-83",
+                      "number":  83,
+                      "title":  "A run stopped by an expired Claude login is named as such",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T15:32:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
