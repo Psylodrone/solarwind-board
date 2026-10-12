@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T12:42:46.9756271Z",
+    "updated":  "2026-10-12T12:43:59.6488911Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T12:42:35.9660066Z",
+                                       "heartbeat":  "2026-10-12T12:43:47.1076606Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,12 +91,12 @@
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T11:54:00.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T12:42:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
