@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T12:46:23.0207584Z",
+    "updated":  "2026-10-12T12:47:25.8565658Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T12:46:11.8837993Z",
+                                       "heartbeat":  "2026-10-12T12:47:23.5732410Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,63 +88,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-82",
-                      "number":  82,
-                      "title":  "Resuming parked work never strands the tree",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T12:43:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-12T11:52:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Needs Taras",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T12:25:07.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T12:45:04.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -328,6 +280,54 @@
                                       "actor":  "watcher",
                                       "text":  "paused, moved to Needs Taras: an unexpected failure"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-82",
+                      "number":  82,
+                      "title":  "Resuming parked work never strands the tree",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T12:43:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-12T11:52:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
