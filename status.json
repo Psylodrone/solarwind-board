@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T12:22:17.8779938Z",
+    "updated":  "2026-10-12T12:22:43.9296481Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T12:22:13.4277218Z",
@@ -17,6 +17,22 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-12T11:55:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-83",
+                      "number":  83,
+                      "title":  "A run stopped by an expired Claude login is named as such",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T12:21:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -72,32 +88,16 @@
                               ]
                   },
                   {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T11:54:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T12:00:00.0000000Z",
-                      "round":  1,
+                      "actor":  "architect",
+                      "since":  "2026-10-12T12:22:15.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -254,7 +254,28 @@
                                       "t":  "2026-10-12T12:00:01.2833387Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T12:22:43.8926306Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T11:54:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
