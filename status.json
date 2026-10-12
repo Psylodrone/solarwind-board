@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T12:00:01.9468629Z",
+    "updated":  "2026-10-12T12:01:02.2552737Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T11:58:54.4503350Z",
+                                       "heartbeat":  "2026-10-12T12:00:07.0271825Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,12 +91,12 @@
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-12T11:57:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T12:00:00.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
