@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T17:16:03.5164490Z",
+    "updated":  "2026-10-12T17:17:04.2213362Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T17:15:49.1689363Z",
+                                       "heartbeat":  "2026-10-12T17:16:53.0221835Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -21,26 +21,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-33",
-                      "number":  33,
-                      "title":  "Research tree (gates mission levels, bonuses, research screen)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T01:42:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T17:15:02.5636937Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
                               ]
                   },
                   {
@@ -121,6 +101,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-33",
+                      "number":  33,
+                      "title":  "Research tree (gates mission levels, bonuses, research screen)",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T17:15:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-12T17:15:02.5636937Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
