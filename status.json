@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T09:19:00.1708512Z",
+    "updated":  "2026-10-12T09:19:19.6438978Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T09:18:43.9397132Z",
@@ -59,12 +59,12 @@
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T09:14:33.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T09:19:07.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -167,6 +167,11 @@
                                       "t":  "2026-10-12T09:18:59.5266600Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 4 min, tokens 2131k/24k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:19:17.3344630Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
