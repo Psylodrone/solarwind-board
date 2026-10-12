@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T08:24:38.4812356Z",
+    "updated":  "2026-10-12T08:24:56.5365052Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T08:24:35.3703701Z",
@@ -53,6 +53,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-19",
+                      "number":  19,
+                      "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-12T08:24:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T23:09:08.0940453Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:42:13.0384675Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:47:21.4237627Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 2243k/12k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:47:38.5620452Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:43:37.5864773Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:24:56.1342246Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  }
                               ]
                   },
                   {
