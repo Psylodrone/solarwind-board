@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-12T13:26:27.1139691Z",
+    "updated":  "2026-10-12T13:27:32.4661442Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T13:26:24.5970512Z",
+                                       "heartbeat":  "2026-10-12T13:27:27.3132076Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-83",
-                      "number":  83,
-                      "title":  "A run stopped by an expired Claude login is named as such",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T12:21:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-103",
                       "number":  103,
@@ -81,6 +65,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:56:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-83",
+                      "number":  83,
+                      "title":  "A run stopped by an expired Claude login is named as such",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T13:26:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
