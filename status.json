@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T03:24:07.7116800Z",
+    "updated":  "2026-10-12T03:25:12.4520065Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:24:06.3537185Z",
+                                       "heartbeat":  "2026-10-12T03:25:08.3630873Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -81,22 +81,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:56:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-99",
-                      "number":  99,
-                      "title":  "Codex cleanup reaches the broker\u0027s pipe",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T03:19:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -208,6 +192,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-99",
+                      "number":  99,
+                      "title":  "Codex cleanup reaches the broker\u0027s pipe",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T03:23:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
