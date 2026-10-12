@@ -1,12 +1,28 @@
 {
-    "updated":  "2026-10-12T09:54:37.0866613Z",
+    "updated":  "2026-10-12T09:55:39.8456226Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T09:54:32.8909865Z",
+                                       "heartbeat":  "2026-10-12T09:55:37.7619259Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-101",
+                      "number":  101,
+                      "title":  "A card is closed only by the watcher\u0027s own commit",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T09:55:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-98",
                       "number":  98,
@@ -49,6 +65,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:56:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-102",
+                      "number":  102,
+                      "title":  "Board Claude runs use the board login",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T09:55:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T09:55:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
