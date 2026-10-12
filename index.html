@@ -16,6 +16,13 @@ main{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:1
 .card{padding:12px 0;border-top:1px solid var(--border)}.card:first-of-type{border-top:0}
 .warning{border:1px solid var(--warn);color:var(--warn)}.card.warning{padding:10px;border-radius:5px;margin-bottom:8px}
 .identity{font-weight:650}.meta{font-size:12px;margin:5px 0}.actor{margin:5px 0}.now{color:var(--accent)}
+.badge{display:inline-block;padding:1px 5px;border-radius:3px;font-size:11px;font-weight:600;margin-left:6px;vertical-align:middle;line-height:1.2}
+.badge-high{background:#ffebee;color:#c62828;border:1px solid #ffcdd2}
+.badge-low{background:transparent;color:var(--muted);border:1px solid var(--border)}
+@media(prefers-color-scheme:dark){
+.badge-high{background:#441a1a;color:#ff8a80;border-color:#6e2525}
+.badge-low{background:transparent;color:var(--muted);border-color:var(--border)}
+}
 .log{padding-left:18px;font-size:12px;overflow-wrap:anywhere}.log li{margin:6px 0}
 button{font:inherit;color:var(--accent);background:transparent;border:0;padding:2px 0;cursor:pointer;text-decoration:underline}
 .empty{color:var(--muted);font-size:12px}@media(max-width:560px){body{padding:12px}main{grid-template-columns:1fr}}
@@ -50,13 +57,17 @@ function render(feed){
  }
  const board=document.getElementById('board');board.replaceChildren();
  for(const stage of stages){
-  const cards=(feed.cards||[]).filter(c=>c.stage===stage).sort((a,b)=>{const x=Date.parse(a.since),y=Date.parse(b.since),ax=Number.isFinite(x),by=Number.isFinite(y);
+  const priorityWeight = p => p === 'High' ? 0 : (p === 'Low' ? 2 : 1);
+  const cards=(feed.cards||[]).filter(c=>c.stage===stage).sort((a,b)=>{
+   if(stage==='Ready'){const pw=priorityWeight(a.priority)-priorityWeight(b.priority);if(pw!==0)return pw;}
+   const x=Date.parse(a.since),y=Date.parse(b.since),ax=Number.isFinite(x),by=Number.isFinite(y);
    if(ax!==by)return ax?-1:1;return (ax?(stage==='Done'?y-x:x-y):0)||a.number-b.number}),lane=node('section',null,'lane');
   lane.append(node('h2',stage+' · '+cards.length));
   if(!cards.length)lane.append(node('div','No cards','empty'));
   for(const c of cards){
    const card=node('article',null,'card'+(stage==='Needs Taras'?' warning':''));
    card.append(node('div',(c.id==='#'+c.number||c.id==='SW-'+c.number?c.id:c.id+' · #'+c.number)+(c.title?' · '+c.title:''),'identity'));
+   if(stage==='Ready'&&(c.priority==='High'||c.priority==='Low')){card.lastElementChild.append(node('span',c.priority,'badge badge-'+c.priority.toLowerCase()));}
    card.append(node('div',[c.stage,c.machine,c.risk,c.round>0?'round '+c.round:null].filter(Boolean).join(' · '),'meta'));
    const st = stamp(c.since);
    card.append(node('div', (c.actor || 'Done') + ' · ' + (st ? c.stage + ' since ' + st + ' · ' : '') + age(c.since), 'actor'));
