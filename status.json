@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T00:36:18.8271417Z",
+    "updated":  "2026-10-12T00:37:21.1382990Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T00:36:17.1344436Z",
+                                       "heartbeat":  "2026-10-12T00:37:19.2451224Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -83,21 +83,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-77",
-                      "number":  77,
-                      "title":  "Watcher opens the Unity editor when none is running",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T00:27:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
@@ -125,6 +110,21 @@
                       "risk":  null,
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-77",
+                      "number":  77,
+                      "title":  "Watcher opens the Unity editor when none is running",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T00:37:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
