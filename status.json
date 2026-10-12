@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T13:30:43.1945006Z",
+    "updated":  "2026-10-12T13:31:52.8830353Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T13:30:41.1192917Z",
+                                       "heartbeat":  "2026-10-12T13:31:43.2539351Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -17,6 +17,22 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-12T12:44:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-106",
+                      "number":  106,
+                      "title":  "An interrupted agy stream with a valid footer is not a failed run",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T13:31:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -65,6 +81,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:56:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-105",
+                      "number":  105,
+                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T13:30:59.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-107",
+                      "number":  107,
+                      "title":  "A parked card whose resume conflicts gets a fix run, not Needs Taras",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T13:31:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
