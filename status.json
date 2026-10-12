@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T03:42:56.1710428Z",
+    "updated":  "2026-10-12T03:43:38.5962880Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:42:01.4480102Z",
+                                       "heartbeat":  "2026-10-12T03:43:06.6714330Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,12 +91,12 @@
                       "id":  "SW-36",
                       "number":  36,
                       "title":  "Ship3rd split; Taras checks feel",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-12T03:31:16.0000000Z",
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T03:42:04.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -179,6 +179,11 @@
                                       "t":  "2026-10-12T03:42:55.3411518Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "Claude claude-opus-5-5 review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:43:09.4349478Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 75a70c0c and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -214,6 +219,11 @@
                                       "t":  "2026-10-12T01:47:38.5620452Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:43:37.5864773Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-blocked)"
                                   }
                               ]
                   },
