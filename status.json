@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T06:37:47.9556412Z",
+    "updated":  "2026-10-12T06:38:48.8101337Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T06:37:34.5932466Z",
+                                       "heartbeat":  "2026-10-12T06:38:38.4782628Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -56,15 +56,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-100",
                       "number":  100,
                       "title":  "Check screenshots for Crew tab, War table and fog of war",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-12T06:32:56.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T06:36:46.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -113,22 +129,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed e2918e7a and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
