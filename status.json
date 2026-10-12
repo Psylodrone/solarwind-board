@@ -1,32 +1,12 @@
 {
-    "updated":  "2026-10-12T23:11:42.3581949Z",
+    "updated":  "2026-10-12T23:29:41.0730614Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T23:11:09.9841628Z",
+                                       "heartbeat":  "2026-10-12T23:29:33.9041306Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-109",
-                      "number":  109,
-                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T22:32:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T22:32:14.4832234Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-107",
                       "number":  107,
@@ -85,6 +65,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T17:13:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T22:42:45.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -303,6 +299,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T23:06:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-12T22:32:14.4832234Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
+                                  }
                               ]
                   },
                   {
