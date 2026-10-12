@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T22:47:52.5402288Z",
+    "updated":  "2026-10-12T22:49:31.5084113Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T22:46:59.2883546Z",
+                                       "heartbeat":  "2026-10-12T22:49:20.3468507Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -115,7 +115,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-opus-5-5",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-10-12T22:40:47.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -234,6 +234,21 @@
                                       "t":  "2026-10-12T22:45:30.1718485Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "Claude claude-opus-5-5 gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:49:00.2681158Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:49:00.2840831Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:49:22.8793239Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 3), trying again or the next reviewer"
                                   }
                               ]
                   },
