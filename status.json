@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T20:43:09.7870046Z",
+    "updated":  "2026-10-12T20:43:32.8872678Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T20:42:32.7358578Z",
@@ -169,6 +169,11 @@
                                       "t":  "2026-10-12T20:43:09.6397347Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 10 min, tokens 4682k/56k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T20:43:32.2229740Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
