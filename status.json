@@ -1,12 +1,44 @@
 {
-    "updated":  "2026-10-12T17:36:24.1489018Z",
+    "updated":  "2026-10-12T17:37:27.8031498Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T17:36:20.2291323Z",
+                                       "heartbeat":  "2026-10-12T17:37:24.6855387Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T17:34:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-108",
+                      "number":  108,
+                      "title":  "Watcher tests never start a real Unity editor",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T17:35:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-98",
                       "number":  98,
@@ -88,22 +120,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-105",
-                      "number":  105,
-                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T16:25:42.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-33",
                       "number":  33,
                       "title":  "Research tree (gates mission levels, bonuses, research screen)",
@@ -121,6 +137,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-105",
+                      "number":  105,
+                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T17:36:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
