@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T12:24:06.7178702Z",
+    "updated":  "2026-10-12T12:24:40.6708021Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T12:23:18.0009389Z",
+                                       "heartbeat":  "2026-10-12T12:24:21.7912431Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,16 +88,32 @@
                               ]
                   },
                   {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T11:54:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Ready",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T12:22:15.0000000Z",
-                      "round":  0,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T12:24:04.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -269,23 +285,12 @@
                                       "t":  "2026-10-12T12:24:05.9091791Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T12:24:40.2703221Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 1: clean, passing to the watcher to commit"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T11:54:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
