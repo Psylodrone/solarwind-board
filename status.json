@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T11:51:32.5708876Z",
+    "updated":  "2026-10-12T11:52:23.7622145Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T11:50:34.2732202Z",
+                                       "heartbeat":  "2026-10-12T11:52:19.4404852Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -72,15 +72,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-102",
-                      "number":  102,
-                      "title":  "Board Claude runs use the board login",
-                      "stage":  "Review",
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-12T11:50:00.0000000Z",
+                      "since":  "2026-10-12T11:51:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -91,12 +91,12 @@
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T10:28:00.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T11:51:18.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -228,22 +228,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T10:54:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -253,6 +237,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-102",
+                      "number":  102,
+                      "title":  "Board Claude runs use the board login",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T11:51:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
