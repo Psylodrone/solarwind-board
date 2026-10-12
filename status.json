@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T18:12:09.4561933Z",
+    "updated":  "2026-10-12T18:13:10.3852470Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T18:11:43.9324299Z",
+                                       "heartbeat":  "2026-10-12T18:12:48.7407640Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -120,31 +120,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-105",
-                      "number":  105,
-                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T17:39:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-33",
                       "number":  33,
                       "title":  "Research tree (gates mission levels, bonuses, research screen)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T17:59:18.0000000Z",
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T18:12:06.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -183,6 +167,22 @@
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-105",
+                      "number":  105,
+                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T17:39:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
