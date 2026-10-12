@@ -1,27 +1,12 @@
 {
-    "updated":  "2026-10-12T00:38:23.2313725Z",
+    "updated":  "2026-10-12T00:39:25.7070740Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T00:38:21.3024485Z",
+                                       "heartbeat":  "2026-10-12T00:39:23.7799704Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-95",
-                      "number":  95,
-                      "title":  "Watcher logs when Taras is away and back",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T22:18:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-96",
                       "number":  96,
@@ -76,6 +61,21 @@
                       "risk":  "risk:risky",
                       "actor":  "architect",
                       "since":  "2026-10-11T23:38:39.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-95",
+                      "number":  95,
+                      "title":  "Watcher logs when Taras is away and back",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T00:38:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
