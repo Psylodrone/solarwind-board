@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T18:49:23.0996037Z",
+    "updated":  "2026-10-12T18:49:58.8040001Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T18:49:08.8242023Z",
@@ -20,7 +20,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-12T18:49:58.7368035Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
