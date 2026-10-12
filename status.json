@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T22:20:30.5367446Z",
+    "updated":  "2026-10-12T22:21:33.7914277Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T22:20:26.2211354Z",
+                                       "heartbeat":  "2026-10-12T22:21:28.8141179Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -17,22 +17,6 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-12T21:50:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-108",
-                      "number":  108,
-                      "title":  "Watcher tests never start a real Unity editor",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T21:59:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -97,6 +81,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T17:13:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-108",
+                      "number":  108,
+                      "title":  "Watcher tests never start a real Unity editor",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T22:19:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -202,12 +202,12 @@
                       "id":  "SW-33",
                       "number":  33,
                       "title":  "Research tree (gates mission levels, bonuses, research screen)",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T22:11:55.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T22:19:43.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
