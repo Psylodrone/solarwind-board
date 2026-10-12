@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T03:30:23.4431304Z",
+    "updated":  "2026-10-12T03:31:19.5418533Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:29:20.4276135Z",
+                                       "heartbeat":  "2026-10-12T03:30:24.8615047Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,13 +91,13 @@
                       "id":  "SW-36",
                       "number":  36,
                       "title":  "Ship3rd split; Taras checks feel",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-12T03:07:13.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T03:30:20.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -154,6 +154,16 @@
                                       "t":  "2026-10-12T03:30:23.0675400Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:31:17.3455709Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:31:18.6932114Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
