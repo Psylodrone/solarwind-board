@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T03:04:07.4696928Z",
+    "updated":  "2026-10-12T03:05:09.2804978Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:04:03.3324480Z",
+                                       "heartbeat":  "2026-10-12T03:05:08.1302448Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -144,22 +144,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-96",
-                      "number":  96,
-                      "title":  "Cards carry a size estimate checked against actual time",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T02:51:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
@@ -204,6 +188,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-96",
+                      "number":  96,
+                      "title":  "Cards carry a size estimate checked against actual time",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T03:04:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
