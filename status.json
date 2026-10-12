@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T22:19:25.2371784Z",
+    "updated":  "2026-10-12T22:19:54.7562171Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T22:19:20.5806097Z",
@@ -285,6 +285,16 @@
                                       "t":  "2026-10-12T22:13:09.6803017Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:19:26.7719843Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 6 min, tokens 3322k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:19:54.5757571Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
