@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T11:43:23.6635102Z",
+    "updated":  "2026-10-12T11:44:24.4256314Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T11:43:08.9461080Z",
+                                       "heartbeat":  "2026-10-12T11:44:12.0893143Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -65,22 +65,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T10:03:53.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-102",
-                      "number":  102,
-                      "title":  "Board Claude runs use the board login",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T11:38:27.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -215,6 +199,22 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 3 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-102",
+                      "number":  102,
+                      "title":  "Board Claude runs use the board login",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T11:43:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
