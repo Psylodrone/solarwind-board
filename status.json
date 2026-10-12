@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T16:25:57.9613985Z",
+    "updated":  "2026-10-12T16:27:02.7454443Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T16:25:55.9397949Z",
+                                       "heartbeat":  "2026-10-12T16:26:58.1678414Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -40,22 +40,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-105",
-                      "number":  105,
-                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T13:30:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-107",
                       "number":  107,
                       "title":  "A parked card whose resume conflicts gets a fix run, not Needs Taras",
@@ -81,6 +65,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T13:35:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-105",
+                      "number":  105,
+                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T16:25:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
