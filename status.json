@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T22:31:21.8538240Z",
+    "updated":  "2026-10-12T22:32:15.8538525Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T22:31:10.9025468Z",
+                                       "heartbeat":  "2026-10-12T22:32:11.6143929Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -100,7 +100,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-12T22:32:14.4832234Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
+                                  }
                               ]
                   },
                   {
@@ -200,6 +204,11 @@
                                       "t":  "2026-10-12T22:31:21.6897379Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 11 min, tokens 4502k/39k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T22:31:46.4183559Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
