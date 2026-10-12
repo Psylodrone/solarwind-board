@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T01:57:51.9665474Z",
+    "updated":  "2026-10-12T01:58:51.9974197Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T01:57:43.6578724Z",
+                                       "heartbeat":  "2026-10-12T01:58:45.0144757Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -97,6 +97,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:42:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-26",
+                      "number":  26,
+                      "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T01:56:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
