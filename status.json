@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T10:55:30.0383299Z",
+    "updated":  "2026-10-12T10:56:32.6337450Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T10:55:26.0083301Z",
+                                       "heartbeat":  "2026-10-12T10:56:30.6847727Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -56,22 +56,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-102",
-                      "number":  102,
-                      "title":  "Board Claude runs use the board login",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T09:55:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
@@ -88,15 +72,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
+                      "id":  "SW-102",
+                      "number":  102,
+                      "title":  "Board Claude runs use the board login",
                       "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-12T10:28:34.0000000Z",
+                      "since":  "2026-10-12T10:55:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -226,6 +210,22 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 3 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T10:54:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
