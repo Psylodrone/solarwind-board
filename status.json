@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T15:29:27.4467594Z",
+    "updated":  "2026-10-12T15:30:33.2313666Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T15:29:25.3700373Z",
+                                       "heartbeat":  "2026-10-12T15:30:27.7571087Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -120,6 +120,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-83",
+                      "number":  83,
+                      "title":  "A run stopped by an expired Claude login is named as such",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T15:29:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-26",
                       "number":  26,
                       "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
@@ -157,22 +173,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-83",
-                      "number":  83,
-                      "title":  "A run stopped by an expired Claude login is named as such",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T15:01:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
