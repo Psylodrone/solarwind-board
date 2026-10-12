@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T08:34:19.6007952Z",
+    "updated":  "2026-10-12T08:35:20.2719107Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T08:34:06.3153731Z",
+                                       "heartbeat":  "2026-10-12T08:35:08.2095755Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -56,15 +56,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Changes requested",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T08:24:41.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T08:34:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -108,22 +124,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed b1d8128c and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
