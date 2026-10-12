@@ -1,44 +1,12 @@
 {
-    "updated":  "2026-10-12T18:18:25.9036830Z",
+    "updated":  "2026-10-12T18:19:35.5538666Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T18:18:22.9043005Z",
+                                       "heartbeat":  "2026-10-12T18:19:26.1189387Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-109",
-                      "number":  109,
-                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T17:34:57.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-108",
-                      "number":  108,
-                      "title":  "Watcher tests never start a real Unity editor",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T17:35:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-98",
                       "number":  98,
@@ -123,12 +91,12 @@
                       "id":  "SW-105",
                       "number":  105,
                       "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "Changes requested",
+                      "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T17:39:01.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T18:18:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -237,6 +205,22 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-12T15:35:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-12T18:19:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
