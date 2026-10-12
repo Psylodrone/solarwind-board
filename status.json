@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T18:32:26.2647005Z",
+    "updated":  "2026-10-12T18:32:32.1471875Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T18:31:39.2355358Z",
@@ -165,6 +165,11 @@
                                       "t":  "2026-10-12T18:32:25.9082800Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 19 min, tokens 10764k/73k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T18:32:32.1236349Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
                               ]
                   },
