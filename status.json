@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T16:44:48.1778575Z",
+    "updated":  "2026-10-12T16:45:48.7926095Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T16:44:26.8203615Z",
+                                       "heartbeat":  "2026-10-12T16:45:31.4164542Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -65,6 +65,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T13:35:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-31",
+                      "number":  31,
+                      "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T16:43:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
