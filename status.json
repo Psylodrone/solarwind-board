@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-12T20:59:40.7182206Z",
+    "updated":  "2026-10-12T21:00:40.8110300Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T20:59:33.9287012Z",
+                                       "heartbeat":  "2026-10-12T21:00:37.3166872Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-109",
-                      "number":  109,
-                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T20:53:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-107",
                       "number":  107,
@@ -97,6 +81,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T18:18:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T20:59:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
