@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T03:45:32.2884561Z",
+    "updated":  "2026-10-12T03:46:33.1392604Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:45:17.1688041Z",
+                                       "heartbeat":  "2026-10-12T03:46:19.8567778Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -40,26 +40,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-75",
-                      "number":  75,
-                      "title":  "Shader errors in the PC build",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T01:42:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T03:44:31.1527448Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-33",
                       "number":  33,
                       "title":  "Research tree (gates mission levels, bonuses, research screen)",
@@ -89,6 +69,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-75",
+                      "number":  75,
+                      "title":  "Shader errors in the PC build",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T03:44:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-12T03:44:31.1527448Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
