@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T10:29:32.1418978Z",
+    "updated":  "2026-10-12T10:30:33.0438131Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T10:28:46.9208415Z",
+                                       "heartbeat":  "2026-10-12T10:29:51.4096187Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -72,22 +72,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T09:55:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
@@ -104,19 +88,144 @@
                               ]
                   },
                   {
-                      "id":  "SW-101",
-                      "number":  101,
-                      "title":  "A card is closed only by the watcher\u0027s own commit",
-                      "stage":  "Review",
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "priority":  "High",
+                      "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-12T10:25:29.0000000Z",
+                      "since":  "2026-10-12T10:28:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-19",
+                      "number":  19,
+                      "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-12T10:28:00.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-11T23:09:08.0940453Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:42:13.0384675Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:47:21.4237627Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 2243k/12k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T01:47:38.5620452Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:43:37.5864773Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:24:56.1342246Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:34:05.4587605Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 9 min, tokens 4665k/45k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:34:19.3637500Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed b1d8128c and pushed, card Done and issue closed"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:36:04.0386854Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:38:12.6331135Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 4 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T08:38:13.8614116Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:06:35.0838606Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 28 min, tokens 13318k/77k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:06:39.9993711Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:08:29.0301242Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:08:30.2982776Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:13:47.9372128Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 2445k/22k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:13:50.1473385Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:14:34.2977371Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 3, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:14:35.6312918Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:18:59.5266600Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 4 min, tokens 2131k/24k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T09:19:17.3344630Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T10:28:31.6127719Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  }
                               ]
                   },
                   {
@@ -129,6 +238,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-101",
+                      "number":  101,
+                      "title":  "A card is closed only by the watcher\u0027s own commit",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T10:27:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
