@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T01:43:14.6796542Z",
+    "updated":  "2026-10-12T01:44:15.1590565Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T01:42:43.4682854Z",
+                                       "heartbeat":  "2026-10-12T01:43:46.0838929Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -65,6 +65,65 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-75",
+                      "number":  75,
+                      "title":  "Shader errors in the PC build",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T01:42:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-33",
+                      "number":  33,
+                      "title":  "Research tree (gates mission levels, bonuses, research screen)",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T01:42:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-36",
+                      "number":  36,
+                      "title":  "Ship3rd split; Taras checks feel",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T01:43:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-08T22:37:20.9729344Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:37:59.7585959Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 355k/3k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-08T22:38:03.3551150Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
+                                  }
                               ]
                   },
                   {
