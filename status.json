@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-12T12:43:59.6488911Z",
+    "updated":  "2026-10-12T12:45:11.3601352Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T12:43:47.1076606Z",
+                                       "heartbeat":  "2026-10-12T12:45:00.6457935Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-82",
-                      "number":  82,
-                      "title":  "Resuming parked work never strands the tree",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T11:55:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-83",
                       "number":  83,
@@ -33,6 +17,22 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-12T12:21:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T12:44:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -88,15 +88,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Stopped",
+                      "id":  "SW-82",
+                      "number":  82,
+                      "title":  "Resuming parked work never strands the tree",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T12:42:44.0000000Z",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T12:43:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
