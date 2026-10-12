@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T08:36:04.5207785Z",
+    "updated":  "2026-10-12T08:37:04.7399381Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T08:35:08.2095755Z",
+                                       "heartbeat":  "2026-10-12T08:36:16.6892931Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -56,31 +56,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Done",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T08:34:18.0000000Z",
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T08:35:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -129,6 +113,22 @@
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
