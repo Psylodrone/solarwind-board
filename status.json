@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T11:54:03.1154781Z",
+    "updated":  "2026-10-12T11:55:03.2371182Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T11:53:24.0155479Z",
+                                       "heartbeat":  "2026-10-12T11:54:27.1842230Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -59,28 +59,12 @@
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T10:03:53.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Changes requested",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-12T11:51:57.0000000Z",
+                      "since":  "2026-10-12T11:54:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -91,12 +75,12 @@
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T11:51:18.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-12T11:52:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -247,6 +231,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-12T11:52:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
