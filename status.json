@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T13:24:14.5559423Z",
+    "updated":  "2026-10-12T13:25:24.1790926Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T13:24:12.4976028Z",
+                                       "heartbeat":  "2026-10-12T13:25:16.2526514Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -81,22 +81,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T01:56:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-82",
-                      "number":  82,
-                      "title":  "Resuming parked work never strands the tree",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T12:43:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -333,6 +317,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-82",
+                      "number":  82,
+                      "title":  "Resuming parked work never strands the tree",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T13:25:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
