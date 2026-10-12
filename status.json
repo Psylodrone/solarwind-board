@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T13:34:43.8859702Z",
+    "updated":  "2026-10-12T13:35:44.7707376Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T13:33:55.9131075Z",
+                                       "heartbeat":  "2026-10-12T13:35:00.7452439Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -72,26 +72,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-26",
-                      "number":  26,
-                      "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T01:56:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T13:33:42.9370126Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-105",
                       "number":  105,
                       "title":  "A GitHub read failure mid-step waits instead of stopping the card",
@@ -137,6 +117,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-26",
+                      "number":  26,
+                      "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T13:33:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-12T13:33:42.9370126Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
