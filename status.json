@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-12T03:06:23.2273982Z",
+    "updated":  "2026-10-12T03:07:16.7106279Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T03:06:09.5137861Z",
+                                       "heartbeat":  "2026-10-12T03:07:14.8420192Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-99",
-                      "number":  99,
-                      "title":  "Codex cleanup reaches the broker\u0027s pipe",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T22:57:46.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-100",
                       "number":  100,
@@ -104,16 +88,32 @@
                               ]
                   },
                   {
+                      "id":  "SW-99",
+                      "number":  99,
+                      "title":  "Codex cleanup reaches the broker\u0027s pipe",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T03:05:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-36",
                       "number":  36,
                       "title":  "Ship3rd split; Taras checks feel",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-12T01:48:35.0000000Z",
-                      "round":  0,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-12T03:05:19.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -150,6 +150,16 @@
                                       "t":  "2026-10-12T03:05:22.1875094Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:07:14.0357794Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 5 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T03:07:15.4604229Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
