@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-12T01:14:44.0819594Z",
+    "updated":  "2026-10-12T01:15:46.1126930Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T01:14:42.2518519Z",
+                                       "heartbeat":  "2026-10-12T01:15:44.4452359Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -68,21 +68,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-95",
-                      "number":  95,
-                      "title":  "Watcher logs when Taras is away and back",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "actor":  "by hand",
-                      "since":  "2026-10-12T00:38:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-19",
                       "number":  19,
                       "title":  "Discovery gating (starting line, known deposits, stock on discovery)",
@@ -99,6 +84,21 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-95",
+                      "number":  95,
+                      "title":  "Watcher logs when Taras is away and back",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T01:14:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
