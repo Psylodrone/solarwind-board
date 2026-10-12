@@ -1,12 +1,44 @@
 {
-    "updated":  "2026-10-12T21:49:34.1645452Z",
+    "updated":  "2026-10-12T22:00:52.8169849Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T21:49:22.9552497Z",
+                                       "heartbeat":  "2026-10-12T22:00:42.4403343Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-109",
+                      "number":  109,
+                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T21:50:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-108",
+                      "number":  108,
+                      "title":  "Watcher tests never start a real Unity editor",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-12T21:59:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-107",
                       "number":  107,
@@ -75,12 +107,12 @@
                       "id":  "SW-105",
                       "number":  105,
                       "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T18:18:00.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T21:55:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -129,22 +161,6 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-12T15:35:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-109",
-                      "number":  109,
-                      "title":  "Azure Starcruiser mothership model replaces Mothership 2",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-12T21:00:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -3430,22 +3446,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-06T12:28:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "T69",
-                      "number":  41,
-                      "title":  "Rockets: seeker cone, dash breaks locks, player paints targets",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-05T21:59:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
