@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-12T09:58:52.3375586Z",
+    "updated":  "2026-10-12T09:59:54.8751903Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T09:58:48.3670960Z",
+                                       "heartbeat":  "2026-10-12T09:59:52.7057878Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-101",
-                      "number":  101,
-                      "title":  "A card is closed only by the watcher\u0027s own commit",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T09:55:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-98",
                       "number":  98,
@@ -97,6 +81,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T09:55:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-101",
+                      "number":  101,
+                      "title":  "A card is closed only by the watcher\u0027s own commit",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-12T09:58:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
