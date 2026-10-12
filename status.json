@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T12:24:40.6708021Z",
+    "updated":  "2026-10-12T12:25:08.7828045Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T12:24:21.7912431Z",
@@ -290,6 +290,11 @@
                                       "t":  "2026-10-12T12:24:40.2703221Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "Claude claude-opus-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T12:25:08.2582791Z",
+                                      "actor":  "watcher",
+                                      "text":  "paused, moved to Needs Taras: an unexpected failure"
                                   }
                               ]
                   },
