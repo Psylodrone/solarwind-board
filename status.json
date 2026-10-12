@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-12T23:31:52.3566136Z",
+    "updated":  "2026-10-12T23:32:36.1932207Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-12T23:31:45.1422031Z",
@@ -111,7 +111,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-opus-5-5",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-10-12T22:40:47.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -255,6 +255,16 @@
                                       "t":  "2026-10-12T23:29:50.1283027Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T23:32:21.0303874Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-12T23:32:21.0753832Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
                                   }
                               ]
                   },
