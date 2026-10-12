@@ -1,32 +1,12 @@
 {
-    "updated":  "2026-10-12T05:22:50.9110195Z",
+    "updated":  "2026-10-12T05:23:51.3829157Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-12T05:21:48.1448704Z",
+                                       "heartbeat":  "2026-10-12T05:22:52.4037478Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-100",
-                      "number":  100,
-                      "title":  "Check screenshots for Crew tab, War table and fog of war",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-11T23:35:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T05:22:50.7786609Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-98",
                       "number":  98,
@@ -76,15 +56,51 @@
                               ]
                   },
                   {
-                      "id":  "SW-75",
-                      "number":  75,
-                      "title":  "Shader errors in the PC build",
-                      "stage":  "Review",
+                      "id":  "SW-100",
+                      "number":  100,
+                      "title":  "Check screenshots for Crew tab, War table and fog of war",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-12T05:20:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T05:22:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-12T05:22:50.7786609Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-75",
+                      "number":  75,
+                      "title":  "Shader errors in the PC build",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-12T05:22:16.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -153,22 +169,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed f19b4755 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
