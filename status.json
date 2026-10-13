@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-13T21:52:16.9324938Z",
+    "updated":  "2026-10-13T21:53:11.0940828Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-13T21:52:14.4218863Z",
@@ -107,13 +107,13 @@
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-13T18:15:06.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-13T21:52:09.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -165,6 +165,11 @@
                                       "t":  "2026-10-13T21:52:12.4202062Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:53:10.7343769Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 4 issues in review round 2, passing to Claude to check and fix"
                                   }
                               ]
                   },
