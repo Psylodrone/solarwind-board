@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T17:35:13.1112233Z",
+    "updated":  "2026-10-13T17:36:17.0372938Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T17:35:10.6068362Z",
+                                       "heartbeat":  "2026-10-13T17:36:13.2403848Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -17,6 +17,22 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-13T09:18:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-116",
+                      "number":  116,
+                      "title":  "Every game fact carries the system it happened in",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-13T17:33:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
