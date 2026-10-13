@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T12:32:07.5608054Z",
+    "updated":  "2026-10-13T12:33:12.9476922Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T12:32:05.2387167Z",
+                                       "heartbeat":  "2026-10-13T12:33:08.2700605Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -97,6 +97,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-13T11:42:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-13T12:31:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
