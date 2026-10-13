@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T14:59:44.7111179Z",
+    "updated":  "2026-10-13T15:00:33.8971376Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T14:59:14.3504619Z",
+                                       "heartbeat":  "2026-10-13T15:00:28.7124316Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,15 +88,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-113",
-                      "number":  113,
-                      "title":  "Mothership look carries its own engine trails (4 for Azure Starbreaker)",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-13T11:42:28.0000000Z",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -107,12 +107,12 @@
                       "id":  "SW-114",
                       "number":  114,
                       "title":  "Repeated editor-lock losses stop the card and say why",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-13T14:58:48.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T14:59:43.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -176,22 +176,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 3eeaf058 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
