@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T17:22:37.9984539Z",
+    "updated":  "2026-10-13T17:23:38.7273613Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T17:22:25.4824796Z",
+                                       "heartbeat":  "2026-10-13T17:23:28.3210558Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -40,26 +40,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-31",
-                      "number":  31,
-                      "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T16:43:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-13T17:22:37.9149001Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-28",
                       "number":  28,
                       "title":  "Survey missions (resources, and reveals systems on the map)",
@@ -92,15 +72,51 @@
                               ]
                   },
                   {
-                      "id":  "SW-98",
-                      "number":  98,
-                      "title":  "Station level from trade volume",
-                      "stage":  "Review",
+                      "id":  "SW-31",
+                      "number":  31,
+                      "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-13T17:21:04.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T17:22:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-13T17:22:37.9149001Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-98",
+                      "number":  98,
+                      "title":  "Station level from trade volume",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T17:22:03.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -254,22 +270,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed ae586723 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
