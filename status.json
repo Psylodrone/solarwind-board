@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T14:58:53.5888751Z",
+    "updated":  "2026-10-13T14:59:44.7111179Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T14:58:09.4588903Z",
+                                       "heartbeat":  "2026-10-13T14:59:14.3504619Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -107,13 +107,13 @@
                       "id":  "SW-114",
                       "number":  114,
                       "title":  "Repeated editor-lock losses stop the card and say why",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-13T14:49:36.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-13T14:58:48.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -165,6 +165,16 @@
                                       "t":  "2026-10-13T14:58:52.6104087Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T14:59:20.6816568Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T14:59:44.4669507Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 3eeaf058 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
