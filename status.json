@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T22:39:10.5089148Z",
+    "updated":  "2026-10-13T22:39:43.9156933Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T22:38:31.5064718Z",
+                                       "heartbeat":  "2026-10-13T22:39:37.2928863Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -249,6 +249,11 @@
                                       "t":  "2026-10-13T21:55:19.0179197Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:39:43.7208199Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
                               ]
                   },
