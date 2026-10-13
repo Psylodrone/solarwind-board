@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T22:40:18.2837784Z",
+    "updated":  "2026-10-13T22:41:18.2941864Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T22:39:37.2928863Z",
+                                       "heartbeat":  "2026-10-13T22:40:40.0903531Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -40,26 +40,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-43",
-                      "number":  43,
-                      "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T13:35:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-13T22:40:17.2694975Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-28",
                       "number":  28,
                       "title":  "Survey missions (resources, and reveals systems on the map)",
@@ -92,95 +72,51 @@
                               ]
                   },
                   {
-                      "id":  "SW-116",
-                      "number":  116,
-                      "title":  "Every game fact carries the system it happened in",
-                      "stage":  "Review",
+                      "id":  "SW-43",
+                      "number":  43,
+                      "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Claude claude-opus-5-5",
-                      "since":  "2026-10-13T22:38:05.0000000Z",
-                      "round":  3,
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T22:40:16.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-13T21:55:50.6538604Z",
+                                      "t":  "2026-10-13T22:40:17.2694975Z",
                                       "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:19:44.4379756Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 8868k/27k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:19:47.0741311Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:20:36.3787676Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:20:37.9592449Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:28:46.9884120Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 3 min, tokens 1282k/23k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:28:49.9085384Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:29:25.2949662Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:29:26.9690102Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:38:00.0002663Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 4 min, tokens 2238k/22k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:38:08.8411852Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:38:54.6158855Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T22:39:09.4767576Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 71209c55 and pushed, card Done and issue closed"
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Needs Taras",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Stopped",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-13T21:55:09.0000000Z",
+                      "since":  "2026-10-13T22:39:42.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -262,19 +198,83 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
+                      "id":  "SW-116",
+                      "number":  116,
+                      "title":  "Every game fact carries the system it happened in",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T22:39:08.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-13T21:55:50.6538604Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:19:44.4379756Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 8868k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:19:47.0741311Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:20:36.3787676Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:20:37.9592449Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:28:46.9884120Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 3 min, tokens 1282k/23k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:28:49.9085384Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:29:25.2949662Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:29:26.9690102Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:38:00.0002663Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 4 min, tokens 2238k/22k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:38:08.8411852Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:38:54.6158855Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:39:09.4767576Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 71209c55 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
