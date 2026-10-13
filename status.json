@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T18:05:16.8767925Z",
+    "updated":  "2026-10-13T18:06:13.1746588Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T18:05:02.5678691Z",
+                                       "heartbeat":  "2026-10-13T18:06:06.2292850Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -107,12 +107,12 @@
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-13T17:22:36.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-13T18:05:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -130,6 +130,16 @@
                                       "t":  "2026-10-13T18:05:16.1066722Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:06:06.0344765Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:06:06.0872756Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
                                   }
                               ]
                   },
