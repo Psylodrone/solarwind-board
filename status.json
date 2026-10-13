@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T21:55:51.2702099Z",
+    "updated":  "2026-10-13T21:56:51.3291831Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T21:55:25.8929853Z",
+                                       "heartbeat":  "2026-10-13T21:56:30.2166493Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -21,26 +21,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-116",
-                      "number":  116,
-                      "title":  "Every game fact carries the system it happened in",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-13T17:33:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-13T21:55:50.6538604Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
                               ]
                   },
                   {
@@ -108,15 +88,35 @@
                               ]
                   },
                   {
+                      "id":  "SW-116",
+                      "number":  116,
+                      "title":  "Every game fact carries the system it happened in",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T21:55:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-13T21:55:50.6538604Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-13T21:53:09.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T21:55:09.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
