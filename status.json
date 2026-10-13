@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T11:41:59.5571267Z",
+    "updated":  "2026-10-13T11:43:01.8114871Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T11:41:55.4928514Z",
+                                       "heartbeat":  "2026-10-13T11:42:59.6407709Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -81,6 +81,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-13T09:18:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-113",
+                      "number":  113,
+                      "title":  "Mothership look carries its own engine trails (4 for Azure Starbreaker)",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-13T11:42:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
