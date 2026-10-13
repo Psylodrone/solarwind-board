@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-13T06:47:41.0590301Z",
+    "updated":  "2026-10-13T06:48:50.4900695Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T06:47:38.2010524Z",
+                                       "heartbeat":  "2026-10-13T06:48:41.3032930Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-107",
-                      "number":  107,
-                      "title":  "A parked card whose resume conflicts gets a fix run, not Needs Taras",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-12T13:31:06.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-43",
                       "number":  43,
@@ -65,6 +49,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T17:13:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-107",
+                      "number":  107,
+                      "title":  "A parked card whose resume conflicts gets a fix run, not Needs Taras",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-13T06:48:08.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
