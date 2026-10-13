@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T12:48:08.0501742Z",
+    "updated":  "2026-10-13T12:49:10.5517040Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T12:48:04.2092974Z",
+                                       "heartbeat":  "2026-10-13T12:49:08.5341514Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -107,12 +107,12 @@
                       "id":  "SW-30",
                       "number":  30,
                       "title":  "Combat target views and combat UI",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-13T12:31:48.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T12:48:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -3593,22 +3593,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-06T17:14:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-51",
-                      "number":  51,
-                      "title":  "Check T70 by hand: input after the legacy Input Manager removal",
-                      "stage":  "Done",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-06T12:48:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
