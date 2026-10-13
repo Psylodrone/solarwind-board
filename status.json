@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T22:38:10.6541332Z",
+    "updated":  "2026-10-13T22:38:55.3089347Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T22:37:18.1946444Z",
+                                       "heartbeat":  "2026-10-13T22:38:31.5064718Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,13 +91,13 @@
                       "id":  "SW-116",
                       "number":  116,
                       "title":  "Every game fact carries the system it happened in",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-13T22:29:24.0000000Z",
-                      "round":  2,
+                      "actor":  "Claude claude-opus-5-5",
+                      "since":  "2026-10-13T22:38:05.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -154,6 +154,11 @@
                                       "t":  "2026-10-13T22:38:08.8411852Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:38:54.6158855Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 review round 3: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
