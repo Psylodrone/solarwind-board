@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T00:39:57.2182681Z",
+    "updated":  "2026-10-13T00:40:24.1223031Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T00:39:53.0137683Z",
+                                       "heartbeat":  "2026-10-13T00:40:20.1993316Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,22 +88,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-108",
-                      "number":  108,
-                      "title":  "Watcher tests never start a real Unity editor",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-13T00:34:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-5",
                       "number":  5,
                       "title":  "Pick the mothership look",
@@ -145,6 +129,22 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-12T15:35:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-108",
+                      "number":  108,
+                      "title":  "Watcher tests never start a real Unity editor",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T00:38:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
