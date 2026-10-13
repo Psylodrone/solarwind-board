@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T23:24:18.3534914Z",
+    "updated":  "2026-10-13T23:25:20.6663628Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T23:24:15.4219857Z",
+                                       "heartbeat":  "2026-10-13T23:25:18.4860866Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -109,6 +109,22 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-13T23:23:59.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
