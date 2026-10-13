@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T22:19:50.1271168Z",
+    "updated":  "2026-10-13T22:20:35.3029452Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T22:19:11.7930704Z",
+                                       "heartbeat":  "2026-10-13T22:20:15.9015077Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -91,13 +91,13 @@
                       "id":  "SW-116",
                       "number":  116,
                       "title":  "Every game fact carries the system it happened in",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "AGY",
-                      "since":  "2026-10-13T21:55:49.0000000Z",
-                      "round":  0,
+                      "since":  "2026-10-13T22:20:35.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -114,6 +114,16 @@
                                       "t":  "2026-10-13T22:19:47.0741311Z",
                                       "actor":  "Claude claude-opus-5-5",
                                       "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:20:36.3787676Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:20:37.9592449Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
