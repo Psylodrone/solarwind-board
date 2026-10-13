@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T13:06:18.7405242Z",
+    "updated":  "2026-10-13T13:07:20.3514815Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T13:06:10.8582029Z",
+                                       "heartbeat":  "2026-10-13T13:07:13.4033568Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -101,6 +101,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-114",
+                      "number":  114,
+                      "title":  "Repeated editor-lock losses stop the card and say why",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T13:06:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-13T13:06:16.8887931Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
