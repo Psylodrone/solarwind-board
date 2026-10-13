@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-13T10:47:03.4706804Z",
+    "updated":  "2026-10-13T10:48:09.2443706Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T10:46:58.8333443Z",
+                                       "heartbeat":  "2026-10-13T10:48:06.4961946Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -97,6 +97,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-05T18:17:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-112",
+                      "number":  112,
+                      "title":  "Azure Starbreaker mothership model replaces Azure Starcruiser",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-13T10:46:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
