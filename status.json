@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T22:19:16.1276938Z",
+    "updated":  "2026-10-14T22:20:31.6525305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T22:18:58.5185425Z",
+                                       "heartbeat":  "2026-10-14T22:20:04.3832719Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -136,32 +136,16 @@
                               ]
                   },
                   {
-                      "id":  "SW-124",
-                      "number":  124,
-                      "title":  "Report a machine idle with Ready cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-43",
                       "number":  43,
                       "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-14T22:03:47.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-10-14T22:19:13.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -283,7 +267,33 @@
                                       "t":  "2026-10-14T22:19:15.8666500Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T22:20:07.3098097Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T22:20:30.8092169Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 0ecc9b99 and pushed, card Done and issue closed"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
