@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:33:03.9650775Z",
+    "updated":  "2026-10-14T21:34:08.0693973Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:33:01.8107121Z",
+                                       "heartbeat":  "2026-10-14T21:34:04.4108288Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -196,22 +196,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-5",
-                      "number":  5,
-                      "title":  "Pick the mothership look",
-                      "stage":  "Needs Taras",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
@@ -299,6 +283,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-5",
+                      "number":  5,
+                      "title":  "Pick the mothership look",
+                      "stage":  "Done",
+                      "machine":  null,
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-14T21:32:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
