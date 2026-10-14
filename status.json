@@ -1,12 +1,28 @@
 {
-    "updated":  "2026-10-14T21:26:42.8811053Z",
+    "updated":  "2026-10-14T21:27:46.8643169Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:26:40.4614903Z",
+                                       "heartbeat":  "2026-10-14T21:27:43.1942973Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T21:26:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -49,6 +65,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-14T20:43:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T21:26:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -267,38 +299,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-14T11:39:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-14T11:47:46.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
