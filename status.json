@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-14T23:43:02.4484394Z",
+    "updated":  "2026-10-14T23:43:19.7632007Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-14T23:42:51.0297176Z",
@@ -127,7 +127,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "AGY claude-sonnet-5-5-high",
                       "since":  "2026-10-14T22:37:32.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -161,6 +161,11 @@
                                       "t":  "2026-10-14T22:39:30.1696903Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T23:43:19.2043602Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
                                   }
                               ]
                   },
