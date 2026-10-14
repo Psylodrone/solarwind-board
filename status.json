@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T22:06:05.9292338Z",
+    "updated":  "2026-10-14T22:07:10.8203255Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T22:05:54.7156507Z",
+                                       "heartbeat":  "2026-10-14T22:07:06.3156444Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -113,6 +113,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-14T21:45:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-6",
+                      "number":  6,
+                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T22:05:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -270,22 +286,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-14T21:50:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-6",
-                      "number":  6,
-                      "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-05T18:17:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
