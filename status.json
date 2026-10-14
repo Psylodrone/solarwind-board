@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:47:04.5595251Z",
+    "updated":  "2026-10-14T21:48:04.5664043Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:46:45.2189590Z",
+                                       "heartbeat":  "2026-10-14T21:47:50.3259343Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -97,6 +97,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-14T21:36:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-111",
+                      "number":  111,
+                      "title":  "Button focus border shows in play mode",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T21:45:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
