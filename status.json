@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:54:48.6550101Z",
+    "updated":  "2026-10-14T21:56:59.4481368Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:54:07.0366257Z",
+                                       "heartbeat":  "2026-10-14T21:56:06.2992819Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -120,47 +120,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-115",
-                      "number":  115,
-                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-124",
-                      "number":  124,
-                      "title":  "Report a machine idle with Ready cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-43",
                       "number":  43,
                       "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
-                      "stage":  "Stopped",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-14T21:50:24.0000000Z",
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-10-14T21:53:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -264,6 +232,22 @@
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
@@ -386,6 +370,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-115",
+                      "number":  115,
+                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-14T21:53:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
