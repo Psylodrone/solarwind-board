@@ -1,44 +1,12 @@
 {
-    "updated":  "2026-10-13T23:51:26.9343048Z",
+    "updated":  "2026-10-14T21:21:26.4258803Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-13T23:50:54.6968242Z",
+                                       "heartbeat":  "2026-10-14T21:21:21.5780911Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-13T09:18:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-115",
-                      "number":  115,
-                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
-                      "stage":  "Ready",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-13T17:36:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -56,15 +24,47 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
+                      "id":  "SW-122",
+                      "number":  122,
+                      "title":  "Combat contracts: take, no accept, reward at the base",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T10:47:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-127",
+                      "number":  127,
+                      "title":  "A machine that stops reporting raises a phone alert",
                       "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-13T09:18:22.0000000Z",
+                      "since":  "2026-10-14T20:43:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-126",
+                      "number":  126,
+                      "title":  "Low disk space on a watcher machine raises a phone alert",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T20:43:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -129,6 +129,38 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 2 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-115",
+                      "number":  115,
+                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
@@ -235,6 +267,54 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-14T11:39:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-14T11:47:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-125",
+                      "number":  125,
+                      "title":  "Interview cards carry their questions",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-14T18:03:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
@@ -3355,581 +3435,6 @@
                                       "t":  "2026-10-07T20:18:57.4808603Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-70",
-                      "number":  70,
-                      "title":  "Infrastructure map in Obsidian",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T20:23:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-62",
-                      "number":  62,
-                      "title":  "Pushes that need Taras stand out",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T19:49:51.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T15:28:17.2904888Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:39:54.2668300Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 12 min, tokens 1391k/8k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:39:56.4685207Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T18:58:07.4083247Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T19:00:17.8429893Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 694k/6k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T19:00:39.7395468Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T19:03:16.7659232Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T19:03:41.3072079Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: git conflict or push problem"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "T74",
-                      "number":  60,
-                      "title":  "Config edits save themselves",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T15:29:01.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T13:14:08.5135984Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:15:03.2474027Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 647k/2k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:15:05.1671743Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T14:12:18.7384849Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T14:25:36.3374138Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 6382k/29k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T14:25:38.4508217Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:04:41.7443220Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:08:02.5745884Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:08:48.1843382Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:11:47.9056671Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:12:35.4890927Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:16:34.2235676Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:24:40.7645514Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:27:10.3663329Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T15:27:40.0156366Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed a576832 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-61",
-                      "number":  61,
-                      "title":  "Task IDs are SW-\u003ccard number\u003e",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T13:40:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B11",
-                      "number":  59,
-                      "title":  "Busy check waits out a script reload",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T13:14:22.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T11:48:18.2714514Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:58:40.8809583Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 10 min, tokens 1031k/8k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:58:43.5874614Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:02:21.3560872Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:05:32.4240043Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 3 min, tokens 570k/6k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:05:55.2399445Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:09:17.4221776Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high has found 1 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:09:18.5149876Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:11:03.1731783Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 527k/5k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:11:24.2120540Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:13:11.3317862Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T13:13:41.7170251Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 8dc0abb and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "B09",
-                      "number":  56,
-                      "title":  "Watcher restarts itself on new watcher code",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T11:48:39.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T11:16:51.7302781Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:17:14.5380422Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:18:01.9274785Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:22:18.7874681Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 4 min, tokens 2235k/15k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:22:21.4605198Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:37:24.0241790Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:40:13.2153585Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high has found 1 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:40:14.9674675Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:44:32.9292356Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 4 min, tokens 1006k/5k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:44:52.8456452Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:47:22.4707055Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T11:47:53.7167389Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed ae63ba1 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "D02",
-                      "number":  7,
-                      "title":  "Pirate and rocket tuning values",
-                      "stage":  "Done",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T11:21:20.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "T72",
-                      "number":  55,
-                      "title":  "Pirate tuning (heavy gunship, rocket boat)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T10:33:49.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-06T20:19:55.5465331Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-06T20:41:51.6886053Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 22 min, tokens 9971k/25k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-06T20:41:53.6276742Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T08:16:51.2012391Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T08:29:46.3424504Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 4747k/18k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T08:29:48.5888235Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T10:18:54.8389285Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T10:21:20.2455596Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T10:21:44.3701678Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: git conflict or push problem"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "P2-01",
-                      "number":  15,
-                      "title":  "Loop facts + playtest recorder; Save returns success",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T09:46:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "B10",
-                      "number":  57,
-                      "title":  "editor-run.ps1 can wait (busy editor, long test runs)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T08:19:29.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:35:13.3294137Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:51:24.7538315Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5106k/26k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:51:45.3083744Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:54:27.5811905Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high has found 2 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:54:28.7252706Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:55:55.6567781Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 385k/3k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:56:15.0382818Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:58:08.8962511Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:58:37.6744841Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 98e06f0 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "B08",
-                      "number":  54,
-                      "title":  "Task names on the status page",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T08:19:23.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:19:07.7878296Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:30.4663423Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 2009k/10k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:27:54.2381343Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:19.8833295Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T06:34:49.2371471Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 0c73d3f and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "D03",
-                      "number":  13,
-                      "title":  "Approve the FPP2 proposal",
-                      "stage":  "Done",
-                      "machine":  null,
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T08:15:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "T73",
-                      "number":  58,
-                      "title":  "Rocket trails thinner",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T08:15:26.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T06:59:01.5672044Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:02:52.8032495Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 4 min, tokens 2650k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:03:12.4070894Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:04:49.9598100Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T07:05:17.7274088Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 35c21d2 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
