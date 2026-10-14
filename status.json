@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-14T22:38:35.5865027Z",
+    "updated":  "2026-10-14T22:39:32.2468634Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-14T22:38:29.7554661Z",
@@ -123,12 +123,12 @@
                       "id":  "SW-122",
                       "number":  122,
                       "title":  "Combat contracts: take, no accept, reward at the base",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-14T22:21:02.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-14T22:37:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -146,6 +146,21 @@
                                       "t":  "2026-10-14T22:37:35.1337933Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T22:39:25.2157359Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T22:39:25.2442913Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T22:39:30.1696903Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
                                   }
                               ]
                   },
