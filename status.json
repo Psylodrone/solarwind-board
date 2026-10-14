@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:37:16.8000078Z",
+    "updated":  "2026-10-14T21:38:20.9328959Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:37:14.5825746Z",
+                                       "heartbeat":  "2026-10-14T21:38:17.4698870Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -81,6 +81,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-14T21:26:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-117",
+                      "number":  117,
+                      "title":  "Player death and game start facts",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-14T21:36:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
