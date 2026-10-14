@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:49:15.1615182Z",
+    "updated":  "2026-10-14T21:50:11.5532059Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:48:53.3962641Z",
+                                       "heartbeat":  "2026-10-14T21:49:58.4877142Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -136,6 +136,38 @@
                               ]
                   },
                   {
+                      "id":  "SW-115",
+                      "number":  115,
+                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-43",
                       "number":  43,
                       "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
@@ -144,7 +176,7 @@
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "Claude",
-                      "since":  "2026-10-13T23:46:19.0000000Z",
+                      "since":  "2026-10-14T21:49:09.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -217,39 +249,12 @@
                                       "t":  "2026-10-14T21:49:12.4656305Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-14T21:50:11.0077142Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 555k/5k, passing to the headless check"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-115",
-                      "number":  115,
-                      "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-124",
-                      "number":  124,
-                      "title":  "Report a machine idle with Ready cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
