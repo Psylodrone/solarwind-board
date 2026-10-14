@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T21:22:28.7247473Z",
+    "updated":  "2026-10-14T21:23:33.3809851Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T21:22:26.5891035Z",
+                                       "heartbeat":  "2026-10-14T21:23:30.0418200Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -3361,81 +3361,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-65",
-                      "number":  65,
-                      "title":  "Watcher restart or usage limit never strands a card",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-07T21:22:55.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T19:49:09.1618382Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:07:32.3151053Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 18 min, tokens 1872k/10k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:07:53.6489678Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:10:50.2977658Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:10:52.4480774Z",
-                                      "actor":  "watcher",
-                                      "text":  "the change set differs from the checked one, passing back for a check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:11:12.1623175Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:14:44.4440562Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high has found 1 issues in review round 2, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:14:45.4365095Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:16:40.9840086Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 361k/2k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:17:01.3128292Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:18:33.5516270Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T20:18:57.4808603Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: git conflict or push problem"
-                                  }
                               ]
                   }
               ]
