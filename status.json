@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-14T22:03:51.7388602Z",
+    "updated":  "2026-10-14T22:04:54.3278750Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-14T22:03:46.4694788Z",
+                                       "heartbeat":  "2026-10-14T22:04:51.7665258Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -120,15 +120,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-14T21:09:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-43",
                       "number":  43,
                       "title":  "Rescue missions and stranded pilots (SOS state, station offers, mothership and r",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-10-14T21:53:12.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-14T22:03:47.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -242,22 +258,6 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-124",
-                      "number":  124,
-                      "title":  "Report a machine idle with Ready cards",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T21:09:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
