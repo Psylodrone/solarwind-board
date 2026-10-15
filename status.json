@@ -1,10 +1,9 @@
 {
-    "updated":  "2026-10-15T22:42:52.3195898Z",
+    "updated":  "2026-10-15T22:43:36.5561159Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T22:42:20.3339682Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (2)"
+                                       "heartbeat":  "2026-10-15T22:43:24.6807115Z",
+                                       "watcher":  "running"
                                    }
                  },
     "cards":  [
@@ -243,6 +242,11 @@
                                       "t":  "2026-10-15T22:42:52.2086984Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:43:36.4009565Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
