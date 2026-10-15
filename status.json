@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T22:36:01.1801982Z",
+    "updated":  "2026-10-15T22:37:04.3476478Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T22:35:54.9994748Z",
+                                       "heartbeat":  "2026-10-15T22:37:01.7395149Z",
                                        "watcher":  "running",
                                        "idle":  "tree-dirty (2)"
                                    }
@@ -3068,126 +3068,6 @@
                                       "t":  "2026-10-08T22:50:39.4511416Z",
                                       "actor":  "watcher",
                                       "text":  "committed 2aeef1e4 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-22",
-                      "number":  22,
-                      "title":  "Missions core (offers, chance, roll, failure rule, settle, FleetService)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T22:36:35.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T07:49:57.3694542Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:05:32.5387987Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: work was left in the working tree"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:47:19.9776405Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T10:20:40.3960168Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 33 min, tokens 11450k/33k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T10:21:07.9636679Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:24:23.7413007Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:25:03.0483513Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:38:36.8217080Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:44:16.7681628Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 953k/4k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:44:39.8314105Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:48:35.8732812Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T16:49:06.7898502Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed c967dcf1 and pushed, card Done and issue closed"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T21:47:39.0042222Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:05:02.4222633Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 17 min, tokens 9687k/36k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:05:23.9551710Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:08:25.1932201Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high has found 1 issues in review round 2, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:08:26.2350831Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:09:28.9227708Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 783k/5k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:09:48.6528436Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:10:34.3364471Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:11:01.3817643Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
                               ]
                   }
