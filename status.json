@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-15T22:43:36.5561159Z",
+    "updated":  "2026-10-15T22:44:09.0882012Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-15T22:43:24.6807115Z",
@@ -260,7 +260,7 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-15T00:31:30.0000000Z",
-                      "round":  2,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -337,6 +337,11 @@
                                       "t":  "2026-10-13T22:39:43.7208199Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:44:08.4301636Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
                                   }
                               ]
                   },
