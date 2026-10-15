@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T22:38:09.1660128Z",
+    "updated":  "2026-10-15T22:39:11.8070304Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T22:38:04.7767396Z",
+                                       "heartbeat":  "2026-10-15T22:39:09.5752723Z",
                                        "watcher":  "running",
                                        "idle":  "tree-dirty (2)"
                                    }
@@ -222,22 +222,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-127",
-                      "number":  127,
-                      "title":  "A machine that stops reporting raises a phone alert",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-15T06:59:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
@@ -325,6 +309,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-127",
+                      "number":  127,
+                      "title":  "A machine that stops reporting raises a phone alert",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-15T22:37:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
