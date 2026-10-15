@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T00:13:11.3475312Z",
+    "updated":  "2026-10-15T00:14:16.0918223Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T00:13:08.9035811Z",
+                                       "heartbeat":  "2026-10-15T00:14:11.8184231Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -3461,71 +3461,6 @@
                                       "t":  "2026-10-08T00:19:10.0433628Z",
                                       "actor":  "watcher",
                                       "text":  "committed 4420cf2 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-64",
-                      "number":  64,
-                      "title":  "Unity noise files don\u0027t block the queue",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T00:13:37.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-07T21:21:29.7911221Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:27:19.9087753Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 6 min, tokens 3358k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:27:41.8473215Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:33:38.5066108Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:33:39.6200503Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:33:51.3104335Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 48k/397, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T21:33:53.1148674Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: an unexpected failure"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T23:42:37.2208063Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T23:46:05.0056403Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 3 min, tokens 603k/3k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-07T23:46:07.0790935Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
                                   }
                               ]
                   }
