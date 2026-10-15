@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T12:00:36.1035791Z",
+    "updated":  "2026-10-15T12:01:40.6699399Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T12:00:33.8258188Z",
+                                       "heartbeat":  "2026-10-15T12:01:36.6111917Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -81,6 +81,54 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-15T06:32:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-15T12:00:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-132",
+                      "number":  132,
+                      "title":  "Reviews do not loop on uncapturable Check evidence",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-15T12:00:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-133",
+                      "number":  133,
+                      "title":  "Editor pause file for unavailable days",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-15T12:00:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
