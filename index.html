@@ -52,8 +52,8 @@ function render(feed){
  const machines=document.getElementById('machines');machines.replaceChildren();
  for(const [name,m] of Object.entries(feed.machines||{})){
   const stale=!m.heartbeat||Date.now()-Date.parse(m.heartbeat)>10*60*1000||!Number.isFinite(Date.parse(m.heartbeat));
-  const t = stamp(m.heartbeat);
-  machines.append(node('div', name + ' · ' + m.watcher + ' · heartbeat ' + (t ? t + ' · ' : '') + age(m.heartbeat) + (stale ? ' · stale' : ''), 'machine' + (stale ? ' warning' : '')));
+  const t = stamp(m.heartbeat), idle = m.idle ? ' · idle: ' + m.idle : '';
+  machines.append(node('div', name + ' · ' + m.watcher + ' · heartbeat ' + (t ? t + ' · ' : '') + age(m.heartbeat) + (stale ? ' · stale' : '') + idle, 'machine' + (stale || idle ? ' warning' : '')));
  }
  const board=document.getElementById('board');board.replaceChildren();
  for(const stage of stages){
