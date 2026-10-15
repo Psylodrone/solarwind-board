@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-15T11:37:45.7624926Z",
+    "updated":  "2026-10-15T11:37:56.3958073Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-15T11:37:00.7203291Z",
@@ -95,7 +95,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-10-14T22:37:32.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -154,6 +154,21 @@
                                       "t":  "2026-10-15T11:37:45.3394328Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T11:37:51.6826979Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T11:37:51.7076986Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T11:37:55.3998168Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
                                   }
                               ]
                   },
