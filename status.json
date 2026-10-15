@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-15T22:42:24.5078449Z",
+    "updated":  "2026-10-15T22:42:52.3195898Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-15T22:42:20.3339682Z",
@@ -144,7 +144,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "AGY unknown",
                       "since":  "2026-10-14T22:37:32.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -218,6 +218,31 @@
                                       "t":  "2026-10-15T11:37:55.3998168Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:42:43.3899114Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:42:46.8815379Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:42:46.9079874Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:42:52.1918403Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:42:52.2086984Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 3)"
                                   }
                               ]
                   },
