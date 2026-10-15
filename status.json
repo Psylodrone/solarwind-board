@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T00:31:46.8025596Z",
+    "updated":  "2026-10-15T00:32:58.9460100Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T00:31:37.5927334Z",
+                                       "heartbeat":  "2026-10-15T00:32:47.7115179Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -201,31 +201,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-126",
-                      "number":  126,
-                      "title":  "Low disk space on a watcher machine raises a phone alert",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-14T21:50:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-13T22:39:42.0000000Z",
+                      "since":  "2026-10-15T00:31:30.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -307,15 +291,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-126",
+                      "number":  126,
+                      "title":  "Low disk space on a watcher machine raises a phone alert",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-14T21:50:59.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-115",
                       "number":  115,
                       "title":  "Board reviewers: agy Sonnet, then Claude Sonnet",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-14T21:53:23.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-15T00:31:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
