@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-15T22:58:44.5495086Z",
+    "updated":  "2026-10-15T22:59:11.6108854Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-15T22:58:28.2031155Z",
@@ -147,7 +147,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-15T22:58:36.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -301,6 +301,11 @@
                                       "t":  "2026-10-15T22:58:39.1225949Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (no-verdict)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:59:10.7763914Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
