@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-15T05:22:07.4922336Z",
+    "updated":  "2026-10-15T05:23:17.0385013Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T05:22:07.3687503Z",
+                                       "heartbeat":  "2026-10-15T05:23:08.1752795Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-14T21:26:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -56,22 +40,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-14T21:26:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-117",
                       "number":  117,
                       "title":  "Player death and game start facts",
@@ -81,22 +49,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-14T21:36:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-111",
-                      "number":  111,
-                      "title":  "Button focus border shows in play mode",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-14T21:45:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -182,22 +134,6 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-124",
-                      "number":  124,
-                      "title":  "Report a machine idle with Ready cards",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-14T22:56:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -291,15 +227,79 @@
                               ]
                   },
                   {
+                      "id":  "SW-111",
+                      "number":  111,
+                      "title":  "Button focus border shows in play mode",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-15T03:14:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-15T03:53:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-15T03:55:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-126",
                       "number":  126,
                       "title":  "Low disk space on a watcher machine raises a phone alert",
-                      "stage":  "Stopped",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-14T21:50:59.0000000Z",
+                      "since":  "2026-10-15T02:50:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-124",
+                      "number":  124,
+                      "title":  "Report a machine idle with Ready cards",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-15T02:38:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
