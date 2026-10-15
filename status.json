@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T05:46:16.0778292Z",
+    "updated":  "2026-10-15T05:49:47.6330438Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T05:45:37.9987774Z",
+                                       "heartbeat":  "2026-10-15T05:47:16.2042449Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -3266,61 +3266,6 @@
                                       "t":  "2026-10-08T07:21:58.3090528Z",
                                       "actor":  "watcher",
                                       "text":  "committed 18729f0b and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-50",
-                      "number":  50,
-                      "title":  "Editor scripts into an Editor-only assembly (PC build fails)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T05:47:52.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T00:54:42.6581501Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T01:27:20.6171653Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 33 min, tokens 5282k/18k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T01:27:47.0970199Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:59.8497883Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:03:19.9336352Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 189k/2k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:03:41.9805845Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:05:29.9074006Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:05:58.3514544Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed bcac368 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
