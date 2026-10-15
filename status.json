@@ -1,28 +1,12 @@
 {
-    "updated":  "2026-10-15T22:54:08.2775783Z",
+    "updated":  "2026-10-15T22:55:12.9888092Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T22:54:05.9303092Z",
+                                       "heartbeat":  "2026-10-15T22:55:08.7038624Z",
                                        "watcher":  "running"
                                    }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-15T06:32:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -129,6 +113,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-15T12:00:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-15T22:53:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
