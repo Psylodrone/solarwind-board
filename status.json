@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-15T22:56:45.4083391Z",
+    "updated":  "2026-10-15T22:56:59.0522166Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-15T22:56:13.6438473Z",
@@ -262,6 +262,31 @@
                                       "t":  "2026-10-15T22:56:45.3241296Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 11 min, tokens 8089k/63k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:56:50.8173034Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:56:55.7711751Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:56:55.7901087Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:56:58.5614408Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:56:58.5814267Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 3)"
                                   }
                               ]
                   },
