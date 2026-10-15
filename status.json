@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T07:25:24.7217550Z",
+    "updated":  "2026-10-15T07:26:25.5635100Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T07:25:24.5959114Z",
+                                       "heartbeat":  "2026-10-15T07:26:25.4379019Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -3175,81 +3175,6 @@
                                       "t":  "2026-10-08T07:46:33.7689256Z",
                                       "actor":  "watcher",
                                       "text":  "committed ffad7600 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-20",
-                      "number":  20,
-                      "title":  "Inventory reads and writes PlayerState through cargo commands",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T07:26:06.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T01:28:16.1703454Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:06.0135435Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:28.6898412Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 207k/2k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T04:02:32.8005170Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T05:46:52.2884752Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:07:29.1891921Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 81 min, tokens 2107k/12k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:07:57.2923499Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:10:29.1063069Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:16:25.0074842Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 1380k/5k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:16:46.0599502Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:21:28.7882510Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T07:21:58.3090528Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 18729f0b and pushed, card Done and issue closed"
                                   }
                               ]
                   }
