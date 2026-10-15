@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T09:32:09.1463461Z",
+    "updated":  "2026-10-15T09:33:12.3561518Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T09:32:03.2654209Z",
+                                       "heartbeat":  "2026-10-15T09:33:09.9112009Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -88,22 +88,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-127",
-                      "number":  127,
-                      "title":  "A machine that stops reporting raises a phone alert",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-15T06:32:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-122",
                       "number":  122,
                       "title":  "Combat contracts: take, no accept, reward at the base",
@@ -166,6 +150,22 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-127",
+                      "number":  127,
+                      "title":  "A machine that stops reporting raises a phone alert",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-15T06:59:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
