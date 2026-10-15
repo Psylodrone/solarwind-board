@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-15T00:58:44.4061161Z",
+    "updated":  "2026-10-15T00:59:45.0026242Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T00:58:44.2813425Z",
+                                       "heartbeat":  "2026-10-15T00:59:44.8804497Z",
                                        "watcher":  "running"
                                    }
                  },
@@ -3321,46 +3321,6 @@
                                       "t":  "2026-10-08T04:05:58.3514544Z",
                                       "actor":  "watcher",
                                       "text":  "committed bcac368 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-18",
-                      "number":  18,
-                      "title":  "Offline progress (multiplier, catch-up on start, chronological settlement)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-08T00:59:09.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T00:31:22.1124799Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T00:50:49.2395013Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 5936k/26k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T00:51:10.3627770Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "review started with AGY gemini-3.1-pro-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T00:53:45.4664832Z",
-                                      "actor":  "AGY gemini-3.1-pro-high",
-                                      "text":  "AGY gemini-3.1-pro-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T00:54:15.2279355Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 42e03b0 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
