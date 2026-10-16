@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T18:32:02.2438536Z",
+    "updated":  "2026-10-16T18:33:05.8372192Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T18:31:58.2039600Z",
+                                       "heartbeat":  "2026-10-16T18:33:03.1355186Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,22 +60,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T16:28:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-128",
                       "number":  128,
                       "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
@@ -85,6 +69,22 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-16T17:20:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T18:31:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
