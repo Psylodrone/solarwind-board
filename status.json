@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T08:52:32.3103250Z",
+    "updated":  "2026-10-16T08:53:32.3949036Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T08:52:19.4522919Z",
+                                       "heartbeat":  "2026-10-16T08:53:24.1634077Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T08:51:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T08:50:37.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-16T08:50:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -105,6 +121,38 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T08:51:39.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T06:49:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
