@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T13:27:46.8026454Z",
+    "updated":  "2026-10-16T13:28:51.2405401Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T13:27:27.7004800Z",
+                                       "heartbeat":  "2026-10-16T13:28:38.6576371Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T13:24:19.5890749Z",
+                                    "heartbeat":  "2026-10-16T13:28:40.2731667Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -53,6 +53,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-16T10:54:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-134",
+                      "number":  134,
+                      "title":  "Agy driver gets a budget warning and a wrap-up turn instead of a hard stop",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T13:26:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
