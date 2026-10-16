@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-16T08:50:14.0350227Z",
+    "updated":  "2026-10-16T08:50:57.3906093Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-16T08:50:10.6669775Z",
@@ -31,12 +31,12 @@
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Needs Taras",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-16T06:52:42.0000000Z",
+                      "since":  "2026-10-16T08:50:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -94,6 +94,11 @@
                                       "t":  "2026-10-16T06:52:58.1827548Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T08:50:57.2481432Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
@@ -101,12 +106,12 @@
                       "id":  "SW-133",
                       "number":  133,
                       "title":  "Editor pause file for unavailable days",
-                      "stage":  "Needs Taras",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-16T07:54:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T08:50:45.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
