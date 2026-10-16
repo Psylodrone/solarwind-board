@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-16T13:04:06.6037778Z",
+    "updated":  "2026-10-16T13:04:43.7718715Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-16T13:04:01.6652664Z",
@@ -167,6 +167,11 @@
                                       "t":  "2026-10-16T11:04:11.7587102Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:04:43.2830356Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
