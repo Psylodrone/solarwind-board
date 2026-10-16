@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T17:29:56.6466219Z",
+    "updated":  "2026-10-16T17:30:56.8491088Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T17:29:47.6712193Z",
+                                       "heartbeat":  "2026-10-16T17:30:53.6912524Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3120,81 +3120,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-79",
-                      "number":  79,
-                      "title":  "No serialized fields behind #if in GameBootstrap",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-09T17:30:12.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T09:15:13.5236290Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:15:57.5021115Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 195k/1k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:16:01.0094857Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:51:14.8665067Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T00:12:13.5467143Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T00:18:20.3937064Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 2150k/20k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T00:18:24.3569027Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T17:02:45.9346903Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T17:03:11.5302588Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 209k/3k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T17:03:35.5260739Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T17:10:10.4472828Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-09T17:10:36.4265709Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: git conflict or push problem"
-                                  }
                               ]
                   }
               ]
