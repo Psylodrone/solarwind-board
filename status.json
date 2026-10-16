@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T20:04:10.4539962Z",
+    "updated":  "2026-10-16T20:05:13.7108197Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T20:04:07.0747625Z",
+                                       "heartbeat":  "2026-10-16T20:05:11.2094105Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T20:00:40.5046330Z",
+                                    "heartbeat":  "2026-10-16T20:05:02.7152054Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -60,22 +60,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T19:59:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
@@ -85,6 +69,22 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-16T18:31:40.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T20:04:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
