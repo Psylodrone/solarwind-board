@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-16T17:24:53.0959578Z",
+    "updated":  "2026-10-16T17:25:54.0571829Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T17:24:26.2625876Z",
+                                       "heartbeat":  "2026-10-16T17:25:30.8581669Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T17:20:15.5007774Z",
+                                    "heartbeat":  "2026-10-16T17:24:33.8282177Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-134",
+                      "number":  134,
+                      "title":  "Agy driver gets a budget warning and a wrap-up turn instead of a hard stop",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T13:26:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -37,22 +53,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-16T10:54:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-134",
-                      "number":  134,
-                      "title":  "Agy driver gets a budget warning and a wrap-up turn instead of a hard stop",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-16T13:26:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
