@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T22:50:29.1322757Z",
+    "updated":  "2026-10-16T22:51:25.7650772Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T22:50:24.2558363Z",
+                                       "heartbeat":  "2026-10-16T22:51:20.3513886Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-134",
-                      "number":  134,
-                      "title":  "Agy driver gets a budget warning and a wrap-up turn instead of a hard stop",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-16T13:26:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -37,6 +21,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T17:13:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-134",
+                      "number":  134,
+                      "title":  "Agy driver gets a budget warning and a wrap-up turn instead of a hard stop",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T22:49:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T22:51:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
