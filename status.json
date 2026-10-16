@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T12:22:43.2813295Z",
+    "updated":  "2026-10-16T12:23:49.2527093Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T12:22:38.5409330Z",
+                                       "heartbeat":  "2026-10-16T12:23:43.9532612Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T12:19:31.9363286Z",
+                                    "heartbeat":  "2026-10-16T12:23:23.6993696Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -69,22 +69,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-16T10:54:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T12:13:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -184,6 +168,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T12:22:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
