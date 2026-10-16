@@ -1,12 +1,13 @@
 {
-    "updated":  "2026-10-16T11:05:17.0717772Z",
+    "updated":  "2026-10-16T11:06:18.0200834Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T11:04:22.1530116Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-10-16T11:06:11.4632710Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (1)"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T11:00:47.0174113Z",
+                                    "heartbeat":  "2026-10-16T11:05:07.9806413Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -60,31 +61,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T10:55:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Changes requested",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-16T11:03:30.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T11:05:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -168,6 +153,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T10:55:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
