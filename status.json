@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T16:28:46.6309584Z",
+    "updated":  "2026-10-16T16:29:52.8646346Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T16:28:44.0035106Z",
+                                       "heartbeat":  "2026-10-16T16:29:47.5324772Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,31 +60,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T14:27:48.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T14:26:43.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T16:28:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -209,6 +193,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T16:28:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
