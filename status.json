@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-16T06:25:52.7921636Z",
+    "updated":  "2026-10-16T06:26:25.1621766Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-16T06:25:22.3677062Z",
@@ -47,12 +47,12 @@
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T05:25:52.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-16T06:25:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -100,6 +100,11 @@
                                       "t":  "2026-10-16T06:25:52.4264644Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T06:26:25.1125381Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
