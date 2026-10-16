@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T11:06:18.0200834Z",
+    "updated":  "2026-10-16T11:08:11.7965626Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T11:06:11.4632710Z",
+                                       "heartbeat":  "2026-10-16T11:07:15.4096228Z",
                                        "watcher":  "running",
                                        "idle":  "tree-dirty (1)"
                                    },
@@ -12,6 +12,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T11:05:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -165,22 +181,6 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-16T10:55:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T11:02:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
