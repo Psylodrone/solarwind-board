@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-15T23:08:20.2484410Z",
+    "updated":  "2026-10-16T04:55:10.7989863Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-15T23:08:13.9816634Z",
+                                       "heartbeat":  "2026-10-16T04:55:01.4543751Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-15T23:06:03.6727040Z",
+                                    "heartbeat":  "2026-10-16T04:54:55.1110707Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -65,6 +65,11 @@
                                       "t":  "2026-10-15T23:05:15.6121640Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T23:22:37.9706001Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
                                   }
                               ]
                   },
@@ -3161,61 +3166,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-78",
-                      "number":  78,
-                      "title":  "One weight rule for unknown item IDs",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-09T00:12:30.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-08T09:14:12.1272997Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:14:44.0932760Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 292k/1k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T09:14:47.7405722Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped, Needs Taras: the run or the card is blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:38:28.0612911Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:45:56.3107569Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 7 min, tokens 2099k/9k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:46:17.3533921Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:50:09.6119016Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-08T22:50:39.4511416Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 2aeef1e4 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
