@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T10:53:41.7453178Z",
+    "updated":  "2026-10-16T10:54:44.9237414Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T10:53:38.4284795Z",
+                                       "heartbeat":  "2026-10-16T10:54:42.1713760Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,22 +37,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-16T08:51:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T08:51:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -174,6 +158,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T10:53:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
