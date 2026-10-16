@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T06:21:12.0811479Z",
+    "updated":  "2026-10-16T06:22:15.1345029Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T06:21:07.2039021Z",
+                                       "heartbeat":  "2026-10-16T06:22:12.4174084Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,28 +31,12 @@
                       "id":  "SW-133",
                       "number":  133,
                       "title":  "Editor pause file for unavailable days",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-16T02:39:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-16T05:53:01.0000000Z",
+                      "since":  "2026-10-16T06:20:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -240,6 +224,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-16T05:52:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T06:20:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
