@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T05:35:12.5052437Z",
+    "updated":  "2026-10-16T05:36:16.6506305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T05:35:09.7057535Z",
+                                       "heartbeat":  "2026-10-16T05:36:13.2505060Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T05:33:32.6011777Z",
+                                    "heartbeat":  "2026-10-16T05:35:22.4784442Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,15 +44,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
                       "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-16T03:30:07.0000000Z",
+                      "since":  "2026-10-16T05:34:31.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -80,31 +80,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T03:30:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Stopped",
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T02:38:39.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T05:35:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -264,6 +248,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T05:33:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
