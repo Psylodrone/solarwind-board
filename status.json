@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T04:55:10.7989863Z",
+    "updated":  "2026-10-16T04:56:14.1446821Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T04:55:01.4543751Z",
+                                       "heartbeat":  "2026-10-16T04:56:11.3894443Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,15 +44,47 @@
                               ]
                   },
                   {
-                      "id":  "SW-6",
-                      "number":  6,
-                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "id":  "SW-133",
+                      "number":  133,
+                      "title":  "Editor pause file for unavailable days",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T02:39:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-14T22:05:16.0000000Z",
+                      "since":  "2026-10-16T03:30:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-6",
+                      "number":  6,
+                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-15T23:05:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -74,15 +106,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
-                      "stage":  "Ready",
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-15T06:32:55.0000000Z",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T03:30:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -93,60 +125,12 @@
                       "id":  "SW-128",
                       "number":  128,
                       "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Ready",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-15T12:00:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-132",
-                      "number":  132,
-                      "title":  "Reviews do not loop on uncapturable Check evidence",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-15T12:00:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-133",
-                      "number":  133,
-                      "title":  "Editor pause file for unavailable days",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-15T12:00:28.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-15T22:53:11.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T02:38:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -251,6 +235,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-132",
+                      "number":  132,
+                      "title":  "Reviews do not loop on uncapturable Check evidence",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T03:29:39.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
