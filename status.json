@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T22:10:00.5301593Z",
+    "updated":  "2026-10-16T22:11:03.8983887Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T22:09:57.6309677Z",
+                                       "heartbeat":  "2026-10-16T22:11:01.1502580Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T22:06:02.3996623Z",
+                                    "heartbeat":  "2026-10-16T22:10:13.7560961Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -63,12 +63,12 @@
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
+                      "stage":  "Needs Taras",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T20:05:24.0000000Z",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T22:09:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
