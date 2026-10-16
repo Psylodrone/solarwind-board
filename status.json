@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T05:53:31.6496856Z",
+    "updated":  "2026-10-16T05:54:32.4831101Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T05:53:19.0422607Z",
+                                       "heartbeat":  "2026-10-16T05:54:22.7377854Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,28 +47,12 @@
                       "id":  "SW-128",
                       "number":  128,
                       "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-16T05:34:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
                       "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-16T05:35:34.0000000Z",
+                      "since":  "2026-10-16T05:53:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -240,6 +224,22 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-16T05:33:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T05:52:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
