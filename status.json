@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T22:48:20.1585146Z",
+    "updated":  "2026-10-16T22:49:23.4257693Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T22:48:17.1478839Z",
+                                       "heartbeat":  "2026-10-16T22:49:20.8533439Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T22:45:50.5362607Z",
+                                    "heartbeat":  "2026-10-16T22:49:10.2631948Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -47,28 +47,12 @@
                       "id":  "SW-133",
                       "number":  133,
                       "title":  "Editor pause file for unavailable days",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T22:44:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-16T22:09:01.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T22:47:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
