@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T17:37:25.0853336Z",
+    "updated":  "2026-10-16T17:38:27.9594409Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T17:37:18.4481082Z",
+                                       "heartbeat":  "2026-10-16T17:38:21.6529230Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T17:33:10.5617908Z",
+                                    "heartbeat":  "2026-10-16T17:37:28.7747379Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -60,31 +60,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T16:28:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-16T17:20:18.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-16T17:37:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -218,6 +202,22 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T16:28:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
