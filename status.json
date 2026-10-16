@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T05:26:41.5676958Z",
+    "updated":  "2026-10-16T05:27:43.7187323Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T05:26:31.7712237Z",
+                                       "heartbeat":  "2026-10-16T05:27:34.9162782Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,26 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-117",
-                      "number":  117,
-                      "title":  "Player death and game start facts",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-14T21:36:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-16T05:26:41.3451023Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
                               ]
                   },
                   {
@@ -80,15 +60,67 @@
                               ]
                   },
                   {
-                      "id":  "SW-6",
-                      "number":  6,
-                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "id":  "SW-117",
+                      "number":  117,
+                      "title":  "Player death and game start facts",
                       "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-16T05:00:17.0000000Z",
+                      "since":  "2026-10-16T05:26:40.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-16T05:26:41.3451023Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T03:30:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T02:38:39.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-6",
+                      "number":  6,
+                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T05:25:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -132,38 +164,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T03:30:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T02:38:39.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
