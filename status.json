@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-16T05:25:30.9343701Z",
+    "updated":  "2026-10-16T05:26:04.6501527Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-16T05:25:25.3627801Z",
@@ -122,6 +122,11 @@
                                       "t":  "2026-10-16T05:00:17.8799110Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T05:26:03.7934061Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
