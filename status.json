@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T12:23:49.2527093Z",
+    "updated":  "2026-10-16T12:24:56.9590602Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T12:23:43.9532612Z",
+                                       "heartbeat":  "2026-10-16T12:24:49.6147834Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-16T11:05:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-28",
                       "number":  28,
@@ -69,6 +53,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-16T10:54:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T12:23:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
