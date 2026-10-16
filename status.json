@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T09:24:43.2797869Z",
+    "updated":  "2026-10-16T09:25:47.1122775Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T09:24:35.4079346Z",
+                                       "heartbeat":  "2026-10-16T09:25:40.2536097Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,15 +44,63 @@
                               ]
                   },
                   {
+                      "id":  "SW-103",
+                      "number":  103,
+                      "title":  "Watchdog restarts a dead watcher",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T08:51:39.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T06:49:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-133",
+                      "number":  133,
+                      "title":  "Editor pause file for unavailable days",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T08:50:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-6",
                       "number":  6,
                       "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "Changes requested",
+                      "stage":  "Needs Taras",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-16T08:50:54.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T09:24:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -126,54 +174,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-103",
-                      "number":  103,
-                      "title":  "Watchdog restarts a dead watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T08:51:39.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T06:49:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-133",
-                      "number":  133,
-                      "title":  "Editor pause file for unavailable days",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T08:50:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
