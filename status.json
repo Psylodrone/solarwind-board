@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T07:54:31.6992686Z",
+    "updated":  "2026-10-16T07:55:37.8643303Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T07:54:28.6122200Z",
+                                       "heartbeat":  "2026-10-16T07:55:32.4102427Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-12T17:13:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-133",
-                      "number":  133,
-                      "title":  "Editor pause file for unavailable days",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-16T07:38:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -111,6 +95,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-133",
+                      "number":  133,
+                      "title":  "Editor pause file for unavailable days",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-16T07:54:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
