@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-16T11:03:21.7448919Z",
+    "updated":  "2026-10-16T11:03:33.6523475Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-16T11:03:18.6126751Z",
@@ -157,6 +157,11 @@
                                       "t":  "2026-10-16T09:24:42.1531970Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T11:03:33.5086821Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
