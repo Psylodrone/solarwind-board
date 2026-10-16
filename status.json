@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-16T10:54:44.9237414Z",
+    "updated":  "2026-10-16T10:55:51.2126787Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T10:54:42.1713760Z",
+                                       "heartbeat":  "2026-10-16T10:55:45.1931820Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,31 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-97",
-                      "number":  97,
-                      "title":  "Watchers route cards by time of day, size and priority",
+                      "id":  "SW-128",
+                      "number":  128,
+                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
                       "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-16T08:51:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-128",
-                      "number":  128,
-                      "title":  "Review cards are picked before the dirty check; stopped runs park their own left",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T06:49:50.0000000Z",
+                      "since":  "2026-10-16T10:53:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -63,12 +47,28 @@
                       "id":  "SW-133",
                       "number":  133,
                       "title":  "Editor pause file for unavailable days",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T08:50:45.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-16T10:54:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-16T10:55:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
