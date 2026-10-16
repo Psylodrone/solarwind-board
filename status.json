@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-16T04:58:16.6796605Z",
+    "updated":  "2026-10-16T04:59:29.3592195Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-16T04:57:14.4698514Z",
+                                       "heartbeat":  "2026-10-16T04:59:19.2099931Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-16T04:54:55.1110707Z",
+                                    "heartbeat":  "2026-10-16T04:59:13.9479746Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -76,46 +76,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-6",
-                      "number":  6,
-                      "title":  "Ship schematic UI: inventory and station Ship tab",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-15T23:05:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-15T23:05:01.3968161Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-15T23:05:15.6121640Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-15T23:22:37.9706001Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-16T04:58:08.4338343Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-16T04:58:16.2333966Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-103",
                       "number":  103,
                       "title":  "Watchdog restarts a dead watcher",
@@ -145,6 +105,46 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-6",
+                      "number":  6,
+                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T04:58:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-15T23:05:01.3968161Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T23:05:15.6121640Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T23:22:37.9706001Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T04:58:08.4338343Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T04:58:16.2333966Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
