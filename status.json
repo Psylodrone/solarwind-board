@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T15:09:32.5388565Z",
+    "updated":  "2026-10-17T15:10:33.5418169Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T15:08:40.0386876Z",
+                                       "heartbeat":  "2026-10-17T15:09:42.3515904Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,106 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-118",
+                      "number":  118,
+                      "title":  "Craft and drone-build facts",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-17T15:09:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-119",
+                      "number":  119,
+                      "title":  "Pirate facts: base damaged, pirates arrived, passage ended",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-17T15:09:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-121",
+                      "number":  121,
+                      "title":  "Combat progress facts: ship killed, base damaged",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-17T15:09:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-104",
+                      "number":  104,
+                      "title":  "The watcher survives a console Ctrl+C from its children",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-17T15:09:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-123",
+                      "number":  123,
+                      "title":  "Park a foreign dirty tree after two hours",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-17T15:09:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-28",
+                      "number":  28,
+                      "title":  "Survey missions (resources, and reveals systems on the map)",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T15:09:31.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-17T15:09:32.4765675Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-31",
                       "number":  31,
