@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T23:12:23.3952473Z",
+    "updated":  "2026-10-17T23:13:24.2225877Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T23:12:16.9876849Z",
+                                       "heartbeat":  "2026-10-17T23:13:21.7591470Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3092,91 +3092,6 @@
                                       "t":  "2026-10-10T23:58:02.8044641Z",
                                       "actor":  "watcher",
                                       "text":  "committed a1241c3d and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-90",
-                      "number":  90,
-                      "title":  "Board runs take play-mode screenshots",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T23:13:06.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T22:34:03.6594796Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T22:34:57.8397018Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T22:49:13.1191435Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 14 min, tokens 10009k/85k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T22:49:35.4344571Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T22:50:42.6239271Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T22:50:43.6703851Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:07:26.8574414Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 3 min, tokens 1514k/12k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:07:46.3622476Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:08:32.3972863Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:08:33.6023807Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:11:50.2973727Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 2 min, tokens 431k/14k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:12:10.2327624Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:12:34.7859145Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:13:06.4972688Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed eda82790 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
