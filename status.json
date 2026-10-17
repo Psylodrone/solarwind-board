@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T16:20:56.3681437Z",
+    "updated":  "2026-10-17T16:21:57.0328519Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T16:20:40.0452703Z",
+                                       "heartbeat":  "2026-10-17T16:21:47.7919472Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3160,22 +3160,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-89",
-                      "number":  89,
-                      "title":  "Stopped cards also restart at a time",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T16:21:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
