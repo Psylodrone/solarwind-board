@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T15:53:29.6288250Z",
+    "updated":  "2026-10-17T15:54:29.8325884Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T15:52:43.4285762Z",
+                                       "heartbeat":  "2026-10-17T15:53:50.6263565Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,12 +63,12 @@
                       "id":  "SW-123",
                       "number":  123,
                       "title":  "Park a foreign dirty tree after two hours",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-17T15:09:20.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-17T15:52:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -79,12 +79,12 @@
                       "id":  "SW-28",
                       "number":  28,
                       "title":  "Survey missions (resources, and reveals systems on the map)",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-17T15:09:31.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-17T15:52:20.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
