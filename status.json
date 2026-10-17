@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T10:42:04.0503972Z",
+    "updated":  "2026-10-17T10:43:07.6994556Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T10:41:59.8748724Z",
+                                       "heartbeat":  "2026-10-17T10:43:05.0119679Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -2967,66 +2967,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-27",
-                      "number":  27,
-                      "title":  "Harvest and Salvage missions",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T10:42:40.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T09:45:39.7952566Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:09:34.0202579Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 24 min, tokens 3454k/19k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:09:54.7811665Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:12:25.3433947Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:12:26.4921237Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:41:09.2536273Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 29 min, tokens 9725k/109k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:41:32.5771034Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:42:08.7783489Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:42:41.3762347Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 47663654 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
