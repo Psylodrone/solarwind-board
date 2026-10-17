@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-17T15:11:34.4160162Z",
+    "updated":  "2026-10-17T15:12:35.2751652Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T15:10:49.9147518Z",
+                                       "heartbeat":  "2026-10-17T15:11:55.3618056Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-17T15:07:07.2662673Z",
+                                    "heartbeat":  "2026-10-17T15:11:26.7008038Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -60,22 +60,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-104",
-                      "number":  104,
-                      "title":  "The watcher survives a console Ctrl+C from its children",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-17T15:09:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-123",
                       "number":  123,
                       "title":  "Park a foreign dirty tree after two hours",
@@ -109,6 +93,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-104",
+                      "number":  104,
+                      "title":  "The watcher survives a console Ctrl+C from its children",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-17T15:10:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
