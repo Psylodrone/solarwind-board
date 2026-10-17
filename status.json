@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T16:42:14.8637790Z",
+    "updated":  "2026-10-17T16:43:15.1679864Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T16:41:15.0062843Z",
+                                       "heartbeat":  "2026-10-17T16:42:18.9373393Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-118",
-                      "number":  118,
-                      "title":  "Craft and drone-build facts",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-17T15:09:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-17T16:42:14.2777630Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-119",
                       "number":  119,
@@ -80,15 +60,35 @@
                               ]
                   },
                   {
+                      "id":  "SW-118",
+                      "number":  118,
+                      "title":  "Craft and drone-build facts",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T16:42:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-17T16:42:14.2777630Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-28",
                       "number":  28,
                       "title":  "Survey missions (resources, and reveals systems on the map)",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-17T16:37:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T16:41:30.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
