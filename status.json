@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-17T11:18:05.0337220Z",
+    "updated":  "2026-10-17T11:18:27.5867204Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T11:17:20.7550953Z",
+                                       "heartbeat":  "2026-10-17T11:18:24.9460614Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-17T11:13:34.1976749Z",
+                                    "heartbeat":  "2026-10-17T11:17:49.7480797Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-17T10:52:01.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T11:18:11.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -178,6 +178,11 @@
                                       "t":  "2026-10-17T11:18:04.4834159Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 23 min, tokens 12269k/71k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:18:26.4217111Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
