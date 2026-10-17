@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T16:26:05.4527021Z",
+    "updated":  "2026-10-17T16:26:12.8182726Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T16:25:00.6005584Z",
+                                       "heartbeat":  "2026-10-17T16:26:09.3042206Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -142,6 +142,21 @@
                                       "t":  "2026-10-17T16:26:04.9133086Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 5 min, tokens 3405k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:07.7287048Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:11.2986706Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:11.3209202Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
                                   }
                               ]
                   },
