@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T16:54:21.7057428Z",
+    "updated":  "2026-10-17T16:55:22.4553564Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T16:54:08.0532588Z",
+                                       "heartbeat":  "2026-10-17T16:55:10.9965994Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,22 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-123",
-                      "number":  123,
-                      "title":  "Park a foreign dirty tree after two hours",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-17T15:52:28.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-118",
                       "number":  118,
                       "title":  "Craft and drone-build facts",
@@ -77,6 +61,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-123",
+                      "number":  123,
+                      "title":  "Park a foreign dirty tree after two hours",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-17T16:53:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
