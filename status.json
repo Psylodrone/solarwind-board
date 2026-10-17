@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T17:14:55.3292976Z",
+    "updated":  "2026-10-17T17:15:55.6816286Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T17:14:34.9165651Z",
+                                       "heartbeat":  "2026-10-17T17:15:38.9890806Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-119",
-                      "number":  119,
-                      "title":  "Pirate facts: base damaged, pirates arrived, passage ended",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-17T15:09:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-17T17:13:54.5145279Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-121",
                       "number":  121,
@@ -45,6 +25,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-119",
+                      "number":  119,
+                      "title":  "Pirate facts: base damaged, pirates arrived, passage ended",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T17:13:53.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-17T17:13:54.5145279Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
