@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-17T15:51:42.7373898Z",
+    "updated":  "2026-10-17T15:52:18.9760735Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-17T15:51:40.3106018Z",
@@ -83,7 +83,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-17T15:09:31.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -92,6 +92,11 @@
                                       "t":  "2026-10-17T15:09:32.4765675Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T15:52:18.5377280Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 43 min, tokens 15202k/58k, passing to the headless check"
                                   }
                               ]
                   },
@@ -99,12 +104,12 @@
                       "id":  "SW-104",
                       "number":  104,
                       "title":  "The watcher survives a console Ctrl+C from its children",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-17T15:45:29.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T15:51:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
