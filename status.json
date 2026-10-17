@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-17T01:02:07.9186008Z",
+    "updated":  "2026-10-17T01:03:12.9793331Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T01:02:05.1171351Z",
+                                       "heartbeat":  "2026-10-17T01:03:08.3230602Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-17T00:58:00.3964730Z",
+                                    "heartbeat":  "2026-10-17T01:02:15.6392494Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -3086,38 +3086,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 01c93034 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-86",
-                      "number":  86,
-                      "title":  "Headless runs read and write only the repo and review folders",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T01:02:46.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-69",
-                      "number":  69,
-                      "title":  "A refused call or a GitHub outage doesn\u0027t stop a card",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T01:02:40.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
