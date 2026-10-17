@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T23:57:50.2232339Z",
+    "updated":  "2026-10-17T23:58:54.8281570Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T23:57:47.9781668Z",
+                                       "heartbeat":  "2026-10-17T23:58:50.6332913Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3032,86 +3032,6 @@
                                       "t":  "2026-10-11T11:25:27.3283007Z",
                                       "actor":  "watcher",
                                       "text":  "committed afd3319b and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-29",
-                      "number":  29,
-                      "title":  "Combat missions (adjacent target, one per base, Fighter roll)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-10T23:58:02.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-10T10:48:10.5343656Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:14.8478130Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 1 min, tokens 560k/7k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T10:49:22.6018782Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T11:28:58.6792660Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-blocked)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:13:31.7443058Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:27:10.9707090Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 14 min, tokens 11092k/68k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:27:33.8557414Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:29:07.9744350Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 3 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:29:09.0353995Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:56:16.5395294Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 27 min, tokens 12140k/74k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:56:39.7889661Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:57:30.5739260Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-10T23:58:02.8044641Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed a1241c3d and pushed, card Done and issue closed"
                                   }
                               ]
                   }
