@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-17T13:14:12.9792621Z",
+    "updated":  "2026-10-17T13:15:19.0424367Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-17T13:14:10.0364451Z",
+                                       "heartbeat":  "2026-10-17T13:15:13.7561482Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-31",
                       "number":  31,
                       "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
-                      "stage":  "Needs Taras",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-17T11:34:39.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-17T13:14:41.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -198,6 +198,11 @@
                                       "t":  "2026-10-17T11:34:01.9655306Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:15:14.9793956Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
