@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-18T08:25:44.2151725Z",
+    "updated":  "2026-10-18T08:26:48.8589360Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T08:25:41.7257972Z",
+                                       "heartbeat":  "2026-10-18T08:26:44.5438061Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-135",
+                      "number":  135,
+                      "title":  "Manual away override: tell the watcher I am away until a time",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-18T08:25:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-111",
                       "number":  111,
