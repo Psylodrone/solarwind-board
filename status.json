@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-18T08:43:51.4983494Z",
+    "updated":  "2026-10-18T08:44:54.6826963Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T08:43:47.4513088Z",
+                                       "heartbeat":  "2026-10-18T08:44:51.9134396Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -45,6 +45,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-111",
+                      "number":  111,
+                      "title":  "Button focus border shows in play mode",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-18T08:35:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
