@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-18T08:35:38.0769021Z",
+    "updated":  "2026-10-18T08:36:38.7377830Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T08:35:11.9568498Z",
+                                       "heartbeat":  "2026-10-18T08:36:16.6392339Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,19 +28,23 @@
                               ]
                   },
                   {
-                      "id":  "SW-111",
-                      "number":  111,
-                      "title":  "Button focus border shows in play mode",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
+                      "id":  "SW-136",
+                      "number":  136,
+                      "title":  "PlayMode test runs must not mark the editor as Taras\u0027s",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-18T08:24:04.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-18T08:35:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-18T08:35:37.1792637Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
