@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-18T10:16:00.1622897Z",
+    "updated":  "2026-10-18T10:17:05.2249425Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T10:15:57.8885557Z",
+                                       "heartbeat":  "2026-10-18T10:17:01.1426365Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-135",
                       "number":  135,
                       "title":  "Manual away override: tell the watcher I am away until a time",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-18T10:09:13.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-18T10:14:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
