@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-18T09:01:28.1694229Z",
+    "updated":  "2026-10-18T09:02:28.5092016Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T09:00:52.5199037Z",
+                                       "heartbeat":  "2026-10-18T09:01:56.8271719Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-18T08:56:54.3466877Z",
+                                    "heartbeat":  "2026-10-18T09:01:13.7090920Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -28,15 +28,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-111",
+                      "number":  111,
+                      "title":  "Button focus border shows in play mode",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-18T08:55:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-136",
                       "number":  136,
                       "title":  "PlayMode test runs must not mark the editor as Taras\u0027s",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-18T08:58:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-18T09:00:26.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -75,22 +91,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed d9fcd8fd and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-111",
-                      "number":  111,
-                      "title":  "Button focus border shows in play mode",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-18T08:55:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
