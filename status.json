@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-18T22:28:03.8607389Z",
+    "updated":  "2026-10-18T22:29:07.6106769Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-18T22:28:01.2478422Z",
+                                       "heartbeat":  "2026-10-18T22:29:04.6722120Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-18T22:24:42.5391386Z",
+                                    "heartbeat":  "2026-10-18T22:29:04.5788028Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -2810,22 +2810,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed ddec2fb7 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-72",
-                      "number":  72,
-                      "title":  "Review snapshot keeps staged deletions",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-11T22:28:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
