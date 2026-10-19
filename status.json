@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T22:16:10.4151073Z",
+    "updated":  "2026-10-19T22:17:13.7764413Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T22:16:06.1659584Z",
+                                       "heartbeat":  "2026-10-19T22:17:10.9956250Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -2195,22 +2195,6 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-105",
-                      "number":  105,
-                      "title":  "A GitHub read failure mid-step waits instead of stopping the card",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T22:16:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
