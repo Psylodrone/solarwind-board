@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T17:19:31.7388387Z",
+    "updated":  "2026-10-19T17:20:32.0995860Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T17:18:38.6992019Z",
+                                       "heartbeat":  "2026-10-19T17:19:45.6626957Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,26 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-37",
-                      "number":  37,
-                      "title":  "Enemy ships on HullDefinition + loadout",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-19T17:09:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-19T17:19:31.2078997Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-38",
                       "number":  38,
                       "title":  "Combat Hit, CombatLogic, projectile metadata",
@@ -93,6 +73,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-37",
+                      "number":  37,
+                      "title":  "Enemy ships on HullDefinition + loadout",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T17:19:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-19T17:19:31.2078997Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
