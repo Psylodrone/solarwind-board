@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T22:10:04.6780116Z",
+    "updated":  "2026-10-19T22:11:29.9558970Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T22:10:01.5058019Z",
+                                       "heartbeat":  "2026-10-19T22:11:25.6304002Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-19T22:02:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-138",
-                      "number":  138,
-                      "title":  "agy refusals: log the denied path and state the read scope",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-19T22:02:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -63,12 +47,28 @@
                       "id":  "SW-140",
                       "number":  140,
                       "title":  "Adopted cards keep their new owner",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-19T22:09:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-138",
+                      "number":  138,
+                      "title":  "agy refusals: log the denied path and state the read scope",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-19T21:11:09.0000000Z",
+                      "since":  "2026-10-19T22:08:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
