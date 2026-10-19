@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T06:35:45.9318468Z",
+    "updated":  "2026-10-19T06:36:49.3438970Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T06:35:43.2467664Z",
+                                       "heartbeat":  "2026-10-19T06:36:46.6625541Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -2415,66 +2415,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-100",
-                      "number":  100,
-                      "title":  "Check screenshots for Crew tab, War table and fog of war",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T06:36:46.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T05:22:50.7786609Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:02:54.9560870Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 19 min, tokens 28578k/80k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:02:57.2310462Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:10:42.1517247Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:10:43.3279619Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:32:55.6062207Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 13 min, tokens 12022k/49k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:32:57.7301775Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:36:31.1500462Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T06:36:46.4022357Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed e2918e7a and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
