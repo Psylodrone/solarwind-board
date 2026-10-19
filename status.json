@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T18:40:32.3763110Z",
+    "updated":  "2026-10-19T18:41:32.9311777Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T18:40:24.9383406Z",
+                                       "heartbeat":  "2026-10-19T18:41:29.6677343Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,15 +60,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T16:58:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-38",
                       "number":  38,
                       "title":  "Combat Hit, CombatLogic, projectile metadata",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-19T18:32:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T18:39:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -107,22 +123,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed fb748b3a and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-30",
-                      "number":  30,
-                      "title":  "Combat target views and combat UI",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-19T16:58:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
