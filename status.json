@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-19T22:03:40.8962941Z",
+    "updated":  "2026-10-19T22:04:44.5927063Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T22:03:38.1731321Z",
+                                       "heartbeat":  "2026-10-19T22:04:41.3325653Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-19T21:59:44.1113520Z",
+                                    "heartbeat":  "2026-10-19T22:04:20.0573979Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-142",
+                      "number":  142,
+                      "title":  "Keep the footer in multi-turn Claude runs",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T22:02:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-138",
                       "number":  138,
