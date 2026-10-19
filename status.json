@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-19T22:53:20.8704659Z",
+    "updated":  "2026-10-19T22:54:18.2308267Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-19T22:53:16.1148526Z",
@@ -15,12 +15,12 @@
                       "id":  "SW-142",
                       "number":  142,
                       "title":  "Keep the footer in multi-turn Claude runs",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-19T22:02:18.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-19T22:52:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -40,7 +40,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-19T22:54:17.4681397Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  }
                               ]
                   },
                   {
