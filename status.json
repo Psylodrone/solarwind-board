@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T15:54:44.8349053Z",
+    "updated":  "2026-10-19T15:55:49.4105768Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T15:54:42.0685631Z",
+                                       "heartbeat":  "2026-10-19T15:55:45.5040969Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-129",
-                      "number":  129,
-                      "title":  "Needs Taras only for human decisions",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-19T15:53:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-138",
                       "number":  138,
@@ -53,6 +37,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-19T15:53:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-129",
+                      "number":  129,
+                      "title":  "Needs Taras only for human decisions",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-19T15:54:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
