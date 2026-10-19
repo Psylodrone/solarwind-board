@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-19T17:09:29.5824434Z",
+    "updated":  "2026-10-19T17:10:05.3940597Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T17:09:24.5674945Z",
+                                       "heartbeat":  "2026-10-19T17:09:59.0423612Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-19T17:05:26.7269394Z",
+                                    "heartbeat":  "2026-10-19T17:09:54.7654829Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-19T15:53:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-37",
+                      "number":  37,
+                      "title":  "Enemy ships on HullDefinition + loadout",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T17:09:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-38",
+                      "number":  38,
+                      "title":  "Combat Hit, CombatLogic, projectile metadata",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T17:09:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
