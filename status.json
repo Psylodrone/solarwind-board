@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-19T17:57:58.5970989Z",
+    "updated":  "2026-10-19T17:58:59.2819231Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T17:57:35.0044649Z",
+                                       "heartbeat":  "2026-10-19T17:58:40.9959255Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-19T17:54:10.2183261Z",
+                                    "heartbeat":  "2026-10-19T17:58:39.0702317Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,26 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-38",
-                      "number":  38,
-                      "title":  "Combat Hit, CombatLogic, projectile metadata",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-19T17:09:53.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-19T17:57:58.1115749Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-130",
                       "number":  130,
                       "title":  "Quota state per model, not per card",
@@ -80,15 +60,51 @@
                               ]
                   },
                   {
-                      "id":  "SW-37",
-                      "number":  37,
-                      "title":  "Enemy ships on HullDefinition + loadout",
-                      "stage":  "Review",
+                      "id":  "SW-38",
+                      "number":  38,
+                      "title":  "Combat Hit, CombatLogic, projectile metadata",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-19T17:50:38.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T17:58:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-19T17:57:58.1115749Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T16:58:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-37",
+                      "number":  37,
+                      "title":  "Enemy ships on HullDefinition + loadout",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T17:57:14.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -127,22 +143,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 7c6cddb1 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-30",
-                      "number":  30,
-                      "title":  "Combat target views and combat UI",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-19T16:58:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
