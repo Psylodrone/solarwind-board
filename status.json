@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T15:31:14.0970591Z",
+    "updated":  "2026-10-19T15:32:21.6055376Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T15:30:51.9706411Z",
+                                       "heartbeat":  "2026-10-19T15:32:14.8965036Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -2147,22 +2147,6 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-12T16:22:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-83",
-                      "number":  83,
-                      "title":  "A run stopped by an expired Claude login is named as such",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T15:32:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
