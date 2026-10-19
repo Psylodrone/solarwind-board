@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T17:02:58.6489281Z",
+    "updated":  "2026-10-19T17:04:02.1559710Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T17:02:55.4541846Z",
+                                       "heartbeat":  "2026-10-19T17:03:59.2195131Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,22 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-129",
-                      "number":  129,
-                      "title":  "Needs Taras only for human decisions",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-19T16:55:48.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-30",
                       "number":  30,
                       "title":  "Combat target views and combat UI",
@@ -69,6 +53,22 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-19T16:58:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-129",
+                      "number":  129,
+                      "title":  "Needs Taras only for human decisions",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T17:03:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
