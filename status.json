@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T19:28:21.7665668Z",
+    "updated":  "2026-10-19T19:29:26.2756017Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T19:28:07.0227342Z",
+                                       "heartbeat":  "2026-10-19T19:29:21.9496430Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,22 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-130",
-                      "number":  130,
-                      "title":  "Quota state per model, not per card",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-19T19:13:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-30",
                       "number":  30,
                       "title":  "Combat target views and combat UI",
@@ -69,6 +53,22 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-19T16:58:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-130",
+                      "number":  130,
+                      "title":  "Quota state per model, not per card",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-19T19:29:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
