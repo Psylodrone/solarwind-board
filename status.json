@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T15:52:38.9943901Z",
+    "updated":  "2026-10-19T15:53:41.8087902Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T15:52:34.5026179Z",
+                                       "heartbeat":  "2026-10-19T15:53:39.0515575Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,54 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-129",
+                      "number":  129,
+                      "title":  "Needs Taras only for human decisions",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T15:53:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-138",
+                      "number":  138,
+                      "title":  "agy refusals: log the denied path and state the read scope",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T15:53:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-130",
+                      "number":  130,
+                      "title":  "Quota state per model, not per card",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-19T15:53:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-135",
                       "number":  135,
