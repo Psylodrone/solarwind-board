@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-19T17:13:18.5806502Z",
+    "updated":  "2026-10-19T17:14:26.3185614Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T17:13:15.3309492Z",
+                                       "heartbeat":  "2026-10-19T17:14:19.4453218Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-19T17:09:54.7654829Z",
+                                    "heartbeat":  "2026-10-19T17:14:15.9451556Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -2111,126 +2111,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-26",
-                      "number":  26,
-                      "title":  "Notifications, HUD, away summary; recorder logs fleet facts",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-12T17:13:45.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-12T13:33:42.9370126Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T14:50:30.5435470Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 44 min, tokens 41260k/154k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T14:50:35.7025596Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T14:52:18.7396363Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 9 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T14:52:20.2753735Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T15:36:43.1734240Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 25 min, tokens 24384k/98k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T15:36:48.5563234Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T15:38:57.1728185Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 6 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T15:38:58.5436004Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:17:01.2912539Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 27 min, tokens 16006k/60k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:17:08.4787392Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:18:46.5960360Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 2 issues in review round 3, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:18:48.0414122Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:42:33.1324227Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 11 min, tokens 8540k/37k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:42:46.3089780Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:57:49.3412622Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (review-rounds)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T16:58:19.2152138Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T17:10:49.1895495Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 4 min, tokens 4621k/16k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T17:10:51.8758610Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T17:13:27.9936502Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-12T17:13:46.5309612Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 81dbbc90 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
