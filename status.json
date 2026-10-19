@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-19T20:04:49.2791210Z",
+    "updated":  "2026-10-19T20:05:53.3692919Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-19T20:04:36.7457118Z",
+                                       "heartbeat":  "2026-10-19T20:05:49.3956685Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,22 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-130",
-                      "number":  130,
-                      "title":  "Quota state per model, not per card",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-19T20:00:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-30",
                       "number":  30,
                       "title":  "Combat target views and combat UI",
@@ -69,6 +53,22 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-19T16:58:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-130",
+                      "number":  130,
+                      "title":  "Quota state per model, not per card",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T20:04:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
