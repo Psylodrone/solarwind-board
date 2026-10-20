@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T22:53:13.6995933Z",
+    "updated":  "2026-10-20T22:54:13.8909881Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T22:52:35.8777973Z",
+                                       "heartbeat":  "2026-10-20T22:53:40.4441676Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,6 +25,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-150",
+                      "number":  150,
+                      "title":  "Mission levels scaled from system difficulty",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T22:52:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-20T22:52:12.2102273Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
