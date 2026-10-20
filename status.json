@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T23:18:48.9186358Z",
+    "updated":  "2026-10-20T23:19:49.6262710Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T23:17:52.0497010Z",
+                                       "heartbeat":  "2026-10-20T23:18:55.7645317Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,54 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-44",
+                      "number":  44,
+                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-20T23:19:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-141",
+                      "number":  141,
+                      "title":  "Named unvisited systems on the map",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-20T23:19:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-32",
+                      "number":  32,
+                      "title":  "Route UI",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-20T23:19:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-149",
                       "number":  149,
@@ -31,12 +79,12 @@
                       "id":  "SW-150",
                       "number":  150,
                       "title":  "Mission levels scaled from system difficulty",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-20T23:12:12.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T23:17:47.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
