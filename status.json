@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T15:09:32.9488495Z",
+    "updated":  "2026-10-20T15:10:39.5382655Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T15:09:25.5275756Z",
+                                       "heartbeat":  "2026-10-20T15:10:33.2712477Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-143",
-                      "number":  143,
-                      "title":  "Music and basic sound effects",
-                      "stage":  "In progress",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-20T14:21:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-137",
                       "number":  137,
@@ -37,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T13:56:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-143",
+                      "number":  143,
+                      "title":  "Music and basic sound effects",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T15:09:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
