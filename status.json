@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-20T23:19:49.6262710Z",
+    "updated":  "2026-10-20T23:20:13.7869503Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T23:18:55.7645317Z",
+                                       "heartbeat":  "2026-10-20T23:20:02.8208948Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-20T23:12:55.3077449Z",
+                                    "heartbeat":  "2026-10-20T23:19:13.6789340Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -24,7 +24,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-20T23:20:02.5446087Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
