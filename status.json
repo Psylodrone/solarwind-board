@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-20T00:38:49.5085616Z",
+    "updated":  "2026-10-20T00:39:05.0231227Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-20T00:38:45.1833521Z",
@@ -53,6 +53,11 @@
                                       "t":  "2026-10-19T23:46:26.4528019Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:39:04.7985631Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 53 min, tokens 39925k/138k, result denied"
                                   }
                               ]
                   },
@@ -2009,22 +2014,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-13T09:17:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-108",
-                      "number":  108,
-                      "title":  "Watcher tests never start a real Unity editor",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-13T00:38:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
