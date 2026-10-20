@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-20T11:52:50.1314079Z",
+    "updated":  "2026-10-20T11:53:18.6012486Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-20T11:52:47.1425370Z",
@@ -118,6 +118,16 @@
                                       "t":  "2026-10-20T11:33:40.7235143Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:53:13.8246535Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 20 min, tokens 16746k/84k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:53:17.7214818Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
