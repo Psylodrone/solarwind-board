@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T16:10:01.3260068Z",
+    "updated":  "2026-10-20T16:11:07.4045368Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T16:09:42.5947493Z",
+                                       "heartbeat":  "2026-10-20T16:11:01.8875963Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-144",
-                      "number":  144,
-                      "title":  "Sound browser editor window",
-                      "stage":  "In progress",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-20T15:44:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-137",
                       "number":  137,
@@ -37,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T15:53:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-144",
+                      "number":  144,
+                      "title":  "Sound browser editor window",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T16:09:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
