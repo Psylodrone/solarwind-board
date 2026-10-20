@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T14:59:36.1443465Z",
+    "updated":  "2026-10-20T15:00:44.6467036Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T14:59:33.3038765Z",
+                                       "heartbeat":  "2026-10-20T15:00:36.5584433Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -2043,81 +2043,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-114",
-                      "number":  114,
-                      "title":  "Repeated editor-lock losses stop the card and say why",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-13T14:59:43.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-13T13:06:16.8887931Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T13:31:55.9893473Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:36:35.7246664Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:37:07.5333275Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:48:19.5832673Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 6 min, tokens 2493k/23k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:48:22.5619474Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:49:37.7564452Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:49:39.5451239Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:58:47.0714712Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 4 min, tokens 885k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:58:52.6104087Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:59:20.6816568Z",
-                                      "actor":  "Claude claude-opus-5-5",
-                                      "text":  "Claude claude-opus-5-5 review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-13T14:59:44.4669507Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 3eeaf058 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
