@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-20T00:05:22.6116050Z",
+    "updated":  "2026-10-20T00:06:26.2831445Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T00:05:19.7012366Z",
+                                       "heartbeat":  "2026-10-20T00:06:22.9498820Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-20T00:03:53.2148285Z",
+                                    "heartbeat":  "2026-10-20T00:06:16.5426626Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-142",
-                      "number":  142,
-                      "title":  "Keep the footer in multi-turn Claude runs",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-19T23:56:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-30",
                       "number":  30,
@@ -70,6 +54,22 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-142",
+                      "number":  142,
+                      "title":  "Keep the footer in multi-turn Claude runs",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T00:04:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
