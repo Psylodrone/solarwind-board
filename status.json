@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T14:00:48.5270081Z",
+    "updated":  "2026-10-20T14:01:55.7583221Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T14:00:45.8163116Z",
+                                       "heartbeat":  "2026-10-20T14:01:49.2700317Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T13:56:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-39",
+                      "number":  39,
+                      "title":  "Modular ships",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-20T14:00:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
