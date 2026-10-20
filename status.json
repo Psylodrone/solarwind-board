@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T23:29:00.0489638Z",
+    "updated":  "2026-10-20T23:30:09.1897631Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T23:28:24.0328561Z",
+                                       "heartbeat":  "2026-10-20T23:30:00.3969305Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,31 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-44",
-                      "number":  44,
-                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-20T23:19:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-20T23:20:02.5446087Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:27:17.1701660Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-141",
                       "number":  141,
@@ -78,6 +53,79 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T18:02:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-44",
+                      "number":  44,
+                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "Claude",
+                      "since":  "2026-10-20T23:20:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-20T23:20:02.5446087Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:27:17.1701660Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-153",
+                      "number":  153,
+                      "title":  "New explosion sound",
+                      "stage":  "In progress",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-20T23:28:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-151",
+                      "number":  151,
+                      "title":  "Save after fleet actions, not only after a jump",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-20T23:26:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-20T23:26:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
