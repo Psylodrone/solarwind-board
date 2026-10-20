@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-20T12:05:19.8193824Z",
+    "updated":  "2026-10-20T12:06:23.5147162Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T12:04:55.6390935Z",
+                                       "heartbeat":  "2026-10-20T12:06:20.3169339Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-20T12:01:36.0598783Z",
+                                    "heartbeat":  "2026-10-20T12:05:54.3839638Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-137",
+                      "number":  137,
+                      "title":  "Same stop twice: no automatic retry",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-20T12:04:59.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-30",
                       "number":  30,
