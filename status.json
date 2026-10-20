@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T17:46:40.7816636Z",
+    "updated":  "2026-10-20T17:47:50.3183802Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T17:46:36.7619458Z",
+                                       "heartbeat":  "2026-10-20T17:47:41.6486068Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-20T17:30:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-147",
+                      "number":  147,
+                      "title":  "Audio: no distance falloff, quieter hits",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T17:25:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
