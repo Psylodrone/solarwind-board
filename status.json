@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-20T18:31:03.6661915Z",
+    "updated":  "2026-10-20T18:32:09.2339283Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T18:31:00.5435340Z",
+                                       "heartbeat":  "2026-10-20T18:32:04.4463700Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-20T18:27:45.9348640Z",
+                                    "heartbeat":  "2026-10-20T18:32:02.6220370Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,12 +31,12 @@
                       "id":  "SW-137",
                       "number":  137,
                       "title":  "Same stop twice: no automatic retry",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-20T17:30:12.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-20T18:30:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
