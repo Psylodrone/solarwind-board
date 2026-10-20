@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-20T16:39:14.9620638Z",
+    "updated":  "2026-10-20T16:40:19.2522994Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T16:39:02.8121919Z",
+                                       "heartbeat":  "2026-10-20T16:40:15.2913711Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T16:37:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-145",
+                      "number":  145,
+                      "title":  "Remove duplicate SolarWind editor menu",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T16:19:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
