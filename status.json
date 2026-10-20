@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-20T11:23:25.3620331Z",
+    "updated":  "2026-10-20T11:23:42.5272310Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-20T11:22:43.7814271Z",
@@ -93,6 +93,21 @@
                                       "t":  "2026-10-20T11:23:25.1326398Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 63 min, tokens 60003k/168k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:34.1835406Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:41.5932656Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:41.6571992Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
                                   }
                               ]
                   },
