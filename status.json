@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-20T23:17:14.7943922Z",
+    "updated":  "2026-10-20T23:17:48.7615144Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-20T23:16:17.6798868Z",
@@ -17,7 +17,7 @@
                       "title":  "Heavy gunship fires: keep-away inside gun range",
                       "stage":  "In progress",
                       "machine":  "any",
-                      "risk":  "risk:small",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
                       "since":  "2026-10-20T18:02:48.0000000Z",
@@ -64,6 +64,11 @@
                                       "t":  "2026-10-20T23:17:13.9331005Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:17:48.7094216Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 86eaa387 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
