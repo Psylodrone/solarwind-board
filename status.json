@@ -1,36 +1,16 @@
 {
-    "updated":  "2026-10-21T16:58:09.2485730Z",
+    "updated":  "2026-10-21T16:59:10.2079818Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T16:57:50.1208441Z",
+                                       "heartbeat":  "2026-10-21T16:58:54.7684196Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-21T16:54:22.1782146Z",
+                                    "heartbeat":  "2026-10-21T16:58:46.7503076Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-141",
-                      "number":  141,
-                      "title":  "Named unvisited systems on the map",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-20T23:19:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T16:57:08.3168297Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-151",
                       "number":  151,
@@ -45,6 +25,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-141",
+                      "number":  141,
+                      "title":  "Named unvisited systems on the map",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T16:57:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T16:57:08.3168297Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
