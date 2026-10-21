@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T17:34:10.9230618Z",
+    "updated":  "2026-10-21T17:34:56.6559318Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T17:32:57.5132871Z",
+                                       "heartbeat":  "2026-10-21T17:34:29.3934885Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -110,6 +110,11 @@
                                       "t":  "2026-10-21T17:34:10.6610940Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:55.7905377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
