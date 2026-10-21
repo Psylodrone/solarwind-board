@@ -1,10 +1,9 @@
 {
-    "updated":  "2026-10-21T22:57:08.0006372Z",
+    "updated":  "2026-10-21T22:57:30.8144129Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T22:56:07.5280409Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (2)"
+                                       "heartbeat":  "2026-10-21T22:57:11.9283675Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-10-21T22:52:57.8924234Z",
@@ -100,6 +99,11 @@
                                       "t":  "2026-10-21T22:57:07.3751917Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 39 min, tokens 15304k/86k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T22:57:30.1556716Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
