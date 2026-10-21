@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T17:01:39.8302269Z",
+    "updated":  "2026-10-21T17:02:54.3663192Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T17:01:05.1356152Z",
+                                       "heartbeat":  "2026-10-21T17:02:40.0475748Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,6 +28,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-155",
+                      "number":  155,
+                      "title":  "Codex model and effort chosen per card, Codex reviews risky cards earlier",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-21T16:59:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-141",
                       "number":  141,
                       "title":  "Named unvisited systems on the map",
@@ -45,22 +61,6 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-157",
-                      "number":  157,
-                      "title":  "Derelicts and anomalies back in the baked galaxy",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-21T16:55:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
