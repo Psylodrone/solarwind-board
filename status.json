@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T00:00:41.5207207Z",
+    "updated":  "2026-10-21T00:01:41.9395361Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-20T23:59:27.2588090Z",
+                                       "heartbeat":  "2026-10-21T00:00:58.9957524Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-154",
+                      "number":  154,
+                      "title":  "Implement prompt gives the driver the Codex companion path",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-20T23:53:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-141",
                       "number":  141,
