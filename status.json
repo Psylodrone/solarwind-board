@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-21T13:23:27.9557621Z",
+    "updated":  "2026-10-21T13:24:08.5052229Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-21T13:23:07.4411214Z",
@@ -11,6 +11,31 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-154",
+                      "number":  154,
+                      "title":  "Implement prompt gives the driver the Codex companion path",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T13:22:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T00:07:12.7448327Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:22:43.3937544Z",
+                                      "actor":  "watcher",
+                                      "text":  "run hit its time limit, recovery clean, back to Ready"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-141",
                       "number":  141,
@@ -44,27 +69,47 @@
                               ]
                   },
                   {
-                      "id":  "SW-154",
-                      "number":  154,
-                      "title":  "Implement prompt gives the driver the Codex companion path",
-                      "stage":  "In progress",
+                      "id":  "SW-32",
+                      "number":  32,
+                      "title":  "Route UI",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T00:07:11.0000000Z",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-21T13:23:20.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-21T00:07:12.7448327Z",
+                                      "t":  "2026-10-20T23:33:40.4119450Z",
                                       "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-21T13:22:43.3937544Z",
+                                      "t":  "2026-10-21T00:00:36.5261233Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T00:05:59.0869494Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T00:06:22.8229831Z",
                                       "actor":  "watcher",
-                                      "text":  "run hit its time limit, recovery clean, back to Ready"
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:23:27.4014583Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:24:08.0357347Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
@@ -100,46 +145,6 @@
                                       "t":  "2026-10-20T23:32:45.9537305Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-32",
-                      "number":  32,
-                      "title":  "Route UI",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T00:06:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-20T23:33:40.4119450Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T00:00:36.5261233Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T00:05:59.0869494Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T00:06:22.8229831Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T13:23:27.4014583Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (tools-denied)"
                                   }
                               ]
                   },
