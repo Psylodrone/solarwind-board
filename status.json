@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T15:00:03.9062219Z",
+    "updated":  "2026-10-21T15:00:41.0035494Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T14:59:32.6599213Z",
+                                       "heartbeat":  "2026-10-21T15:00:35.8827686Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -69,15 +69,71 @@
                               ]
                   },
                   {
+                      "id":  "SW-44",
+                      "number":  44,
+                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T23:32:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-20T23:20:02.5446087Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:27:17.1701660Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:32:29.6826229Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:32:45.9537305Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:00:35.1266878Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-20T23:26:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-32",
                       "number":  32,
                       "title":  "Route UI",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-21T14:52:33.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T15:00:02.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -156,57 +212,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 67d39e69 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-44",
-                      "number":  44,
-                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-20T23:32:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-20T23:20:02.5446087Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:27:17.1701660Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:32:29.6826229Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:32:45.9537305Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-152",
-                      "number":  152,
-                      "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-20T23:26:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
