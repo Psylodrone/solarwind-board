@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T16:55:52.5888474Z",
+    "updated":  "2026-10-21T16:56:49.1864951Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T16:55:33.5421260Z",
+                                       "heartbeat":  "2026-10-21T16:56:42.2843778Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,15 +44,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-157",
+                      "number":  157,
+                      "title":  "Derelicts and anomalies back in the baked galaxy",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-21T16:55:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-154",
                       "number":  154,
                       "title":  "Implement prompt gives the driver the Codex companion path",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-21T16:53:43.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T16:55:51.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
