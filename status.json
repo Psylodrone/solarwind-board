@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-21T14:25:40.1310866Z",
+    "updated":  "2026-10-21T14:26:01.2311796Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-21T14:24:45.6802123Z",
@@ -72,12 +72,12 @@
                       "id":  "SW-32",
                       "number":  32,
                       "title":  "Route UI",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-21T13:23:20.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-21T14:25:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -115,6 +115,11 @@
                                       "t":  "2026-10-21T14:25:39.3297140Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 61 min, tokens 25246k/97k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:26:02.1932381Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
