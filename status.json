@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T16:24:16.6658010Z",
+    "updated":  "2026-10-21T16:25:17.6145286Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T16:24:04.1311835Z",
+                                       "heartbeat":  "2026-10-21T16:25:11.5667394Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,36 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-154",
-                      "number":  154,
-                      "title":  "Implement prompt gives the driver the Codex companion path",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T13:22:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T00:07:12.7448327Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T13:22:43.3937544Z",
-                                      "actor":  "watcher",
-                                      "text":  "run hit its time limit, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:23:15.5413223Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-141",
                       "number":  141,
@@ -71,6 +41,36 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-154",
+                      "number":  154,
+                      "title":  "Implement prompt gives the driver the Codex companion path",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T16:23:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T00:07:12.7448327Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:22:43.3937544Z",
+                                      "actor":  "watcher",
+                                      "text":  "run hit its time limit, recovery clean, back to Ready"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T16:23:15.5413223Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
