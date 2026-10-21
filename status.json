@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-21T17:34:56.6559318Z",
+    "updated":  "2026-10-21T17:35:56.8611352Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T17:34:29.3934885Z",
+                                       "heartbeat":  "2026-10-21T17:35:34.0378859Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-21T17:30:18.6642489Z",
+                                    "heartbeat":  "2026-10-21T17:34:39.8093394Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,15 +44,50 @@
                               ]
                   },
                   {
+                      "id":  "SW-141",
+                      "number":  141,
+                      "title":  "Named unvisited systems on the map",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T17:34:54.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T16:57:08.3168297Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:11:41.3952542Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:10.6610940Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:55.7905377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-151",
                       "number":  151,
                       "title":  "Save after fleet actions, not only after a jump",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-21T17:28:24.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T17:33:39.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -80,41 +115,6 @@
                                       "t":  "2026-10-21T17:33:40.2233044Z",
                                       "actor":  "watcher",
                                       "text":  "committed 9847a69b and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-141",
-                      "number":  141,
-                      "title":  "Named unvisited systems on the map",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T17:11:40.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T16:57:08.3168297Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:11:41.3952542Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:10.6610940Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:55.7905377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
