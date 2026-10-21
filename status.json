@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-21T13:20:51.6892228Z",
+    "updated":  "2026-10-21T13:22:07.1781332Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T13:20:51.2924785Z",
+                                       "heartbeat":  "2026-10-21T13:21:52.4958236Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-21T00:11:18.9851200Z",
+                                    "heartbeat":  "2026-10-21T13:18:37.1190614Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-20T23:19:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-151",
+                      "number":  151,
+                      "title":  "Save after fleet actions, not only after a jump",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-21T10:25:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -115,22 +131,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-151",
-                      "number":  151,
-                      "title":  "Save after fleet actions, not only after a jump",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-20T23:26:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
