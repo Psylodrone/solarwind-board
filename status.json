@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-21T14:27:16.1029155Z",
+    "updated":  "2026-10-21T14:29:37.3403318Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T14:26:08.5801651Z",
+                                       "heartbeat":  "2026-10-21T14:29:30.3577580Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-21T14:19:51.7461497Z",
+                                    "heartbeat":  "2026-10-21T14:28:30.5070649Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -120,6 +120,11 @@
                                       "t":  "2026-10-21T14:26:02.1932381Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:29:11.4801054Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
                                   }
                               ]
                   },
