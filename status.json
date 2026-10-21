@@ -1,36 +1,16 @@
 {
-    "updated":  "2026-10-21T17:12:30.6281363Z",
+    "updated":  "2026-10-21T17:13:31.3755175Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T17:12:17.8990264Z",
+                                       "heartbeat":  "2026-10-21T17:13:23.0790640Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-21T17:07:32.8270593Z",
+                                    "heartbeat":  "2026-10-21T17:12:20.1683610Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-151",
-                      "number":  151,
-                      "title":  "Save after fleet actions, not only after a jump",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-21T10:25:40.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T17:12:30.5989657Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-155",
                       "number":  155,
@@ -48,15 +28,35 @@
                               ]
                   },
                   {
+                      "id":  "SW-151",
+                      "number":  151,
+                      "title":  "Save after fleet actions, not only after a jump",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T17:12:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T17:12:30.5989657Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-141",
                       "number":  141,
                       "title":  "Named unvisited systems on the map",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-21T16:57:07.0000000Z",
+                      "since":  "2026-10-21T17:11:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
