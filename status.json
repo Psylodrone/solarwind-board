@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-21T22:13:14.3189247Z",
+    "updated":  "2026-10-21T22:14:15.1198839Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-21T22:13:02.1406831Z",
+                                       "heartbeat":  "2026-10-21T22:14:06.9340431Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,40 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-157",
-                      "number":  157,
-                      "title":  "Derelicts and anomalies back in the baked galaxy",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-21T18:16:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T18:04:49.4983785Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T22:13:10.8427145Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-141",
                       "number":  141,
                       "title":  "Named unvisited systems on the map",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T17:48:05.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-21T22:12:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -89,6 +64,31 @@
                                       "t":  "2026-10-21T17:48:24.3665503Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-157",
+                      "number":  157,
+                      "title":  "Derelicts and anomalies back in the baked galaxy",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-21T18:16:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T18:04:49.4983785Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T22:13:10.8427145Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
