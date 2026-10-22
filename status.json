@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T22:42:55.2367298Z",
+    "updated":  "2026-10-22T22:43:56.3883948Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T22:42:24.4693356Z",
+                                       "heartbeat":  "2026-10-22T22:43:29.5195446Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,55 +44,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-139",
-                      "number":  139,
-                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T15:29:47.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T14:28:28.3493382Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T14:29:28.2458370Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:22:41.8742700Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 53 min, tokens 889k/9k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:23:01.7249918Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:23:35.4842236Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-158",
                       "number":  158,
                       "title":  "Driver waits for Codex with status --wait and never reads Codex job logs",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-22T22:29:35.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-10-22T22:42:52.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -135,6 +95,46 @@
                                       "t":  "2026-10-22T22:42:54.8102699Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-139",
+                      "number":  139,
+                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T15:29:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T14:28:28.3493382Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T14:29:28.2458370Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:22:41.8742700Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 53 min, tokens 889k/9k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:23:01.7249918Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:23:35.4842236Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
                                   }
                               ]
                   },
