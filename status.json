@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T18:47:23.1152821Z",
+    "updated":  "2026-10-22T18:48:41.6356739Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T18:47:06.2750621Z",
+                                       "heartbeat":  "2026-10-22T18:48:35.8321744Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,56 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-155",
-                      "number":  155,
-                      "title":  "Codex model and effort chosen per card, Codex reviews risky cards earlier",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-10-22T18:45:34.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T16:12:52.7396195Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T17:54:28.2002118Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T18:36:46.8597490Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T18:45:33.8822424Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 3 min, tokens 1435k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T18:45:36.9693460Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T18:46:13.1419236Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T18:47:22.8033761Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
-                                  }
                               ]
                   },
                   {
@@ -114,6 +64,61 @@
                                       "t":  "2026-10-22T15:23:35.4842236Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-155",
+                      "number":  155,
+                      "title":  "Codex model and effort chosen per card, Codex reviews risky cards earlier",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T18:47:43.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T16:12:52.7396195Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T17:54:28.2002118Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:36:46.8597490Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:45:33.8822424Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 3 min, tokens 1435k/13k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:45:36.9693460Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:46:13.1419236Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:47:22.8033761Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T18:47:44.6659030Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed fcb025ce and pushed, card Done and issue closed"
                                   }
                               ]
                   },
