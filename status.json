@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T00:39:40.8198018Z",
+    "updated":  "2026-10-22T00:40:46.6021957Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T00:39:35.0907647Z",
+                                       "heartbeat":  "2026-10-22T00:40:41.3016316Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -65,6 +65,70 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-156",
+                      "number":  156,
+                      "title":  "System status data for the galaxy map",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T00:39:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-159",
+                      "number":  159,
+                      "title":  "Map status widget: the panel and the legend removal",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T00:39:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-160",
+                      "number":  160,
+                      "title":  "Drone pin on map nodes instead of DRONE text",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T00:39:54.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-139",
+                      "number":  139,
+                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T00:39:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
