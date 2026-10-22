@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T07:44:39.7200161Z",
+    "updated":  "2026-10-22T07:45:45.6840687Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T07:44:36.7386076Z",
+                                       "heartbeat":  "2026-10-22T07:45:40.5426669Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T07:40:08.9324995Z",
+                                    "heartbeat":  "2026-10-22T07:44:49.4783616Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -89,51 +89,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-141",
-                      "number":  141,
-                      "title":  "Named unvisited systems on the map",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T06:48:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T16:57:08.3168297Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:11:41.3952542Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:10.6610940Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:55.7905377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:48:24.3665503Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T06:48:32.9924392Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
-                                  }
                               ]
                   },
                   {
@@ -233,6 +188,51 @@
                                       "t":  "2026-10-22T07:42:35.0543600Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-141",
+                      "number":  141,
+                      "title":  "Named unvisited systems on the map",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T07:45:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T16:57:08.3168297Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:11:41.3952542Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:10.6610940Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:55.7905377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:48:24.3665503Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T06:48:32.9924392Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
                                   }
                               ]
                   },
