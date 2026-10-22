@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-22T22:46:48.2573941Z",
+    "updated":  "2026-10-22T22:46:52.2328729Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-22T22:46:43.1680876Z",
@@ -52,7 +52,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-22T15:29:47.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -81,6 +81,11 @@
                                       "t":  "2026-10-22T15:23:35.4842236Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T22:46:48.3358045Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
