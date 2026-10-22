@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T14:37:35.5936512Z",
+    "updated":  "2026-10-22T14:38:40.2022721Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T14:37:29.8027540Z",
+                                       "heartbeat":  "2026-10-22T14:38:36.2678357Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T14:34:08.6372534Z",
+                                    "heartbeat":  "2026-10-22T14:38:27.4112981Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -147,6 +147,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T00:39:54.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T14:37:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
