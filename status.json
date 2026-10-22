@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T21:44:19.1798246Z",
+    "updated":  "2026-10-22T21:45:19.8356588Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T21:43:48.1565868Z",
+                                       "heartbeat":  "2026-10-22T21:44:58.8752308Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,31 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-158",
-                      "number":  158,
-                      "title":  "Driver waits for Codex with status --wait and never reads Codex job logs",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T21:24:42.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T21:24:43.0852835Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T21:44:18.4307603Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
                               ]
                   },
                   {
@@ -89,6 +64,31 @@
                                       "t":  "2026-10-22T15:23:35.4842236Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-158",
+                      "number":  158,
+                      "title":  "Driver waits for Codex with status --wait and never reads Codex job logs",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T21:44:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T21:24:43.0852835Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T21:44:18.4307603Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
