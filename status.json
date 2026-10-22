@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T07:54:34.8284355Z",
+    "updated":  "2026-10-22T07:55:35.7954678Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T07:54:21.6212493Z",
+                                       "heartbeat":  "2026-10-22T07:55:27.0411257Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,26 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-156",
-                      "number":  156,
-                      "title":  "System status data for the galaxy map",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T00:39:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T07:53:34.1017623Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
                               ]
                   },
                   {
@@ -93,6 +73,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-156",
+                      "number":  156,
+                      "title":  "System status data for the galaxy map",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T07:53:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T07:53:34.1017623Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
