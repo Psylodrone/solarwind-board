@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T15:10:25.9942381Z",
+    "updated":  "2026-10-22T15:11:33.7545912Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T15:10:24.1328890Z",
+                                       "heartbeat":  "2026-10-22T15:11:26.9647760Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,966 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-44",
+                      "number":  44,
+                      "title":  "Rescue views: SOS marker, guards, rescue interaction",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T16:15:40.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-20T23:20:02.5446087Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:27:17.1701660Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:32:29.6826229Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 7 min, tokens 950k/6k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T23:32:45.9537305Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:00:35.1266878Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:01:22.7509551Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:29:05.1677229Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 28 min, tokens 7117k/37k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:29:11.4232752Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:36:06.5856658Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 5 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:36:08.8550017Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T16:09:00.9245231Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 33 min, tokens 13583k/82k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T16:09:04.6565385Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T16:15:25.0821386Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T16:15:41.3529401Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 3d4a2397 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-32",
+                      "number":  32,
+                      "title":  "Route UI",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-21T15:00:02.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-20T23:33:40.4119450Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T00:00:36.5261233Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T00:05:59.0869494Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 27 min, tokens 2181k/15k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T00:06:22.8229831Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:23:27.4014583Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T13:24:08.0357347Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:25:39.3297140Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 61 min, tokens 25246k/97k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:26:02.1932381Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:29:11.4801054Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:43:15.2637388Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:43:17.2699514Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:52:33.2108446Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 9 min, tokens 6377k/38k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:52:35.8713746Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T14:59:40.0357145Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T15:00:03.4360359Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 67d39e69 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-30",
+                      "number":  30,
+                      "title":  "Combat target views and combat UI",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-20T12:17:05.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-19T22:54:17.4681397Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T22:58:46.4145922Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T23:11:18.6642959Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 13 min, tokens 2577k/13k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T23:12:16.5952377Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T23:40:40.1932623Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tree-foreign)"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T23:46:26.4528019Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:39:04.7985631Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 53 min, tokens 39925k/138k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:39:29.1551770Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:40:34.6068474Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:41:10.4664318Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:42:59.2418276Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 2024k/12k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T00:43:24.1605269Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T10:20:15.2836119Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:25.1326398Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 63 min, tokens 60003k/168k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:34.1835406Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:41.5932656Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:23:41.6571992Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:33:37.3752070Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:33:40.7235143Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:53:13.8246535Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 20 min, tokens 16746k/84k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T11:53:17.7214818Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:00:49.3695979Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:00:53.0826804Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:10:10.6898831Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 9 min, tokens 5954k/44k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:10:13.3701020Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:16:39.9061639Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-20T12:17:06.0142203Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4c5060a6 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-38",
+                      "number":  38,
+                      "title":  "Combat Hit, CombatLogic, projectile metadata",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T18:39:33.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-19T17:57:58.1115749Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:32:12.8598308Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 16 min, tokens 16205k/60k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:32:18.4151993Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:32:22.5006717Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:32:22.5205086Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:39:13.9930493Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T18:39:31.3138184Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed fb748b3a and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-37",
+                      "number":  37,
+                      "title":  "Enemy ships on HullDefinition + loadout",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-19T17:57:14.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-19T17:19:31.2078997Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:50:34.7010988Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 13 min, tokens 9962k/48k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:50:37.7301761Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:50:41.7307785Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:50:41.7541105Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:56:53.4692811Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-19T17:57:12.0220692Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 7c6cddb1 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-28",
+                      "number":  28,
+                      "title":  "Survey missions (resources, and reveals systems on the map)",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T16:41:30.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-17T15:09:32.4765675Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T15:52:18.5377280Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 43 min, tokens 15202k/58k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T15:52:23.9793375Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T15:52:28.3891868Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T15:52:28.4102819Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:07:58.7421477Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:08:00.7358831Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:19:37.6791505Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 12 min, tokens 8933k/56k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:19:56.9372988Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:20:55.7522391Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:04.9133086Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 3405k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:07.7287048Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:11.2986706Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:26:11.3209202Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:29:08.7466195Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:29:10.6922610Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:37:17.7502116Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 8 min, tokens 3792k/31k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:37:20.2831986Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:37:24.2109540Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:37:24.2436480Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:41:10.8149589Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T16:41:30.8160054Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed a8689725 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-31",
+                      "number":  31,
+                      "title":  "Trade routes (requests, establishing mission, steady income, no recall)",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-17T13:59:41.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-13T17:22:37.9149001Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:05:09.0245092Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 42 min, tokens 8971k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:05:16.1066722Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:06:06.0344765Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:06:06.0872756Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:15:07.1517882Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T18:15:09.2709212Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:37:28.1570504Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:52:09.4052344Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 15 min, tokens 4623k/41k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:52:12.4202062Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "review started with Claude claude-opus-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:53:10.7343769Z",
+                                      "actor":  "Claude claude-opus-5-5",
+                                      "text":  "Claude claude-opus-5-5 has found 4 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:53:12.6546539Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:54:54.8273665Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1089k/18k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T21:55:19.0179197Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-13T22:39:43.7208199Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:44:08.4301636Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T22:44:44.4078585Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:08:39.9944233Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:49:56.0604208Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 41 min, tokens 7727k/38k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:49:58.9581936Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:50:03.9680541Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:50:04.0004514Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:57:23.8995183Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T07:57:26.0846008Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T08:23:51.6323549Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 26 min, tokens 15749k/93k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T08:24:08.9640584Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T08:46:09.2500002Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T08:48:10.0375612Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1479k/12k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T08:48:31.1232966Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T10:54:40.1860255Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:18:04.4834159Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 23 min, tokens 12269k/71k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:18:26.4217111Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:25:46.6785656Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:33:39.0283101Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 8 min, tokens 4167k/54k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T11:34:01.9655306Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:15:14.9793956Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:20:15.2821782Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 5 min, tokens 2250k/23k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:20:36.3880895Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:27:05.1867452Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:53:08.1884802Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 26 min, tokens 20921k/107k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:53:10.5839494Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:53:16.3556691Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:53:16.3740440Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:59:22.2193576Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-17T13:59:41.9171913Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 5e2b2d72 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-6",
+                      "number":  6,
+                      "title":  "Ship schematic UI: inventory and station Ship tab",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T17:42:41.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-15T23:05:01.3968161Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T23:05:15.6121640Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-15T23:22:37.9706001Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T04:58:08.4338343Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 17 min, tokens 626k/7k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T04:58:16.2333966Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T04:59:43.5381181Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T05:00:17.8799110Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T05:26:03.7934061Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T06:25:52.4264644Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T06:26:25.1125381Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T06:52:58.1827548Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T08:50:57.2481432Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T08:51:30.5122337Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T09:24:42.1531970Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T11:03:33.5086821Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T11:04:11.7587102Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:04:43.2830356Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:05:48.1140973Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (time-limit-leftovers)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:06:21.9424650Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:23:44.8048406Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T13:29:07.2257206Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: the card stopped three times"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:20:49.9982931Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:37:18.0820329Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 6 min, tokens 5662k/17k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:37:21.1512135Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:37:23.9035475Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:37:23.9301871Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:42:19.3176185Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-16T17:42:42.4093104Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed e05d2ef9 and pushed, card Done and issue closed"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-97",
+                      "number":  97,
+                      "title":  "Watchers route cards by time of day, size and priority",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-16T12:22:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
 
+                              ]
+                  }
               ]
 }
