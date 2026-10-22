@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T23:52:22.7096606Z",
+    "updated":  "2026-10-22T23:53:27.8249887Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T23:52:18.6474900Z",
+                                       "heartbeat":  "2026-10-22T23:53:22.7847995Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-161",
+                      "number":  161,
+                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T23:51:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
