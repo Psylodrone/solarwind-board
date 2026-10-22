@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T09:03:03.1034530Z",
+    "updated":  "2026-10-22T09:03:49.4469861Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T09:02:14.7666209Z",
+                                       "heartbeat":  "2026-10-22T09:03:21.5735628Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T08:58:29.1001133Z",
+                                    "heartbeat":  "2026-10-22T09:02:56.5344112Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-21T16:59:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-159",
-                      "number":  159,
-                      "title":  "Map status widget: the panel and the legend removal",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T00:39:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -76,15 +60,35 @@
                               ]
                   },
                   {
-                      "id":  "SW-156",
-                      "number":  156,
-                      "title":  "System status data for the galaxy map",
-                      "stage":  "Review",
+                      "id":  "SW-159",
+                      "number":  159,
+                      "title":  "Map status widget: the panel and the legend removal",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-22T09:00:22.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T09:03:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T09:03:50.2280774Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-156",
+                      "number":  156,
+                      "title":  "System status data for the galaxy map",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T09:03:01.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
