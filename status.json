@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T15:22:42.5667579Z",
+    "updated":  "2026-10-22T15:23:02.1908170Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T15:21:35.2774788Z",
+                                       "heartbeat":  "2026-10-22T15:22:50.3560267Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T15:18:12.5642597Z",
+                                    "heartbeat":  "2026-10-22T15:22:35.5233207Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -63,12 +63,12 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-22T14:28:27.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T15:22:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -86,6 +86,11 @@
                                       "t":  "2026-10-22T15:22:41.8742700Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 53 min, tokens 889k/9k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:23:01.7249918Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
