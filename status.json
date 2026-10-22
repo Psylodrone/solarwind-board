@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T14:28:28.4222629Z",
+    "updated":  "2026-10-22T14:29:28.2584809Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T14:27:46.9137232Z",
+                                       "heartbeat":  "2026-10-22T14:28:50.6484501Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,12 +47,12 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T00:39:55.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-22T14:28:27.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -60,6 +60,11 @@
                                       "t":  "2026-10-22T14:28:28.3493382Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T14:29:28.2458370Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
