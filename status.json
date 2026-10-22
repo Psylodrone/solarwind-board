@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T15:24:36.6363949Z",
+    "updated":  "2026-10-22T15:25:12.1935312Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T15:23:53.1160523Z",
+                                       "heartbeat":  "2026-10-22T15:24:56.7900685Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -40,7 +40,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-22T15:25:12.0397903Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
