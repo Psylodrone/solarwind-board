@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T15:54:45.0119318Z",
+    "updated":  "2026-10-22T15:55:27.6430240Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T15:54:12.3845701Z",
+                                       "heartbeat":  "2026-10-22T15:55:16.2728426Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T15:49:25.3862477Z",
+                                    "heartbeat":  "2026-10-22T15:54:20.8561848Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -41,36 +41,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-160",
-                      "number":  160,
-                      "title":  "Drone pin on map nodes instead of DRONE text",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-22T15:49:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T15:25:12.0397903Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:49:34.2460109Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 11 min, tokens 11417k/30k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:49:37.0826566Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  }
                               ]
                   },
                   {
@@ -110,6 +80,46 @@
                                       "t":  "2026-10-22T15:23:35.4842236Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-160",
+                      "number":  160,
+                      "title":  "Drone pin on map nodes instead of DRONE text",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-22T15:55:13.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T15:25:12.0397903Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:49:34.2460109Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 11 min, tokens 11417k/30k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:49:37.0826566Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:55:14.3108856Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T15:55:23.5437731Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
