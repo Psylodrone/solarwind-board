@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T08:20:50.6513032Z",
+    "updated":  "2026-10-22T08:21:50.9768738Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T08:20:20.1915674Z",
+                                       "heartbeat":  "2026-10-22T08:21:33.8828403Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -76,46 +76,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-156",
-                      "number":  156,
-                      "title":  "System status data for the galaxy map",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-22T07:53:33.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T07:53:34.1017623Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T08:19:41.7580292Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 11 min, tokens 10117k/45k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T08:19:45.2432028Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T08:20:48.2386293Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T08:20:50.4732795Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-141",
                       "number":  141,
                       "title":  "Named unvisited systems on the map",
@@ -157,6 +117,46 @@
                                       "t":  "2026-10-22T06:48:32.9924392Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-156",
+                      "number":  156,
+                      "title":  "System status data for the galaxy map",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-22T08:20:47.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T07:53:34.1017623Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T08:19:41.7580292Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 11 min, tokens 10117k/45k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T08:19:45.2432028Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T08:20:48.2386293Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T08:20:50.4732795Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
