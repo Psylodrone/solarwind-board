@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T06:48:33.6621034Z",
+    "updated":  "2026-10-22T06:49:12.9059798Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T06:48:01.4922346Z",
+                                       "heartbeat":  "2026-10-22T06:49:06.1107758Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,51 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-141",
-                      "number":  141,
-                      "title":  "Named unvisited systems on the map",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-21T22:12:54.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T16:57:08.3168297Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:11:41.3952542Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:10.6610940Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:55.7905377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:48:24.3665503Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T06:48:32.9924392Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
-                                  }
                               ]
                   },
                   {
@@ -109,7 +64,7 @@
                       "number":  160,
                       "title":  "Drone pin on map nodes instead of DRONE text",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -125,7 +80,7 @@
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -144,7 +99,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-22T00:00:52.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -178,6 +133,56 @@
                                       "t":  "2026-10-22T00:00:55.4111159Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T06:49:11.8532245Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-141",
+                      "number":  141,
+                      "title":  "Named unvisited systems on the map",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T06:48:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-21T16:57:08.3168297Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:11:41.3952542Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:10.6610940Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:34:55.7905377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-21T17:48:24.3665503Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T06:48:32.9924392Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
                                   }
                               ]
                   },
