@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-22T14:58:40.6805398Z",
+    "updated":  "2026-10-22T14:59:44.7821472Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T14:58:33.6061843Z",
+                                       "heartbeat":  "2026-10-22T14:59:40.8662869Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,88 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-159",
-                      "number":  159,
-                      "title":  "Map status widget: the panel and the legend removal",
+                      "id":  "SW-155",
+                      "number":  155,
+                      "title":  "Codex model and effort chosen per card, Codex reviews risky cards earlier",
                       "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "priority":  "High",
+                      "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-22T14:32:06.0000000Z",
+                      "since":  "2026-10-21T16:59:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-160",
+                      "number":  160,
+                      "title":  "Drone pin on map nodes instead of DRONE text",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T00:39:54.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T14:37:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-139",
+                      "number":  139,
+                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-22T14:28:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T14:28:28.3493382Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-22T14:29:28.2458370Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-159",
+                      "number":  159,
+                      "title":  "Map status widget: the panel and the legend removal",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T14:58:30.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -118,79 +191,6 @@
                                       "t":  "2026-10-22T13:43:26.1396737Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-155",
-                      "number":  155,
-                      "title":  "Codex model and effort chosen per card, Codex reviews risky cards earlier",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-21T16:59:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-160",
-                      "number":  160,
-                      "title":  "Drone pin on map nodes instead of DRONE text",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T00:39:54.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-152",
-                      "number":  152,
-                      "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T14:37:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-139",
-                      "number":  139,
-                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-22T14:28:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T14:28:28.3493382Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T14:29:28.2458370Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
