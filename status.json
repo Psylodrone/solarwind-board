@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T15:26:12.7652616Z",
+    "updated":  "2026-10-22T15:27:13.8720074Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T15:26:02.2099773Z",
+                                       "heartbeat":  "2026-10-22T15:27:08.6086369Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T15:22:35.5233207Z",
+                                    "heartbeat":  "2026-10-22T15:26:52.3263085Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -28,26 +28,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-160",
-                      "number":  160,
-                      "title":  "Drone pin on map nodes instead of DRONE text",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T00:39:54.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T15:25:12.0397903Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
@@ -61,6 +41,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-160",
+                      "number":  160,
+                      "title":  "Drone pin on map nodes instead of DRONE text",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-22T15:25:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T15:25:12.0397903Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
