@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T21:19:34.3155648Z",
+    "updated":  "2026-10-22T21:20:37.8495984Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T21:19:26.7157250Z",
+                                       "heartbeat":  "2026-10-22T21:20:34.8582338Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T21:15:53.4963510Z",
+                                    "heartbeat":  "2026-10-22T21:20:30.2532858Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-158",
+                      "number":  158,
+                      "title":  "Driver waits for Codex with status --wait and never reads Codex job logs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T21:18:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
