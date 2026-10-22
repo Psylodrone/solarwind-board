@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-22T22:34:43.3620604Z",
+    "updated":  "2026-10-22T22:35:50.6681146Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-22T22:34:33.7273129Z",
+                                       "heartbeat":  "2026-10-22T22:35:37.4275293Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-22T22:30:43.2026033Z",
+                                    "heartbeat":  "2026-10-22T22:35:26.7311831Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-170",
+                      "number":  170,
+                      "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-22T22:34:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
