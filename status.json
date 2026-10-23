@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-23T01:12:53.4254667Z",
+    "updated":  "2026-10-23T01:14:02.0699602Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T01:11:55.0670121Z",
+                                       "heartbeat":  "2026-10-23T01:13:17.4453591Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T01:08:22.8702204Z",
+                                    "heartbeat":  "2026-10-23T01:12:46.5941962Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -57,61 +57,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-170",
-                      "number":  170,
-                      "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-23T01:05:19.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T23:38:32.0770956Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:05:18.9591192Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 19 min, tokens 18643k/89k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:05:21.4712420Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:06:26.9406374Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:06:48.4589920Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:06:48.5155037Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:12:48.8400472Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T01:12:50.5679895Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  }
                               ]
                   },
                   {
@@ -181,6 +126,61 @@
                                       "t":  "2026-10-22T23:37:44.5207226Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-170",
+                      "number":  170,
+                      "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-23T01:12:48.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-22T23:38:32.0770956Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:05:18.9591192Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 19 min, tokens 18643k/89k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:05:21.4712420Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:26.9406374Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:48.4589920Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:48.5155037Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:12:48.8400472Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:12:50.5679895Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
