@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T07:49:45.6067404Z",
+    "updated":  "2026-10-23T07:50:33.7317437Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T07:49:10.4285893Z",
+                                       "heartbeat":  "2026-10-23T07:50:14.3799071Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -75,6 +75,11 @@
                                       "t":  "2026-10-23T07:49:45.3617920Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:50:32.9491521Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
