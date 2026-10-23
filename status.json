@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T10:02:03.3362251Z",
+    "updated":  "2026-10-23T10:03:07.1913089Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T10:01:59.6329543Z",
+                                       "heartbeat":  "2026-10-23T10:03:03.5695313Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T09:59:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -291,6 +275,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T10:01:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
