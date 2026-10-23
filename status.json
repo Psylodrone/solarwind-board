@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T16:11:21.8685014Z",
+    "updated":  "2026-10-23T16:12:25.6923855Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T16:11:13.8229456Z",
+                                       "heartbeat":  "2026-10-23T16:12:22.1075842Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -116,6 +116,22 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-175",
+                      "number":  175,
+                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
+                      "stage":  "In progress",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T16:10:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
