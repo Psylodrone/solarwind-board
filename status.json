@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T08:57:27.4616946Z",
+    "updated":  "2026-10-23T08:58:31.3580662Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T08:57:24.1003622Z",
+                                       "heartbeat":  "2026-10-23T08:58:28.1718701Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,6 +37,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-23T06:54:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-168",
+                      "number":  168,
+                      "title":  "Feature wiki pages are part of Done",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T08:57:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -116,22 +132,6 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T08:20:22.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
