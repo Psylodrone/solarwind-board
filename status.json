@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T19:01:21.1975194Z",
+    "updated":  "2026-10-23T19:02:25.4032726Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T19:01:15.7985391Z",
+                                       "heartbeat":  "2026-10-23T19:02:21.9629092Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -125,22 +125,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-175",
-                      "number":  175,
-                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
-                      "stage":  "Review",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T18:58:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -361,6 +345,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-175",
+                      "number":  175,
+                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
+                      "stage":  "Changes requested",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T19:01:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
