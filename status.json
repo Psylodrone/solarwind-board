@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T22:56:48.6396739Z",
+    "updated":  "2026-10-23T22:57:37.9031016Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T22:56:26.8924132Z",
+                                       "heartbeat":  "2026-10-23T22:57:34.0917087Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -24,7 +24,11 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-23T22:57:37.6182220Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
@@ -324,12 +328,12 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-23T22:49:50.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T22:56:34.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
