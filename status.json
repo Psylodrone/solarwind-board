@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T06:53:55.9228076Z",
+    "updated":  "2026-10-23T06:54:59.4938924Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T06:53:51.5324424Z",
+                                       "heartbeat":  "2026-10-23T06:54:56.3076514Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,15 +44,31 @@
                               ]
                   },
                   {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-23T00:06:31.0000000Z",
+                      "since":  "2026-10-23T06:54:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-168",
+                      "number":  168,
+                      "title":  "Feature wiki pages are part of Done",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T06:53:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -135,31 +151,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T01:21:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-23T04:35:45.0000000Z",
+                      "since":  "2026-10-23T06:54:19.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
