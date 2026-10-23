@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T22:53:17.0451949Z",
+    "updated":  "2026-10-23T22:54:23.0598805Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T22:53:14.2609777Z",
+                                       "heartbeat":  "2026-10-23T22:54:17.9968762Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,6 +37,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-177",
+                      "number":  177,
+                      "title":  "The restart limit counts only stops the card caused",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T22:52:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-178",
+                      "number":  178,
+                      "title":  "A card moved to another machine starts with fresh counters",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T22:52:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
