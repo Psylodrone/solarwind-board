@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T07:58:20.6984503Z",
+    "updated":  "2026-10-23T07:59:21.0100243Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T07:57:39.4244000Z",
+                                       "heartbeat":  "2026-10-23T07:58:43.1408940Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -119,31 +119,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T07:36:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-163",
                       "number":  163,
                       "title":  "A paused card no longer blocks other Ready cards on its machine",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T07:50:22.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-23T07:56:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -187,6 +171,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-168",
+                      "number":  168,
+                      "title":  "Feature wiki pages are part of Done",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T07:36:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
