@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T00:14:10.6953931Z",
+    "updated":  "2026-10-23T00:15:16.0533011Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T00:14:06.2238534Z",
+                                       "heartbeat":  "2026-10-23T00:15:11.1490958Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-162",
+                      "number":  162,
+                      "title":  "An agy turn that fails on the network waits and resends",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T00:13:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
