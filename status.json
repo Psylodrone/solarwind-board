@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-23T06:47:24.9905997Z",
+    "updated":  "2026-10-23T06:48:29.8981127Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T06:47:20.1973185Z",
+                                       "heartbeat":  "2026-10-23T06:48:25.6376065Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T06:45:04.2572105Z",
+                                    "heartbeat":  "2026-10-23T06:48:22.1799725Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-163",
+                      "number":  163,
+                      "title":  "A paused card no longer blocks other Ready cards on its machine",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T06:47:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
