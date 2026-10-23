@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-23T00:07:34.9137841Z",
+    "updated":  "2026-10-23T00:08:49.5414358Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T00:07:26.0922894Z",
+                                       "heartbeat":  "2026-10-23T00:08:38.1164647Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T00:02:53.9551170Z",
+                                    "heartbeat":  "2026-10-23T00:07:47.7834738Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-23T00:06:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -77,6 +61,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T00:06:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
