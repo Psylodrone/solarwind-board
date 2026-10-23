@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T16:33:25.3422053Z",
+    "updated":  "2026-10-23T16:34:30.3258475Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T16:33:17.8699608Z",
+                                       "heartbeat":  "2026-10-23T16:34:26.1799591Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -116,22 +116,6 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-175",
-                      "number":  175,
-                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
-                      "stage":  "In progress",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T16:10:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -352,6 +336,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-175",
+                      "number":  175,
+                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T16:32:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
