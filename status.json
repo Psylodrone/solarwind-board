@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-23T08:20:19.3097261Z",
+    "updated":  "2026-10-23T08:21:23.1357399Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T08:20:15.6279761Z",
+                                       "heartbeat":  "2026-10-23T08:21:19.5939418Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T08:16:26.7935603Z",
+                                    "heartbeat":  "2026-10-23T08:21:03.0466551Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -53,22 +53,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-23T08:07:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T08:17:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -228,6 +212,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-168",
+                      "number":  168,
+                      "title":  "Feature wiki pages are part of Done",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T08:20:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
