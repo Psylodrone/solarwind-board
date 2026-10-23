@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T15:10:47.6834708Z",
+    "updated":  "2026-10-23T15:11:53.2356578Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T15:10:44.7645747Z",
+                                       "heartbeat":  "2026-10-23T15:11:48.0726797Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,47 @@
                               ]
                   },
                   {
-                      "id":  "SW-139",
-                      "number":  139,
-                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
+                      "id":  "SW-173",
+                      "number":  173,
+                      "title":  "A card whose spec file is missing stops that card, not the poll",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T08:05:12.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T15:09:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-169",
+                      "number":  169,
+                      "title":  "UI cards: layout checked in the implement run, layout findings fixed in one roun",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T15:09:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-139",
+                      "number":  139,
+                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T15:09:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
