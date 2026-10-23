@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T02:47:54.5778733Z",
+    "updated":  "2026-10-23T02:48:55.2034258Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T02:47:06.6293415Z",
+                                       "heartbeat":  "2026-10-23T02:48:11.1100640Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -41,46 +41,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-162",
-                      "number":  162,
-                      "title":  "An agy turn that fails on the network waits and resends",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-10-23T02:43:24.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T01:33:52.6440109Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:43:23.6923683Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 22 min, tokens 15839k/130k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:43:26.4082801Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:47:10.5093570Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:47:24.7084394Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 1cf5aff0 and pushed, card Done and issue closed"
-                                  }
                               ]
                   },
                   {
@@ -159,31 +119,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T01:21:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-170",
                       "number":  170,
                       "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-23T01:32:26.0000000Z",
+                      "since":  "2026-10-23T02:47:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -236,6 +180,62 @@
                                       "t":  "2026-10-23T02:47:54.2344161Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-error)"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T01:21:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-162",
+                      "number":  162,
+                      "title":  "An agy turn that fails on the network waits and resends",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T02:47:24.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-23T01:33:52.6440109Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T02:43:23.6923683Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 22 min, tokens 15839k/130k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T02:43:26.4082801Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T02:47:10.5093570Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T02:47:24.7084394Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 1cf5aff0 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
