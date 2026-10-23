@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-23T19:04:24.3454193Z",
+    "updated":  "2026-10-23T19:04:54.4056159Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T19:03:25.6262273Z",
+                                       "heartbeat":  "2026-10-23T19:04:31.5033938Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T18:59:44.4220248Z",
+                                    "heartbeat":  "2026-10-23T19:04:26.4938847Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -112,7 +112,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-23T19:03:19.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -134,6 +134,16 @@
                                       "t":  "2026-10-23T19:03:21.7759589Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T19:04:37.7692146Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T19:04:53.4747302Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 22a7b5ff and pushed, card Done and issue closed"
                                   }
                               ]
                   },
