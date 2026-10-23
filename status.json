@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T22:58:42.7378562Z",
+    "updated":  "2026-10-23T22:59:45.7769547Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T22:58:37.4805259Z",
+                                       "heartbeat":  "2026-10-23T22:59:42.8511446Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-176",
-                      "number":  176,
-                      "title":  "A blocked run\u0027s question is answered and the run continues",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-23T22:40:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:57:37.6182220Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
@@ -77,6 +57,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-176",
+                      "number":  176,
+                      "title":  "A blocked run\u0027s question is answered and the run continues",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T22:57:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-23T22:57:37.6182220Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
