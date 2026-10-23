@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T03:14:28.7997950Z",
+    "updated":  "2026-10-23T03:15:41.0263814Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T03:14:23.8342897Z",
+                                       "heartbeat":  "2026-10-23T03:15:29.4037661Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -109,31 +109,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T01:21:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-23T03:11:51.0000000Z",
+                      "since":  "2026-10-23T03:13:35.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -197,6 +181,22 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T01:21:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
