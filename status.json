@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T07:50:33.7317437Z",
+    "updated":  "2026-10-23T07:51:33.8520764Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T07:50:14.3799071Z",
+                                       "heartbeat":  "2026-10-23T07:51:19.5787859Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -41,46 +41,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-163",
-                      "number":  163,
-                      "title":  "A paused card no longer blocks other Ready cards on its machine",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-23T07:08:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T07:08:23.7940564Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T07:08:29.4271443Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T07:49:40.0402306Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 41 min, tokens 2162k/16k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T07:49:45.3617920Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T07:50:32.9491521Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
                               ]
                   },
                   {
@@ -292,6 +252,46 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-163",
+                      "number":  163,
+                      "title":  "A paused card no longer blocks other Ready cards on its machine",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T07:50:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-23T07:08:23.7940564Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:08:29.4271443Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:49:40.0402306Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 41 min, tokens 2162k/16k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:49:45.3617920Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:50:32.9491521Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
