@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T01:33:53.1692052Z",
+    "updated":  "2026-10-23T01:34:53.4710979Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T01:32:55.7896364Z",
+                                       "heartbeat":  "2026-10-23T01:34:00.5934322Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-162",
-                      "number":  162,
-                      "title":  "An agy turn that fails on the network waits and resends",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-23T00:13:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T01:33:52.6440109Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
@@ -61,6 +41,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-162",
+                      "number":  162,
+                      "title":  "An agy turn that fails on the network waits and resends",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T01:33:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-23T01:33:52.6440109Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
@@ -139,15 +139,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T01:21:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-170",
                       "number":  170,
                       "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-23T01:12:48.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T01:32:26.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -196,22 +212,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T01:21:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
