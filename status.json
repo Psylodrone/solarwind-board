@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T22:47:30.7668408Z",
+    "updated":  "2026-10-23T22:47:54.9876176Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T22:46:41.6583582Z",
+                                       "heartbeat":  "2026-10-23T22:47:48.0403529Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -450,6 +450,11 @@
                                       "t":  "2026-10-23T22:47:30.4159886Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 1 min, tokens 902k/16k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T22:47:46.4705900Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -2766,22 +2771,6 @@
                       "priority":  "High",
                       "actor":  "watcher",
                       "since":  "2026-10-16T22:51:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-133",
-                      "number":  133,
-                      "title":  "Editor pause file for unavailable days",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-16T22:47:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
