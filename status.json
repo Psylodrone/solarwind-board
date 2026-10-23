@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T00:16:20.6197314Z",
+    "updated":  "2026-10-23T00:17:24.3195305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T00:16:16.0586153Z",
+                                       "heartbeat":  "2026-10-23T00:17:21.3978735Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -80,22 +80,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T00:06:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
@@ -163,6 +147,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T00:16:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
