@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-23T22:34:58.0877116Z",
+    "updated":  "2026-10-23T22:35:47.5696903Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-23T22:34:52.8314397Z",
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-176",
-                      "number":  176,
-                      "title":  "A blocked run\u0027s question is answered and the run continues",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-23T22:21:08.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
@@ -53,7 +37,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-23T22:32:37.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -160,6 +144,11 @@
                                       "t":  "2026-10-23T22:32:55.2956967Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T22:35:46.7514906Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 6 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
