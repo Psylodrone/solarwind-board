@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T18:58:06.8704114Z",
+    "updated":  "2026-10-23T18:59:11.4584590Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T18:58:03.8848204Z",
+                                       "heartbeat":  "2026-10-23T18:59:07.6881845Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -103,22 +103,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-175",
-                      "number":  175,
-                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
-                      "stage":  "In progress",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T17:07:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-173",
                       "number":  173,
                       "title":  "A card whose spec file is missing stops that card, not the poll",
@@ -141,6 +125,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-175",
+                      "number":  175,
+                      "title":  "Watcher answers safe Unity dialogs after pulls and while idle",
+                      "stage":  "Review",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T18:58:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
