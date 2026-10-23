@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T22:45:09.8727988Z",
+    "updated":  "2026-10-23T22:46:02.6309117Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T22:44:32.4337299Z",
+                                       "heartbeat":  "2026-10-23T22:45:36.3891896Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,13 +47,13 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-23T22:35:46.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-23T22:43:47.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -185,6 +185,11 @@
                                       "t":  "2026-10-23T22:44:03.2332257Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T22:46:02.5252804Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 7 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
@@ -192,12 +197,12 @@
                       "id":  "SW-170",
                       "number":  170,
                       "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-23T22:42:59.0000000Z",
+                      "since":  "2026-10-23T22:44:18.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
