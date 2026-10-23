@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-23T07:51:56.8769724Z",
+    "updated":  "2026-10-23T07:52:37.9101815Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T07:51:19.5787859Z",
+                                       "heartbeat":  "2026-10-23T07:52:23.1971066Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-23T07:47:43.5484415Z",
+                                    "heartbeat":  "2026-10-23T07:52:27.1232923Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -240,6 +240,11 @@
                                       "t":  "2026-10-23T07:51:56.6395927Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T07:52:36.9073206Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
