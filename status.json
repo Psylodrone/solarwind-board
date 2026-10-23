@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T09:59:55.6492190Z",
+    "updated":  "2026-10-23T10:00:59.0339161Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T09:59:50.8130944Z",
+                                       "heartbeat":  "2026-10-23T10:00:56.1986397Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-22T14:37:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-164",
+                      "number":  164,
+                      "title":  "Alert monitor scripts live in the repo",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-23T09:59:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -100,22 +116,6 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-164",
-                      "number":  164,
-                      "title":  "Alert monitor scripts live in the repo",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T09:42:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
