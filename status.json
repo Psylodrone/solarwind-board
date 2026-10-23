@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-23T01:06:22.6842410Z",
+    "updated":  "2026-10-23T01:06:48.7526663Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-23T01:05:57.2994654Z",
@@ -86,6 +86,21 @@
                                       "t":  "2026-10-23T01:05:21.4712420Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:26.9406374Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:48.4589920Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:06:48.5155037Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
                                   }
                               ]
                   },
