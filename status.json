@@ -1,10 +1,9 @@
 {
-    "updated":  "2026-10-23T01:32:37.7526106Z",
+    "updated":  "2026-10-23T01:33:06.8317632Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T01:31:49.1883119Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (2)"
+                                       "heartbeat":  "2026-10-23T01:32:55.7896364Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-10-23T01:30:05.4623484Z",
@@ -127,6 +126,11 @@
                                       "t":  "2026-10-22T23:37:44.5207226Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T01:33:06.2303446Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
                                   }
                               ]
                   },
