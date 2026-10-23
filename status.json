@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T07:36:22.2820450Z",
+    "updated":  "2026-10-23T07:37:25.9109251Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T07:36:19.2495139Z",
+                                       "heartbeat":  "2026-10-23T07:37:22.5658098Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,22 +37,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-23T06:54:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-23T06:53:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -277,6 +261,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-168",
+                      "number":  168,
+                      "title":  "Feature wiki pages are part of Done",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-23T07:36:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
