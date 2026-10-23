@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-23T21:40:44.4335405Z",
+    "updated":  "2026-10-23T21:41:22.8793171Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-23T21:40:06.3810879Z",
+                                       "heartbeat":  "2026-10-23T21:41:10.2732856Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-170",
                       "number":  170,
                       "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T19:15:25.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T21:40:41.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -276,12 +276,12 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T20:39:48.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-23T21:40:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -349,6 +349,11 @@
                                       "t":  "2026-10-23T19:05:23.8995390Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  },
+                                  {
+                                      "t":  "2026-10-23T21:41:21.8834877Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
