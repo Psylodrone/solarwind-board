@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T16:13:38.4368415Z",
+    "updated":  "2026-10-24T16:14:43.9651370Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T16:12:42.5232090Z",
+                                       "heartbeat":  "2026-10-24T16:13:50.2779652Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-184",
-                      "number":  184,
-                      "title":  "A fix run asks the architect when a finding repeats or cannot be done",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T13:12:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-186",
                       "number":  186,
@@ -290,6 +274,22 @@
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-184",
+                      "number":  184,
+                      "title":  "A fix run asks the architect when a finding repeats or cannot be done",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T16:13:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
