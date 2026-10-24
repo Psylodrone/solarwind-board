@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T15:01:52.0668313Z",
+    "updated":  "2026-10-24T15:02:39.5387632Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T15:00:44.3102759Z",
+                                       "heartbeat":  "2026-10-24T15:01:58.4609607Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -40,11 +40,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:22:51.2312031Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:23:35.3758531Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T15:01:45.6142554Z",
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T15:02:35.2484889Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
