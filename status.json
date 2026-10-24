@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T13:33:01.9282011Z",
+    "updated":  "2026-10-24T13:34:10.4247884Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:32:51.9052960Z",
+                                       "heartbeat":  "2026-10-24T13:34:02.4319189Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -53,6 +53,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T13:16:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-186",
+                      "number":  186,
+                      "title":  "Combat randomness PlayMode test fails at HEAD",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T13:33:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
