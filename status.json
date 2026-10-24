@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T14:03:05.0689366Z",
+    "updated":  "2026-10-24T14:04:05.5081821Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:02:04.5750506Z",
+                                       "heartbeat":  "2026-10-24T14:03:54.0363760Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,15 +44,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-183",
+                      "number":  183,
+                      "title":  "The watcher adds a missing Report heading to a spec",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T13:57:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T13:41:42.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T14:04:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -76,22 +92,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-183",
-                      "number":  183,
-                      "title":  "The watcher adds a missing Report heading to a spec",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T13:57:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
