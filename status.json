@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T23:57:48.0191324Z",
+    "updated":  "2026-10-24T23:58:29.4947977Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T23:57:07.2085764Z",
@@ -15,12 +15,12 @@
                       "id":  "SW-200",
                       "number":  200,
                       "title":  "Phone alerts only for what needs a person, plus started",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-24T22:41:33.0000000Z",
+                      "since":  "2026-10-24T23:57:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -28,23 +28,58 @@
                               ]
                   },
                   {
-                      "id":  "SW-185",
-                      "number":  185,
-                      "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Review",
+                      "id":  "SW-191",
+                      "number":  191,
+                      "title":  "A Ready card whose spec is not pulled yet waits and pulls",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T23:56:24.0000000Z",
-                      "round":  3,
+                      "since":  "2026-10-24T23:58:30.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-24T14:04:08.5864016Z",
+                                      "t":  "2026-10-24T19:46:39.4380824Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T19:46:45.3611740Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T20:19:11.2670901Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 32 min, tokens 2087k/12k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T20:20:13.9835880Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T23:58:32.1649251Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (tools-denied)"
-                                  },
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-185",
+                      "number":  185,
+                      "title":  "Screenshots can be taken at a chosen Game view size",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T23:56:36.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
                                   {
                                       "t":  "2026-10-24T14:04:41.8728099Z",
                                       "actor":  "AGY",
@@ -289,39 +324,9 @@
                                       "t":  "2026-10-24T23:56:24.4337445Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 0 min, tokens 185k/3k, passing to the headless check"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-191",
-                      "number":  191,
-                      "title":  "A Ready card whose spec is not pulled yet waits and pulls",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T20:19:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T19:46:39.4380824Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-24T19:46:45.3611740Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T20:19:11.2670901Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 32 min, tokens 2087k/12k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T20:20:13.9835880Z",
+                                      "t":  "2026-10-24T23:57:52.0984943Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
