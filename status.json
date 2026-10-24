@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T16:41:01.9245077Z",
+    "updated":  "2026-10-24T16:42:02.0765038Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T16:40:42.1831920Z",
+                                       "heartbeat":  "2026-10-24T16:41:48.5043738Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -277,22 +277,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-184",
-                      "number":  184,
-                      "title":  "A fix run asks the architect when a finding repeats or cannot be done",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T16:37:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
@@ -387,6 +371,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T13:34:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-184",
+                      "number":  184,
+                      "title":  "A fix run asks the architect when a finding repeats or cannot be done",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T16:40:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -3216,131 +3216,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-28",
-                      "number":  28,
-                      "title":  "Survey missions (resources, and reveals systems on the map)",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-17T16:41:30.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-17T15:09:32.4765675Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T15:52:18.5377280Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 43 min, tokens 15202k/58k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T15:52:23.9793375Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T15:52:28.3891868Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T15:52:28.4102819Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:07:58.7421477Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:08:00.7358831Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:19:37.6791505Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 12 min, tokens 8933k/56k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:19:56.9372988Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:20:55.7522391Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:26:04.9133086Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 5 min, tokens 3405k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:26:07.7287048Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:26:11.2986706Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:26:11.3209202Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:29:08.7466195Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:29:10.6922610Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:37:17.7502116Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 8 min, tokens 3792k/31k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:37:20.2831986Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:37:24.2109540Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:37:24.2436480Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:41:10.8149589Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T16:41:30.8160054Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed a8689725 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
