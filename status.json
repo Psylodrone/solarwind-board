@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T07:09:30.9950435Z",
+    "updated":  "2026-10-24T07:10:06.6117164Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T07:09:28.0611008Z",
@@ -145,16 +145,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-24T07:04:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-22T23:28:07.1178085Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-10-22T23:28:09.1171325Z",
                                       "actor":  "AGY",
@@ -399,6 +394,11 @@
                                       "t":  "2026-10-24T07:05:15.6441791Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T07:10:06.2895358Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1311k/7k, passing to the headless check"
                                   }
                               ]
                   },
