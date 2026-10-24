@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T14:30:42.1955770Z",
+    "updated":  "2026-10-24T14:31:23.4859175Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:30:00.1227979Z",
+                                       "heartbeat":  "2026-10-24T14:31:06.5948799Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-186",
                       "number":  186,
                       "title":  "Combat randomness PlayMode test fails at HEAD",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T14:28:15.0000000Z",
+                      "since":  "2026-10-24T14:30:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -124,23 +124,12 @@
                                       "t":  "2026-10-24T14:30:37.0590599Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:31:20.9291795Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-183",
-                      "number":  183,
-                      "title":  "The watcher adds a missing Report heading to a spec",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T14:26:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -203,6 +192,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T13:34:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-183",
+                      "number":  183,
+                      "title":  "The watcher adds a missing Report heading to a spec",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T14:29:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
