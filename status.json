@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T14:58:41.1177598Z",
+    "updated":  "2026-10-24T14:59:29.7513481Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T14:58:22.3660052Z",
@@ -40,11 +40,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:19:49.7415496Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:20:33.7534331Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T14:58:37.4467503Z",
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:59:24.7341202Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
