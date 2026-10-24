@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T14:36:48.3783383Z",
+    "updated":  "2026-10-24T14:37:29.9671718Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:35:45.1398078Z",
+                                       "heartbeat":  "2026-10-24T14:36:59.4491941Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T14:31:33.4637681Z",
+                                    "heartbeat":  "2026-10-24T14:35:59.1022844Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,12 +31,12 @@
                       "id":  "SW-186",
                       "number":  186,
                       "title":  "Combat randomness PlayMode test fails at HEAD",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T14:34:22.0000000Z",
+                      "since":  "2026-10-24T14:36:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -164,6 +164,11 @@
                                       "t":  "2026-10-24T14:36:43.8754107Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:37:28.3949008Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
                               ]
                   },
