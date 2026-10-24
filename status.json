@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T19:36:38.9368269Z",
+    "updated":  "2026-10-24T19:37:18.6051676Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T19:35:35.5998205Z",
+                                       "heartbeat":  "2026-10-24T19:36:45.7879490Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T19:31:18.3106427Z",
+                                    "heartbeat":  "2026-10-24T19:35:45.6738213Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -51,16 +51,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-24T19:14:14.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:57:04.7550007Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:57:49.2892836Z",
                                       "actor":  "watcher",
@@ -305,6 +300,11 @@
                                       "t":  "2026-10-24T19:14:32.0626992Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T19:36:38.9647980Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 21 min, tokens 959k/12k, passing to the headless check"
                                   }
                               ]
                   },
@@ -3206,46 +3206,6 @@
                                       "t":  "2026-10-17T23:24:42.8059224Z",
                                       "actor":  "watcher",
                                       "text":  "committed 67b9b6bc and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-121",
-                      "number":  121,
-                      "title":  "Combat progress facts: ship killed, base damaged",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-17T19:37:15.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-17T19:15:07.7217347Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T19:33:07.9037703Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 6 min, tokens 4989k/36k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T19:33:10.5609848Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T19:36:59.7060923Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T19:37:16.0884846Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 52b3c4e4 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
