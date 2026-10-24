@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T08:49:44.9933372Z",
+    "updated":  "2026-10-24T08:50:47.9981214Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T08:49:42.1682146Z",
+                                       "heartbeat":  "2026-10-24T08:50:45.0432304Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,40 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-24T08:35:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-24T08:35:20.3755344Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T08:35:25.8089942Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-178",
                       "number":  178,
                       "title":  "A card moved to another machine starts with fresh counters",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T08:27:05.0000000Z",
+                      "since":  "2026-10-24T08:48:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -123,31 +148,6 @@
                                       "t":  "2026-10-24T07:26:30.5282435Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-152",
-                      "number":  152,
-                      "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-24T08:35:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T08:35:20.3755344Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T08:35:25.8089942Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
