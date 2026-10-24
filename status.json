@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T09:52:41.6994693Z",
+    "updated":  "2026-10-24T09:52:52.6593326Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T09:51:34.1272396Z",
+                                       "heartbeat":  "2026-10-24T09:52:45.7381418Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -73,6 +73,11 @@
                                       "t":  "2026-10-24T09:52:35.4906056Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 19 min, tokens 13274k/87k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T09:52:45.1842758Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
                                   }
                               ]
                   },
