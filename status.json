@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T13:57:51.3095829Z",
+    "updated":  "2026-10-24T13:58:51.4361251Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:57:35.8726701Z",
+                                       "heartbeat":  "2026-10-24T13:58:42.2773885Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-183",
-                      "number":  183,
-                      "title":  "The watcher adds a missing Report heading to a spec",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T13:12:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-184",
                       "number":  184,
@@ -82,6 +66,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-183",
+                      "number":  183,
+                      "title":  "The watcher adds a missing Report heading to a spec",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T13:57:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
