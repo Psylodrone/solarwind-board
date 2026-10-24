@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T18:49:06.1533344Z",
+    "updated":  "2026-10-24T18:49:22.5194057Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T18:48:53.7322920Z",
@@ -67,21 +67,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-24T18:20:19.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:48:57.9977372Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:49:44.8997196Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:50:27.5803988Z",
                                       "actor":  "watcher",
@@ -321,6 +311,16 @@
                                       "t":  "2026-10-24T18:20:25.4895065Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:49:06.2164658Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 29 min, tokens 8135k/57k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:49:11.8106639Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
