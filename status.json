@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T07:13:11.5640005Z",
+    "updated":  "2026-10-24T07:13:43.1574365Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T07:12:41.5146188Z",
@@ -147,14 +147,9 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-24T07:10:06.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-22T23:37:44.5207226Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-10-23T01:33:06.2303446Z",
                                       "actor":  "watcher",
@@ -399,6 +394,11 @@
                                       "t":  "2026-10-24T07:10:08.8691892Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T07:13:42.4121840Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 7 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
