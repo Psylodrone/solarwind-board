@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T07:23:21.4371874Z",
+    "updated":  "2026-10-24T07:23:31.4204491Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T07:22:22.2831255Z",
+                                       "heartbeat":  "2026-10-24T07:23:25.6719285Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-178",
                       "number":  178,
                       "title":  "A card moved to another machine starts with fresh counters",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T06:16:31.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T07:22:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -141,20 +141,15 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T07:16:06.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T07:23:21.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:32:36.7159613Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 17 min, tokens 7528k/39k, passing to the headless check"
-                                  },
                                   {
                                       "t":  "2026-10-23T22:32:55.2956967Z",
                                       "actor":  "AGY unknown",
@@ -399,6 +394,11 @@
                                       "t":  "2026-10-24T07:23:20.3180577Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 7 min, tokens 1980k/18k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T07:23:22.9149498Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
