@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T17:41:49.2828104Z",
+    "updated":  "2026-10-24T17:42:54.8103386Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T17:40:59.3478726Z",
+                                       "heartbeat":  "2026-10-24T17:42:07.7277043Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,47 @@
                               ]
                   },
                   {
-                      "id":  "SW-186",
-                      "number":  186,
-                      "title":  "Combat randomness PlayMode test fails at HEAD",
+                      "id":  "SW-191",
+                      "number":  191,
+                      "title":  "A Ready card whose spec is not pulled yet waits and pulls",
                       "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T15:22:10.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T17:13:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-190",
+                      "number":  190,
+                      "title":  "A card with no usable driver goes back quietly and waits",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T17:07:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-186",
+                      "number":  186,
+                      "title":  "Combat randomness PlayMode test fails at HEAD",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-24T17:41:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -290,38 +322,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-191",
-                      "number":  191,
-                      "title":  "A Ready card whose spec is not pulled yet waits and pulls",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T17:13:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-190",
-                      "number":  190,
-                      "title":  "A card with no usable driver goes back quietly and waits",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T17:07:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
