@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T18:20:01.4954617Z",
+    "updated":  "2026-10-24T18:20:26.5333768Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T18:19:54.6734528Z",
@@ -69,24 +69,9 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-24T18:18:44.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:46:43.6939968Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:47:27.3432093Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:48:14.3382567Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:48:57.9977372Z",
                                       "actor":  "watcher",
@@ -321,6 +306,21 @@
                                       "t":  "2026-10-24T18:18:49.7075526Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:20:19.8058944Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:20:23.4277922Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:20:25.4895065Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
