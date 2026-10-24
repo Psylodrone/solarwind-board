@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T15:19:56.9802968Z",
+    "updated":  "2026-10-24T15:20:36.8620748Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T15:18:48.5932296Z",
+                                       "heartbeat":  "2026-10-24T15:20:01.0641811Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -36,15 +36,10 @@
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T15:18:15.0000000Z",
+                      "since":  "2026-10-24T15:19:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:40:36.6357364Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:41:28.6451442Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T15:19:51.9138018Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T15:20:35.6154845Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
                               ]
                   },
