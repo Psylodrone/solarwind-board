@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T20:29:35.2456210Z",
+    "updated":  "2026-10-24T20:30:40.5017727Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T20:29:05.9640301Z",
+                                       "heartbeat":  "2026-10-24T20:30:11.5599872Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T20:13:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-161",
-                      "number":  161,
-                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T20:22:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -436,6 +420,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-161",
+                      "number":  161,
+                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T20:29:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
