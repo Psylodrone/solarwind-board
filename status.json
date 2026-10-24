@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T08:26:14.7688952Z",
+    "updated":  "2026-10-24T08:26:47.0330002Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T08:26:12.0138499Z",
@@ -40,11 +40,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:44:03.2332257Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-23T22:46:02.5252804Z",
                                       "actor":  "AGY unknown",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T07:25:59.5011907Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T08:26:46.5238800Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
