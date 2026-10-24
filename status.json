@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T04:11:43.6359994Z",
+    "updated":  "2026-10-24T04:12:28.2761566Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T04:11:40.8731539Z",
@@ -567,7 +567,7 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-24T03:12:02.0000000Z",
-                      "round":  1,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -639,6 +639,11 @@
                                       "t":  "2026-10-24T03:12:16.1806233Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T04:12:28.2136821Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-blocked)"
                                   }
                               ]
                   },
