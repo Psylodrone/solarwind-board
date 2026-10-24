@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T02:57:11.7469234Z",
+    "updated":  "2026-10-24T02:57:44.7470596Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T02:56:52.3023896Z",
@@ -25,6 +25,56 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-178",
+                      "number":  178,
+                      "title":  "A card moved to another machine starts with fresh counters",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-24T02:57:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-24T01:41:25.5150366Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T01:41:31.4382148Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T01:56:40.7147031Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 15 min, tokens 2013k/28k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T01:56:59.0965026Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T02:57:10.8059246Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T02:57:42.9561320Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T02:57:43.9790442Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
@@ -554,46 +604,6 @@
                                       "t":  "2026-10-24T01:40:06.0583465Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-178",
-                      "number":  178,
-                      "title":  "A card moved to another machine starts with fresh counters",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T01:56:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T01:41:25.5150366Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:41:31.4382148Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:56:40.7147031Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 15 min, tokens 2013k/28k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:56:59.0965026Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T02:57:10.8059246Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
