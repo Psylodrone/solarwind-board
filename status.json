@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T13:55:40.8324037Z",
+    "updated":  "2026-10-24T13:56:46.0116489Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:55:26.9637660Z",
+                                       "heartbeat":  "2026-10-24T13:56:32.2212875Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -85,22 +85,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-182",
-                      "number":  182,
-                      "title":  "Confirm cards show the question in plain words",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T13:47:57.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-189",
                       "number":  189,
                       "title":  "Confirm: choice Q3 on SW-152",
@@ -110,6 +94,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T13:34:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-182",
+                      "number":  182,
+                      "title":  "Confirm cards show the question in plain words",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T13:54:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
