@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T19:01:55.2974362Z",
+    "updated":  "2026-10-24T19:03:05.7466885Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T19:00:38.2974816Z",
+                                       "heartbeat":  "2026-10-24T19:01:59.3252646Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,22 +37,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T17:13:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-190",
-                      "number":  190,
-                      "title":  "A card with no usable driver goes back quietly and waits",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T18:54:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -454,6 +438,38 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T18:41:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-193",
+                      "number":  193,
+                      "title":  "Confirm: May the combat randomness check start the rocket directly instead of",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:01:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-190",
+                      "number":  190,
+                      "title":  "A card with no usable driver goes back quietly and waits",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T19:02:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
