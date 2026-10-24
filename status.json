@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T14:42:59.0985949Z",
+    "updated":  "2026-10-24T14:43:48.6162093Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:41:46.2180878Z",
+                                       "heartbeat":  "2026-10-24T14:43:03.6227687Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -36,7 +36,7 @@
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T14:40:36.0000000Z",
+                      "since":  "2026-10-24T14:42:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -199,6 +199,11 @@
                                       "t":  "2026-10-24T14:42:42.0281080Z",
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:43:43.4847574Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
