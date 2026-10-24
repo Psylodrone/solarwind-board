@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T11:35:32.0714232Z",
+    "updated":  "2026-10-24T11:37:20.0213881Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T11:34:59.9811473Z",
+                                       "heartbeat":  "2026-10-24T11:36:57.9153996Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T11:33:40.0357301Z",
+                                    "heartbeat":  "2026-10-24T11:36:37.4011087Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -157,15 +157,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-180",
-                      "number":  180,
-                      "title":  "Confirm: choice Q1 on SW-152",
+                      "id":  "SW-182",
+                      "number":  182,
+                      "title":  "Confirm cards show the question in plain words",
                       "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "Taras",
-                      "since":  "2026-10-24T09:08:58.0000000Z",
+                      "since":  "2026-10-24T11:13:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -176,12 +176,12 @@
                       "id":  "SW-181",
                       "number":  181,
                       "title":  "Confirm: choice Q2 on SW-152",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "any",
                       "risk":  null,
                       "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T09:19:02.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T11:37:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -189,15 +189,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-182",
-                      "number":  182,
-                      "title":  "Confirm cards show the question in plain words",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
+                      "id":  "SW-180",
+                      "number":  180,
+                      "title":  "Confirm: choice Q1 on SW-152",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
                       "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T11:13:34.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T11:37:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
