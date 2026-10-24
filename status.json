@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T17:07:28.3085352Z",
+    "updated":  "2026-10-24T17:08:35.9880384Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T17:07:21.0940702Z",
+                                       "heartbeat":  "2026-10-24T17:08:27.9583526Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-161",
+                      "number":  161,
+                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T17:07:31.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-186",
                       "number":  186,
@@ -277,6 +293,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-190",
+                      "number":  190,
+                      "title":  "A card with no usable driver goes back quietly and waits",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T17:07:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
@@ -384,22 +416,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-190",
-                      "number":  190,
-                      "title":  "A card with no usable driver goes back quietly and waits",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T16:59:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
