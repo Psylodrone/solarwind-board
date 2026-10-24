@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T07:10:06.6117164Z",
+    "updated":  "2026-10-24T07:10:10.7537915Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T07:09:28.0611008Z",
@@ -150,11 +150,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-22T23:28:09.1171325Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-22T23:37:44.5207226Z",
                                       "actor":  "watcher",
@@ -399,6 +394,11 @@
                                       "t":  "2026-10-24T07:10:06.2895358Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 5 min, tokens 1311k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T07:10:08.8691892Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
