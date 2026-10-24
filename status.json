@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T22:57:32.7781564Z",
+    "updated":  "2026-10-24T22:58:21.7765397Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T22:56:11.2570787Z",
+                                       "heartbeat":  "2026-10-24T22:57:40.7089938Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -40,11 +40,6 @@
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T15:06:27.1364891Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
                                   {
                                       "t":  "2026-10-24T15:07:17.9264431Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T22:56:53.9387393Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T22:57:39.9666103Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 40a03b0f and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -337,7 +337,7 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-24T22:48:45.0000000Z",
-                      "round":  3,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
