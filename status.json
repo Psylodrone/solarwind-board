@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T15:50:14.4403251Z",
+    "updated":  "2026-10-24T15:51:18.8921699Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T15:49:15.8365630Z",
+                                       "heartbeat":  "2026-10-24T15:50:21.2232633Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T15:45:51.9610119Z",
+                                    "heartbeat":  "2026-10-24T15:50:07.7367810Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -3306,22 +3306,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed a8689725 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-104",
-                      "number":  104,
-                      "title":  "The watcher survives a console Ctrl+C from its children",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-17T15:51:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
