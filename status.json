@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T14:18:26.9724135Z",
+    "updated":  "2026-10-24T14:19:05.3537788Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:17:23.1485886Z",
+                                       "heartbeat":  "2026-10-24T14:18:31.0056184Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,26 +28,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-186",
-                      "number":  186,
-                      "title":  "Combat randomness PlayMode test fails at HEAD",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T13:33:05.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:18:22.0031770Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-183",
                       "number":  183,
                       "title":  "The watcher adds a missing Report heading to a spec",
@@ -61,6 +41,31 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-186",
+                      "number":  186,
+                      "title":  "Combat randomness PlayMode test fails at HEAD",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T14:18:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-24T14:18:22.0031770Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:19:05.1525615Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
+                                  }
                               ]
                   },
                   {
