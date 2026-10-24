@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T16:31:03.5900241Z",
+    "updated":  "2026-10-24T16:31:29.5257972Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T16:30:40.1307856Z",
@@ -300,7 +300,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-24T16:30:50.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -364,6 +364,16 @@
                                       "t":  "2026-10-24T16:30:52.2969870Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T16:31:25.7513101Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T16:31:27.1604559Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
