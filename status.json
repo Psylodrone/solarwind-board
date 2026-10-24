@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T08:34:14.0983780Z",
+    "updated":  "2026-10-24T08:34:37.0235927Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T08:33:42.0220325Z",
@@ -155,11 +155,6 @@
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:56:48.2570570Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-10-24T06:17:13.6476490Z",
                                       "actor":  "watcher",
@@ -404,6 +399,11 @@
                                       "t":  "2026-10-24T08:34:13.5342243Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T08:34:36.1691390Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 1ea38cd3 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
