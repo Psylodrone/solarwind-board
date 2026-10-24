@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T01:19:57.2553251Z",
+    "updated":  "2026-10-24T01:20:54.6945443Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T01:18:52.3007124Z",
+                                       "heartbeat":  "2026-10-24T01:19:58.6825965Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T01:14:55.2398576Z",
+                                    "heartbeat":  "2026-10-24T01:19:14.6738099Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -47,13 +47,13 @@
                       "id":  "SW-177",
                       "number":  177,
                       "title":  "The restart limit counts only stops the card caused",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T01:10:55.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T01:19:49.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -100,6 +100,11 @@
                                       "t":  "2026-10-24T01:19:51.5898256Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T01:20:54.1178925Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
