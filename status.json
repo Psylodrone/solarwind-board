@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T18:50:24.7855526Z",
+    "updated":  "2026-10-24T18:50:39.6084586Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T18:50:03.3261292Z",
@@ -67,26 +67,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
+                      "actor":  "AGY",
                       "since":  "2026-10-24T18:20:19.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:50:27.5803988Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:51:14.1737689Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:52:02.6364364Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:52:48.3957333Z",
                                       "actor":  "watcher",
@@ -321,6 +306,21 @@
                                       "t":  "2026-10-24T18:49:11.8106639Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:50:29.5701987Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:50:33.1667071Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T18:50:34.2235899Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
