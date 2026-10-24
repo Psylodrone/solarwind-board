@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T19:26:22.5778639Z",
+    "updated":  "2026-10-24T19:27:40.3962973Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T19:25:21.1856413Z",
+                                       "heartbeat":  "2026-10-24T19:26:26.6244270Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -470,6 +470,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T19:12:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-195",
+                      "number":  195,
+                      "title":  "Confirm: May the combat test start the rocket directly, instead of waiting one",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:25:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
