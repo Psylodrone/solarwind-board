@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T22:28:33.1164627Z",
+    "updated":  "2026-10-24T22:30:07.7118905Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T22:27:44.6846416Z",
+                                       "heartbeat":  "2026-10-24T22:29:20.6614472Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T22:22:55.9716538Z",
+                                    "heartbeat":  "2026-10-24T22:28:25.1287951Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T21:33:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-197",
-                      "number":  197,
-                      "title":  "An assumed answer settles a finding for now and Taras confirms",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T22:22:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -636,6 +620,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T22:08:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-197",
+                      "number":  197,
+                      "title":  "An assumed answer settles a finding for now and Taras confirms",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T22:29:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
