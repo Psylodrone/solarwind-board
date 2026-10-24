@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T08:35:25.9717220Z",
+    "updated":  "2026-10-24T08:36:26.1532096Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T08:34:48.0703787Z",
+                                       "heartbeat":  "2026-10-24T08:35:51.6437893Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,31 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-152",
-                      "number":  152,
-                      "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-22T14:37:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T08:35:20.3755344Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T08:35:25.8089942Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-178",
                       "number":  178,
@@ -152,15 +127,40 @@
                               ]
                   },
                   {
-                      "id":  "SW-139",
-                      "number":  139,
-                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Review",
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-24T08:32:20.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-24T08:35:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-24T08:35:20.3755344Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T08:35:25.8089942Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-139",
+                      "number":  139,
+                      "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T08:34:35.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
