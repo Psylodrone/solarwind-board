@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T17:13:00.2706432Z",
+    "updated":  "2026-10-24T17:14:07.6289876Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T17:12:53.0111020Z",
+                                       "heartbeat":  "2026-10-24T17:13:59.2624350Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T17:09:03.0386863Z",
+                                    "heartbeat":  "2026-10-24T17:13:32.0367319Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -290,6 +290,22 @@
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-191",
+                      "number":  191,
+                      "title":  "A Ready card whose spec is not pulled yet waits and pulls",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T17:13:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
