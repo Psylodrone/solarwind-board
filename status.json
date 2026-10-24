@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T19:04:15.9771614Z",
+    "updated":  "2026-10-24T19:05:28.1174747Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T19:03:12.0274994Z",
+                                       "heartbeat":  "2026-10-24T19:04:22.7402274Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-161",
-                      "number":  161,
-                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T17:07:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-191",
                       "number":  191,
@@ -37,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T17:13:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-161",
+                      "number":  161,
+                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T19:05:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
