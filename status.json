@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T00:21:12.9352974Z",
+    "updated":  "2026-10-24T00:22:13.7818097Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T00:20:50.3514858Z",
+                                       "heartbeat":  "2026-10-24T00:21:55.2798938Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,15 +60,55 @@
                               ]
                   },
                   {
+                      "id":  "SW-176",
+                      "number":  176,
+                      "title":  "A blocked run\u0027s question is answered and the run continues",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "Claude",
+                      "since":  "2026-10-24T00:19:02.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-23T22:57:37.6182220Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T00:17:03.2181017Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 79 min, tokens 7391k/70k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T00:17:09.0913183Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T00:19:02.9685641Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 6 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T00:19:04.8159893Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-170",
                       "number":  170,
                       "title":  "Map status panel: fixes after Taras\u0027s check, and the missing Check screenshots",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T00:17:44.0000000Z",
+                      "since":  "2026-10-24T00:21:48.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -301,46 +341,6 @@
                                       "t":  "2026-10-23T21:40:43.9484198Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-176",
-                      "number":  176,
-                      "title":  "A blocked run\u0027s question is answered and the run continues",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T00:19:02.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:57:37.6182220Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T00:17:03.2181017Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 79 min, tokens 7391k/70k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T00:17:09.0913183Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T00:19:02.9685641Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 6 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T00:19:04.8159893Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
