@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T13:47:12.1120153Z",
+    "updated":  "2026-10-24T13:48:17.1946543Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:46:33.0968068Z",
+                                       "heartbeat":  "2026-10-24T13:47:39.9261057Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,22 +60,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-182",
-                      "number":  182,
-                      "title":  "Confirm cards show the question in plain words",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T12:49:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
@@ -98,6 +82,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-182",
+                      "number":  182,
+                      "title":  "Confirm cards show the question in plain words",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T13:47:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
