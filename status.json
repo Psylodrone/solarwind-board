@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T19:14:27.9227399Z",
+    "updated":  "2026-10-24T19:14:50.3450050Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T19:13:47.8831053Z",
@@ -56,16 +56,6 @@
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:55:22.1445570Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T14:56:19.9547087Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:57:04.7550007Z",
                                       "actor":  "watcher",
@@ -305,6 +295,16 @@
                                       "t":  "2026-10-24T19:14:15.3329876Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown has found 2 issues in review round 3, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T19:14:30.9257635Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T19:14:32.0626992Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
