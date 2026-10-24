@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T22:58:21.7765397Z",
+    "updated":  "2026-10-24T22:59:02.4046181Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T22:57:40.7089938Z",
@@ -514,6 +514,11 @@
                                       "t":  "2026-10-24T22:50:14.4225175Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T22:58:24.3910592Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (review-rounds)"
                                   }
                               ]
                   },
