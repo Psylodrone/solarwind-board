@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T17:05:19.4959205Z",
+    "updated":  "2026-10-24T17:06:21.2727942Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T17:05:05.2740179Z",
+                                       "heartbeat":  "2026-10-24T17:06:11.0996554Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -387,22 +387,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-189",
-                      "number":  189,
-                      "title":  "Confirm: choice Q3 on SW-152",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T13:34:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-190",
                       "number":  190,
                       "title":  "A card with no usable driver goes back quietly and waits",
@@ -412,6 +396,22 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-24T16:59:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-189",
+                      "number":  189,
+                      "title":  "Confirm: choice Q3 on SW-152",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T17:05:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
