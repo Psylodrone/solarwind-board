@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T21:36:06.0191039Z",
+    "updated":  "2026-10-24T21:37:29.5527782Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T21:35:02.4898774Z",
+                                       "heartbeat":  "2026-10-24T21:36:10.0812259Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -579,6 +579,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T21:26:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-201",
+                      "number":  201,
+                      "title":  "Confirm: Two ship model files have leftover edits that are not from this card.",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T21:36:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
