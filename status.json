@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T22:50:56.7852852Z",
+    "updated":  "2026-10-24T22:51:58.3152566Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T22:50:16.9729424Z",
@@ -35,21 +35,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-24T20:11:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T15:02:35.2484889Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T15:03:18.2234830Z",
-                                      "actor":  "watcher",
-                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
-                                  },
                                   {
                                       "t":  "2026-10-24T15:04:03.1428614Z",
                                       "actor":  "watcher",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-24T19:45:42.0364898Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T22:51:11.2878096Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T22:51:12.8620621Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
