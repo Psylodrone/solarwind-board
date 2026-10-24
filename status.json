@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T08:33:23.6736213Z",
+    "updated":  "2026-10-24T08:34:14.0983780Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T08:32:37.9374227Z",
+                                       "heartbeat":  "2026-10-24T08:33:42.0220325Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T08:29:13.5270998Z",
+                                    "heartbeat":  "2026-10-24T08:33:42.7401027Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -146,20 +146,15 @@
                       "id":  "SW-139",
                       "number":  139,
                       "title":  "Rescue screens: Crew tab, war table, map badge, toasts",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T08:30:47.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T08:32:20.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-23T22:56:20.7279560Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 2531k/24k, passing to the headless check"
-                                  },
                                   {
                                       "t":  "2026-10-23T22:56:48.2570570Z",
                                       "actor":  "watcher",
@@ -404,6 +399,11 @@
                                       "t":  "2026-10-24T08:32:23.2757847Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T08:34:13.5342243Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
