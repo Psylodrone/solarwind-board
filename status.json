@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T14:19:53.9106861Z",
+    "updated":  "2026-10-24T14:20:39.5252364Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T14:19:38.7850015Z",
@@ -28,31 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-183",
-                      "number":  183,
-                      "title":  "The watcher adds a missing Report heading to a spec",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-24T13:57:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-186",
                       "number":  186,
                       "title":  "Combat randomness PlayMode test fails at HEAD",
-                      "stage":  "In progress",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T14:18:21.0000000Z",
+                      "since":  "2026-10-24T14:20:33.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -70,7 +54,28 @@
                                       "t":  "2026-10-24T14:19:49.7415496Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:20:33.7534331Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-183",
+                      "number":  183,
+                      "title":  "The watcher adds a missing Report heading to a spec",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-24T13:57:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
