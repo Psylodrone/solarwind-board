@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T17:40:28.6634662Z",
+    "updated":  "2026-10-24T17:41:07.0481240Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T17:39:44.4380955Z",
+                                       "heartbeat":  "2026-10-24T17:40:59.3478726Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T17:35:50.1879584Z",
+                                    "heartbeat":  "2026-10-24T17:40:33.8938903Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -328,12 +328,12 @@
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T17:02:02.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T17:40:34.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -436,6 +436,11 @@
                                       "t":  "2026-10-24T17:40:20.8556432Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 38 min, tokens 8170k/52k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T17:40:53.2100413Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
