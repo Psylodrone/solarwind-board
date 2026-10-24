@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T11:06:55.8221553Z",
+    "updated":  "2026-10-24T11:07:33.9470618Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T11:06:41.5786013Z",
@@ -15,12 +15,12 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T10:06:46.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-24T11:06:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -133,6 +133,16 @@
                                       "t":  "2026-10-24T11:06:51.3723765Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T11:07:29.2218112Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T11:07:30.4421933Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
