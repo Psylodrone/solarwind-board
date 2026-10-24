@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T13:40:57.3175887Z",
+    "updated":  "2026-10-24T13:41:47.5196586Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:39:48.1679192Z",
+                                       "heartbeat":  "2026-10-24T13:40:58.7922662Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T13:35:35.2301294Z",
+                                    "heartbeat":  "2026-10-24T13:40:27.4563533Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -37,22 +37,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-24T13:12:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-185",
-                      "number":  185,
-                      "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-24T13:16:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -92,15 +76,35 @@
                               ]
                   },
                   {
-                      "id":  "SW-152",
-                      "number":  152,
-                      "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Changes requested",
+                      "id":  "SW-185",
+                      "number":  185,
+                      "title":  "Screenshots can be taken at a chosen Game view size",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T13:19:47.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T13:41:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-24T13:41:42.6636778Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-152",
+                      "number":  152,
+                      "title":  "Station growth panel: level, lines and what to scan",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-24T13:40:27.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
