@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T16:59:32.9400288Z",
+    "updated":  "2026-10-24T16:59:41.6258240Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T16:59:24.8769640Z",
@@ -280,12 +280,12 @@
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-24T16:30:50.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T16:59:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -358,6 +358,16 @@
                                       "t":  "2026-10-24T16:31:27.1604559Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T16:59:33.1002427Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 28 min, tokens 13155k/85k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T16:59:42.4123698Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -371,6 +381,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T13:34:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-190",
+                      "number":  190,
+                      "title":  "A card with no usable driver goes back quietly and waits",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T16:59:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
