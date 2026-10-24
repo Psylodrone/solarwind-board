@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T23:24:18.8671170Z",
+    "updated":  "2026-10-24T23:25:41.9876524Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T23:22:57.7000430Z",
+                                       "heartbeat":  "2026-10-24T23:24:25.7234456Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T23:19:30.5136514Z",
+                                    "heartbeat":  "2026-10-24T23:24:24.2160770Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -3398,46 +3398,6 @@
                                       "t":  "2026-10-18T09:00:27.1082164Z",
                                       "actor":  "watcher",
                                       "text":  "committed d9fcd8fd and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-120",
-                      "number":  120,
-                      "title":  "Galaxy facts: first visit and survey",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-17T23:24:41.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-17T23:01:17.5512634Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T23:21:36.0323181Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 10330k/38k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T23:21:38.5909655Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T23:24:25.1166538Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-17T23:24:42.8059224Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 67b9b6bc and pushed, card Done and issue closed"
                                   }
                               ]
                   }
