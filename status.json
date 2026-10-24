@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-24T06:26:29.7393351Z",
+    "updated":  "2026-10-24T06:26:55.3492037Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-24T06:26:27.0081734Z",
@@ -482,7 +482,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-24T06:22:08.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -684,6 +684,16 @@
                                       "t":  "2026-10-24T06:22:26.4675189Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T06:26:52.5330230Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 8 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T06:26:54.7414961Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
