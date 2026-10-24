@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T14:43:48.6162093Z",
+    "updated":  "2026-10-24T14:44:34.5614944Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:43:03.6227687Z",
+                                       "heartbeat":  "2026-10-24T14:44:19.0060905Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -204,6 +204,11 @@
                                       "t":  "2026-10-24T14:43:43.4847574Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:44:29.9991423Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
                               ]
                   },
