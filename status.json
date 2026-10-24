@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T11:13:28.8976095Z",
+    "updated":  "2026-10-24T11:14:37.0641033Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T11:13:21.8384329Z",
+                                       "heartbeat":  "2026-10-24T11:14:29.8853062Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -182,6 +182,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T09:19:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-182",
+                      "number":  182,
+                      "title":  "Confirm cards show the question in plain words",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T11:13:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
