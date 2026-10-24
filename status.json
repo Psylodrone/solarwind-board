@@ -1,16 +1,48 @@
 {
-    "updated":  "2026-10-24T13:11:43.0578533Z",
+    "updated":  "2026-10-24T13:12:53.3633429Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:11:34.9351846Z",
+                                       "heartbeat":  "2026-10-24T13:12:42.5356478Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T13:08:05.7917874Z",
+                                    "heartbeat":  "2026-10-24T13:12:37.5401577Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-183",
+                      "number":  183,
+                      "title":  "The watcher adds a missing Report heading to a spec",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T13:12:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-184",
+                      "number":  184,
+                      "title":  "A fix run asks the architect when a finding repeats or cannot be done",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T13:12:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-182",
                       "number":  182,
@@ -31,13 +63,13 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T13:06:07.0000000Z",
-                      "round":  1,
+                      "since":  "2026-10-24T13:12:54.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
