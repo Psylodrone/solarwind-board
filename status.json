@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T15:11:14.9355862Z",
+    "updated":  "2026-10-24T15:12:07.5194568Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T15:10:47.4029491Z",
+                                       "heartbeat":  "2026-10-24T15:11:56.0486682Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T15:07:03.9505590Z",
+                                    "heartbeat":  "2026-10-24T15:11:23.5717160Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,20 +31,15 @@
                       "id":  "SW-186",
                       "number":  186,
                       "title":  "Combat randomness PlayMode test fails at HEAD",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-24T15:09:36.0000000Z",
+                      "since":  "2026-10-24T15:11:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:32:08.7928641Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T14:32:50.7723024Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-24T15:11:10.3859222Z",
                                       "actor":  "watcher",
                                       "text":  "found In progress at watcher start, recovery clean, back to Ready"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T15:11:56.9717124Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
