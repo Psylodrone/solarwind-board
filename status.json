@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T14:39:58.5185502Z",
+    "updated":  "2026-10-24T14:40:41.6425295Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T14:39:14.0296159Z",
+                                       "heartbeat":  "2026-10-24T14:40:23.4203835Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T14:35:59.1022844Z",
+                                    "heartbeat":  "2026-10-24T14:40:25.3698148Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -184,6 +184,11 @@
                                       "t":  "2026-10-24T14:39:51.4895104Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T14:40:36.6357364Z",
+                                      "actor":  "watcher",
+                                      "text":  "found In progress at watcher start, recovery clean, back to Ready"
                                   }
                               ]
                   },
