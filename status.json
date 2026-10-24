@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T09:20:17.5463143Z",
+    "updated":  "2026-10-24T09:21:19.5560192Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T09:19:54.7657398Z",
+                                       "heartbeat":  "2026-10-24T09:21:01.7163749Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -46,6 +46,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T09:08:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-181",
+                      "number":  181,
+                      "title":  "Confirm: choice Q2 on SW-152",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T09:19:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
