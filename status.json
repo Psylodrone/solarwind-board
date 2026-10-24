@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-24T21:33:44.7944427Z",
+    "updated":  "2026-10-24T21:34:58.3630001Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T21:32:38.2200643Z",
+                                       "heartbeat":  "2026-10-24T21:33:51.5866172Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T21:27:54.9540246Z",
+                                    "heartbeat":  "2026-10-24T21:33:12.3100833Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-200",
+                      "number":  200,
+                      "title":  "Phone alerts only for what needs a person, plus started",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T21:33:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-197",
                       "number":  197,
