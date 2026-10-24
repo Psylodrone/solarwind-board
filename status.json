@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-24T13:16:28.0544382Z",
+    "updated":  "2026-10-24T13:17:31.1210342Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T13:16:09.2665587Z",
+                                       "heartbeat":  "2026-10-24T13:17:16.7607677Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-24T13:12:37.5401577Z",
+                                    "heartbeat":  "2026-10-24T13:17:12.1164816Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,6 +44,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-185",
+                      "number":  185,
+                      "title":  "Screenshots can be taken at a chosen Game view size",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-24T13:16:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-182",
                       "number":  182,
                       "title":  "Confirm cards show the question in plain words",
@@ -63,12 +79,12 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T13:12:54.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T13:15:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
