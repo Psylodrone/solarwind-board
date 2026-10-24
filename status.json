@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T18:42:18.6191091Z",
+    "updated":  "2026-10-24T18:43:22.3243018Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T18:42:08.1776706Z",
+                                       "heartbeat":  "2026-10-24T18:43:11.0940254Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -442,6 +442,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-192",
+                      "number":  192,
+                      "title":  "Confirm: The random number source changes on every game frame even with no game",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T18:41:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
