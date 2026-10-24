@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-24T01:10:02.9869308Z",
+    "updated":  "2026-10-24T01:10:56.5557823Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-24T01:09:12.9560314Z",
+                                       "heartbeat":  "2026-10-24T01:10:17.0916095Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,13 +47,13 @@
                       "id":  "SW-177",
                       "number":  177,
                       "title":  "The restart limit counts only stops the card caused",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-24T00:43:43.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-24T01:08:42.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -75,6 +75,11 @@
                                       "t":  "2026-10-24T01:09:01.4762547Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-24T01:10:55.6899398Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
