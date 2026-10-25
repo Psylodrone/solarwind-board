@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T08:34:08.8388940Z",
+    "updated":  "2026-10-25T08:35:09.7147379Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T08:32:53.2477328Z",
+                                       "heartbeat":  "2026-10-25T08:34:12.9024409Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -34,22 +34,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-165",
-                      "number":  165,
-                      "title":  "Orphaned Codex jobs are checked or cancelled at run end",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T08:25:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -270,6 +254,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T06:58:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-165",
+                      "number":  165,
+                      "title":  "Orphaned Codex jobs are checked or cancelled at run end",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T08:33:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
