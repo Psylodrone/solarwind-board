@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T23:24:41.7792076Z",
+    "updated":  "2026-10-25T23:26:40.7689815Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T23:23:40.8679030Z",
+                                       "heartbeat":  "2026-10-25T23:25:42.2847332Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T22:54:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-187",
                       "number":  187,
                       "title":  "Weapon modules: the fitted weapon decides what fires",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T23:20:29.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T23:23:32.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -75,22 +91,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T22:54:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
