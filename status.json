@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T08:59:35.9185225Z",
+    "updated":  "2026-10-25T09:01:27.0222270Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T08:58:41.0945412Z",
+                                       "heartbeat":  "2026-10-25T09:00:34.0822535Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3912,56 +3912,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-136",
-                      "number":  136,
-                      "title":  "PlayMode test runs must not mark the editor as Taras\u0027s",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-18T09:00:26.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-18T08:35:37.1792637Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T08:58:39.9342237Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 6 min, tokens 5272k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T08:58:42.6263885Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T08:58:45.8497916Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T08:58:45.8814502Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T09:00:13.0706144Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-18T09:00:27.1082164Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed d9fcd8fd and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
