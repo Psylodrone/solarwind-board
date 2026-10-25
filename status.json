@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T20:38:01.4663484Z",
+    "updated":  "2026-10-25T20:39:51.6504452Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T20:37:07.8295809Z",
+                                       "heartbeat":  "2026-10-25T20:38:58.0401380Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T20:33:23.6260894Z",
+                                    "heartbeat":  "2026-10-25T20:37:46.7532156Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -416,6 +416,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T20:19:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-215",
+                      "number":  215,
+                      "title":  "Confirm: Should we move the editor lock out of the Unity temp folder before we",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T20:38:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
