@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T03:03:20.2849669Z",
+    "updated":  "2026-10-25T03:05:50.2311108Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T03:02:37.9367014Z",
+                                       "heartbeat":  "2026-10-25T03:05:04.9732624Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,20 +15,15 @@
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-25T02:52:44.0000000Z",
-                      "round":  3,
+                      "since":  "2026-10-25T03:05:50.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T21:37:45.9258888Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-24T21:39:51.0637113Z",
                                       "actor":  "AGY unknown",
@@ -273,6 +268,11 @@
                                       "t":  "2026-10-25T02:53:29.3493355Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T03:05:52.8300886Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (review-rounds)"
                                   }
                               ]
                   },
