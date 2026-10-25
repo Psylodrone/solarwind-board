@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T07:00:39.9635252Z",
+    "updated":  "2026-10-25T07:02:01.4975938Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T06:58:53.3158154Z",
+                                       "heartbeat":  "2026-10-25T07:00:44.2217875Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,28 +12,34 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-25T06:59:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T06:58:43.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T06:59:53.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T09:52:35.4906056Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 19 min, tokens 13274k/87k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T09:52:45.1842758Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-24T09:53:25.1466216Z",
                                       "actor":  "Claude claude-sonnet-5-5",
@@ -273,6 +279,16 @@
                                       "t":  "2026-10-25T06:59:52.0271750Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:00:43.3963008Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:00:44.5518916Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
