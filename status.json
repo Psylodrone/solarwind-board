@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-25T05:01:34.1041373Z",
+    "updated":  "2026-10-25T05:03:24.1932164Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T05:00:07.9181534Z",
+                                       "heartbeat":  "2026-10-25T05:01:41.0446401Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T04:55:59.0344041Z",
+                                    "heartbeat":  "2026-10-25T05:01:31.8236656Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-205",
-                      "number":  205,
-                      "title":  "A text conflict when pushing a finished card goes to a fix run",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T04:53:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-185",
                       "number":  185,
@@ -462,6 +446,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T02:38:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-205",
+                      "number":  205,
+                      "title":  "A text conflict when pushing a finished card goes to a fix run",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T05:00:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
