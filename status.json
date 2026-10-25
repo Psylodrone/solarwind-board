@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-25T14:32:54.7009815Z",
+    "updated":  "2026-10-25T14:34:42.2152083Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T14:32:03.5073101Z",
+                                       "heartbeat":  "2026-10-25T14:33:52.4772521Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T14:27:41.5427122Z",
+                                    "heartbeat":  "2026-10-25T14:32:10.1969372Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-211",
-                      "number":  211,
-                      "title":  "A Codex job still running when the driver ends early is waited for",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T14:22:53.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-166",
                       "number":  166,
@@ -351,6 +335,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T06:58:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-211",
+                      "number":  211,
+                      "title":  "A Codex job still running when the driver ends early is waited for",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T14:33:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
