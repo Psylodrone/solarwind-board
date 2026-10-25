@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T16:41:17.4557663Z",
+    "updated":  "2026-10-25T16:43:03.6062656Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T16:40:24.3925449Z",
+                                       "heartbeat":  "2026-10-25T16:42:11.3462070Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T16:21:05.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-25T16:43:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -84,6 +84,16 @@
                                       "t":  "2026-10-25T16:22:07.0515220Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T16:43:03.6588585Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 20 min, tokens 803k/8k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T16:43:06.9043860Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
