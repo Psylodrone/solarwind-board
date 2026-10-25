@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T06:30:58.8368291Z",
+    "updated":  "2026-10-25T06:31:56.5139411Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T06:29:05.2352645Z",
+                                       "heartbeat":  "2026-10-25T06:31:02.9613510Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,25 +15,15 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T06:11:42.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-25T06:30:59.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T09:32:06.7356036Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 57 min, tokens 32408k/99k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T09:32:14.9639138Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-24T09:32:22.0094502Z",
                                       "actor":  "AGY unknown",
@@ -273,6 +263,16 @@
                                       "t":  "2026-10-25T06:12:29.2727520Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T06:30:58.9473671Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 18 min, tokens 3694k/26k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T06:31:13.9625901Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -446,6 +446,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T02:38:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-208",
+                      "number":  208,
+                      "title":  "Confirm: Should the station name in the info pane stay the one the player is",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:30:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
