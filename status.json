@@ -1,42 +1,26 @@
 {
-    "updated":  "2026-10-25T11:00:25.5415448Z",
+    "updated":  "2026-10-25T11:02:26.8834642Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T10:59:32.4090315Z",
+                                       "heartbeat":  "2026-10-25T11:01:34.2980131Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T10:56:07.8960788Z",
+                                    "heartbeat":  "2026-10-25T11:00:28.2109731Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T09:11:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-171",
                       "number":  171,
                       "title":  "Status page must not publish an empty board",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T08:57:34.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T11:00:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -74,7 +58,28 @@
                                       "t":  "2026-10-25T08:58:46.7534594Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T11:01:34.8710077Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T11:00:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
