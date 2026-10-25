@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T19:01:38.4453156Z",
+    "updated":  "2026-10-25T19:03:25.4449276Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T18:59:54.1525996Z",
+                                       "heartbeat":  "2026-10-25T19:01:45.2512595Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T18:55:52.1178802Z",
+                                    "heartbeat":  "2026-10-25T19:00:11.5825005Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -40,12 +40,12 @@
                       "id":  "SW-131",
                       "number":  131,
                       "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T18:03:20.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T19:03:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
