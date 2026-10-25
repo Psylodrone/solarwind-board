@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T17:06:47.8189803Z",
+    "updated":  "2026-10-25T17:08:42.3723462Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T17:04:58.2119945Z",
+                                       "heartbeat":  "2026-10-25T17:06:54.8201629Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T17:01:38.0941888Z",
+                                    "heartbeat":  "2026-10-25T17:06:23.3833483Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,12 +31,12 @@
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T16:44:59.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T17:06:53.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
