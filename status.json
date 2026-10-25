@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T13:04:28.4731036Z",
+    "updated":  "2026-10-25T13:07:14.4551429Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T13:03:30.2281145Z",
+                                       "heartbeat":  "2026-10-25T13:05:21.2645203Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-211",
+                      "number":  211,
+                      "title":  "A Codex job still running when the driver ends early is waited for",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T13:05:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-166",
                       "number":  166,
@@ -31,12 +47,12 @@
                       "id":  "SW-171",
                       "number":  171,
                       "title":  "Status page must not publish an empty board",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T12:46:16.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T13:04:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -104,6 +120,16 @@
                                       "t":  "2026-10-25T12:48:01.1755645Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T13:05:23.6432821Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T13:05:49.2926412Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
