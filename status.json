@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T06:11:35.4870582Z",
+    "updated":  "2026-10-25T06:12:26.0241922Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T06:10:42.0168983Z",
@@ -31,20 +31,15 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T06:08:52.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T06:11:42.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T08:35:20.3755344Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-10-24T08:35:25.8089942Z",
                                       "actor":  "AGY",
@@ -284,6 +279,16 @@
                                       "t":  "2026-10-25T06:08:58.1441865Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T06:11:43.4065838Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 4 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T06:12:28.1320158Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
