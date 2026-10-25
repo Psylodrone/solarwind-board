@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T21:56:08.0090860Z",
+    "updated":  "2026-10-25T21:57:11.8584390Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T21:55:08.9830489Z",
+                                       "heartbeat":  "2026-10-25T21:56:14.8963564Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-39",
                       "number":  39,
                       "title":  "Modular ships",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T21:53:54.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-25T21:56:10.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -88,6 +88,16 @@
                                       "t":  "2026-10-25T21:53:58.5114347Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T21:56:10.8853578Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T21:56:12.7402455Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
