@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T16:46:57.2440664Z",
+    "updated":  "2026-10-25T16:48:43.7740987Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T16:46:02.2300518Z",
+                                       "heartbeat":  "2026-10-25T16:47:50.0452837Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-167",
-                      "number":  167,
-                      "title":  "Split the watcher into dot-sourced parts",
-                      "stage":  "Ready",
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-25T15:54:48.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T16:47:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
