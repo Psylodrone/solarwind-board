@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T07:02:01.4975938Z",
+    "updated":  "2026-10-25T07:03:10.8701643Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:00:44.2217875Z",
+                                       "heartbeat":  "2026-10-25T07:02:08.4768044Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,20 +31,15 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T06:59:53.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T07:02:12.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T09:53:25.1466216Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 has found 2 issues in review round 2, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-10-24T09:53:29.9806836Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-25T07:00:44.5518916Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:02:01.5449917Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 423k/7k, passing to the headless check"
                                   }
                               ]
                   },
