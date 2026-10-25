@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T12:45:16.6643469Z",
+    "updated":  "2026-10-25T12:46:06.9548284Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T12:44:25.3032031Z",
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-25T12:01:02.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -78,6 +78,11 @@
                                       "t":  "2026-10-25T12:02:06.5484372Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:46:07.0133882Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 43 min, tokens 2377k/14k, result denied"
                                   }
                               ]
                   },
@@ -85,12 +90,12 @@
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T12:27:50.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T12:44:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
