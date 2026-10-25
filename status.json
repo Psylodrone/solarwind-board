@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T23:21:24.3437065Z",
+    "updated":  "2026-10-25T23:23:30.6831904Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T23:19:30.0399371Z",
+                                       "heartbeat":  "2026-10-25T23:21:32.4634938Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,7 +37,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-25T23:20:29.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -59,6 +59,11 @@
                                       "t":  "2026-10-25T23:21:24.9374875Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T23:23:33.4346414Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
