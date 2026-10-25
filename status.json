@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T07:27:37.4551645Z",
+    "updated":  "2026-10-25T07:28:37.8649106Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:25:44.7936619Z",
+                                       "heartbeat":  "2026-10-25T07:27:41.7491613Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,239 @@
                               ]
                   },
                   {
+                      "id":  "SW-192",
+                      "number":  192,
+                      "title":  "Confirm: The random number source changes on every game frame even with no game",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T18:41:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-193",
+                      "number":  193,
+                      "title":  "Confirm: May the combat randomness check start the rocket directly instead of",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:01:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-194",
+                      "number":  194,
+                      "title":  "Confirm: Can this check close without finding where the random draw comes from,",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:12:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-195",
+                      "number":  195,
+                      "title":  "Confirm: May the combat test start the rocket directly, instead of waiting one",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:25:52.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-196",
+                      "number":  196,
+                      "title":  "Confirm: May this card close without saying where the per-frame change to the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T19:36:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-198",
+                      "number":  198,
+                      "title":  "Confirm: choice Q1 on SW-185",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T21:15:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-199",
+                      "number":  199,
+                      "title":  "Confirm: Four custom screen sizes went missing from the game view list in an",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T21:26:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-201",
+                      "number":  201,
+                      "title":  "Confirm: Two ship model files have leftover edits that are not from this card.",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T21:36:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-202",
+                      "number":  202,
+                      "title":  "Confirm: choice Q4 on SW-185",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T22:08:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-203",
+                      "number":  203,
+                      "title":  "Confirm: One game test keeps failing in the full check, and this card is only",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-24T22:48:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-206",
+                      "number":  206,
+                      "title":  "Confirm: choice Q6 on SW-185",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T02:38:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-208",
+                      "number":  208,
+                      "title":  "Confirm: Should the station name in the info pane stay the one the player is",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:30:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-209",
+                      "number":  209,
+                      "title":  "Confirm: Should the station tab card go ahead on the current branch, even",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:48:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-210",
+                      "number":  210,
+                      "title":  "Confirm: May the longest production line be left out of the screenshots,",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:58:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T07:23:19.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T07:26:42.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -290,230 +514,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 92caf321 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-192",
-                      "number":  192,
-                      "title":  "Confirm: The random number source changes on every game frame even with no game",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T18:41:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-193",
-                      "number":  193,
-                      "title":  "Confirm: May the combat randomness check start the rocket directly instead of",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T19:01:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-194",
-                      "number":  194,
-                      "title":  "Confirm: Can this check close without finding where the random draw comes from,",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T19:12:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-195",
-                      "number":  195,
-                      "title":  "Confirm: May the combat test start the rocket directly, instead of waiting one",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T19:25:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-196",
-                      "number":  196,
-                      "title":  "Confirm: May this card close without saying where the per-frame change to the",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T19:36:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-198",
-                      "number":  198,
-                      "title":  "Confirm: choice Q1 on SW-185",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T21:15:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-199",
-                      "number":  199,
-                      "title":  "Confirm: Four custom screen sizes went missing from the game view list in an",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T21:26:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-201",
-                      "number":  201,
-                      "title":  "Confirm: Two ship model files have leftover edits that are not from this card.",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T21:36:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-202",
-                      "number":  202,
-                      "title":  "Confirm: choice Q4 on SW-185",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T22:08:42.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-203",
-                      "number":  203,
-                      "title":  "Confirm: One game test keeps failing in the full check, and this card is only",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-24T22:48:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-206",
-                      "number":  206,
-                      "title":  "Confirm: choice Q6 on SW-185",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-25T02:38:57.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-208",
-                      "number":  208,
-                      "title":  "Confirm: Should the station name in the info pane stay the one the player is",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-25T06:30:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-209",
-                      "number":  209,
-                      "title":  "Confirm: Should the station tab card go ahead on the current branch, even",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-25T06:48:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-210",
-                      "number":  210,
-                      "title":  "Confirm: May the longest production line be left out of the screenshots,",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-25T06:58:35.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
