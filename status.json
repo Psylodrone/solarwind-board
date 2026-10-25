@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T16:44:57.0054475Z",
+    "updated":  "2026-10-25T16:45:55.0918232Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T16:44:04.4953927Z",
@@ -31,12 +31,12 @@
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T16:43:04.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-25T16:44:59.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -94,6 +94,16 @@
                                       "t":  "2026-10-25T16:43:06.9043860Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T16:45:00.2799764Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T16:45:02.2075971Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
