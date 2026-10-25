@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T12:29:05.2359758Z",
+    "updated":  "2026-10-25T12:30:54.2257759Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T12:28:13.5939491Z",
+                                       "heartbeat":  "2026-10-25T12:30:02.7566815Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -85,12 +85,12 @@
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T11:31:29.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T12:27:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -315,6 +315,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T06:58:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-212",
+                      "number":  212,
+                      "title":  "Stale Codex job records are not treated as orphans",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T12:27:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
