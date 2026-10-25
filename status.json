@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T16:21:05.4158014Z",
+    "updated":  "2026-10-25T16:22:56.7159910Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T16:20:11.8350749Z",
+                                       "heartbeat":  "2026-10-25T16:22:04.5609849Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T16:17:45.8780345Z",
+                                    "heartbeat":  "2026-10-25T16:22:06.6263810Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -35,7 +35,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-25T16:21:05.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -79,6 +79,11 @@
                                       "t":  "2026-10-25T16:21:08.1201418Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T16:22:07.0515220Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
