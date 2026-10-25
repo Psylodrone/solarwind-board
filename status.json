@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T07:23:18.4874573Z",
+    "updated":  "2026-10-25T07:23:30.2565157Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:22:11.1788040Z",
+                                       "heartbeat":  "2026-10-25T07:23:22.5899659Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -35,21 +35,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-25T07:17:13.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T10:07:03.5641352Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T11:06:51.3723765Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
                                   {
                                       "t":  "2026-10-24T11:07:29.2218112Z",
                                       "actor":  "AGY",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-25T07:17:17.6762246Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:23:18.5323711Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1112k/4k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:23:29.6240543Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
