@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T05:08:28.7943015Z",
+    "updated":  "2026-10-25T05:10:12.3292653Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T05:06:36.1245192Z",
+                                       "heartbeat":  "2026-10-25T05:08:36.1198611Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,20 +15,15 @@
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T04:51:15.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T05:10:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T23:52:08.2736322Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-24T23:52:09.4590390Z",
                                       "actor":  "AGY",
@@ -273,6 +268,11 @@
                                       "t":  "2026-10-25T04:52:04.3999484Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T05:10:12.4025577Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 18 min, tokens 3489k/28k, passing to the headless check"
                                   }
                               ]
                   },
