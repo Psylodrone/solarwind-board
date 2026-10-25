@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-25T22:20:02.2985259Z",
+    "updated":  "2026-10-25T22:21:07.3931527Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T22:19:02.7526410Z",
+                                       "heartbeat":  "2026-10-25T22:20:09.4961576Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T22:15:16.4916254Z",
+                                    "heartbeat":  "2026-10-25T22:19:38.7595161Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T21:08:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-213",
                       "number":  213,
                       "title":  "The watcher runs the card\u0027s test suite, not the fallback driver",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T22:18:01.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T22:20:14.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -233,23 +249,12 @@
                                       "t":  "2026-10-25T22:18:04.7414920Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:20:02.3229114Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 496k/4k, passing to the headless check"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T21:08:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
