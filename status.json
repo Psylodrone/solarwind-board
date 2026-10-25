@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T21:09:21.1974918Z",
+    "updated":  "2026-10-25T21:10:25.4891517Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T21:08:24.9101348Z",
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T20:00:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-213",
                       "number":  213,
@@ -190,6 +174,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T21:08:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
