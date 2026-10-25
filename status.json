@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T19:56:33.1017365Z",
+    "updated":  "2026-10-25T19:58:24.4125308Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T19:55:40.1805889Z",
+                                       "heartbeat":  "2026-10-25T19:57:31.7711093Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T19:52:58.3331414Z",
+                                    "heartbeat":  "2026-10-25T19:57:24.5493022Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -51,7 +51,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-25T19:34:18.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -90,6 +90,16 @@
                                       "t":  "2026-10-25T19:35:31.8845936Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T19:57:30.7764864Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 21 min, tokens 1015k/13k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T19:57:33.6736422Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
