@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T22:56:41.9616688Z",
+    "updated":  "2026-10-25T22:57:41.0737128Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T22:55:39.8411956Z",
@@ -11,6 +11,47 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-188",
+                      "number":  188,
+                      "title":  "Station fitting screen: fit, swap and the module stash",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Low",
+                      "actor":  "architect",
+                      "since":  "2026-10-25T22:55:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-187",
+                      "number":  187,
+                      "title":  "Weapon modules: the fitted weapon decides what fires",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T22:56:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-25T22:56:43.1818122Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:56:59.4292128Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-131",
                       "number":  131,
