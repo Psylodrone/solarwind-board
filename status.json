@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T07:25:37.7952655Z",
+    "updated":  "2026-10-25T07:26:36.9364178Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:24:37.0303367Z",
+                                       "heartbeat":  "2026-10-25T07:25:44.7936619Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T07:20:50.1551133Z",
+                                    "heartbeat":  "2026-10-25T07:25:36.7746495Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -40,11 +40,6 @@
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T11:07:29.2218112Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-24T11:07:30.4421933Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-25T07:23:29.6240543Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:25:42.1762010Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
