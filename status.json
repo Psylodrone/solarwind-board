@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T02:58:50.3973240Z",
+    "updated":  "2026-10-25T03:00:16.4285452Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T02:58:08.1348732Z",
+                                       "heartbeat":  "2026-10-25T02:59:33.8426001Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-204",
-                      "number":  204,
-                      "title":  "Watcher timers survive the autumn clock change",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T02:56:47.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-185",
                       "number":  185,
@@ -462,6 +446,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T02:38:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-204",
+                      "number":  204,
+                      "title":  "Watcher timers survive the autumn clock change",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T03:00:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
