@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T22:00:27.9297501Z",
+    "updated":  "2026-10-25T22:01:34.2655017Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T21:59:25.9965164Z",
+                                       "heartbeat":  "2026-10-25T22:00:35.1021264Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-39",
                       "number":  39,
                       "title":  "Modular ships",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T21:56:10.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-25T21:59:17.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -108,6 +108,11 @@
                                       "t":  "2026-10-25T21:59:21.1147512Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:00:33.1003045Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 3: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
