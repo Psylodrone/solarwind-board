@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T06:56:44.6487006Z",
+    "updated":  "2026-10-25T06:58:43.3360163Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T06:55:48.5125405Z",
+                                       "heartbeat":  "2026-10-25T06:57:38.9794601Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,20 +15,15 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T06:34:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T06:58:43.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T09:33:53.5090374Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-24T09:33:54.9693951Z",
                                       "actor":  "AGY",
@@ -273,6 +268,11 @@
                                       "t":  "2026-10-25T06:34:44.6745921Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T06:58:43.3936335Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 24 min, tokens 3301k/21k, passing to the headless check"
                                   }
                               ]
                   },
@@ -478,6 +478,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T06:48:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-210",
+                      "number":  210,
+                      "title":  "Confirm: May the longest production line be left out of the screenshots,",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:58:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
