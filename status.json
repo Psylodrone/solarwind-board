@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-25T15:54:09.7063322Z",
+    "updated":  "2026-10-25T15:55:57.0243029Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T15:52:24.6743509Z",
+                                       "heartbeat":  "2026-10-25T15:54:16.6226371Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T15:48:36.9365447Z",
+                                    "heartbeat":  "2026-10-25T15:52:58.1035926Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-167",
+                      "number":  167,
+                      "title":  "Split the watcher into dot-sourced parts",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-25T15:54:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-166",
                       "number":  166,
                       "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-25T15:51:29.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-25T15:53:21.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -48,101 +64,6 @@
                                       "t":  "2026-10-25T15:53:24.2354026Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-171",
-                      "number":  171,
-                      "title":  "Status page must not publish an empty board",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T15:06:27.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-25T08:15:40.8440152Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:15:54.2718304Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:53:59.5343365Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 37 min, tokens 2875k/31k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:55:32.5831926Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:57:36.6763064Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (tools-denied)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:58:37.1590920Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T08:58:46.7534594Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T11:01:34.8710077Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T12:01:04.9985577Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (time-limit-leftovers)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T12:01:56.4082236Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T12:02:06.5484372Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T12:46:07.0133882Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 43 min, tokens 2377k/14k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T12:48:01.1755645Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T13:05:23.6432821Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T13:05:49.2926412Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T15:08:07.3658980Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
@@ -368,6 +289,101 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-171",
+                      "number":  171,
+                      "title":  "Status page must not publish an empty board",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T15:54:38.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-25T08:15:40.8440152Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:15:54.2718304Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:53:59.5343365Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 37 min, tokens 2875k/31k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:55:32.5831926Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:57:36.6763064Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:58:37.1590920Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T08:58:46.7534594Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T11:01:34.8710077Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:01:04.9985577Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (time-limit-leftovers)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:01:56.4082236Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:02:06.5484372Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:46:07.0133882Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 43 min, tokens 2377k/14k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:48:01.1755645Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T13:05:23.6432821Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T13:05:49.2926412Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T15:08:07.3658980Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
