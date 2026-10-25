@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T02:38:00.8398121Z",
+    "updated":  "2026-10-25T02:39:02.7738133Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T02:36:40.7953804Z",
+                                       "heartbeat":  "2026-10-25T02:38:04.8573798Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,20 +31,15 @@
                       "id":  "SW-185",
                       "number":  185,
                       "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T02:20:03.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T02:39:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T16:12:35.1736438Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-24T16:12:36.4753725Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-25T02:21:38.6140675Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T02:39:02.8266772Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 17 min, tokens 1456k/17k, passing to the headless check"
                                   }
                               ]
                   },
@@ -446,6 +446,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-24T22:48:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-206",
+                      "number":  206,
+                      "title":  "Confirm: choice Q6 on SW-185",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T02:38:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
