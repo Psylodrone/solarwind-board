@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T23:35:12.3816471Z",
+    "updated":  "2026-10-25T23:36:17.1355871Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T23:34:13.3297489Z",
+                                       "heartbeat":  "2026-10-25T23:35:19.3818564Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T23:30:48.5807606Z",
+                                    "heartbeat":  "2026-10-25T23:35:18.0769569Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,16 +15,25 @@
                       "id":  "SW-188",
                       "number":  188,
                       "title":  "Station fitting screen: fit, swap and the module stash",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Low",
-                      "actor":  "architect",
-                      "since":  "2026-10-25T22:55:43.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T23:35:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-25T23:35:13.7805415Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T23:35:20.1807178Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
