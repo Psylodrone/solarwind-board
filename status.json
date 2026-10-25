@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T18:31:55.3330547Z",
+    "updated":  "2026-10-25T18:38:33.4163896Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T18:29:21.8238905Z",
+                                       "heartbeat":  "2026-10-25T18:37:38.6589662Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T18:25:36.4782618Z",
+                                    "heartbeat":  "2026-10-25T18:34:18.1642444Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,16 +15,20 @@
                       "id":  "SW-213",
                       "number":  213,
                       "title":  "The watcher runs the card\u0027s test suite, not the fallback driver",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-25T18:30:43.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T18:38:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-25T18:38:34.6614961Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
