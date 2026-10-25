@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T00:50:26.6265848Z",
+    "updated":  "2026-10-25T00:51:47.2128951Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T00:49:22.0094752Z",
+                                       "heartbeat":  "2026-10-25T00:50:30.6055368Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-191",
                       "number":  191,
                       "title":  "A Ready card whose spec is not pulled yet waits and pulls",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-24T23:58:30.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T00:51:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -58,6 +58,11 @@
                                       "t":  "2026-10-25T00:00:26.8388080Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T00:51:47.2862514Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 50 min, tokens 2589k/27k, passing to the headless check"
                                   }
                               ]
                   },
