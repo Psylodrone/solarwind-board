@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-25T12:01:52.6526031Z",
+    "updated":  "2026-10-25T12:02:47.6824401Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-25T12:01:03.3148308Z",
@@ -15,12 +15,12 @@
                       "id":  "SW-171",
                       "number":  171,
                       "title":  "Status page must not publish an empty board",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T11:00:35.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T12:01:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -68,6 +68,16 @@
                                       "t":  "2026-10-25T12:01:04.9985577Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (time-limit-leftovers)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:01:56.4082236Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:02:06.5484372Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
