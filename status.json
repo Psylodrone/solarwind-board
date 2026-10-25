@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-25T09:11:30.5485255Z",
+    "updated":  "2026-10-25T09:12:31.5252879Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T09:10:30.8950345Z",
+                                       "heartbeat":  "2026-10-25T09:11:37.3534531Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T09:06:52.7010612Z",
+                                    "heartbeat":  "2026-10-25T09:11:15.6285752Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T09:11:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-171",
                       "number":  171,
