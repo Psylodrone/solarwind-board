@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T07:04:29.3280561Z",
+    "updated":  "2026-10-25T07:05:31.4933346Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:03:22.0734195Z",
+                                       "heartbeat":  "2026-10-25T07:04:33.4273301Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
+                      "id":  "SW-165",
+                      "number":  165,
+                      "title":  "Orphaned Codex jobs are checked or cancelled at run end",
                       "stage":  "Ready",
                       "machine":  "laptop",
-                      "risk":  "risk:risky",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-25T06:59:49.0000000Z",
+                      "since":  "2026-10-25T07:05:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
