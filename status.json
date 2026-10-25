@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T21:10:25.4891517Z",
+    "updated":  "2026-10-25T21:11:24.5237764Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T21:08:24.9101348Z",
+                                       "heartbeat":  "2026-10-25T21:10:33.0291347Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T21:04:46.6592269Z",
+                                    "heartbeat":  "2026-10-25T21:09:19.5476110Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -173,6 +173,11 @@
                                       "t":  "2026-10-25T20:58:08.1508026Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T21:10:28.8993122Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
                                   }
                               ]
                   },
