@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T15:07:13.0313869Z",
+    "updated":  "2026-10-25T15:10:06.7144527Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T15:06:21.1986405Z",
+                                       "heartbeat":  "2026-10-25T15:09:14.9128654Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "by hand",
+                      "actor":  "watcher",
                       "since":  "2026-10-25T12:59:19.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -31,12 +31,12 @@
                       "id":  "SW-171",
                       "number":  171,
                       "title":  "Status page must not publish an empty board",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T13:04:35.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T15:06:27.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -114,6 +114,11 @@
                                       "t":  "2026-10-25T13:05:49.2926412Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T15:08:07.3658980Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
