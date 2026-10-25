@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T12:47:57.1241852Z",
+    "updated":  "2026-10-25T12:50:02.2896922Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T12:46:12.2075139Z",
+                                       "heartbeat":  "2026-10-25T12:49:09.7448464Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,31 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T12:44:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-171",
                       "number":  171,
                       "title":  "Status page must not publish an empty board",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T12:01:02.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T12:46:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -83,23 +99,12 @@
                                       "t":  "2026-10-25T12:46:07.0133882Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 43 min, tokens 2377k/14k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:48:01.1755645Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T12:44:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
