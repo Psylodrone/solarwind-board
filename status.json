@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T11:16:03.8687558Z",
+    "updated":  "2026-10-25T11:17:51.8156473Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T11:14:07.3980567Z",
+                                       "heartbeat":  "2026-10-25T11:16:07.9701293Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T11:16:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-171",
                       "number":  171,
@@ -64,22 +80,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T11:00:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
