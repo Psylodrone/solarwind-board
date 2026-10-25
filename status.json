@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T21:12:18.1853052Z",
+    "updated":  "2026-10-25T21:13:18.6738877Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T21:10:33.0291347Z",
+                                       "heartbeat":  "2026-10-25T21:12:22.4776330Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,46 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-39",
+                      "number":  39,
+                      "title":  "Modular ships",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Claude",
+                      "since":  "2026-10-25T21:10:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-25T20:21:18.6191902Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T20:57:06.2245026Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 35 min, tokens 59942k/201k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T20:58:08.1508026Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T21:10:28.8993122Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T21:11:27.9096334Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-213",
                       "number":  213,
@@ -143,46 +183,6 @@
                                       "t":  "2026-10-25T20:20:27.5169728Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-39",
-                      "number":  39,
-                      "title":  "Modular ships",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T20:57:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-25T20:21:18.6191902Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T20:57:06.2245026Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 35 min, tokens 59942k/201k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T20:58:08.1508026Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T21:10:28.8993122Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (tools-denied)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T21:11:27.9096334Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
