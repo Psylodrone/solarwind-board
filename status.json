@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T22:15:37.8934820Z",
+    "updated":  "2026-10-25T22:16:44.2518728Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T22:14:40.6450578Z",
+                                       "heartbeat":  "2026-10-25T22:15:45.2210203Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T22:10:44.9085434Z",
+                                    "heartbeat":  "2026-10-25T22:15:16.4916254Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-213",
                       "number":  213,
                       "title":  "The watcher runs the card\u0027s test suite, not the fallback driver",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T22:13:36.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T22:16:45.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -208,6 +208,11 @@
                                       "t":  "2026-10-25T22:15:05.0880472Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:16:44.3781612Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 577k/13k, passing to the headless check"
                                   }
                               ]
                   },
