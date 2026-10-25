@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T23:31:00.5487682Z",
+    "updated":  "2026-10-25T23:32:05.2238495Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T23:29:58.2616454Z",
+                                       "heartbeat":  "2026-10-25T23:31:07.5059453Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T23:26:46.7928229Z",
+                                    "heartbeat":  "2026-10-25T23:30:48.5807606Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -28,32 +28,16 @@
                               ]
                   },
                   {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T22:54:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-187",
                       "number":  187,
                       "title":  "Weapon modules: the fitted weapon decides what fires",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T23:23:32.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-25T23:30:01.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -101,6 +85,22 @@
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T22:54:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
