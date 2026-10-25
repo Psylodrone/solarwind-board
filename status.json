@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-25T08:25:55.2440340Z",
+    "updated":  "2026-10-25T08:27:46.7395804Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T08:25:00.2284318Z",
+                                       "heartbeat":  "2026-10-25T08:26:49.9092039Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T08:21:15.8147500Z",
+                                    "heartbeat":  "2026-10-25T08:26:17.8696905Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-165",
-                      "number":  165,
-                      "title":  "Orphaned Codex jobs are checked or cancelled at run end",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T07:05:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-171",
                       "number":  171,
@@ -50,6 +34,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-165",
+                      "number":  165,
+                      "title":  "Orphaned Codex jobs are checked or cancelled at run end",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T08:25:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
