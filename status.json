@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T05:12:45.3315488Z",
+    "updated":  "2026-10-25T05:14:22.7576912Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T05:11:58.2344451Z",
+                                       "heartbeat":  "2026-10-25T05:13:37.8624485Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -24,11 +24,6 @@
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T23:54:06.3730614Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-24T23:55:39.1022617Z",
                                       "actor":  "AGY unknown",
@@ -273,6 +268,11 @@
                                       "t":  "2026-10-25T05:12:08.0367573Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T05:13:43.6519118Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 87fac939 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
