@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T03:30:40.0423299Z",
+    "updated":  "2026-10-25T03:32:11.0588240Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T03:29:57.8833407Z",
+                                       "heartbeat":  "2026-10-25T03:31:28.1895388Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-205",
+                      "number":  205,
+                      "title":  "A text conflict when pushing a finished card goes to a fix run",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T03:29:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-185",
                       "number":  185,
