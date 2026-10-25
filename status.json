@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-25T11:31:18.3816875Z",
+    "updated":  "2026-10-25T11:33:04.0177603Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T11:30:27.7533801Z",
+                                       "heartbeat":  "2026-10-25T11:32:12.5482679Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T11:26:42.8125248Z",
+                                    "heartbeat":  "2026-10-25T11:31:05.5158306Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T11:16:08.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-171",
                       "number":  171,
@@ -80,6 +64,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-166",
+                      "number":  166,
+                      "title":  "The alert watchdog kills a hung watcher",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T11:31:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
