@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-25T19:17:42.5304355Z",
+    "updated":  "2026-10-25T19:18:39.3111057Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T19:15:58.0483183Z",
+                                       "heartbeat":  "2026-10-25T19:17:49.4595067Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T19:13:13.9701344Z",
+                                    "heartbeat":  "2026-10-25T19:17:35.8432959Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T19:03:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-213",
                       "number":  213,
                       "title":  "The watcher runs the card\u0027s test suite, not the fallback driver",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-25T18:38:34.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T19:16:57.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -38,23 +54,12 @@
                                       "t":  "2026-10-25T19:16:49.9674789Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 37 min, tokens 2347k/21k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T19:17:49.2212327Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T19:03:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
