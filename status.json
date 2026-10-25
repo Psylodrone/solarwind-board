@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T07:10:54.7791883Z",
+    "updated":  "2026-10-25T07:13:19.3632213Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T07:09:57.4877015Z",
+                                       "heartbeat":  "2026-10-25T07:11:56.1689165Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T07:07:29.0796025Z",
+                                    "heartbeat":  "2026-10-25T07:11:55.2499116Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,25 +31,15 @@
                       "id":  "SW-152",
                       "number":  152,
                       "title":  "Station growth panel: level, lines and what to scan",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T07:02:12.0000000Z",
-                      "round":  3,
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T07:11:21.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T09:53:31.3009838Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T10:04:25.6076102Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 11 min, tokens 8752k/57k, result blocked"
-                                  },
                                   {
                                       "t":  "2026-10-24T10:04:46.7174038Z",
                                       "actor":  "watcher",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-25T07:03:21.5017932Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:11:59.6734559Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T07:12:09.2856070Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
