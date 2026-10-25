@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T12:00:03.5184223Z",
+    "updated":  "2026-10-25T12:01:52.6526031Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T11:59:10.3408846Z",
+                                       "heartbeat":  "2026-10-25T12:01:03.3148308Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,6 +63,11 @@
                                       "t":  "2026-10-25T11:01:34.8710077Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T12:01:04.9985577Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (time-limit-leftovers)"
                                   }
                               ]
                   },
