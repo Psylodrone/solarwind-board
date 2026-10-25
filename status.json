@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-25T06:45:50.1970133Z",
+    "updated":  "2026-10-25T06:48:21.6625490Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T06:44:58.3887543Z",
+                                       "heartbeat":  "2026-10-25T06:46:48.0588249Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T06:41:27.3400285Z",
+                                    "heartbeat":  "2026-10-25T06:45:45.5440842Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -462,6 +462,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T06:30:50.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-209",
+                      "number":  209,
+                      "title":  "Confirm: Should the station tab card go ahead on the current branch, even",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-25T06:48:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
