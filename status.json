@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T22:09:09.3984184Z",
+    "updated":  "2026-10-25T22:11:18.4177801Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T22:08:11.2313325Z",
+                                       "heartbeat":  "2026-10-25T22:10:19.7609620Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-213",
                       "number":  213,
                       "title":  "The watcher runs the card\u0027s test suite, not the fallback driver",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-25T22:08:03.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-25T22:10:16.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -183,6 +183,16 @@
                                       "t":  "2026-10-25T22:08:07.3989669Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:10:14.5112743Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 1495k/14k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T22:10:21.1951982Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
