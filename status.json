@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-10-25T06:23:19.7943396Z",
+    "updated":  "2026-10-25T06:25:01.6792627Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T06:22:28.5198760Z",
+                                       "heartbeat":  "2026-10-25T06:24:15.5100642Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-25T06:19:51.5918894Z",
+                                    "heartbeat":  "2026-10-25T06:24:12.1537133Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-207",
-                      "number":  207,
-                      "title":  "Editor test runs can filter to one test",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T06:20:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-152",
                       "number":  152,
@@ -462,6 +446,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T02:38:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-207",
+                      "number":  207,
+                      "title":  "Editor test runs can filter to one test",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-25T06:23:29.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
