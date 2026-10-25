@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-25T02:20:17.1160709Z",
+    "updated":  "2026-10-25T02:21:27.0953303Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-25T02:19:01.0528777Z",
+                                       "heartbeat":  "2026-10-25T02:20:45.7970113Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,23 +12,34 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-185",
-                      "number":  185,
-                      "title":  "Screenshots can be taken at a chosen Game view size",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
+                      "id":  "SW-204",
+                      "number":  204,
+                      "title":  "Watcher timers survive the autumn clock change",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T23:56:36.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-25T02:20:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-24T14:04:41.8728099Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-185",
+                      "number":  185,
+                      "title":  "Screenshots can be taken at a chosen Game view size",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-25T02:20:03.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
                                   {
                                       "t":  "2026-10-24T14:04:50.2887132Z",
                                       "actor":  "AGY",
@@ -273,6 +284,11 @@
                                       "t":  "2026-10-24T23:57:52.0984943Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-25T02:21:30.5090940Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
@@ -440,12 +456,12 @@
                       "id":  "SW-191",
                       "number":  191,
                       "title":  "A Ready card whose spec is not pulled yet waits and pulls",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-25T02:03:21.0000000Z",
+                      "since":  "2026-10-25T02:19:57.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
