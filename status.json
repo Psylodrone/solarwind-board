@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T23:47:31.2193337Z",
+    "updated":  "2026-10-26T23:48:31.5999163Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T23:46:53.6489053Z",
+                                       "heartbeat":  "2026-10-26T23:48:00.5682445Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-229",
+                      "number":  229,
+                      "title":  "Stock perks on the Autocannon and Rocket Pod, with perk text on the Modules tab",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-26T23:47:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-233",
                       "number":  233,
                       "title":  "SOS offers: cap, world cooldown and weighted placement",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-26T23:14:56.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-26T23:46:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
