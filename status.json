@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T09:16:00.5249866Z",
+    "updated":  "2026-10-26T09:17:15.9041752Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T09:14:43.5920205Z",
+                                       "heartbeat":  "2026-10-26T09:16:04.8957041Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,6 +369,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-26T07:09:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-221",
+                      "number":  221,
+                      "title":  "Confirm: Can the check that the editor lock survives a run on the laptop move",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-26T09:15:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
