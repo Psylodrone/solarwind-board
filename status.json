@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-26T23:30:47.7203208Z",
+    "updated":  "2026-10-26T23:31:44.2784967Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-26T23:29:51.7986205Z",
@@ -41,56 +41,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-230",
-                      "number":  230,
-                      "title":  "Mission reward table by type and difficulty tier",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-26T23:26:33.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-26T18:54:42.4112756Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T18:54:50.5219446Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:13:08.2797384Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:13:09.6890398Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:26:32.6611806Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 13 min, tokens 9454k/50k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:26:36.5673001Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:29:48.3668275Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  }
                               ]
                   },
                   {
@@ -167,6 +117,61 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-230",
+                      "number":  230,
+                      "title":  "Mission reward table by type and difficulty tier",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T23:30:52.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-26T18:54:42.4112756Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T18:54:50.5219446Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:13:08.2797384Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:13:09.6890398Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:26:32.6611806Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 13 min, tokens 9454k/50k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:26:36.5673001Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:29:48.3668275Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:30:53.0438175Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed e0e7300b and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
