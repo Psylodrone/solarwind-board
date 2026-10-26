@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T23:44:35.5298601Z",
+    "updated":  "2026-10-26T23:45:55.9598954Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T23:43:39.9195958Z",
+                                       "heartbeat":  "2026-10-26T23:45:47.3918230Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T23:39:53.5519846Z",
+                                    "heartbeat":  "2026-10-26T23:44:07.5571974Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,15 +44,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-234",
+                      "number":  234,
+                      "title":  "Confirm: Should one older test be updated to expect a new warning message that",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-26T19:15:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-40",
                       "number":  40,
                       "title":  "Rules layer with perks on modules",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-26T23:40:23.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T23:43:43.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -136,22 +152,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 64a342b0 and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-234",
-                      "number":  234,
-                      "title":  "Confirm: Should one older test be updated to expect a new warning message that",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-26T19:15:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
