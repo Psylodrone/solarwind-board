@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T18:54:40.9636898Z",
+    "updated":  "2026-10-26T18:55:43.2030095Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T18:53:39.7559731Z",
+                                       "heartbeat":  "2026-10-26T18:54:45.3775942Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-230",
-                      "number":  230,
-                      "title":  "Mission reward table by type and difficulty tier",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-26T18:44:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-231",
                       "number":  231,
@@ -41,6 +25,31 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-230",
+                      "number":  230,
+                      "title":  "Mission reward table by type and difficulty tier",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-26T18:54:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-26T18:54:42.4112756Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T18:54:50.5219446Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
