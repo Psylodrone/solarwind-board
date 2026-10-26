@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T19:14:40.8329960Z",
+    "updated":  "2026-10-26T19:15:58.2273352Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T19:13:32.1338192Z",
+                                       "heartbeat":  "2026-10-26T19:14:48.0652391Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -110,6 +110,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-234",
+                      "number":  234,
+                      "title":  "Confirm: Should one older test be updated to expect a new warning message that",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-26T19:15:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
