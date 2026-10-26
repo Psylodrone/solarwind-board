@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T18:42:18.6658920Z",
+    "updated":  "2026-10-26T18:43:28.6389234Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T18:41:11.2971396Z",
+                                       "heartbeat":  "2026-10-26T18:42:27.7127772Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-26T17:43:06.6589369Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T18:42:25.5395854Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
                                   }
                               ]
                   },
