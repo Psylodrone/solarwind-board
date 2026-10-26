@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T08:13:16.2208195Z",
+    "updated":  "2026-10-26T08:14:27.6788234Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T08:12:12.8477254Z",
+                                       "heartbeat":  "2026-10-26T08:13:21.1641604Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-219",
+                      "number":  219,
+                      "title":  "A GitHub error at start does not crash the watcher",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-26T08:14:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-131",
                       "number":  131,
