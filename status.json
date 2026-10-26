@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T07:09:37.5921493Z",
+    "updated":  "2026-10-26T07:10:46.9763769Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T07:08:11.8562813Z",
+                                       "heartbeat":  "2026-10-26T07:09:44.6079464Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,6 +28,11 @@
                                       "t":  "2026-10-26T07:08:16.9452318Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T07:09:37.6701348Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 889k/12k, passing to the headless check"
                                   }
                               ]
                   },
@@ -313,6 +318,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T21:49:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-218",
+                      "number":  218,
+                      "title":  "Confirm: choice Q1 on SW-131",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-26T07:09:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
