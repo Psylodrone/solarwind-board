@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T08:58:50.2652846Z",
+    "updated":  "2026-10-26T08:59:56.8470019Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T08:57:48.4360378Z",
+                                       "heartbeat":  "2026-10-26T08:58:54.5124431Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-219",
-                      "number":  219,
-                      "title":  "A GitHub error at start does not crash the watcher",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-26T08:53:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-131",
                       "number":  131,
@@ -385,6 +369,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-26T07:09:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-219",
+                      "number":  219,
+                      "title":  "A GitHub error at start does not crash the watcher",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T08:58:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
