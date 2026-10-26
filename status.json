@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T14:44:52.0826633Z",
+    "updated":  "2026-10-26T14:46:02.6712509Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T14:43:48.5038461Z",
+                                       "heartbeat":  "2026-10-26T14:44:59.5670870Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T14:39:45.7972992Z",
+                                    "heartbeat":  "2026-10-26T14:44:00.9470723Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-26T14:43:40.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -123,6 +123,16 @@
                                       "t":  "2026-10-26T14:43:43.3534828Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:44:57.0837543Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:45:10.5481202Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
