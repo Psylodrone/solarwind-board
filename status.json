@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T00:01:07.5054873Z",
+    "updated":  "2026-10-26T00:02:12.6172791Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T00:00:07.1488967Z",
+                                       "heartbeat":  "2026-10-26T00:01:12.1982262Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -34,22 +34,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-25T22:54:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -569,6 +553,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T21:49:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-26T00:00:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
