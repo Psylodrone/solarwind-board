@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T23:25:32.8918146Z",
+    "updated":  "2026-10-26T23:27:35.0796143Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T23:24:36.8579973Z",
+                                       "heartbeat":  "2026-10-26T23:26:33.5375241Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T23:21:47.3683187Z",
+                                    "heartbeat":  "2026-10-26T23:26:33.0899820Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -47,12 +47,12 @@
                       "id":  "SW-230",
                       "number":  230,
                       "title":  "Mission reward table by type and difficulty tier",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-26T19:16:12.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-26T23:26:33.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -75,6 +75,16 @@
                                       "t":  "2026-10-26T23:13:09.6890398Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:26:32.6611806Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 13 min, tokens 9454k/50k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:26:36.5673001Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
