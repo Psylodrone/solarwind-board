@@ -1,141 +1,16 @@
 {
-    "updated":  "2026-10-26T10:53:15.8151490Z",
+    "updated":  "2026-10-26T10:55:41.2550550Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T10:52:09.9690806Z",
+                                       "heartbeat":  "2026-10-26T10:54:28.5405133Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T10:48:17.8148236Z",
+                                    "heartbeat":  "2026-10-26T10:52:48.8002644Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-26T10:50:51.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-26T07:08:16.9452318Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T07:09:37.6701348Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 889k/12k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T07:45:58.0273404Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T07:50:37.2878682Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 9 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T07:50:39.0777660Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T08:18:03.7469357Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 27 min, tokens 15479k/76k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T08:53:03.0669642Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T08:56:29.9306110Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 4 issues in review round 2, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T08:56:31.8083776Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T09:27:17.6202787Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 30 min, tokens 3764k/60k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:03:27.5591309Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:03:32.0157959Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:04:46.5281220Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:05:58.0896303Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 has found 2 issues in review round 3, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:05:59.8660538Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 3 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:08:28.4138722Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 1494k/19k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:08:37.3192430Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:11:47.9056021Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (review-rounds)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:13:05.5999357Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:14:17.8914193Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 433k/7k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:51:02.9512680Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T10:52:05.0176774Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-192",
                       "number":  192,
@@ -470,6 +345,136 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T10:53:21.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-26T07:08:16.9452318Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T07:09:37.6701348Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 889k/12k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T07:45:58.0273404Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T07:50:37.2878682Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 9 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T07:50:39.0777660Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T08:18:03.7469357Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 27 min, tokens 15479k/76k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T08:53:03.0669642Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T08:56:29.9306110Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 4 issues in review round 2, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T08:56:31.8083776Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T09:27:17.6202787Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 30 min, tokens 3764k/60k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:03:27.5591309Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:03:32.0157959Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:04:46.5281220Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:05:58.0896303Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 has found 2 issues in review round 3, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:05:59.8660538Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:08:28.4138722Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1494k/19k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:08:37.3192430Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:11:47.9056021Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:13:05.5999357Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:14:17.8914193Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 433k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:51:02.9512680Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:52:05.0176774Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:53:22.0386698Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed f027b5c9 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
