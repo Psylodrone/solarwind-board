@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T10:07:16.0240527Z",
+    "updated":  "2026-10-26T10:09:41.6795575Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T10:06:06.0310056Z",
+                                       "heartbeat":  "2026-10-26T10:08:34.0220472Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T10:04:12.0955699Z",
+                                    "heartbeat":  "2026-10-26T10:08:34.0647467Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-131",
                       "number":  131,
                       "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-26T10:03:23.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-26T10:05:57.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -98,6 +98,16 @@
                                       "t":  "2026-10-26T10:05:59.8660538Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:08:28.4138722Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1494k/19k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:08:37.3192430Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
