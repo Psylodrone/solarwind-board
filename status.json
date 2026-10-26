@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T18:38:48.5085115Z",
+    "updated":  "2026-10-26T18:39:57.0996670Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T18:37:27.4567679Z",
+                                       "heartbeat":  "2026-10-26T18:38:55.9242013Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -4914,56 +4914,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-38",
-                      "number":  38,
-                      "title":  "Combat Hit, CombatLogic, projectile metadata",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-19T18:39:33.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-19T17:57:58.1115749Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:32:12.8598308Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 16 min, tokens 16205k/60k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:32:18.4151993Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:32:22.5006717Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:32:22.5205086Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:39:13.9930493Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T18:39:31.3138184Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed fb748b3a and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
