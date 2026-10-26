@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T18:45:46.2445300Z",
+    "updated":  "2026-10-26T18:47:52.0517590Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T18:44:47.2988163Z",
+                                       "heartbeat":  "2026-10-26T18:46:50.1186574Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,38 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-230",
+                      "number":  230,
+                      "title":  "Mission reward table by type and difficulty tier",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-26T18:44:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-26T18:45:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-40",
                       "number":  40,
