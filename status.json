@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T10:13:01.9558944Z",
+    "updated":  "2026-10-26T10:14:17.8328392Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T10:11:56.1462790Z",
+                                       "heartbeat":  "2026-10-26T10:13:09.0610504Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T10:08:34.0647467Z",
+                                    "heartbeat":  "2026-10-26T10:12:57.5020120Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "Claude",
                       "since":  "2026-10-26T10:11:45.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -113,6 +113,16 @@
                                       "t":  "2026-10-26T10:11:47.9056021Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:13:05.5999357Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T10:14:17.8914193Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 433k/7k, passing to the headless check"
                                   }
                               ]
                   },
