@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T17:56:47.7983566Z",
+    "updated":  "2026-10-26T17:58:38.2210242Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T17:55:41.6332430Z",
+                                       "heartbeat":  "2026-10-26T17:56:52.2441939Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -4963,56 +4963,6 @@
                                       "t":  "2026-10-19T18:39:31.3138184Z",
                                       "actor":  "watcher",
                                       "text":  "committed fb748b3a and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-37",
-                      "number":  37,
-                      "title":  "Enemy ships on HullDefinition + loadout",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-19T17:57:14.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-19T17:19:31.2078997Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:50:34.7010988Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 13 min, tokens 9962k/48k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:50:37.7301761Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:50:41.7307785Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:50:41.7541105Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:56:53.4692811Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-19T17:57:12.0220692Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 7c6cddb1 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
