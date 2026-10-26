@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-26T23:32:50.7767120Z",
+    "updated":  "2026-10-26T23:33:49.4265655Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-26T23:31:54.8472280Z",
@@ -47,12 +47,12 @@
                       "id":  "SW-40",
                       "number":  40,
                       "title":  "Rules layer with perks on modules",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-26T18:52:26.0000000Z",
+                      "since":  "2026-10-26T23:32:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -100,6 +100,11 @@
                                       "t":  "2026-10-26T18:53:32.9283639Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:32:53.5518314Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
