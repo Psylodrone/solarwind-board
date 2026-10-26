@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T18:43:28.6389234Z",
+    "updated":  "2026-10-26T18:44:38.6514782Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T18:42:27.7127772Z",
+                                       "heartbeat":  "2026-10-26T18:43:36.1587122Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T18:36:45.6722158Z",
+                                    "heartbeat":  "2026-10-26T18:42:35.4005644Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-40",
                       "number":  40,
                       "title":  "Rules layer with perks on modules",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-26T17:42:05.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-26T18:42:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -48,6 +48,16 @@
                                       "t":  "2026-10-26T18:42:25.5395854Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T18:43:33.0881497Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T18:43:44.2858365Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
