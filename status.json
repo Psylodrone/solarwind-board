@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T13:26:36.8013286Z",
+    "updated":  "2026-10-26T13:27:43.2376717Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T13:25:36.8629578Z",
+                                       "heartbeat":  "2026-10-26T13:26:45.5724825Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T13:21:48.8398784Z",
+                                    "heartbeat":  "2026-10-26T13:26:32.4364311Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-223",
                       "number":  223,
                       "title":  "Ship kill fact with the victim\u0027s faction and role",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-26T13:18:29.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T13:27:43.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -83,6 +83,11 @@
                                       "t":  "2026-10-26T13:18:36.2722332Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T13:27:43.2810397Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 9 min, tokens 3423k/24k, passing to the headless check"
                                   }
                               ]
                   },
