@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T23:15:32.8680310Z",
+    "updated":  "2026-10-26T23:16:41.3391613Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T23:14:27.2239196Z",
+                                       "heartbeat":  "2026-10-26T23:15:40.1142238Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-26T18:45:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-233",
+                      "number":  233,
+                      "title":  "SOS offers: cap, world cooldown and weighted placement",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-26T23:14:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
