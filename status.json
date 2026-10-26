@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T17:43:06.5727030Z",
+    "updated":  "2026-10-26T17:44:07.3228915Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T17:42:05.6305154Z",
+                                       "heartbeat":  "2026-10-26T17:43:10.9662544Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-40",
                       "number":  40,
                       "title":  "Rules layer with perks on modules",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-26T16:47:39.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T17:42:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -38,6 +38,11 @@
                                       "t":  "2026-10-26T17:41:57.6858127Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 53 min, tokens 2903k/17k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T17:43:06.6589369Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
