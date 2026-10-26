@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T15:03:02.5578960Z",
+    "updated":  "2026-10-26T15:05:51.1137801Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T15:01:59.1632055Z",
+                                       "heartbeat":  "2026-10-26T15:04:23.4739127Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T14:58:50.0488335Z",
+                                    "heartbeat":  "2026-10-26T15:04:14.7944202Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-223",
                       "number":  223,
                       "title":  "Ship kill fact with the victim\u0027s faction and role",
-                      "stage":  "Review",
+                      "stage":  "Done",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-26T14:59:25.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T15:03:08.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -173,6 +173,11 @@
                                       "t":  "2026-10-26T15:01:53.2927458Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T15:03:08.8623725Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed eb7f9000 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
