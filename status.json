@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T13:05:23.1433491Z",
+    "updated":  "2026-10-26T13:06:28.9958826Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T13:04:18.1469311Z",
+                                       "heartbeat":  "2026-10-26T13:05:27.7963208Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-223",
                       "number":  223,
                       "title":  "Ship kill fact with the victim\u0027s faction and role",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-10-26T13:02:55.0000000Z",
-                      "round":  0,
+                      "since":  "2026-10-26T13:06:31.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-26T13:02:58.0714059Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T13:06:32.1690006Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
