@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T07:07:00.1917518Z",
+    "updated":  "2026-10-26T07:08:04.2666786Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T07:06:00.3035973Z",
+                                       "heartbeat":  "2026-10-26T07:07:04.4680201Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-131",
+                      "number":  131,
+                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T07:08:03.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-192",
                       "number":  192,
@@ -293,22 +309,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-25T21:49:28.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-131",
-                      "number":  131,
-                      "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-26T05:09:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
