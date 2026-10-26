@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T11:44:55.5235199Z",
+    "updated":  "2026-10-26T11:46:08.0221033Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T11:43:47.9412980Z",
+                                       "heartbeat":  "2026-10-26T11:44:59.9119154Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-220",
                       "number":  220,
                       "title":  "Editor lock move: Unity compile, lock tests and survival check on the laptop",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-26T11:32:56.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T11:43:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -38,6 +38,11 @@
                                       "t":  "2026-10-26T11:43:38.5993733Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 9 min, tokens 2907k/17k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T11:44:55.6078377Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
