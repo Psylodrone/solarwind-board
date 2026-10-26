@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T14:49:33.2586177Z",
+    "updated":  "2026-10-26T14:50:43.3328521Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T14:48:30.8594327Z",
+                                       "heartbeat":  "2026-10-26T14:49:41.0618736Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T14:44:00.9470723Z",
+                                    "heartbeat":  "2026-10-26T14:49:11.5556422Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-223",
                       "number":  223,
                       "title":  "Ship kill fact with the victim\u0027s faction and role",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-26T14:43:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T14:50:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -133,6 +133,11 @@
                                       "t":  "2026-10-26T14:45:10.5481202Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:50:43.3705123Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1374k/7k, passing to the headless check"
                                   }
                               ]
                   },
