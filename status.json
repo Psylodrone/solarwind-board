@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T14:50:43.3328521Z",
+    "updated":  "2026-10-26T14:52:04.3784253Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T14:49:41.0618736Z",
+                                       "heartbeat":  "2026-10-26T14:50:51.2801405Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY unknown",
                       "since":  "2026-10-26T14:50:44.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -138,6 +138,11 @@
                                       "t":  "2026-10-26T14:50:43.3705123Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 5 min, tokens 1374k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:50:48.3012721Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
