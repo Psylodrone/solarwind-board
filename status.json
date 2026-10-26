@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-26T14:54:30.6194185Z",
+    "updated":  "2026-10-26T14:56:37.5836701Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T14:53:19.9378657Z",
+                                       "heartbeat":  "2026-10-26T14:54:38.5416634Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-26T14:49:11.5556422Z",
+                                    "heartbeat":  "2026-10-26T14:53:54.2872657Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-223",
                       "number":  223,
                       "title":  "Ship kill fact with the victim\u0027s faction and role",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-26T14:50:44.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-26T14:54:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -143,6 +143,21 @@
                                       "t":  "2026-10-26T14:50:48.3012721Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:54:34.4903880Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:54:36.7611441Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T14:54:38.1849896Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
