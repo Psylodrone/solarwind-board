@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T08:54:03.8323822Z",
+    "updated":  "2026-10-26T08:55:11.3050374Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T08:52:59.6506001Z",
+                                       "heartbeat":  "2026-10-26T08:54:08.1853621Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,31 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-219",
-                      "number":  219,
-                      "title":  "A GitHub error at start does not crash the watcher",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-26T08:14:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-131",
                       "number":  131,
                       "title":  "Editor lock moved out of Temp with pid and heartbeat",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-26T07:50:36.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-26T08:52:58.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -75,6 +59,22 @@
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-219",
+                      "number":  219,
+                      "title":  "A GitHub error at start does not crash the watcher",
+                      "stage":  "Review",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-26T08:53:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
