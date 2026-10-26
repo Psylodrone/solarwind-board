@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-26T11:31:36.6305450Z",
+    "updated":  "2026-10-26T11:32:55.8450712Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-26T11:30:23.2551973Z",
+                                       "heartbeat":  "2026-10-26T11:31:40.8549788Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,16 +15,20 @@
                       "id":  "SW-220",
                       "number":  220,
                       "title":  "Editor lock move: Unity compile, lock tests and survival check on the laptop",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-26T11:05:43.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-26T11:32:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-26T11:32:56.9877790Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
