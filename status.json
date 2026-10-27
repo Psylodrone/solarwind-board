@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T04:07:55.6655071Z",
+    "updated":  "2026-10-27T04:08:58.5857713Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T04:07:49.8882083Z",
+                                       "heartbeat":  "2026-10-27T04:08:54.8483811Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-231",
-                      "number":  231,
-                      "title":  "Pilots for hire at stations",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-27T03:48:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-229",
                       "number":  229,
@@ -170,6 +154,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T04:06:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
