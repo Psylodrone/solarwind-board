@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T18:27:16.2921372Z",
+    "updated":  "2026-10-27T18:28:16.7281415Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T18:26:53.2389657Z",
+                                       "heartbeat":  "2026-10-27T18:27:58.2243758Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -73,56 +73,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-227",
-                      "number":  227,
-                      "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-27T18:25:32.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T18:11:34.0244828Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:11:46.6004007Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:25:31.9187224Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 14 min, tokens 1859k/21k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:25:35.3040648Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:27:11.4169443Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:27:13.3335710Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:27:14.5156658Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
                               ]
                   },
                   {
@@ -327,6 +277,56 @@
                                       "t":  "2026-10-27T17:44:16.9410151Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-227",
+                      "number":  227,
+                      "title":  "Fixture with a three-input production line for screenshots",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T18:27:10.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T18:11:34.0244828Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:11:46.6004007Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:25:31.9187224Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 14 min, tokens 1859k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:25:35.3040648Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:27:11.4169443Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:27:13.3335710Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:27:14.5156658Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
