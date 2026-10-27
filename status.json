@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-27T04:15:32.2356265Z",
+    "updated":  "2026-10-27T04:16:36.4962940Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T04:15:26.2605752Z",
+                                       "heartbeat":  "2026-10-27T04:16:30.7309344Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T04:12:10.4669610Z",
+                                    "heartbeat":  "2026-10-27T04:16:27.4088677Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T04:14:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-229",
                       "number":  229,
@@ -154,22 +170,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-231",
-                      "number":  231,
-                      "title":  "Pilots for hire at stations",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T04:06:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
