@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-27T11:08:17.9865373Z",
+    "updated":  "2026-10-27T11:10:18.2675513Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T11:07:47.0627659Z",
+                                       "heartbeat":  "2026-10-27T11:10:00.5626832Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T10:55:20.3232785Z",
+                                    "heartbeat":  "2026-10-27T11:05:42.9061395Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -56,6 +56,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-27T11:07:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-228",
+                      "number":  228,
+                      "title":  "Perk rules as Visual Scripting graphs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T11:08:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
