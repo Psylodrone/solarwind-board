@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T11:03:54.9504145Z",
+    "updated":  "2026-10-27T11:04:12.5193487Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T11:03:21.5510212Z",
@@ -63,61 +63,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-231",
-                      "number":  231,
-                      "title":  "Pilots for hire at stations",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T11:02:04.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T09:56:16.3523151Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:22:54.3894430Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 5568k/38k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:22:57.6003094Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:23:02.6165961Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:23:12.3264101Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:24:11.5606580Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:24:32.6736154Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:02:54.0821004Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 43448020 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-233",
                       "number":  233,
                       "title":  "SOS offers: cap, world cooldown and weighted placement",
@@ -125,21 +70,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-27T11:02:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T00:43:25.9944351Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:43:29.9715758Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (tools-denied)"
-                                  },
                                   {
                                       "t":  "2026-10-27T01:44:04.3719363Z",
                                       "actor":  "AGY",
@@ -379,6 +314,16 @@
                                       "t":  "2026-10-27T09:51:58.5657303Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:04:02.8784873Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:04:12.2221304Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
@@ -497,6 +442,61 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:02:53.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T09:56:16.3523151Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:22:54.3894430Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 5568k/38k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:22:57.6003094Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:23:02.6165961Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:23:12.3264101Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:24:11.5606580Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:24:32.6736154Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:02:54.0821004Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 43448020 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
