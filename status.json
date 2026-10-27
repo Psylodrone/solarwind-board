@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T15:12:38.4218627Z",
+    "updated":  "2026-10-27T15:13:47.5521135Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T15:12:26.7525163Z",
+                                       "heartbeat":  "2026-10-27T15:13:32.2102842Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,31 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-227",
-                      "number":  227,
-                      "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T11:32:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-224",
                       "number":  224,
                       "title":  "Find what changes the random state every frame",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T14:13:42.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T15:12:02.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -154,7 +138,28 @@
                                       "t":  "2026-10-27T14:14:01.7529957Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T15:13:38.7021719Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-227",
+                      "number":  227,
+                      "title":  "Fixture with a three-input production line for screenshots",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:32:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
