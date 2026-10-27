@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-27T12:00:12.1320149Z",
+    "updated":  "2026-10-27T12:01:12.1567040Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T11:59:51.9797510Z",
+                                       "heartbeat":  "2026-10-27T12:00:57.4096791Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T11:55:22.9664763Z",
+                                    "heartbeat":  "2026-10-27T12:00:05.9804387Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-237",
+                      "number":  237,
+                      "title":  "Scene gate retries a transient empty result and shows the raw output",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T11:07:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-225",
                       "number":  225,
                       "title":  "Fix the game test that fails in the full check",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "any",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-27T09:41:02.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T12:00:04.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -53,92 +69,6 @@
                                       "t":  "2026-10-27T12:00:11.6254118Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-237",
-                      "number":  237,
-                      "title":  "Scene gate retries a transient empty result and shows the raw output",
-                      "stage":  "Ready",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-27T11:07:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-228",
-                      "number":  228,
-                      "title":  "Perk rules as Visual Scripting graphs",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-27T11:58:05.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T11:28:33.3038277Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:28:40.1482641Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:46:38.4984981Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 18 min, tokens 18485k/131k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:46:52.6041764Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:48:01.8725175Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:48:03.8473228Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:48:05.2015823Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:58:02.9397323Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 10 min, tokens 4612k/52k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:58:09.3644431Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:58:49.5547087Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:59:09.3298805Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 309c65a0 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -273,6 +203,76 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-228",
+                      "number":  228,
+                      "title":  "Perk rules as Visual Scripting graphs",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:59:08.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T11:28:33.3038277Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:28:40.1482641Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:46:38.4984981Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 18 min, tokens 18485k/131k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:46:52.6041764Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:48:01.8725175Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:48:03.8473228Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:48:05.2015823Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:58:02.9397323Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 10 min, tokens 4612k/52k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:58:09.3644431Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:58:49.5547087Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:59:09.3298805Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 309c65a0 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
