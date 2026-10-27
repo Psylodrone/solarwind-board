@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T19:37:21.8818304Z",
+    "updated":  "2026-10-27T19:37:55.4076969Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T19:36:26.1394357Z",
+                                       "heartbeat":  "2026-10-27T19:37:33.5473758Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,13 +63,13 @@
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T19:12:00.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-27T19:36:07.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -186,6 +186,11 @@
                                       "t":  "2026-10-27T19:36:20.4781287Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:37:54.4251015Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 3, passing to AGY to check and fix"
                                   }
                               ]
                   },
