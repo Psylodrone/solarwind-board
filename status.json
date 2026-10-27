@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T19:48:31.1338332Z",
+    "updated":  "2026-10-27T19:49:26.9653633Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T19:47:26.9061174Z",
+                                       "heartbeat":  "2026-10-27T19:48:32.9870343Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,13 +47,13 @@
                       "id":  "SW-241",
                       "number":  241,
                       "title":  "War Table: gamepad A activates the previously selected offer",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T19:39:39.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-27T19:48:26.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -75,6 +75,21 @@
                                       "t":  "2026-10-27T19:48:29.0807861Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:49:22.3196231Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:49:24.3760955Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:49:25.6281148Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
