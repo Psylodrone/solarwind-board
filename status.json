@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T08:39:30.2249856Z",
+    "updated":  "2026-10-27T08:40:25.3676408Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T08:38:30.4292008Z",
+                                       "heartbeat":  "2026-10-27T08:39:37.1111120Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -261,6 +261,16 @@
                                       "t":  "2026-10-27T08:39:29.2273501Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T08:39:59.2568333Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 314k/5k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T08:40:24.8654558Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
