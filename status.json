@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T11:58:09.5909253Z",
+    "updated":  "2026-10-27T11:58:56.1553896Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T11:57:36.2019435Z",
+                                       "heartbeat":  "2026-10-27T11:58:46.1027520Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -66,13 +66,13 @@
                       "id":  "SW-228",
                       "number":  228,
                       "title":  "Perk rules as Visual Scripting graphs",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T11:48:01.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-27T11:58:05.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -119,6 +119,11 @@
                                       "t":  "2026-10-27T11:58:09.3644431Z",
                                       "actor":  "Claude claude-sonnet-5-5",
                                       "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:58:49.5547087Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
