@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T11:07:14.0508394Z",
+    "updated":  "2026-10-27T11:08:17.9865373Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T11:06:42.0354311Z",
+                                       "heartbeat":  "2026-10-27T11:07:47.0627659Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,6 +44,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-237",
+                      "number":  237,
+                      "title":  "Scene gate retries a transient empty result and shows the raw output",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T11:07:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
