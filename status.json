@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T11:10:46.8752852Z",
+    "updated":  "2026-10-27T11:10:53.5319485Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T11:10:00.5626832Z",
@@ -107,16 +107,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T01:47:45.9109363Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 4 min, tokens 3466k/24k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:48:07.6779526Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-10-27T02:47:54.7394271Z",
                                       "actor":  "watcher",
@@ -356,6 +346,16 @@
                                       "t":  "2026-10-27T11:10:46.4075440Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:10:52.8121703Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:10:52.8598119Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
                                   }
                               ]
                   },
