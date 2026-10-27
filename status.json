@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T09:57:28.7721024Z",
+    "updated":  "2026-10-27T09:58:33.5885601Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T09:57:18.1507993Z",
+                                       "heartbeat":  "2026-10-27T09:58:23.2413189Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-231",
-                      "number":  231,
-                      "title":  "Pilots for hire at stations",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-27T04:14:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T09:56:16.3523151Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-225",
                       "number":  225,
@@ -80,6 +60,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T09:56:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T09:56:16.3523151Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
