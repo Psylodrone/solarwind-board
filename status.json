@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T09:41:04.2553390Z",
+    "updated":  "2026-10-27T09:41:55.5714706Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T09:40:40.5385734Z",
+                                       "heartbeat":  "2026-10-27T09:41:47.7059495Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -16,7 +16,7 @@
                       "number":  231,
                       "title":  "Pilots for hire at stations",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -25,6 +25,41 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-225",
+                      "number":  225,
+                      "title":  "Fix the game test that fails in the full check",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T09:41:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T07:39:39.5500571Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:39:45.9447086Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:41:45.2084826Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 2 min, tokens 1747k/8k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:42:02.4262456Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
@@ -47,12 +82,12 @@
                       "id":  "SW-233",
                       "number":  233,
                       "title":  "SOS offers: cap, world cooldown and weighted placement",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T08:40:10.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-27T09:40:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -235,41 +270,16 @@
                                       "t":  "2026-10-27T09:41:03.8665932Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-225",
-                      "number":  225,
-                      "title":  "Fix the game test that fails in the full check",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T08:42:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T07:39:39.5500571Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-27T07:39:45.9447086Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:41:45.2084826Z",
+                                      "t":  "2026-10-27T09:41:49.4892550Z",
                                       "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 2 min, tokens 1747k/8k, result blocked"
+                                      "text":  "Claude fix run finished in 1 min, tokens 291k/4k, passing to the headless check"
                                   },
                                   {
-                                      "t":  "2026-10-27T07:42:02.4262456Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                      "t":  "2026-10-27T09:41:53.8811438Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
