@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T15:27:29.3094475Z",
+    "updated":  "2026-10-27T15:28:09.2865852Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T15:26:44.4187865Z",
+                                       "heartbeat":  "2026-10-27T15:27:52.0818025Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -35,9 +35,9 @@
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
+                      "actor":  "watcher",
                       "since":  "2026-10-27T15:12:02.0000000Z",
-                      "round":  1,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -174,6 +174,11 @@
                                       "t":  "2026-10-27T15:27:28.5018771Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T15:28:09.0728254Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (taras-returned-leftovers)"
                                   }
                               ]
                   },
