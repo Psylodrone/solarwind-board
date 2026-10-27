@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-27T14:12:46.5686448Z",
+    "updated":  "2026-10-27T14:14:01.7694781Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T14:12:22.8957118Z",
+                                       "heartbeat":  "2026-10-27T14:13:27.7756853Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T14:08:11.8307620Z",
+                                    "heartbeat":  "2026-10-27T14:12:53.8047619Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-227",
+                      "number":  227,
+                      "title":  "Fixture with a three-input production line for screenshots",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:32:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-224",
                       "number":  224,
                       "title":  "Find what changes the random state every frame",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-27T13:48:41.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T14:13:42.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -128,23 +144,17 @@
                                       "t":  "2026-10-27T13:48:45.7835506Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T14:13:34.8881474Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 25 min, tokens 2283k/46k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T14:14:01.7529957Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-227",
-                      "number":  227,
-                      "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T11:32:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -173,6 +183,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T08:29:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-238",
+                      "number":  238,
+                      "title":  "Confirm: Can we skip the batch-mode check of the new frame test for now and run",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-27T14:13:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
