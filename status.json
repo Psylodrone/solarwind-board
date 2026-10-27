@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T17:06:34.5435835Z",
+    "updated":  "2026-10-27T17:07:46.1236051Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T17:06:21.4349827Z",
+                                       "heartbeat":  "2026-10-27T17:07:26.4703717Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,31 +44,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-227",
-                      "number":  227,
-                      "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T11:32:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T16:44:21.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T17:05:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -107,6 +91,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-227",
+                      "number":  227,
+                      "title":  "Fixture with a three-input production line for screenshots",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:32:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
