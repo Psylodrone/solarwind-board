@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T07:53:11.8738849Z",
+    "updated":  "2026-10-27T07:53:43.8033305Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T07:53:06.1817353Z",
@@ -98,12 +98,12 @@
                       "id":  "SW-229",
                       "number":  229,
                       "title":  "Stock perks on the Autocannon and Rocket Pod, with perk text on the Modules tab",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-27T07:41:55.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-27T07:53:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -161,6 +161,16 @@
                                       "t":  "2026-10-27T07:42:41.1238098Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:53:42.9918055Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 2721k/16k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:53:46.1813449Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
