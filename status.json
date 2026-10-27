@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T10:23:12.7388769Z",
+    "updated":  "2026-10-27T10:24:12.2457993Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T10:22:47.7512185Z",
+                                       "heartbeat":  "2026-10-27T10:23:54.8671974Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -66,13 +66,13 @@
                       "id":  "SW-231",
                       "number":  231,
                       "title":  "Pilots for hire at stations",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T09:56:15.0000000Z",
-                      "round":  0,
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-27T10:22:54.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -99,6 +99,11 @@
                                       "t":  "2026-10-27T10:23:12.3264101Z",
                                       "actor":  "Claude claude-sonnet-5-5",
                                       "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:24:11.5606580Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
