@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T12:26:28.9038409Z",
+    "updated":  "2026-10-27T12:27:29.2178258Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T12:25:44.8994787Z",
+                                       "heartbeat":  "2026-10-27T12:26:49.5319800Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,51 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-237",
-                      "number":  237,
-                      "title":  "Scene gate retries a transient empty result and shows the raw output",
-                      "stage":  "Review",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-27T12:19:00.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T12:08:56.8076731Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T12:09:03.6165167Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T12:18:55.5013297Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 10 min, tokens 1182k/21k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T12:24:48.1427812Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T12:25:12.2504570Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T12:25:27.2828050Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 1c295734 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-224",
                       "number":  224,
@@ -187,6 +142,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-237",
+                      "number":  237,
+                      "title":  "Scene gate retries a transient empty result and shows the raw output",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T12:25:26.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T12:08:56.8076731Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T12:09:03.6165167Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T12:18:55.5013297Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 10 min, tokens 1182k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T12:24:48.1427812Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T12:25:12.2504570Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T12:25:27.2828050Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 1c295734 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
