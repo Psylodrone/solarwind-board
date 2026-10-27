@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T11:10:18.2675513Z",
+    "updated":  "2026-10-27T11:10:46.8752852Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T11:10:00.5626832Z",
@@ -102,21 +102,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-27T11:02:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T01:44:04.3719363Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:44:05.4696429Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-10-27T01:47:45.9109363Z",
                                       "actor":  "Claude",
@@ -356,6 +346,16 @@
                                       "t":  "2026-10-27T11:04:12.2221304Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:10:41.3608787Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 6 min, tokens 2655k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:10:46.4075440Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
