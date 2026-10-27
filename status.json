@@ -1,13 +1,13 @@
 {
-    "updated":  "2026-10-27T10:25:33.8648700Z",
+    "updated":  "2026-10-27T10:26:33.8716564Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T10:25:00.6866962Z",
+                                       "heartbeat":  "2026-10-27T10:26:08.7316383Z",
                                        "watcher":  "running",
                                        "idle":  "unpushed-commits (1)"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T10:21:09.2532226Z",
+                                    "heartbeat":  "2026-10-27T10:25:44.8861218Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -61,56 +61,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-231",
-                      "number":  231,
-                      "title":  "Pilots for hire at stations",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-27T10:22:54.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T09:56:16.3523151Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:22:54.3894430Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 5568k/38k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:22:57.6003094Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:23:02.6165961Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:23:12.3264101Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:24:11.5606580Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T10:24:32.6736154Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
                               ]
                   },
                   {
@@ -464,6 +414,56 @@
                               ]
                   },
                   {
+                      "id":  "SW-231",
+                      "number":  231,
+                      "title":  "Pilots for hire at stations",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T10:24:32.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T09:56:16.3523151Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:22:54.3894430Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 5568k/38k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:22:57.6003094Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:23:02.6165961Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:23:12.3264101Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:24:11.5606580Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T10:24:32.6736154Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-234",
                       "number":  234,
                       "title":  "Confirm: Should one older test be updated to expect a new warning message that",
@@ -489,6 +489,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T08:29:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-235",
+                      "number":  235,
+                      "title":  "Event bus: On Game Event node gets phase and priority settings",
+                      "stage":  "Done",
+                      "machine":  null,
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T10:24:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
