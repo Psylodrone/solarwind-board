@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T19:27:06.9852419Z",
+    "updated":  "2026-10-27T19:27:17.2153910Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T19:26:34.1085346Z",
@@ -67,7 +67,7 @@
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-27T19:12:00.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -176,6 +176,11 @@
                                       "t":  "2026-10-27T19:12:04.2795833Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:27:16.3074918Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 15 min, tokens 1178k/13k, passing to the headless check"
                                   }
                               ]
                   },
