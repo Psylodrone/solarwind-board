@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T15:28:09.2865852Z",
+    "updated":  "2026-10-27T15:29:12.7399275Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T15:27:52.0818025Z",
+                                       "heartbeat":  "2026-10-27T15:28:57.7689211Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,19 +12,39 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-240",
-                      "number":  240,
-                      "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
+                      "id":  "SW-241",
+                      "number":  241,
+                      "title":  "War Table: gamepad A activates the previously selected offer",
                       "stage":  "Ready",
                       "machine":  "any",
-                      "risk":  "risk:logic",
+                      "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-10-27T15:17:50.0000000Z",
+                      "since":  "2026-10-27T15:28:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-240",
+                      "number":  240,
+                      "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
+                      "stage":  "In progress",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T15:29:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T15:29:14.3972603Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
@@ -36,7 +56,7 @@
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-27T15:12:02.0000000Z",
+                      "since":  "2026-10-27T15:28:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
