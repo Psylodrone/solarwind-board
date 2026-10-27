@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T18:22:10.5999283Z",
+    "updated":  "2026-10-27T18:25:31.8313558Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T18:21:57.3302660Z",
+                                       "heartbeat":  "2026-10-27T18:22:57.9305434Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-244",
+                      "number":  244,
+                      "title":  "The watcher opens the editor without the script updater prompt",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T18:20:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-241",
                       "number":  241,
@@ -44,15 +60,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-243",
+                      "number":  243,
+                      "title":  "Watcher finds dialogs of a frozen Unity editor",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T18:20:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-227",
                       "number":  227,
                       "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-27T17:33:38.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-27T18:25:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -65,6 +97,16 @@
                                       "t":  "2026-10-27T18:11:46.6004007Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:25:31.9187224Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 14 min, tokens 1859k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:25:35.3040648Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -410,12 +452,12 @@
                       "id":  "SW-242",
                       "number":  242,
                       "title":  "Confirm: choice Q1 on SW-224",
-                      "stage":  "Needs Taras",
+                      "stage":  "Done",
                       "machine":  "any",
                       "risk":  null,
                       "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T17:53:07.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T18:23:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
