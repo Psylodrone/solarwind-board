@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-27T17:52:58.6528873Z",
+    "updated":  "2026-10-27T17:54:05.0467553Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T17:52:46.3823439Z",
+                                       "heartbeat":  "2026-10-27T17:53:51.9079340Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T17:47:49.3672089Z",
+                                    "heartbeat":  "2026-10-27T17:53:18.6044986Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -391,6 +391,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T14:13:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-242",
+                      "number":  242,
+                      "title":  "Confirm: choice Q1 on SW-224",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-27T17:53:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
