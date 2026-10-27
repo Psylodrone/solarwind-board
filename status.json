@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T08:40:25.3676408Z",
+    "updated":  "2026-10-27T08:41:03.5631732Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T08:39:37.1111120Z",
+                                       "heartbeat":  "2026-10-27T08:40:44.5099229Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -95,15 +95,55 @@
                               ]
                   },
                   {
+                      "id":  "SW-224",
+                      "number":  224,
+                      "title":  "Find what changes the random state every frame",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T07:38:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T07:34:27.4355885Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:34:43.2641265Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:38:37.0690562Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 4 min, tokens 3113k/31k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:38:53.7787490Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T08:41:02.5479143Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-blocked)"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-233",
                       "number":  233,
                       "title":  "SOS offers: cap, world cooldown and weighted placement",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-27T08:37:38.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T08:40:10.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -269,41 +309,6 @@
                                   },
                                   {
                                       "t":  "2026-10-27T08:40:24.8654558Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-224",
-                      "number":  224,
-                      "title":  "Find what changes the random state every frame",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T07:38:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T07:34:27.4355885Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:34:43.2641265Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:38:37.0690562Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 4 min, tokens 3113k/31k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:38:53.7787490Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
