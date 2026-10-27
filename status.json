@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-27T17:04:53.2407824Z",
+    "updated":  "2026-10-27T17:05:28.3128355Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T17:04:08.8268921Z",
+                                       "heartbeat":  "2026-10-27T17:05:13.2232479Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T16:59:35.6920206Z",
+                                    "heartbeat":  "2026-10-27T17:04:11.6635883Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -44,15 +44,66 @@
                               ]
                   },
                   {
-                      "id":  "SW-224",
-                      "number":  224,
-                      "title":  "Find what changes the random state every frame",
-                      "stage":  "Changes requested",
+                      "id":  "SW-227",
+                      "number":  227,
+                      "title":  "Fixture with a three-input production line for screenshots",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T11:32:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-240",
+                      "number":  240,
+                      "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
+                      "stage":  "Stopped",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T16:53:21.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T16:44:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T15:29:14.3972603Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T15:29:22.0661474Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T16:44:12.7984788Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 75 min, tokens 1965k/11k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T16:44:36.2365421Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-224",
+                      "number":  224,
+                      "title":  "Find what changes the random state every frame",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T17:05:02.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -235,55 +286,9 @@
                                       "t":  "2026-10-27T17:04:53.0382407Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 11 min, tokens 1109k/12k, result error"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-227",
-                      "number":  227,
-                      "title":  "Fixture with a three-input production line for screenshots",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T11:32:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-240",
-                      "number":  240,
-                      "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Stopped",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T16:44:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T15:29:14.3972603Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-27T15:29:22.0661474Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T16:44:12.7984788Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 75 min, tokens 1965k/11k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T16:44:36.2365421Z",
+                                      "t":  "2026-10-27T17:05:17.8665486Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
