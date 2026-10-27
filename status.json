@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T07:38:55.9213721Z",
+    "updated":  "2026-10-27T07:39:40.0363030Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T07:38:48.8685344Z",
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-27T04:14:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-225",
-                      "number":  225,
-                      "title":  "Fix the game test that fails in the full check",
-                      "stage":  "Ready",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-27T07:33:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -76,37 +60,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-224",
-                      "number":  224,
-                      "title":  "Find what changes the random state every frame",
+                      "id":  "SW-225",
+                      "number":  225,
+                      "title":  "Fix the game test that fails in the full check",
                       "stage":  "In progress",
                       "machine":  "any",
-                      "risk":  "risk:logic",
+                      "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T07:34:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T07:39:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-27T07:34:27.4355885Z",
+                                      "t":  "2026-10-27T07:39:39.5500571Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:34:43.2641265Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:38:37.0690562Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 4 min, tokens 3113k/31k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T07:38:53.7787490Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
@@ -250,6 +219,41 @@
                                   },
                                   {
                                       "t":  "2026-10-27T02:49:42.8474400Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-224",
+                      "number":  224,
+                      "title":  "Find what changes the random state every frame",
+                      "stage":  "Stopped",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T07:38:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T07:34:27.4355885Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:34:43.2641265Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:38:37.0690562Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 4 min, tokens 3113k/31k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T07:38:53.7787490Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
