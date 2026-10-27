@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T07:42:41.6634242Z",
+    "updated":  "2026-10-27T07:43:44.7617611Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T07:42:04.2268092Z",
+                                       "heartbeat":  "2026-10-27T07:43:10.5632273Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,12 +63,12 @@
                       "id":  "SW-225",
                       "number":  225,
                       "title":  "Fix the game test that fails in the full check",
-                      "stage":  "In progress",
+                      "stage":  "Ready",
                       "machine":  "any",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T07:39:38.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-27T07:42:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -98,12 +98,12 @@
                       "id":  "SW-229",
                       "number":  229,
                       "title":  "Stock perks on the Autocannon and Rocket Pod, with perk text on the Modules tab",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T01:54:01.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T07:41:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -168,12 +168,12 @@
                       "id":  "SW-233",
                       "number":  233,
                       "title":  "SOS offers: cap, world cooldown and weighted placement",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-27T02:49:29.0000000Z",
+                      "since":  "2026-10-27T07:42:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
