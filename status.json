@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T11:26:26.1714693Z",
+    "updated":  "2026-10-27T11:26:34.6209906Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T11:25:35.6481283Z",
@@ -102,16 +102,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "Claude claude-sonnet-5-5",
                       "since":  "2026-10-27T11:26:28.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T02:49:42.8474400Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-10-27T07:56:07.0553746Z",
                                       "actor":  "AGY",
@@ -356,6 +351,11 @@
                                       "t":  "2026-10-27T11:26:27.6105682Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 15 min, tokens 11823k/89k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:26:31.9970017Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
                                   }
                               ]
                   },
