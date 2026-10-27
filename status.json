@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T02:50:44.3099736Z",
+    "updated":  "2026-10-27T02:51:45.1225855Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T02:50:00.4716981Z",
+                                       "heartbeat":  "2026-10-27T02:51:04.9132680Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,91 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-233",
-                      "number":  233,
-                      "title":  "SOS offers: cap, world cooldown and weighted placement",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T02:47:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-26T23:46:13.7239747Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-26T23:46:29.8281480Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T00:43:06.8752804Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 57 min, tokens 1225k/9k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T00:43:25.9944351Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:43:29.9715758Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (tools-denied)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:44:04.3719363Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:44:05.4696429Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:47:45.9109363Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 4 min, tokens 3466k/24k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T01:48:07.6779526Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T02:47:54.7394271Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-blocked)"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T02:48:28.9339354Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T02:48:30.1164846Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T02:49:19.8292180Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 654k/6k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T02:49:42.8474400Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-229",
                       "number":  229,
@@ -170,6 +85,91 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-233",
+                      "number":  233,
+                      "title":  "SOS offers: cap, world cooldown and weighted placement",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T02:49:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-26T23:46:13.7239747Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-26T23:46:29.8281480Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T00:43:06.8752804Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 57 min, tokens 1225k/9k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T00:43:25.9944351Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T01:43:29.9715758Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T01:44:04.3719363Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T01:44:05.4696429Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T01:47:45.9109363Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 4 min, tokens 3466k/24k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T01:48:07.6779526Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T02:47:54.7394271Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T02:48:28.9339354Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T02:48:30.1164846Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T02:49:19.8292180Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 654k/6k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T02:49:42.8474400Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
