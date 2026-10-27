@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-27T11:29:41.9514006Z",
+    "updated":  "2026-10-27T11:30:42.0649628Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T11:28:54.2226387Z",
+                                       "heartbeat":  "2026-10-27T11:30:00.7173985Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,31 +63,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-228",
-                      "number":  228,
-                      "title":  "Perk rules as Visual Scripting graphs",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-27T11:08:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T11:28:33.3038277Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T11:28:40.1482641Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-227",
                       "number":  227,
                       "title":  "Fixture with a three-input production line for screenshots",
@@ -101,6 +76,31 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-228",
+                      "number":  228,
+                      "title":  "Perk rules as Visual Scripting graphs",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-27T11:28:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T11:28:33.3038277Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T11:28:40.1482641Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
