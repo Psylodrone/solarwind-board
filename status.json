@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-27T19:01:17.1465734Z",
+    "updated":  "2026-10-27T19:01:34.2121322Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-27T19:01:00.9143904Z",
@@ -57,41 +57,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-232",
-                      "number":  232,
-                      "title":  "Rescue and Salvage first-use check in play",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-27T18:35:01.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-27T18:35:01.9338840Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:35:09.7579091Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T18:59:56.4514642Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 25 min, tokens 3293k/29k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T19:00:16.7579405Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
                               ]
                   },
                   {
@@ -307,7 +272,7 @@
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-27T18:38:57.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -391,6 +356,46 @@
                                       "t":  "2026-10-27T19:01:04.3385382Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:01:34.1883607Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 235k/4k, passing to the headless check"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-232",
+                      "number":  232,
+                      "title":  "Rescue and Salvage first-use check in play",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-27T19:00:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-27T18:35:01.9338840Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:35:09.7579091Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T18:59:56.4514642Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 25 min, tokens 3293k/29k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-27T19:00:16.7579405Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
