@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-27T23:17:33.7704425Z",
+    "updated":  "2026-10-27T23:18:38.2626478Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T23:17:20.8744329Z",
+                                       "heartbeat":  "2026-10-27T23:18:25.2287822Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T23:12:48.0758583Z",
+                                    "heartbeat":  "2026-10-27T23:17:18.1344630Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -6219,51 +6219,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-150",
-                      "number":  150,
-                      "title":  "Mission levels scaled from system difficulty",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-20T23:17:47.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-20T22:52:12.2102273Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T22:57:41.7155488Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:12:09.5481790Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 14 min, tokens 7128k/44k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:12:16.3334140Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:17:13.9331005Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-20T23:17:48.7094216Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 86eaa387 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
