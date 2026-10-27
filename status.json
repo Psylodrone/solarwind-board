@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-27T08:29:33.1402724Z",
+    "updated":  "2026-10-27T08:30:33.9527490Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-27T08:28:11.6119082Z",
+                                       "heartbeat":  "2026-10-27T08:29:40.7470182Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-27T08:24:57.4751460Z",
+                                    "heartbeat":  "2026-10-27T08:29:21.4636915Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -259,6 +259,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-26T19:15:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-236",
+                      "number":  236,
+                      "title":  "Confirm: Should a new offer that appears at a station be announced in the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-27T08:29:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
