@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T23:19:37.5575066Z",
+    "updated":  "2026-10-28T23:21:11.5201612Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T23:18:44.4599298Z",
+                                       "heartbeat":  "2026-10-28T23:19:58.9232587Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,46 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-259",
-                      "number":  259,
-                      "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T22:02:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-28T22:02:19.4842776Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T22:05:05.1892412Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T22:49:39.4527990Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 44 min, tokens 1317k/11k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T23:10:17.9788284Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 44 min, tokens 1317k/11k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T23:15:57.9688275Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
                               ]
                   },
                   {
@@ -129,6 +89,46 @@
                                       "t":  "2026-10-28T22:00:59.9448556Z",
                                       "actor":  "watcher",
                                       "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-259",
+                      "number":  259,
+                      "title":  "Derelicts: the mothership salvages in person",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T23:10:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-28T22:02:19.4842776Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T22:05:05.1892412Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T22:49:39.4527990Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 44 min, tokens 1317k/11k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T23:10:17.9788284Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 44 min, tokens 1317k/11k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T23:15:57.9688275Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
