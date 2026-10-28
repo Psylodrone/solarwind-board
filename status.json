@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-28T17:03:25.8481860Z",
+    "updated":  "2026-10-28T17:04:27.0516076Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T17:02:51.4530809Z",
+                                       "heartbeat":  "2026-10-28T17:03:57.4318009Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T16:58:56.2389290Z",
+                                    "heartbeat":  "2026-10-28T17:03:44.3579800Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-257",
+                      "number":  257,
+                      "title":  "Fleet widget: background takes the minimap colour too",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-28T17:02:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-256",
                       "number":  256,
@@ -37,31 +53,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-249",
-                      "number":  249,
-                      "title":  "A short GitHub error does not stop a card",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-28T16:25:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-253",
                       "number":  253,
                       "title":  "A flaky test must not kill the watcher suite",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-10-28T16:45:45.0000000Z",
+                      "since":  "2026-10-28T17:03:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -150,6 +150,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T16:25:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
