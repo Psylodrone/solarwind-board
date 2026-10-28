@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-28T11:12:22.3065538Z",
+    "updated":  "2026-10-28T11:12:37.9971548Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-28T11:12:00.8561447Z",
@@ -40,16 +40,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T19:00:55.0955651Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-27T19:01:04.3385382Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-10-27T19:01:34.1883607Z",
                                       "actor":  "Claude",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-28T11:12:00.7054782Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T11:12:35.7180522Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T11:12:37.3938134Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
