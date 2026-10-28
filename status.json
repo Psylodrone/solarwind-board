@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-28T21:35:33.8843295Z",
+    "updated":  "2026-10-28T21:36:34.3260032Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T21:34:22.8761483Z",
+                                       "heartbeat":  "2026-10-28T21:35:38.7628837Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T21:30:41.8390680Z",
+                                    "heartbeat":  "2026-10-28T21:35:40.0461602Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-259",
+                      "number":  259,
+                      "title":  "Derelicts: the mothership salvages in person",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-28T21:35:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-249",
                       "number":  249,
