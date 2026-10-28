@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T22:00:54.4560114Z",
+    "updated":  "2026-10-28T22:02:18.3661064Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T22:00:06.2575908Z",
+                                       "heartbeat":  "2026-10-28T22:01:21.5320811Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-259",
-                      "number":  259,
-                      "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-28T21:35:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-266",
                       "number":  266,
@@ -44,62 +28,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-249",
-                      "number":  249,
-                      "title":  "A short GitHub error does not stop a card",
-                      "stage":  "Changes requested",
+                      "id":  "SW-259",
+                      "number":  259,
+                      "title":  "Derelicts: the mothership salvages in person",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:small",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-28T21:59:43.0000000Z",
-                      "round":  1,
+                      "since":  "2026-10-28T22:02:18.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-28T21:27:47.9343877Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:28:26.9491159Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:32:37.8892515Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 3 min, tokens 2228k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:48:19.3025759Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:49:55.4826757Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:49:57.3542450Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:50:13.4547298Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:51:35.8616134Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 1052k/14k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T21:52:07.7188000Z",
+                                      "t":  "2026-10-28T22:02:19.4842776Z",
                                       "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
@@ -325,6 +269,71 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Needs Taras",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T22:00:59.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-28T21:27:47.9343877Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:28:26.9491159Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:32:37.8892515Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 3 min, tokens 2228k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:48:19.3025759Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:49:55.4826757Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:49:57.3542450Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:50:13.4547298Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:51:35.8616134Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 1052k/14k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T21:52:07.7188000Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T22:00:59.9448556Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped, Needs Taras: git conflict or push problem"
+                                  }
                               ]
                   },
                   {
