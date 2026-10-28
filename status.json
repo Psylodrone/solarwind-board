@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T21:25:05.7986289Z",
+    "updated":  "2026-10-28T21:27:29.3039402Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T21:24:33.1645030Z",
+                                       "heartbeat":  "2026-10-28T21:25:39.5121611Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T21:24:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
