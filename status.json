@@ -1,16 +1,36 @@
 {
-    "updated":  "2026-10-28T16:59:02.0657697Z",
+    "updated":  "2026-10-28T17:00:04.6748668Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T16:58:14.4669750Z",
+                                       "heartbeat":  "2026-10-28T16:59:19.6149418Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T16:54:09.6996568Z",
+                                    "heartbeat":  "2026-10-28T16:58:56.2389290Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-256",
+                      "number":  256,
+                      "title":  "Fleet widget: look fixes after first test",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T17:00:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-28T17:00:06.0064716Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-249",
                       "number":  249,
