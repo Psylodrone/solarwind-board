@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-28T15:35:08.6252590Z",
+    "updated":  "2026-10-28T15:36:14.9395422Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T15:34:22.4270842Z",
+                                       "heartbeat":  "2026-10-28T15:35:26.9405146Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T15:29:01.8578963Z",
+                                    "heartbeat":  "2026-10-28T15:34:31.1589695Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -197,6 +197,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-28T13:02:06.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-254",
+                      "number":  254,
+                      "title":  "Confirm: Should unrelated suite timing failures outside this task be waived?",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-28T15:34:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
