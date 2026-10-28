@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T23:54:40.5617609Z",
+    "updated":  "2026-10-28T23:55:52.5005591Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T23:53:44.7710094Z",
+                                       "heartbeat":  "2026-10-28T23:54:52.2252551Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-28T23:10:26.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-28T23:54:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -64,6 +64,16 @@
                                       "t":  "2026-10-28T23:15:57.9688275Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T23:54:43.1555981Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T23:55:55.6560213Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
