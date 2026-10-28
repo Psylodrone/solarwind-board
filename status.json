@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T17:55:46.4556290Z",
+    "updated":  "2026-10-28T17:56:48.5060290Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T17:55:04.7679182Z",
+                                       "heartbeat":  "2026-10-28T17:56:11.2515885Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,76 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-257",
-                      "number":  257,
-                      "title":  "Fleet widget: background takes the minimap colour too",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-28T17:52:56.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-28T17:41:23.6186298Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:41:40.6912083Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:51:03.2258653Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 9 min, tokens 2101k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:51:07.0239161Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:52:31.5527797Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:52:33.3277354Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:52:34.5085833Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:52:55.5214197Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 0 min, tokens 221k/2k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:53:18.6172420Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:54:30.0941797Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-28T17:54:45.5544601Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 33d9c7ae and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-249",
                       "number":  249,
@@ -287,6 +217,76 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-257",
+                      "number":  257,
+                      "title":  "Fleet widget: background takes the minimap colour too",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T17:54:44.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-28T17:41:23.6186298Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:41:40.6912083Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:51:03.2258653Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 9 min, tokens 2101k/13k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:51:07.0239161Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:31.5527797Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:33.3277354Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:34.5085833Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:55.5214197Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 0 min, tokens 221k/2k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:53:18.6172420Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:54:30.0941797Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:54:45.5544601Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 33d9c7ae and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
