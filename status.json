@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T16:30:33.3407090Z",
+    "updated":  "2026-10-28T16:31:33.9800660Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T16:29:26.9534644Z",
+                                       "heartbeat":  "2026-10-28T16:30:35.1870017Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -267,6 +267,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-28T15:34:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-255",
+                      "number":  255,
+                      "title":  "Confirm: Can this fix be finished on this machine, with the two laptop test",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-28T16:30:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
