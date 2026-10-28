@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-28T12:13:03.1636660Z",
+    "updated":  "2026-10-28T12:14:19.9767225Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T12:12:39.6459567Z",
+                                       "heartbeat":  "2026-10-28T12:13:55.2561153Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T12:09:03.4039487Z",
+                                    "heartbeat":  "2026-10-28T12:13:27.6258418Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -35,16 +35,11 @@
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-28T12:03:01.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T20:35:15.5823294Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-27T20:36:59.0729901Z",
                                       "actor":  "AGY unknown",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-28T12:03:06.5941786Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T12:14:20.1449826Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 812k/8k, passing to the headless check"
                                   }
                               ]
                   },
@@ -414,6 +414,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-28T11:37:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-251",
+                      "number":  251,
+                      "title":  "Confirm: Should the task report keep the test count that the automatic check",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-28T12:13:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
