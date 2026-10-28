@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T15:23:38.2407100Z",
+    "updated":  "2026-10-28T15:24:42.0180454Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T15:22:51.7033251Z",
+                                       "heartbeat":  "2026-10-28T15:23:59.4956407Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-253",
+                      "number":  253,
+                      "title":  "A flaky test must not kill the watcher suite",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-28T15:23:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-249",
                       "number":  249,
