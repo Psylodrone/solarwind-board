@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T21:53:28.0215018Z",
+    "updated":  "2026-10-28T21:54:42.7640233Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T21:52:50.1652634Z",
+                                       "heartbeat":  "2026-10-28T21:53:57.1828893Z",
                                        "watcher":  "running",
                                        "idle":  "tree-dirty (1)"
                                    },
@@ -22,6 +22,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-28T21:35:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-266",
+                      "number":  266,
+                      "title":  "Tooling cards run in a sparse workspace, not Taras\u0027s folder",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-28T21:53:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
