@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T00:26:59.9696731Z",
+    "updated":  "2026-10-28T00:28:04.5743309Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T00:26:47.3038954Z",
+                                       "heartbeat":  "2026-10-28T00:27:51.5231686Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-243",
+                      "number":  243,
+                      "title":  "Watcher finds dialogs of a frozen Unity editor",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-28T00:26:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-240",
                       "number":  240,
@@ -234,22 +250,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-243",
-                      "number":  243,
-                      "title":  "Watcher finds dialogs of a frozen Unity editor",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-27T23:13:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
