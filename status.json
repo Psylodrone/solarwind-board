@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T12:39:23.2924390Z",
+    "updated":  "2026-10-28T12:40:27.4622938Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T12:38:57.3343540Z",
+                                       "heartbeat":  "2026-10-28T12:40:01.6382172Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,31 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-249",
-                      "number":  249,
-                      "title":  "A short GitHub error does not stop a card",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-28T11:48:15.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T12:26:58.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-28T12:38:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -290,6 +274,22 @@
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-28T11:48:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
