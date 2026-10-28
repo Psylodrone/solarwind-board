@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-28T17:38:17.9745726Z",
+    "updated":  "2026-10-28T17:39:17.2096577Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-28T17:38:05.6751559Z",
@@ -31,13 +31,13 @@
                       "id":  "SW-253",
                       "number":  253,
                       "title":  "A flaky test must not kill the watcher suite",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T17:03:10.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-28T17:35:01.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -144,6 +144,11 @@
                                       "t":  "2026-10-28T17:35:27.1365916Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:39:19.4856416Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
