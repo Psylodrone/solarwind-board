@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T12:26:18.3042993Z",
+    "updated":  "2026-10-28T12:27:24.9096226Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T12:25:53.5000290Z",
+                                       "heartbeat":  "2026-10-28T12:26:58.2356918Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,20 +31,15 @@
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-28T12:14:30.0000000Z",
-                      "round":  3,
+                      "actor":  "AGY",
+                      "since":  "2026-10-28T12:26:58.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T20:37:01.0203774Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-27T20:37:02.3428876Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-28T12:14:44.2308499Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T12:27:28.6317031Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
