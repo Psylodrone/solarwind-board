@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-10-28T10:50:29.2725591Z",
+    "updated":  "2026-10-28T10:51:32.8500575Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T10:50:08.3041204Z",
+                                       "heartbeat":  "2026-10-28T10:51:14.0872300Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T10:46:13.0656758Z",
+                                    "heartbeat":  "2026-10-28T10:50:18.4004872Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-28T10:50:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T10:42:44.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-28T10:50:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
