@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T16:45:24.2823935Z",
+    "updated":  "2026-10-28T16:46:17.0097646Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T16:44:42.2523638Z",
+                                       "heartbeat":  "2026-10-28T16:45:49.2292719Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,31 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T16:25:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-253",
                       "number":  253,
                       "title":  "A flaky test must not kill the watcher suite",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-28T16:41:52.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T16:45:45.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -98,23 +114,17 @@
                                       "t":  "2026-10-28T16:44:22.4160681Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T16:45:35.0443355Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 1426k/11k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T16:46:17.1056515Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-249",
-                      "number":  249,
-                      "title":  "A short GitHub error does not stop a card",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-28T16:25:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
