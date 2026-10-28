@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-28T16:55:45.7119549Z",
+    "updated":  "2026-10-28T16:56:58.9704584Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T16:52:21.5992474Z",
+                                       "heartbeat":  "2026-10-28T16:55:57.5532015Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T16:49:35.2637639Z",
+                                    "heartbeat":  "2026-10-28T16:54:09.6996568Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -6237,56 +6237,6 @@
                                       "t":  "2026-10-21T17:33:40.2233044Z",
                                       "actor":  "watcher",
                                       "text":  "committed 9847a69b and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-154",
-                      "number":  154,
-                      "title":  "Implement prompt gives the driver the Codex companion path",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-21T16:55:51.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T00:07:12.7448327Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T13:22:43.3937544Z",
-                                      "actor":  "watcher",
-                                      "text":  "run hit its time limit, recovery clean, back to Ready"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:23:15.5413223Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:53:42.5982633Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 12 min, tokens 11371k/51k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:53:45.3376089Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:55:37.4559477Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T16:55:52.2595677Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed c0d27f33 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
