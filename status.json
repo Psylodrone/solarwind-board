@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T14:33:48.4800325Z",
+    "updated":  "2026-10-28T14:35:28.1497093Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T14:33:21.2207586Z",
+                                       "heartbeat":  "2026-10-28T14:34:26.9943806Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,16 +15,20 @@
                       "id":  "SW-239",
                       "number":  239,
                       "title":  "Fleet widget under the minimap",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-28T13:32:51.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T14:35:29.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-28T14:35:29.6186373Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
