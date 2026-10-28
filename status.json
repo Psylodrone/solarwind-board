@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T16:18:09.5949246Z",
+    "updated":  "2026-10-28T16:18:53.7544700Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T16:17:25.4765879Z",
+                                       "heartbeat":  "2026-10-28T16:18:31.3773248Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,7 +21,7 @@
                       "priority":  "High",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-28T16:16:05.0000000Z",
-                      "round":  1,
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -58,6 +58,21 @@
                                       "t":  "2026-10-28T16:16:07.8807027Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T16:18:21.3575421Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T16:18:23.1181422Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T16:18:31.7680859Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
