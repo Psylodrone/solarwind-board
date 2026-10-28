@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T11:36:19.3897489Z",
+    "updated":  "2026-10-28T11:37:43.8128124Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T11:35:58.1797084Z",
+                                       "heartbeat":  "2026-10-28T11:37:23.2176819Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -398,6 +398,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T20:16:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-250",
+                      "number":  250,
+                      "title":  "Confirm: Should this card go ahead while the review package problem is fixed",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-28T11:37:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
