@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-28T11:10:34.0215345Z",
+    "updated":  "2026-10-28T11:11:14.7316504Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T11:09:48.3862817Z",
+                                       "heartbeat":  "2026-10-28T11:10:56.1219865Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-28T11:05:09.2872906Z",
+                                    "heartbeat":  "2026-10-28T11:09:58.2803669Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,20 +31,15 @@
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-28T11:08:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-28T11:10:41.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T17:43:22.4772308Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 11 min, tokens 511k/9k, result blocked"
-                                  },
                                   {
                                       "t":  "2026-10-27T17:43:43.9173685Z",
                                       "actor":  "watcher",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-28T11:10:33.1926865Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 0 min, tokens 306k/3k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T11:10:55.2119290Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
