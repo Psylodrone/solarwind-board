@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-28T11:48:59.5696275Z",
+    "updated":  "2026-10-28T11:49:53.4407466Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-28T11:48:17.0416279Z",
+                                       "heartbeat":  "2026-10-28T11:49:21.9354373Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,39 +12,18 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-249",
-                      "number":  249,
-                      "title":  "A short GitHub error does not stop a card",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-28T10:50:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-240",
                       "number":  240,
                       "title":  "A card can skip the fresh implementation review on Taras\u0027s word",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T11:25:51.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-28T11:47:52.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-27T19:37:54.4251015Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 3, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-10-27T19:37:56.2294526Z",
                                       "actor":  "AGY",
@@ -289,7 +268,28 @@
                                       "t":  "2026-10-28T11:47:58.0953277Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T11:49:53.4086025Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 2, passing to AGY to check and fix"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-249",
+                      "number":  249,
+                      "title":  "A short GitHub error does not stop a card",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-28T11:48:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
