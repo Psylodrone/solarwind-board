@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-28T17:52:12.8459121Z",
+    "updated":  "2026-10-28T17:52:37.5719705Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-28T17:51:45.2906303Z",
@@ -15,13 +15,13 @@
                       "id":  "SW-257",
                       "number":  257,
                       "title":  "Fleet widget: background takes the minimap colour too",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-28T17:41:23.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-28T17:51:04.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -43,6 +43,21 @@
                                       "t":  "2026-10-28T17:51:07.0239161Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:31.5527797Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:33.3277354Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-28T17:52:34.5085833Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
