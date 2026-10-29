@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T11:50:15.3224750Z",
+    "updated":  "2026-10-29T11:51:20.6687284Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T11:49:30.7636828Z",
+                                       "heartbeat":  "2026-10-29T11:50:35.8835839Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-271",
+                      "number":  271,
+                      "title":  "A Claude run that dies on the network waits and resumes",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T11:50:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-259",
                       "number":  259,
