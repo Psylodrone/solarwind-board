@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T01:13:23.6342361Z",
+    "updated":  "2026-10-29T01:13:31.9312534Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T01:12:53.7769960Z",
@@ -35,7 +35,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
+                      "actor":  "AGY",
                       "since":  "2026-10-29T01:13:26.0000000Z",
                       "round":  2,
                       "now":  null,
@@ -139,6 +139,16 @@
                                       "t":  "2026-10-29T01:13:26.8997856Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown has found 5 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T01:13:28.7875380Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T01:13:30.0826179Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
