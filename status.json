@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T22:05:02.9692915Z",
+    "updated":  "2026-10-29T22:06:12.1315882Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T22:04:10.0587186Z",
+                                       "heartbeat":  "2026-10-29T22:05:15.2000729Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -95,12 +95,12 @@
                       "id":  "SW-262",
                       "number":  262,
                       "title":  "Derelicts: drone swarm in the scene",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T22:02:22.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T22:04:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -133,61 +133,6 @@
                                       "t":  "2026-10-29T22:05:02.7800065Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-267",
-                      "number":  267,
-                      "title":  "Derelicts: random model per site, never the same twice in a system",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-29T22:02:43.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T21:51:45.9765173Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:51:52.9098925Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:02:40.7469937Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 11 min, tokens 7853k/57k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:02:57.3821881Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:03:02.1759177Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:03:02.2481913Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:03:49.3221339Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:04:05.1803545Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 9be62148 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -477,6 +422,61 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-267",
+                      "number":  267,
+                      "title":  "Derelicts: random model per site, never the same twice in a system",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T22:04:04.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T21:51:45.9765173Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:51:52.9098925Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:02:40.7469937Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 11 min, tokens 7853k/57k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:02:57.3821881Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:03:02.1759177Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:03:02.2481913Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:03:49.3221339Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:04:05.1803545Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 9be62148 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
