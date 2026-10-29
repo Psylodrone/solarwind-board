@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-29T16:11:45.5379369Z",
+    "updated":  "2026-10-29T16:12:46.7741059Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T16:10:44.1177523Z",
+                                       "heartbeat":  "2026-10-29T16:11:51.5348418Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T16:06:59.8715838Z",
+                                    "heartbeat":  "2026-10-29T16:11:44.1610259Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-273",
+                      "number":  273,
+                      "title":  "The watcher survives a lost console and says why GitHub is down",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T16:10:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-272",
                       "number":  272,
@@ -47,12 +63,12 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T15:32:51.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T16:10:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -6537,66 +6553,6 @@
                                       "t":  "2026-10-22T18:47:44.6659030Z",
                                       "actor":  "watcher",
                                       "text":  "committed fcb025ce and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-160",
-                      "number":  160,
-                      "title":  "Drone pin on map nodes instead of DRONE text",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T16:12:06.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T15:25:12.0397903Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:49:34.2460109Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 11 min, tokens 11417k/30k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:49:37.0826566Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:55:14.3108856Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T15:55:23.5437731Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T16:09:06.1747830Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 5 min, tokens 1442k/20k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T16:09:09.4363427Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T16:11:51.5580370Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T16:12:07.3225562Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed b971fdcd and pushed, card Done and issue closed"
                                   }
                               ]
                   }
