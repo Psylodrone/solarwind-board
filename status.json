@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T21:51:53.0647609Z",
+    "updated":  "2026-10-29T21:52:56.8281161Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T21:50:57.9706258Z",
+                                       "heartbeat":  "2026-10-29T21:52:02.3821040Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,31 +60,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-267",
-                      "number":  267,
-                      "title":  "Derelicts: random model per site, never the same twice in a system",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T18:48:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T21:51:45.9765173Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:51:52.9098925Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-271",
                       "number":  271,
                       "title":  "A Claude run that dies on the network waits and resumes",
@@ -101,15 +76,40 @@
                               ]
                   },
                   {
+                      "id":  "SW-267",
+                      "number":  267,
+                      "title":  "Derelicts: random model per site, never the same twice in a system",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T21:51:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T21:51:45.9765173Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:51:52.9098925Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-262",
                       "number":  262,
                       "title":  "Derelicts: drone swarm in the scene",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-29T21:50:34.0000000Z",
+                      "since":  "2026-10-29T21:50:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
