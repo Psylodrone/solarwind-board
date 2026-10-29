@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T17:21:18.5991834Z",
+    "updated":  "2026-10-29T17:22:17.5640426Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T17:20:25.3926485Z",
+                                       "heartbeat":  "2026-10-29T17:21:30.5783010Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,25 +63,15 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-29T17:16:38.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T17:20:20.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T10:48:39.7494959Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T10:49:21.7482303Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (taras-returned-leftovers)"
-                                  },
                                   {
                                       "t":  "2026-10-29T10:50:26.2242529Z",
                                       "actor":  "AGY",
@@ -321,6 +311,16 @@
                                       "t":  "2026-10-29T17:19:14.0811883Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T17:21:53.6510466Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T17:22:05.0678038Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
