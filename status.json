@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T15:00:33.9713057Z",
+    "updated":  "2026-10-29T15:02:03.4936383Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T14:59:41.9667290Z",
+                                       "heartbeat":  "2026-10-29T15:00:46.8674147Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T11:50:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-272",
+                      "number":  272,
+                      "title":  "An unlock never leaves the editor in play mode",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T14:59:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
