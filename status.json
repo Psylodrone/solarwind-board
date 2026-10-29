@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T19:37:21.2822022Z",
+    "updated":  "2026-10-29T19:38:40.6359059Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T19:36:34.2586566Z",
+                                       "heartbeat":  "2026-10-29T19:37:43.5863547Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -16,7 +16,7 @@
                       "number":  273,
                       "title":  "The watcher survives a lost console and says why GitHub is down",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "architect",
@@ -112,7 +112,7 @@
                       "number":  271,
                       "title":  "A Claude run that dies on the network waits and resumes",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -127,13 +127,13 @@
                       "id":  "SW-260",
                       "number":  260,
                       "title":  "Derelicts: placed per new game, higher threat first",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-29T19:20:56.0000000Z",
-                      "round":  1,
+                      "since":  "2026-10-29T19:38:41.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -170,6 +170,11 @@
                                       "t":  "2026-10-29T19:21:06.5901044Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:38:44.0166216Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
                                   }
                               ]
                   },
