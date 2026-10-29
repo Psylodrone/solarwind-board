@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T03:25:49.6237900Z",
+    "updated":  "2026-10-29T03:25:57.6989127Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T03:25:14.3599504Z",
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "actor":  "AGY unknown",
                       "since":  "2026-10-29T03:23:42.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -58,6 +58,11 @@
                                       "t":  "2026-10-29T03:25:33.7582180Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T03:25:49.6396364Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 3)"
                                   }
                               ]
                   },
