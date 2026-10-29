@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T13:36:52.5131656Z",
+    "updated":  "2026-10-29T13:37:55.6288947Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T13:36:03.6569245Z",
+                                       "heartbeat":  "2026-10-29T13:37:08.7952730Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,20 +31,15 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T13:25:47.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T13:37:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T04:21:33.6224914Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-29T04:22:01.9513366Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-29T13:36:51.4353976Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 10 min, tokens 622k/5k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T13:37:52.0931737Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
