@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T20:33:54.4665618Z",
+    "updated":  "2026-10-29T20:36:01.0091020Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T20:33:08.4982620Z",
+                                       "heartbeat":  "2026-10-29T20:35:13.8248263Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,22 +21,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T14:59:49.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-261",
-                      "number":  261,
-                      "title":  "Derelicts: drone swarm state and rules",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T18:48:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -108,57 +92,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-273",
-                      "number":  273,
-                      "title":  "The watcher survives a lost console and says why GitHub is down",
-                      "stage":  "Review",
+                      "id":  "SW-261",
+                      "number":  261,
+                      "title":  "Derelicts: drone swarm state and rules",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-29T20:30:52.0000000Z",
-                      "round":  2,
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T20:36:01.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-29T19:53:12.9004147Z",
+                                      "t":  "2026-10-29T20:36:02.1550239Z",
                                       "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T19:53:18.7611200Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T19:58:03.5755911Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 5 min, tokens 4169k/51k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T20:14:09.5605113Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T20:14:10.8128406Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T20:15:38.3626747Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 572k/9k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T20:31:41.2156755Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T20:33:45.2511840Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
                                   }
                               ]
                   },
@@ -432,6 +381,66 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-273",
+                      "number":  273,
+                      "title":  "The watcher survives a lost console and says why GitHub is down",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T20:34:09.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T19:53:12.9004147Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:53:18.7611200Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:58:03.5755911Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 5 min, tokens 4169k/51k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:14:09.5605113Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:14:10.8128406Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:15:38.3626747Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 572k/9k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:31:41.2156755Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:33:45.2511840Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:34:10.0108611Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed c0fa0949 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
