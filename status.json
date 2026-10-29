@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T01:12:27.6466935Z",
+    "updated":  "2026-10-29T01:13:23.6342361Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T01:11:46.7340578Z",
+                                       "heartbeat":  "2026-10-29T01:12:53.7769960Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-10-29T01:10:17.0000000Z",
-                      "round":  1,
+                      "since":  "2026-10-29T01:13:26.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -134,6 +134,11 @@
                                       "t":  "2026-10-29T01:10:20.4957075Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T01:13:26.8997856Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 5 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
