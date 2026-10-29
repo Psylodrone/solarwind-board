@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T03:23:35.2513374Z",
+    "updated":  "2026-10-29T03:23:53.1735610Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T03:23:03.7641245Z",
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-29T03:11:25.3885766Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 2 min, tokens 1871k/25k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T03:23:52.9015663Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
                                   }
                               ]
                   },
