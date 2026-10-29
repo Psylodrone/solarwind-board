@@ -1,61 +1,16 @@
 {
-    "updated":  "2026-10-29T08:39:11.0389721Z",
+    "updated":  "2026-10-29T08:42:53.2256321Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T08:38:43.5373073Z",
+                                       "heartbeat":  "2026-10-29T08:41:28.8947843Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T08:07:43.6383172Z",
+                                    "heartbeat":  "2026-10-29T08:39:29.6444042Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-270",
-                      "number":  270,
-                      "title":  "Agent walks use a separate save file",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-10-29T08:32:01.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T08:20:06.8319631Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T08:22:07.9441191Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T08:31:58.9100532Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 10 min, tokens 3460k/29k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T08:32:05.0477432Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T08:33:21.2072710Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T08:37:30.0351261Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 3fa2fc52 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-259",
                       "number":  259,
@@ -515,6 +470,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-270",
+                      "number":  270,
+                      "title":  "Agent walks use a separate save file",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T08:37:29.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T08:20:06.8319631Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:22:07.9441191Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:31:58.9100532Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 10 min, tokens 3460k/29k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:32:05.0477432Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:33:21.2072710Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:37:30.0351261Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 3fa2fc52 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
