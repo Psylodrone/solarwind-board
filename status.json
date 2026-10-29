@@ -1,13 +1,12 @@
 {
-    "updated":  "2026-10-29T02:20:35.8589782Z",
+    "updated":  "2026-10-29T02:23:48.2186813Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T02:20:14.4925761Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (1)"
+                                       "heartbeat":  "2026-10-29T02:23:06.1182219Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T02:15:33.6474692Z",
+                                    "heartbeat":  "2026-10-29T02:20:21.1270091Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -16,28 +15,32 @@
                       "id":  "SW-266",
                       "number":  266,
                       "title":  "Tooling cards run in a sparse workspace, not Taras\u0027s folder",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-28T21:53:14.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T02:23:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-29T02:23:49.9103940Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  }
                               ]
                   },
                   {
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T01:13:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T02:20:49.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -160,6 +163,11 @@
                                       "t":  "2026-10-29T02:20:34.9250384Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 12 min, tokens 2728k/47k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T02:21:47.6151900Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
