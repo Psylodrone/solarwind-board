@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T22:59:01.9576539Z",
+    "updated":  "2026-10-29T23:01:49.1106564Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T22:58:56.0176066Z",
+                                       "heartbeat":  "2026-10-29T23:01:04.7206227Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -44,22 +44,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-263",
-                      "number":  263,
-                      "title":  "Derelicts: pilot salvage rule for guarded derelicts",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T18:48:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-271",
                       "number":  271,
                       "title":  "A Claude run that dies on the network waits and resumes",
@@ -92,37 +76,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-277",
-                      "number":  277,
-                      "title":  "Snapshot git calls must not share the process environment with the feed push",
+                      "id":  "SW-263",
+                      "number":  263,
+                      "title":  "Derelicts: pilot salvage rule for guarded derelicts",
                       "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T22:38:01.0000000Z",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T23:01:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-10-29T22:38:01.5976847Z",
+                                      "t":  "2026-10-29T23:01:50.4868962Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:38:07.5327030Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:42:28.7830862Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 4 min, tokens 1983k/54k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:59:01.2670942Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
                                   }
                               ]
                   },
@@ -428,6 +397,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-277",
+                      "number":  277,
+                      "title":  "Snapshot git calls must not share the process environment with the feed push",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T23:00:02.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T22:38:01.5976847Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:38:07.5327030Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:42:28.7830862Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 4 min, tokens 1983k/54k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:59:01.2670942Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:59:45.7251591Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:00:03.0226774Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 0bb5b840 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
