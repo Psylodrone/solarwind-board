@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T21:25:25.5621583Z",
+    "updated":  "2026-10-29T21:26:17.5511462Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T21:24:29.4732858Z",
+                                       "heartbeat":  "2026-10-29T21:25:34.6375742Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -111,12 +111,12 @@
                       "id":  "SW-261",
                       "number":  261,
                       "title":  "Derelicts: drone swarm state and rules",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T21:06:26.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T21:26:18.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -144,6 +144,11 @@
                                       "t":  "2026-10-29T21:06:28.5470421Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:26:17.6390391Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 19 min, tokens 5804k/47k, passing to the headless check"
                                   }
                               ]
                   },
@@ -413,6 +418,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-29T17:15:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-276",
+                      "number":  276,
+                      "title":  "Confirm: Can the mothership salvage a derelict without first checking whether",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-29T21:25:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
