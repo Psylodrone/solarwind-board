@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T19:10:40.0821870Z",
+    "updated":  "2026-10-29T19:11:50.6101872Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T19:09:59.4155350Z",
+                                       "heartbeat":  "2026-10-29T19:11:04.4901165Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T18:52:09.8603988Z",
+                                    "heartbeat":  "2026-10-29T19:10:39.4609421Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -111,12 +111,12 @@
                       "id":  "SW-260",
                       "number":  260,
                       "title":  "Derelicts: placed per new game, higher threat first",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T18:47:20.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T19:10:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -124,6 +124,16 @@
                                       "t":  "2026-10-29T18:47:21.1362360Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:10:40.1726474Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 23 min, tokens 11718k/47k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:10:46.4939322Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
