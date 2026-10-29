@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T22:02:40.7166182Z",
+    "updated":  "2026-10-29T22:03:45.2546985Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T22:01:57.4423748Z",
+                                       "heartbeat":  "2026-10-29T22:03:02.7284714Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T21:26:47.9354979Z",
+                                    "heartbeat":  "2026-10-29T22:02:27.6688115Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,22 @@
                       "priority":  "High",
                       "actor":  "architect",
                       "since":  "2026-10-29T20:51:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-277",
+                      "number":  277,
+                      "title":  "Snapshot git calls must not share the process environment with the feed push",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T22:02:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -76,40 +92,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-267",
-                      "number":  267,
-                      "title":  "Derelicts: random model per site, never the same twice in a system",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T21:51:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T21:51:45.9765173Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:51:52.9098925Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-262",
                       "number":  262,
                       "title":  "Derelicts: drone swarm in the scene",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T21:50:46.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T22:02:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -132,6 +123,51 @@
                                       "t":  "2026-10-29T21:50:55.8881560Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-267",
+                      "number":  267,
+                      "title":  "Derelicts: random model per site, never the same twice in a system",
+                      "stage":  "Review",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-29T22:02:43.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T21:51:45.9765173Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:51:52.9098925Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:02:40.7469937Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 11 min, tokens 7853k/57k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:02:57.3821881Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:03:02.1759177Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T22:03:02.2481913Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
                                   }
                               ]
                   },
