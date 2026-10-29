@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T04:14:26.8333862Z",
+    "updated":  "2026-10-29T04:15:21.1902078Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T04:13:28.2849399Z",
+                                       "heartbeat":  "2026-10-29T04:14:36.7445624Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T04:08:55.6771402Z",
+                                    "heartbeat":  "2026-10-29T04:13:59.2247051Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-266",
                       "number":  266,
                       "title":  "Tooling cards run in a sparse workspace, not Taras\u0027s folder",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T03:30:13.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T04:14:07.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -88,6 +88,16 @@
                                       "t":  "2026-10-29T04:14:26.3802424Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T04:14:38.3103204Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T04:14:38.3471657Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 3)"
                                   }
                               ]
                   },
