@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T19:15:08.5182323Z",
+    "updated":  "2026-10-29T19:16:16.3509796Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T19:14:27.7862722Z",
+                                       "heartbeat":  "2026-10-29T19:15:32.8699259Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -108,6 +108,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-271",
+                      "number":  271,
+                      "title":  "A Claude run that dies on the network waits and resumes",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T19:15:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-260",
                       "number":  260,
                       "title":  "Derelicts: placed per new game, higher threat first",
@@ -145,22 +161,6 @@
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-271",
-                      "number":  271,
-                      "title":  "A Claude run that dies on the network waits and resumes",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T18:47:31.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
