@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T16:09:17.0014388Z",
+    "updated":  "2026-10-29T16:10:22.4032694Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T16:08:33.5114854Z",
+                                       "heartbeat":  "2026-10-29T16:09:38.9785159Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-271",
-                      "number":  271,
-                      "title":  "A Claude run that dies on the network waits and resumes",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T11:50:55.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-272",
                       "number":  272,
@@ -37,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T14:59:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-271",
+                      "number":  271,
+                      "title":  "A Claude run that dies on the network waits and resumes",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-29T16:08:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
