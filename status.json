@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T20:31:31.9239773Z",
+    "updated":  "2026-10-29T20:32:53.1303216Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T20:30:49.4655169Z",
+                                       "heartbeat":  "2026-10-29T20:31:54.1764652Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -111,12 +111,12 @@
                       "id":  "SW-273",
                       "number":  273,
                       "title":  "The watcher survives a lost console and says why GitHub is down",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T20:13:36.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T20:30:52.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -149,6 +149,11 @@
                                       "t":  "2026-10-29T20:15:38.3626747Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 1 min, tokens 572k/9k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T20:31:41.2156755Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
