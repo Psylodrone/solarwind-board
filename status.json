@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T10:22:48.1408357Z",
+    "updated":  "2026-10-29T10:23:25.6009091Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T10:22:21.7624195Z",
@@ -233,6 +233,11 @@
                                       "t":  "2026-10-29T10:22:48.6548152Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:23:24.8652118Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (taras-returned-leftovers)"
                                   }
                               ]
                   },
