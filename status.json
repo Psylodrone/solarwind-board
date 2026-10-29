@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T08:33:18.4747819Z",
+    "updated":  "2026-10-29T08:37:24.7086290Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T08:32:09.9651912Z",
+                                       "heartbeat":  "2026-10-29T08:33:23.3204777Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-29T08:32:05.0477432Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:33:21.2072710Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
@@ -6695,51 +6700,6 @@
                                       "t":  "2026-10-22T09:03:02.2726778Z",
                                       "actor":  "watcher",
                                       "text":  "committed b5c0cd52 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-141",
-                      "number":  141,
-                      "title":  "Named unvisited systems on the map",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T08:33:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-21T16:57:08.3168297Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:11:41.3952542Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:10.6610940Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:34:55.7905377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-21T17:48:24.3665503Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T06:48:32.9924392Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
                                   }
                               ]
                   }
