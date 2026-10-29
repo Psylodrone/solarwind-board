@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T03:43:15.7754537Z",
+    "updated":  "2026-10-29T03:44:41.1625052Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T03:42:43.8827657Z",
+                                       "heartbeat":  "2026-10-29T03:44:10.2792741Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -434,6 +434,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-28T21:28:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-268",
+                      "number":  268,
+                      "title":  "Confirm: Git cannot remove a saved work set by its ID, so may the watcher",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-29T03:44:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
