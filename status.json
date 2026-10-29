@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T15:33:38.3283655Z",
+    "updated":  "2026-10-29T15:33:50.3386277Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T15:32:43.0411772Z",
@@ -56,11 +56,6 @@
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T04:23:34.1986585Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
                                   {
                                       "t":  "2026-10-29T04:23:34.2404312Z",
                                       "actor":  "AGY unknown",
@@ -305,6 +300,11 @@
                                       "t":  "2026-10-29T15:32:36.0046350Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 7 min, tokens 1254k/6k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T15:33:49.4200397Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
