@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T11:58:55.8082722Z",
+    "updated":  "2026-10-29T11:59:53.2588819Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T11:58:14.1568691Z",
+                                       "heartbeat":  "2026-10-29T11:59:19.0223045Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,25 +31,15 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T11:47:21.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T11:59:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T00:30:37.8962259Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T00:33:27.7190298Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 2)"
-                                  },
                                   {
                                       "t":  "2026-10-29T00:37:13.5284028Z",
                                       "actor":  "AGY unknown",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-29T11:48:14.6188677Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T11:59:01.0590252Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 1363k/12k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T11:59:53.6769303Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
