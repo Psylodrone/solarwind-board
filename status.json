@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T19:50:52.3177222Z",
+    "updated":  "2026-10-29T19:52:01.1434182Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T19:50:08.8592373Z",
+                                       "heartbeat":  "2026-10-29T19:51:14.1588630Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -127,13 +127,13 @@
                       "id":  "SW-260",
                       "number":  260,
                       "title":  "Derelicts: placed per new game, higher threat first",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T19:48:37.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-29T19:50:53.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -200,6 +200,26 @@
                                       "t":  "2026-10-29T19:48:39.9392600Z",
                                       "actor":  "Claude",
                                       "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:50:52.3647123Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1538k/11k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:50:55.9410954Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:51:08.8795438Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:51:20.0097320Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 2)"
                                   }
                               ]
                   },
