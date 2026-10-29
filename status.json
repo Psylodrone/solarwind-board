@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T00:30:22.3216943Z",
+    "updated":  "2026-10-29T00:33:27.6982775Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T00:28:53.7722492Z",
+                                       "heartbeat":  "2026-10-29T00:30:30.8632555Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-28T23:54:41.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T00:30:26.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -79,6 +79,26 @@
                                       "t":  "2026-10-28T23:56:23.3697729Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:30:22.8715937Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 32 min, tokens 18432k/76k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:30:30.6877622Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:30:37.8962259Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:33:27.7190298Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 2)"
                                   }
                               ]
                   },
