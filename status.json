@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T21:03:21.4249419Z",
+    "updated":  "2026-10-29T21:04:18.5969801Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T21:03:07.1030665Z",
@@ -111,12 +111,12 @@
                       "id":  "SW-261",
                       "number":  261,
                       "title":  "Derelicts: drone swarm state and rules",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T20:36:01.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T21:03:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -129,6 +129,11 @@
                                       "t":  "2026-10-29T21:03:20.5461294Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 27 min, tokens 9470k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:03:35.1547428Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
