@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T22:45:41.5022849Z",
+    "updated":  "2026-10-29T22:46:41.6661646Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T22:44:46.2706225Z",
+                                       "heartbeat":  "2026-10-29T22:45:52.7413937Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -6918,71 +6918,6 @@
                                       "t":  "2026-10-23T02:47:24.7084394Z",
                                       "actor":  "watcher",
                                       "text":  "committed 1cf5aff0 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-158",
-                      "number":  158,
-                      "title":  "Driver waits for Codex with status --wait and never reads Codex job logs",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-22T22:45:43.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-22T21:24:43.0852835Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T21:44:18.4307603Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:27:33.7947324Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 5 min, tokens 1584k/27k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:27:36.5331883Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:29:35.6524986Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:29:38.2399507Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:42:52.3688424Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 7680k/27k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:42:54.8102699Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:45:22.9955334Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-22T22:45:44.1251090Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 9ed1ba62 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
