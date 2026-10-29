@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T21:26:30.6460502Z",
+    "updated":  "2026-10-29T21:28:32.5793634Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T21:25:34.6375742Z",
+                                       "heartbeat":  "2026-10-29T21:27:49.3649908Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T19:18:59.4803583Z",
+                                    "heartbeat":  "2026-10-29T21:26:47.9354979Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -105,56 +105,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-261",
-                      "number":  261,
-                      "title":  "Derelicts: drone swarm state and rules",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-29T21:26:18.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T20:36:02.1550239Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:03:20.5461294Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 27 min, tokens 9470k/43k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:03:35.1547428Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:06:26.7875694Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:06:28.5470421Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:26:17.6390391Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 19 min, tokens 5804k/47k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T21:26:21.6905700Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  }
                               ]
                   },
                   {
@@ -443,6 +393,66 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-261",
+                      "number":  261,
+                      "title":  "Derelicts: drone swarm state and rules",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T21:27:50.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T20:36:02.1550239Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:03:20.5461294Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 27 min, tokens 9470k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:03:35.1547428Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:06:26.7875694Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:06:28.5470421Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:26:17.6390391Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 19 min, tokens 5804k/47k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:26:21.6905700Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:27:33.4761923Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:27:50.6416358Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4a01d7d2 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
