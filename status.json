@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T00:37:09.8733474Z",
+    "updated":  "2026-10-29T00:38:36.8085263Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T00:36:19.0959784Z",
+                                       "heartbeat":  "2026-10-29T00:37:25.0704397Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-29T00:30:26.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T00:37:12.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -99,6 +99,21 @@
                                       "t":  "2026-10-29T00:33:27.7190298Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:37:13.5284028Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 5 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:37:15.8654736Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T00:37:17.4438334Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
