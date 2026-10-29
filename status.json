@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T08:17:38.0935963Z",
+    "updated":  "2026-10-29T08:18:53.8349429Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T08:17:01.9383162Z",
+                                       "heartbeat":  "2026-10-29T08:18:06.4421133Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-270",
+                      "number":  270,
+                      "title":  "Agent walks use a separate save file",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T08:17:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-259",
                       "number":  259,
