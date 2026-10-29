@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T13:10:30.3306926Z",
+    "updated":  "2026-10-29T13:11:35.8394562Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T13:09:51.8566849Z",
+                                       "heartbeat":  "2026-10-29T13:10:56.8294472Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -35,16 +35,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-29T12:59:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T00:56:59.2552317Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-29T00:57:00.3823936Z",
                                       "actor":  "AGY",
@@ -289,6 +284,11 @@
                                       "t":  "2026-10-29T13:00:54.8979498Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T13:11:35.9052077Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 1391k/12k, result blocked"
                                   }
                               ]
                   },
