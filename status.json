@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T17:16:37.9220647Z",
+    "updated":  "2026-10-29T17:18:02.1438139Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T17:15:55.3758188Z",
+                                       "heartbeat":  "2026-10-29T17:17:00.8336360Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,25 +63,15 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T16:54:11.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-29T17:16:38.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T10:37:18.5538145Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T10:37:31.1296975Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-10-29T10:48:11.0751003Z",
                                       "actor":  "Claude",
@@ -321,6 +311,16 @@
                                       "t":  "2026-10-29T16:54:15.7433115Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T17:16:37.9974203Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 22 min, tokens 3027k/25k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T17:16:45.3035307Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -574,6 +574,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-29T04:51:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-274",
+                      "number":  274,
+                      "title":  "Confirm: Should the review package for this card be rebuilt from the working",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-29T17:15:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
