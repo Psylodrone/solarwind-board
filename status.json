@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T08:28:39.7011088Z",
+    "updated":  "2026-10-29T08:31:58.8321275Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T08:27:39.9562994Z",
+                                       "heartbeat":  "2026-10-29T08:28:47.0545555Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-270",
                       "number":  270,
                       "title":  "Agent walks use a separate save file",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T08:20:06.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T08:32:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -33,6 +33,11 @@
                                       "t":  "2026-10-29T08:22:07.9441191Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T08:31:58.9100532Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 10 min, tokens 3460k/29k, passing to the headless check"
                                   }
                               ]
                   },
