@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T16:53:36.3623259Z",
+    "updated":  "2026-10-29T16:54:12.5571976Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T16:53:13.1575360Z",
@@ -69,14 +69,9 @@
                       "priority":  "High",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-29T16:48:06.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T10:34:25.7882428Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 10 min, tokens 589k/9k, result blocked"
-                                  },
                                   {
                                       "t":  "2026-10-29T10:35:25.3495791Z",
                                       "actor":  "watcher",
@@ -321,6 +316,11 @@
                                       "t":  "2026-10-29T16:49:51.0808304Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T16:54:12.1458255Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
