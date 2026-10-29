@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T16:45:11.1086118Z",
+    "updated":  "2026-10-29T16:49:16.4939254Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T16:44:42.0255164Z",
+                                       "heartbeat":  "2026-10-29T16:48:11.2828659Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,20 +63,15 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T16:34:32.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T16:48:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T10:24:03.6879833Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
                                   {
                                       "t":  "2026-10-29T10:24:18.5200368Z",
                                       "actor":  "AGY",
@@ -321,6 +316,11 @@
                                       "t":  "2026-10-29T16:36:03.2357958Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T16:47:50.6586361Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 5440k/30k, passing to the headless check"
                                   }
                               ]
                   },
