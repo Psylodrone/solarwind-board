@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T22:31:08.4372199Z",
+    "updated":  "2026-10-29T22:32:17.3576838Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T22:30:29.5640574Z",
+                                       "heartbeat":  "2026-10-29T22:31:34.7816716Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -85,6 +85,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T19:15:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-278",
+                      "number":  278,
+                      "title":  "The monitor recovers known failures without a person",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T22:31:10.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
