@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T13:12:40.9154691Z",
+    "updated":  "2026-10-29T13:13:47.7929127Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T13:12:02.2767293Z",
+                                       "heartbeat":  "2026-10-29T13:13:07.9596359Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T13:04:43.5281717Z",
+                                    "heartbeat":  "2026-10-29T13:09:52.2630896Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -35,21 +35,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T12:59:32.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T13:12:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-10-29T01:10:17.0954860Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 13 min, tokens 4512k/33k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T01:10:20.4957075Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-10-29T01:13:26.8997856Z",
                                       "actor":  "AGY unknown",
@@ -289,6 +279,16 @@
                                       "t":  "2026-10-29T13:12:05.2266089Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T13:12:45.9299954Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (taras-returned-leftovers)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T13:13:51.8893396Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
