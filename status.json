@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T23:17:40.3832399Z",
+    "updated":  "2026-10-29T23:19:31.9494541Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T23:16:53.3318197Z",
+                                       "heartbeat":  "2026-10-29T23:17:59.2123279Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -79,60 +79,24 @@
                       "id":  "SW-280",
                       "number":  280,
                       "title":  "The watcher suite cleans up its temp folders",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T23:08:23.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T23:17:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-263",
-                      "number":  263,
-                      "title":  "Derelicts: pilot salvage rule for guarded derelicts",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-29T23:15:38.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
                                   {
-                                      "t":  "2026-10-29T23:01:50.4868962Z",
+                                      "t":  "2026-10-29T23:17:41.5169630Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-10-29T23:02:05.3014856Z",
+                                      "t":  "2026-10-29T23:17:47.1834423Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:15:38.0908319Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 9760k/61k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:15:41.1420167Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:16:13.7856063Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:16:55.4572643Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 603a0cf0 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -438,6 +402,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-263",
+                      "number":  263,
+                      "title":  "Derelicts: pilot salvage rule for guarded derelicts",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T23:16:54.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T23:01:50.4868962Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:02:05.3014856Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:15:38.0908319Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 9760k/61k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:15:41.1420167Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:16:13.7856063Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:16:55.4572643Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 603a0cf0 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
