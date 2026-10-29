@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T20:51:07.4028548Z",
+    "updated":  "2026-10-29T20:52:19.3500557Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T20:50:28.5702771Z",
+                                       "heartbeat":  "2026-10-29T20:51:33.7727541Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T20:51:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-272",
                       "number":  272,
