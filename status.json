@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T10:33:59.4946885Z",
+    "updated":  "2026-10-29T10:36:10.4352430Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T10:33:23.1615446Z",
+                                       "heartbeat":  "2026-10-29T10:35:33.2127633Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -19,8 +19,8 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T10:23:22.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T10:36:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -248,6 +248,21 @@
                                       "t":  "2026-10-29T10:24:18.5200368Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:34:25.7882428Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 10 min, tokens 589k/9k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:35:25.3495791Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:36:13.8393161Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (taras-returned-leftovers)"
                                   }
                               ]
                   },
