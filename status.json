@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T19:12:54.1399499Z",
+    "updated":  "2026-10-29T19:14:02.6243114Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T19:12:13.0563095Z",
+                                       "heartbeat":  "2026-10-29T19:13:19.1128658Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -111,12 +111,12 @@
                       "id":  "SW-260",
                       "number":  260,
                       "title":  "Derelicts: placed per new game, higher threat first",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-29T19:10:42.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-10-29T19:12:56.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -134,6 +134,16 @@
                                       "t":  "2026-10-29T19:10:46.4939322Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:12:57.2640123Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T19:12:59.3454737Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
