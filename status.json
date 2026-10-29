@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-29T10:37:15.0524282Z",
+    "updated":  "2026-10-29T10:37:31.3847775Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-29T10:36:39.2395077Z",
@@ -19,7 +19,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-10-29T10:36:11.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -263,6 +263,16 @@
                                       "t":  "2026-10-29T10:36:13.8393161Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (taras-returned-leftovers)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:37:18.5538145Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:37:31.1296975Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
