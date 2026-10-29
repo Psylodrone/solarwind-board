@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-29T10:02:13.5588247Z",
+    "updated":  "2026-10-29T10:03:18.2969875Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T10:01:35.0543325Z",
+                                       "heartbeat":  "2026-10-29T10:02:40.0784350Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-29T09:53:41.3958499Z",
+                                    "heartbeat":  "2026-10-29T10:02:15.6217882Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,13 +15,13 @@
                       "id":  "SW-259",
                       "number":  259,
                       "title":  "Derelicts: the mothership salvages in person",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T04:52:39.0000000Z",
-                      "round":  1,
+                      "priority":  "High",
+                      "actor":  "AGY",
+                      "since":  "2026-10-29T10:02:42.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -213,6 +213,11 @@
                                       "t":  "2026-10-29T04:52:54.0492445Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T10:03:21.7022300Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
