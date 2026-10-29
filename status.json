@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T21:49:26.5321108Z",
+    "updated":  "2026-10-29T21:50:56.0979562Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T21:48:46.4190676Z",
+                                       "heartbeat":  "2026-10-29T21:49:50.9811808Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -95,12 +95,12 @@
                       "id":  "SW-262",
                       "number":  262,
                       "title":  "Derelicts: drone swarm in the scene",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-29T21:28:37.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-29T21:50:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -113,6 +113,16 @@
                                       "t":  "2026-10-29T21:28:55.9584868Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:50:32.0517357Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 21 min, tokens 12315k/56k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:50:55.8881560Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
