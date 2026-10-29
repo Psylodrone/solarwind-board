@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T23:07:24.6120657Z",
+    "updated":  "2026-10-29T23:09:51.0015718Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T23:05:26.6282163Z",
+                                       "heartbeat":  "2026-10-29T23:07:57.4867971Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -69,6 +69,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T22:31:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-280",
+                      "number":  280,
+                      "title":  "The watcher suite cleans up its temp folders",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-29T23:08:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
