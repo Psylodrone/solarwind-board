@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-29T21:05:21.4365896Z",
+    "updated":  "2026-10-29T21:06:23.5579267Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-29T21:04:27.5098201Z",
+                                       "heartbeat":  "2026-10-29T21:05:33.2258457Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -16,7 +16,7 @@
                       "number":  275,
                       "title":  "A slow GitHub call does not idle the watcher for minutes",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "architect",
@@ -111,13 +111,13 @@
                       "id":  "SW-261",
                       "number":  261,
                       "title":  "Derelicts: drone swarm state and rules",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-10-29T21:03:23.0000000Z",
-                      "round":  0,
+                      "since":  "2026-10-29T21:06:26.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -134,6 +134,11 @@
                                       "t":  "2026-10-29T21:03:35.1547428Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T21:06:26.7875694Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
                                   }
                               ]
                   },
