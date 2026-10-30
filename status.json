@@ -1,86 +1,16 @@
 {
-    "updated":  "2026-10-30T09:39:54.4070945Z",
+    "updated":  "2026-10-30T09:40:56.9957535Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T09:39:08.4899260Z",
+                                       "heartbeat":  "2026-10-30T09:40:14.4451809Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T09:35:10.3383594Z",
+                                    "heartbeat":  "2026-10-30T09:39:51.8050423Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-281",
-                      "number":  281,
-                      "title":  "Combat contract reward collectable at any station",
-                      "stage":  "Review",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-30T09:35:36.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-30T09:04:38.2175795Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:04:57.2028219Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:27:54.5536452Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 22 min, tokens 5781k/37k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:27:57.9687542Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:30:09.6139860Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:30:11.3286205Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:30:12.7459635Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:35:36.0063169Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 5 min, tokens 1104k/7k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:35:50.2897737Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:37:59.9647548Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T09:38:52.1870545Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 4d25d0bb and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-278",
                       "number":  278,
@@ -431,6 +361,76 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-281",
+                      "number":  281,
+                      "title":  "Combat contract reward collectable at any station",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T09:38:51.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-30T09:04:38.2175795Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:04:57.2028219Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:27:54.5536452Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 22 min, tokens 5781k/37k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:27:57.9687542Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:30:09.6139860Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:30:11.3286205Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:30:12.7459635Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:35:36.0063169Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1104k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:35:50.2897737Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:37:59.9647548Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:38:52.1870545Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4d25d0bb and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
