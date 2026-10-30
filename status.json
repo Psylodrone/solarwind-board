@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T07:25:10.7250996Z",
+    "updated":  "2026-10-30T07:26:15.7951313Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T07:24:27.4303520Z",
+                                       "heartbeat":  "2026-10-30T07:25:33.7723659Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,28 +15,12 @@
                       "id":  "SW-278",
                       "number":  278,
                       "title":  "The monitor recovers known failures without a person",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T22:31:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-272",
-                      "number":  272,
-                      "title":  "An unlock never leaves the editor in play mode",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-30T04:59:21.0000000Z",
+                      "since":  "2026-10-30T07:22:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -357,6 +341,22 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-10-30T04:15:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-272",
+                      "number":  272,
+                      "title":  "An unlock never leaves the editor in play mode",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-30T07:15:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
