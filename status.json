@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T00:16:27.4185359Z",
+    "updated":  "2026-10-30T00:17:31.7078474Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T00:15:35.9073534Z",
+                                       "heartbeat":  "2026-10-30T00:16:40.5024219Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -79,12 +79,12 @@
                       "id":  "SW-280",
                       "number":  280,
                       "title":  "The watcher suite cleans up its temp folders",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-29T23:17:40.0000000Z",
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-30T00:16:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -112,6 +112,11 @@
                                       "t":  "2026-10-30T00:01:13.4050319Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:17:23.9607881Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
                                   }
                               ]
                   },
