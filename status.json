@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T08:57:45.3066063Z",
+    "updated":  "2026-10-30T09:03:25.8205403Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T08:57:01.8065600Z",
+                                       "heartbeat":  "2026-10-30T08:58:06.2293052Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-281",
+                      "number":  281,
+                      "title":  "Combat contract reward collectable at any station",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-30T09:01:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-278",
                       "number":  278,
@@ -6833,22 +6849,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-23T10:01:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-168",
-                      "number":  168,
-                      "title":  "Feature wiki pages are part of Done",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T09:00:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
