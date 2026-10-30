@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-30T22:00:30.3631543Z",
+    "updated":  "2026-10-30T22:01:36.2532592Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T21:59:44.8268280Z",
+                                       "heartbeat":  "2026-10-30T22:00:51.1944961Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T21:55:33.0721276Z",
+                                    "heartbeat":  "2026-10-30T22:00:28.4131876Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-283",
                       "number":  283,
                       "title":  "Planets lit from the star",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-10-30T21:46:29.0000000Z",
+                      "since":  "2026-10-30T22:01:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-30T21:46:30.5273326Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T22:01:39.3530813Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
                                   }
                               ]
                   },
