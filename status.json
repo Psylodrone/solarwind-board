@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T21:09:51.6187420Z",
+    "updated":  "2026-10-30T21:10:56.7850544Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T21:09:01.6847947Z",
+                                       "heartbeat":  "2026-10-30T21:10:07.0282420Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-283",
+                      "number":  283,
+                      "title":  "Planets lit from the star",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-30T21:10:40.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
