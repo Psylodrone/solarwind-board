@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T16:16:14.5732915Z",
+    "updated":  "2026-10-30T16:17:23.9455147Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T16:15:29.7901898Z",
+                                       "heartbeat":  "2026-10-30T16:16:36.5948011Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-278",
-                      "number":  278,
-                      "title":  "The monitor recovers known failures without a person",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-30T16:04:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -357,6 +341,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-30T07:15:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-278",
+                      "number":  278,
+                      "title":  "The monitor recovers known failures without a person",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:risky",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T16:17:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
