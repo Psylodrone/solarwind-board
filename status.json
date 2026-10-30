@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T22:54:10.7339910Z",
+    "updated":  "2026-10-30T22:55:50.8127765Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T22:53:24.1339065Z",
+                                       "heartbeat":  "2026-10-30T22:54:28.7997775Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-283",
                       "number":  283,
                       "title":  "Planets lit from the star",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-30T22:47:21.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T22:54:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -78,6 +78,11 @@
                                       "t":  "2026-10-30T22:47:45.7604432Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T22:54:10.7881454Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 4 min, tokens 1241k/9k, result blocked"
                                   }
                               ]
                   },
