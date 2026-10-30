@@ -1,56 +1,16 @@
 {
-    "updated":  "2026-10-30T12:59:11.2029298Z",
+    "updated":  "2026-10-30T12:59:50.8320534Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T12:58:12.6220284Z",
+                                       "heartbeat":  "2026-10-30T12:59:21.5411009Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T12:53:12.0206243Z",
+                                    "heartbeat":  "2026-10-30T12:58:32.6638743Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-282",
-                      "number":  282,
-                      "title":  "A headless run may run the monitor\u0027s own test file",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-30T12:36:39.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-30T12:12:00.8169116Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T12:14:30.9962336Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 2 min, tokens 895k/11k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T12:37:17.5101449Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T12:38:39.1465119Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 416k/4k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T12:58:15.4210472Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-278",
                       "number":  278,
@@ -401,6 +361,56 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-282",
+                      "number":  282,
+                      "title":  "A headless run may run the monitor\u0027s own test file",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T12:59:29.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-30T12:12:00.8169116Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:14:30.9962336Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 2 min, tokens 895k/11k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:37:17.5101449Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:38:39.1465119Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 416k/4k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:58:15.4210472Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:59:13.0645122Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T12:59:29.9407147Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 2365b29b and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
