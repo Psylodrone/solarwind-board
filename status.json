@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T00:43:33.5082902Z",
+    "updated":  "2026-10-30T00:44:40.6045623Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T00:42:48.0609572Z",
+                                       "heartbeat":  "2026-10-30T00:43:54.6579628Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -79,13 +79,13 @@
                       "id":  "SW-280",
                       "number":  280,
                       "title":  "The watcher suite cleans up its temp folders",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-30T00:23:52.0000000Z",
-                      "round":  1,
+                      "actor":  "Claude claude-sonnet-5-5",
+                      "since":  "2026-10-30T00:43:54.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -132,6 +132,16 @@
                                       "t":  "2026-10-30T00:25:08.5969136Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 1 min, tokens 752k/10k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:43:57.8276725Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:44:42.4250931Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
