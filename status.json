@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T01:55:20.5261303Z",
+    "updated":  "2026-10-30T01:56:42.0534305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T01:54:36.3741321Z",
+                                       "heartbeat":  "2026-10-30T01:55:58.6382775Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-10-29T20:51:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-272",
                       "number":  272,
@@ -53,6 +37,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T22:31:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-10-30T01:55:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
