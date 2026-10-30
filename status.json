@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T09:04:36.4286966Z",
+    "updated":  "2026-10-30T09:06:01.3622504Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T09:03:37.3195027Z",
+                                       "heartbeat":  "2026-10-30T09:04:47.1478666Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,16 +15,25 @@
                       "id":  "SW-281",
                       "number":  281,
                       "title":  "Combat contract reward collectable at any station",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-10-30T09:01:16.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-30T09:04:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-10-30T09:04:38.2175795Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:04:57.2028219Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
