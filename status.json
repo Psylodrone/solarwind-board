@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T08:36:36.2042809Z",
+    "updated":  "2026-10-30T08:38:06.9265401Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T08:35:17.5746656Z",
+                                       "heartbeat":  "2026-10-30T08:36:43.8330450Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -6853,51 +6853,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-174",
-                      "number":  174,
-                      "title":  "A run that finds the editor busy is not a blocked stop",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T08:37:15.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T08:28:38.8866258Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T08:28:44.6409421Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T08:35:46.2635441Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 7 min, tokens 2436k/23k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T08:35:48.8020069Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T08:37:01.0348491Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T08:37:16.0086969Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 70450a9f and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
