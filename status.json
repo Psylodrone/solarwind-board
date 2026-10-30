@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-30T09:35:35.9270365Z",
+    "updated":  "2026-10-30T09:36:40.1642364Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T09:34:42.9836529Z",
+                                       "heartbeat":  "2026-10-30T09:35:49.7106414Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T09:28:53.7061574Z",
+                                    "heartbeat":  "2026-10-30T09:35:10.3383594Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-281",
                       "number":  281,
                       "title":  "Combat contract reward collectable at any station",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-30T09:30:08.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-30T09:35:36.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -58,6 +58,16 @@
                                       "t":  "2026-10-30T09:30:12.7459635Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:35:36.0063169Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1104k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T09:35:50.2897737Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
