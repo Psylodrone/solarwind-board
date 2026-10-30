@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-30T14:40:52.7893163Z",
+    "updated":  "2026-10-30T14:41:55.7796894Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T14:39:29.9204215Z",
+                                       "heartbeat":  "2026-10-30T14:41:00.2299824Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T14:31:40.1772588Z",
+                                    "heartbeat":  "2026-10-30T14:40:44.9219460Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-278",
                       "number":  278,
                       "title":  "The monitor recovers known failures without a person",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "laptop",
                       "risk":  "risk:risky",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-30T11:48:06.0000000Z",
+                      "actor":  "by hand",
+                      "since":  "2026-10-30T14:38:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
