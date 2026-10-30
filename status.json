@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-30T01:50:57.9923283Z",
+    "updated":  "2026-10-30T01:52:04.2924154Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T01:50:15.5272570Z",
+                                       "heartbeat":  "2026-10-30T01:51:22.1229061Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T01:45:42.9361807Z",
+                                    "heartbeat":  "2026-10-30T01:50:27.4289162Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -53,22 +53,6 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-29T22:31:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-271",
-                      "number":  271,
-                      "title":  "A Claude run that dies on the network waits and resumes",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-30T01:42:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -373,6 +357,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-29T22:29:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-271",
+                      "number":  271,
+                      "title":  "A Claude run that dies on the network waits and resumes",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T01:51:42.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
