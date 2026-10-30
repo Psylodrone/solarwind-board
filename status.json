@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-30T00:46:01.1545822Z",
+    "updated":  "2026-10-30T00:47:01.8221847Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T00:45:02.1594069Z",
+                                       "heartbeat":  "2026-10-30T00:46:08.1988463Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -73,81 +73,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-280",
-                      "number":  280,
-                      "title":  "The watcher suite cleans up its temp folders",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-10-30T00:43:54.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T23:17:41.5169630Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:17:47.1834423Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:25:34.4365628Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:30:43.4531874Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:01:13.4050319Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:17:23.9607881Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:23:54.6645228Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:23:56.0769783Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:25:08.5969136Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 752k/10k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:43:57.8276725Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:44:42.4250931Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-30T00:44:59.5442117Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 4d5d5b1a and pushed, card Done and issue closed"
-                                  }
                               ]
                   },
                   {
@@ -452,6 +377,81 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-280",
+                      "number":  280,
+                      "title":  "The watcher suite cleans up its temp folders",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-30T00:44:58.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-29T23:17:41.5169630Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:17:47.1834423Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:25:34.4365628Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-29T23:30:43.4531874Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:01:13.4050319Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3669k/71k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:17:23.9607881Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:23:54.6645228Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:23:56.0769783Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:25:08.5969136Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 752k/10k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:43:57.8276725Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:44:42.4250931Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-30T00:44:59.5442117Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 4d5d5b1a and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
