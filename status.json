@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-10-30T12:09:31.2074845Z",
+    "updated":  "2026-10-30T12:11:52.0846430Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T12:08:44.2858624Z",
+                                       "heartbeat":  "2026-10-30T12:09:49.2668393Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T12:03:30.9523345Z",
+                                    "heartbeat":  "2026-10-30T12:09:18.7218965Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-282",
+                      "number":  282,
+                      "title":  "A headless run may run the monitor\u0027s own test file",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-30T12:10:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-278",
                       "number":  278,
