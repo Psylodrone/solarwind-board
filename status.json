@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-30T02:46:40.1503197Z",
+    "updated":  "2026-10-30T02:47:53.2563134Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-30T02:45:58.9639558Z",
+                                       "heartbeat":  "2026-10-30T02:47:03.1337426Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-30T02:40:53.0300143Z",
+                                    "heartbeat":  "2026-10-30T02:46:03.8208257Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -6997,46 +6997,6 @@
                                       "t":  "2026-10-23T08:27:17.6267147Z",
                                       "actor":  "watcher",
                                       "text":  "committed c3f561dc and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-162",
-                      "number":  162,
-                      "title":  "An agy turn that fails on the network waits and resends",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-23T02:47:24.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-23T01:33:52.6440109Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:43:23.6923683Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 22 min, tokens 15839k/130k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:43:26.4082801Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:47:10.5093570Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-23T02:47:24.7084394Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 1cf5aff0 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
