@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T13:53:54.7351443Z",
+    "updated":  "2026-10-31T13:54:58.3739387Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T13:53:05.2881438Z",
+                                       "heartbeat":  "2026-10-31T13:54:11.5160919Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,12 +63,12 @@
                       "id":  "SW-289",
                       "number":  289,
                       "title":  "A hung watcher is killed even when its start record is old",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-10-31T09:56:30.0000000Z",
+                      "since":  "2026-10-31T13:53:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -6439,22 +6439,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-24T14:29:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-182",
-                      "number":  182,
-                      "title":  "Confirm cards show the question in plain words",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T13:54:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
