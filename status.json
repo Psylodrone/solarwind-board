@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T20:53:20.8258515Z",
+    "updated":  "2026-10-31T20:54:25.1505912Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T20:52:29.0549275Z",
+                                       "heartbeat":  "2026-10-31T20:53:33.6045739Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -6503,22 +6503,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-24T22:29:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-161",
-                      "number":  161,
-                      "title":  "Watcher releases the editor lock when a run is paused, and clears stale run lock",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T20:53:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
