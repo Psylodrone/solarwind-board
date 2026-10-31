@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T21:27:22.5911715Z",
+    "updated":  "2026-10-31T21:28:30.4785623Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T21:26:33.4802463Z",
+                                       "heartbeat":  "2026-10-31T21:27:38.6416493Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T21:21:41.5060346Z",
+                                    "heartbeat":  "2026-10-31T21:27:31.9316884Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-294",
                       "number":  294,
                       "title":  "Remove the planet eclipse; planets cast no shadow",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-31T21:20:07.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-31T21:28:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -33,6 +33,16 @@
                                       "t":  "2026-10-31T21:20:22.2851131Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T21:28:30.5862663Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 8 min, tokens 2753k/32k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T21:28:33.7282482Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
