@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T10:28:19.7219440Z",
+    "updated":  "2026-10-31T10:29:23.6857700Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T10:27:31.8574862Z",
+                                       "heartbeat":  "2026-10-31T10:28:36.6652359Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,31 +60,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-289",
-                      "number":  289,
-                      "title":  "A hung watcher is killed even when its start record is old",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-31T09:56:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-287",
                       "number":  287,
                       "title":  "A failed board read in the monitor stays silent",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-31T10:06:29.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T10:29:25.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -168,6 +152,22 @@
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude fix run finished in 2 min, tokens 620k/9k, passing to the headless check"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-289",
+                      "number":  289,
+                      "title":  "A hung watcher is killed even when its start record is old",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-31T09:56:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
