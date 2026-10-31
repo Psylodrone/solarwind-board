@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T04:08:00.8559228Z",
+    "updated":  "2026-10-31T04:09:07.0749305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T04:07:14.1859367Z",
+                                       "heartbeat":  "2026-10-31T04:08:18.7994112Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,41 +12,16 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-287",
-                      "number":  287,
-                      "title":  "A failed board read in the monitor stays silent",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-31T02:21:57.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T02:21:57.9434606Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T02:22:11.1762502Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-284",
                       "number":  284,
                       "title":  "A leftover test runner scene does not block test runs",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-10-31T01:41:42.0000000Z",
-                      "round":  3,
+                      "since":  "2026-10-31T04:09:07.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -141,6 +116,46 @@
                                   },
                                   {
                                       "t":  "2026-10-31T01:41:52.4657060Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T04:09:09.8134023Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (review-rounds)"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-287",
+                      "number":  287,
+                      "title":  "A failed board read in the monitor stays silent",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T04:08:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-31T02:21:57.9434606Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T02:22:11.1762502Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T04:08:00.9241193Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 106 min, tokens 4070k/42k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T04:08:18.3051899Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
