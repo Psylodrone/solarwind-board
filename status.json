@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-10-31T04:10:09.3535884Z",
+    "updated":  "2026-10-31T04:10:15.3594217Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-10-31T04:09:24.3776656Z",
@@ -123,6 +123,11 @@
                                       "t":  "2026-10-31T04:09:09.8134023Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T04:10:15.1122246Z",
+                                      "actor":  "watcher",
+                                      "text":  "paused, moved to Backlog: the run or the card is blocked"
                                   }
                               ]
                   },
