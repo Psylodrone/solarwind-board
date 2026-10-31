@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T14:24:41.7438956Z",
+    "updated":  "2026-10-31T14:25:49.1729901Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T14:23:53.6899840Z",
+                                       "heartbeat":  "2026-10-31T14:24:58.8240504Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,31 +28,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-288",
-                      "number":  288,
-                      "title":  "Ships and objects lit from the star; planet shadows",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-31T14:09:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T14:09:31.6242432Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:09:37.6216980Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-290",
                       "number":  290,
                       "title":  "A blocked card is not restarted, and a paused card parks its work",
@@ -66,6 +41,41 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-288",
+                      "number":  288,
+                      "title":  "Ships and objects lit from the star; planet shadows",
+                      "stage":  "Review",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-31T14:25:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-31T14:09:31.6242432Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:09:37.6216980Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:25:49.2553977Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5202k/51k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:25:52.3195551Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  }
                               ]
                   },
                   {
