@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T10:01:58.5640668Z",
+    "updated":  "2026-10-31T10:03:03.6287332Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T10:01:10.5936617Z",
+                                       "heartbeat":  "2026-10-31T10:02:15.4428336Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -37,6 +37,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-31T09:15:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-292",
+                      "number":  292,
+                      "title":  "The cannon model turns with the right stick aim",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-31T10:02:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
