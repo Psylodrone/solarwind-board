@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T21:40:53.3203728Z",
+    "updated":  "2026-10-31T21:42:17.2207766Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T21:39:59.5984290Z",
+                                       "heartbeat":  "2026-10-31T21:41:07.9661588Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T21:36:07.0170600Z",
+                                    "heartbeat":  "2026-10-31T21:40:51.8374517Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -487,6 +487,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T17:13:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-296",
+                      "number":  296,
+                      "title":  "Confirm: choice Q1 on SW-294",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-31T21:42:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
