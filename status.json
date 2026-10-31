@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T14:29:13.9571606Z",
+    "updated":  "2026-10-31T14:30:04.7661937Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T14:28:17.4396524Z",
+                                       "heartbeat":  "2026-10-31T14:29:23.6890801Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -41,41 +41,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-288",
-                      "number":  288,
-                      "title":  "Ships and objects lit from the star; planet shadows",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-31T14:25:48.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T14:09:31.6242432Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:09:37.6216980Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:25:49.2553977Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5202k/51k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:25:52.3195551Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  }
                               ]
                   },
                   {
@@ -476,6 +441,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-288",
+                      "number":  288,
+                      "title":  "Ships and objects lit from the star; planet shadows",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T14:29:30.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-31T14:09:31.6242432Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:09:37.6216980Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:25:49.2553977Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 16 min, tokens 5202k/51k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:25:52.3195551Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:29:17.2922078Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:29:32.0317758Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 318bd62b and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
