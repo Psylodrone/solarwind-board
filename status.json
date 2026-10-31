@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T10:04:09.9804750Z",
+    "updated":  "2026-10-31T10:05:25.2595906Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T10:03:20.6560797Z",
+                                       "heartbeat":  "2026-10-31T10:04:27.7213621Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T09:58:38.3032832Z",
+                                    "heartbeat":  "2026-10-31T10:03:29.1720509Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -63,12 +63,12 @@
                       "id":  "SW-287",
                       "number":  287,
                       "title":  "A failed board read in the monitor stays silent",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-10-31T05:08:21.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-31T10:04:17.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -126,6 +126,11 @@
                                       "t":  "2026-10-31T09:43:34.3316341Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 14 min, tokens 1849k/36k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T10:04:28.6723467Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
