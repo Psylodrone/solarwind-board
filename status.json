@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T10:06:33.1055493Z",
+    "updated":  "2026-10-31T10:07:37.9126787Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T10:05:34.4702225Z",
+                                       "heartbeat":  "2026-10-31T10:06:40.0899726Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,15 +60,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-289",
+                      "number":  289,
+                      "title":  "A hung watcher is killed even when its start record is old",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-31T09:56:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-287",
                       "number":  287,
                       "title":  "A failed board read in the monitor stays silent",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-31T10:04:17.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-31T10:06:29.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -147,22 +163,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-289",
-                      "number":  289,
-                      "title":  "A hung watcher is killed even when its start record is old",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-31T09:56:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
