@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T00:19:49.7930026Z",
+    "updated":  "2026-10-31T00:20:55.3507678Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T00:19:07.4923026Z",
+                                       "heartbeat":  "2026-10-31T00:20:11.8517335Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-284",
+                      "number":  284,
+                      "title":  "A leftover test runner scene does not block test runs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-10-31T00:20:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-283",
                       "number":  283,
