@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T15:00:56.0909491Z",
+    "updated":  "2026-10-31T15:03:17.2791016Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T14:59:58.7540381Z",
+                                       "heartbeat":  "2026-10-31T15:02:10.9047295Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-292",
                       "number":  292,
                       "title":  "The cannon model turns with the right stick aim",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-10-31T14:52:03.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T15:03:17.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -74,6 +74,11 @@
                                       "t":  "2026-10-31T14:52:08.3891309Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T15:03:17.3181389Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 614k/6k, passing to the headless check"
                                   }
                               ]
                   },
@@ -471,6 +476,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T09:42:37.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-293",
+                      "number":  293,
+                      "title":  "Confirm: Should the cannon turn test check the barrel direction instead of the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-31T15:03:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
