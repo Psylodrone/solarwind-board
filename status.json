@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T14:28:00.2950784Z",
+    "updated":  "2026-10-31T14:29:13.9571606Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T14:27:10.8008925Z",
+                                       "heartbeat":  "2026-10-31T14:28:17.4396524Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T14:22:40.4650078Z",
+                                    "heartbeat":  "2026-10-31T14:27:13.0201681Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -53,7 +53,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-10-31T14:25:48.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -6487,22 +6487,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-10-24T16:40:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-183",
-                      "number":  183,
-                      "title":  "The watcher adds a missing Report heading to a spec",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T14:29:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
