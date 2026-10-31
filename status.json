@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T09:29:26.3261242Z",
+    "updated":  "2026-10-31T09:30:28.4427182Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T09:28:55.3552413Z",
+                                       "heartbeat":  "2026-10-31T09:30:00.2833467Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T09:24:40.0241867Z",
+                                    "heartbeat":  "2026-10-31T09:29:40.7664135Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -30,7 +30,7 @@
                   {
                       "id":  "SW-290",
                       "number":  290,
-                      "title":  "A paused card parks its work instead of blocking the tree",
+                      "title":  "A blocked card is not restarted, and a paused card parks its work",
                       "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
