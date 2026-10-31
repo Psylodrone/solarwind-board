@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T21:30:09.9342178Z",
+    "updated":  "2026-10-31T21:31:09.3013410Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T21:28:44.2055464Z",
+                                       "heartbeat":  "2026-10-31T21:30:14.5381494Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-294",
                       "number":  294,
                       "title":  "Remove the planet eclipse; planets cast no shadow",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-10-31T21:28:30.0000000Z",
-                      "round":  0,
+                      "since":  "2026-10-31T21:31:11.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -43,6 +43,11 @@
                                       "t":  "2026-10-31T21:28:33.7282482Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T21:31:12.7261178Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
