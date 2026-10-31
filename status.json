@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T04:10:15.3594217Z",
+    "updated":  "2026-10-31T04:12:28.0400081Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T04:09:24.3776656Z",
+                                       "heartbeat":  "2026-10-31T04:11:33.0730450Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,126 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-284",
-                      "number":  284,
-                      "title":  "A leftover test runner scene does not block test runs",
-                      "stage":  "Changes requested",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-31T04:09:07.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T00:22:01.6740698Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:22:07.3752049Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:46:44.0930993Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 25 min, tokens 4201k/32k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:46:57.1103083Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:49:49.1004128Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 5 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:49:51.0149712Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T00:49:52.2546256Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:13:00.1496249Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 22 min, tokens 1886k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:13:05.7364099Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:15:28.6537608Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 2 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:15:30.6540006Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:15:31.8537787Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:38:23.4399299Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 22 min, tokens 1697k/16k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:38:58.1967883Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:40:35.0122243Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 3, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:40:36.9629944Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:40:38.3457863Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:41:32.7476309Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 373k/6k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T01:41:52.4657060Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T04:09:09.8134023Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (review-rounds)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T04:10:15.1122246Z",
-                                      "actor":  "watcher",
-                                      "text":  "paused, moved to Backlog: the run or the card is blocked"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-287",
                       "number":  287,
