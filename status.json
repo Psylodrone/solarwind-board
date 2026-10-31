@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T01:10:21.8936939Z",
+    "updated":  "2026-10-31T01:13:00.1061953Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T01:09:41.3772034Z",
+                                       "heartbeat":  "2026-10-31T01:10:46.1215614Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T01:06:30.3423061Z",
+                                    "heartbeat":  "2026-10-31T01:10:32.2921019Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-284",
                       "number":  284,
                       "title":  "A leftover test runner scene does not block test runs",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-10-31T00:49:48.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T01:13:02.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -58,6 +58,11 @@
                                       "t":  "2026-10-31T00:49:52.2546256Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T01:13:00.1496249Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 22 min, tokens 1886k/24k, passing to the headless check"
                                   }
                               ]
                   },
