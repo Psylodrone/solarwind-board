@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T01:27:00.6132724Z",
+    "updated":  "2026-10-31T01:28:14.3653451Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T01:26:17.1359349Z",
+                                       "heartbeat":  "2026-10-31T01:27:27.3549602Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -416,6 +416,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-30T07:15:46.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-285",
+                      "number":  285,
+                      "title":  "Confirm: Should this small card fix a status-checker test that only fails in",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-31T01:27:23.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
