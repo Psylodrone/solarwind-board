@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T01:31:31.2626933Z",
+    "updated":  "2026-10-31T01:32:58.9335417Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T01:30:43.4880603Z",
+                                       "heartbeat":  "2026-10-31T01:31:50.0930859Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -6964,101 +6964,6 @@
                                       "t":  "2026-10-23T21:40:43.9484198Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-177",
-                      "number":  177,
-                      "title":  "The restart limit counts only stops the card caused",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-24T01:31:58.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-24T00:43:43.9993770Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T00:43:57.5755276Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:08:42.3913264Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 25 min, tokens 2213k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:09:01.4762547Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:10:55.6899398Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:10:57.3091947Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:10:58.6759156Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:19:48.9265627Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 9 min, tokens 2138k/38k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:19:51.5898256Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:20:54.1178925Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:20:55.7195313Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:20:56.8001397Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:30:03.4810484Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 9 min, tokens 1673k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:30:05.9292411Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:31:43.1932606Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-24T01:31:59.2423238Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed fd1355d8 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
