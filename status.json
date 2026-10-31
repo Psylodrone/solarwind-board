@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-10-31T09:15:18.9980063Z",
+    "updated":  "2026-10-31T09:17:19.8899962Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T09:14:23.2238027Z",
+                                       "heartbeat":  "2026-10-31T09:16:34.2178095Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-10-31T09:09:38.6710380Z",
+                                    "heartbeat":  "2026-10-31T09:14:46.4640596Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -21,6 +21,38 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-10-31T04:12:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-290",
+                      "number":  290,
+                      "title":  "A paused card parks its work instead of blocking the tree",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-10-31T09:15:22.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-289",
+                      "number":  289,
+                      "title":  "A hung watcher is killed even when its start record is old",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-31T09:16:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
