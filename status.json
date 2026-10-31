@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T15:04:37.8987272Z",
+    "updated":  "2026-10-31T15:05:49.7128719Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T15:04:34.0108530Z",
+                                       "heartbeat":  "2026-10-31T15:05:37.9593080Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -25,76 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-292",
-                      "number":  292,
-                      "title":  "The cannon model turns with the right stick aim",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-31T15:03:17.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T14:31:09.1112549Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:31:15.4000968Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:50:00.8818022Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 7863k/55k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:50:13.3100496Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:52:05.5485641Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:52:07.2609441Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T14:52:08.3891309Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T15:03:17.3181389Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 11 min, tokens 614k/6k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T15:03:21.3978901Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T15:04:22.9600729Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T15:04:36.7817646Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 89a1b8e1 and pushed, card Done and issue closed"
-                                  }
                               ]
                   },
                   {
@@ -511,6 +441,76 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-292",
+                      "number":  292,
+                      "title":  "The cannon model turns with the right stick aim",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-10-31T15:04:35.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-10-31T14:31:09.1112549Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:31:15.4000968Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:50:00.8818022Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 7863k/55k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:50:13.3100496Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:52:05.5485641Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:52:07.2609441Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:52:08.3891309Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T15:03:17.3181389Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 614k/6k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T15:03:21.3978901Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T15:04:22.9600729Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T15:04:36.7817646Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 89a1b8e1 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
