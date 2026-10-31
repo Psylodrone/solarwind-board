@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T14:51:01.2990240Z",
+    "updated":  "2026-10-31T14:52:02.7265414Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T14:50:07.3008804Z",
+                                       "heartbeat":  "2026-10-31T14:51:11.9340478Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-292",
                       "number":  292,
                       "title":  "The cannon model turns with the right stick aim",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-10-31T14:31:07.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-10-31T14:52:03.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -59,6 +59,11 @@
                                       "t":  "2026-10-31T14:50:13.3100496Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T14:52:05.5485641Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
