@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T17:12:28.4672563Z",
+    "updated":  "2026-10-31T17:13:33.5610593Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T17:11:38.6599922Z",
+                                       "heartbeat":  "2026-10-31T17:12:44.2695446Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-290",
-                      "number":  290,
-                      "title":  "A blocked card is not restarted, and a paused card parks its work",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-31T15:19:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-289",
                       "number":  289,
@@ -437,6 +421,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T15:03:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-290",
+                      "number":  290,
+                      "title":  "A blocked card is not restarted, and a paused card parks its work",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-31T17:13:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
