@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T13:38:32.2265778Z",
+    "updated":  "2026-10-31T13:39:40.1533530Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T13:37:43.0952408Z",
+                                       "heartbeat":  "2026-10-31T13:38:49.6564427Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,15 +60,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-289",
+                      "number":  289,
+                      "title":  "A hung watcher is killed even when its start record is old",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-10-31T09:56:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-284",
                       "number":  284,
                       "title":  "A leftover test runner scene does not block test runs",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-10-31T13:36:19.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-10-31T13:38:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -196,23 +212,22 @@
                                       "t":  "2026-10-31T13:36:25.4296721Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T13:38:35.2266628Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T13:38:37.1047817Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T13:38:38.2064962Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-289",
-                      "number":  289,
-                      "title":  "A hung watcher is killed even when its start record is old",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-10-31T09:56:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
