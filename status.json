@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T09:42:39.5821654Z",
+    "updated":  "2026-10-31T09:43:34.2759422Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T09:42:03.5667070Z",
+                                       "heartbeat":  "2026-10-31T09:43:09.1061230Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -67,7 +67,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-10-31T05:08:21.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -121,6 +121,11 @@
                                       "t":  "2026-10-31T09:29:25.4202468Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T09:43:34.3316341Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 14 min, tokens 1849k/36k, passing to the headless check"
                                   }
                               ]
                   },
@@ -486,6 +491,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T01:38:09.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-291",
+                      "number":  291,
+                      "title":  "Confirm: When the laptop\u0027s board folder is missing on this computer, should the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-10-31T09:42:37.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
