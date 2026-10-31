@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-10-31T05:07:16.1684224Z",
+    "updated":  "2026-10-31T05:08:21.2959294Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-10-31T05:06:29.0934778Z",
+                                       "heartbeat":  "2026-10-31T05:07:33.8177070Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-287",
                       "number":  287,
                       "title":  "A failed board read in the monitor stays silent",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-10-31T04:08:08.0000000Z",
+                      "since":  "2026-10-31T05:08:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -59,6 +59,11 @@
                                       "t":  "2026-10-31T04:08:18.3051899Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-10-31T05:08:23.8362117Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
                                   }
                               ]
                   },
