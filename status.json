@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T22:58:44.7834173Z",
+    "updated":  "2026-11-01T22:59:55.8324854Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T22:57:45.6480159Z",
+                                       "heartbeat":  "2026-11-01T22:58:51.3184526Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-304",
                       "number":  304,
                       "title":  "Turret turns about the middle of its base circle",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T22:44:56.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T22:58:45.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -49,6 +49,16 @@
                                       "t":  "2026-11-01T22:45:03.7843818Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:58:45.0034180Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 13 min, tokens 3365k/31k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:58:48.3424936Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
