@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T11:11:39.7523441Z",
+    "updated":  "2026-11-01T11:12:48.3970864Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T11:10:46.5261865Z",
+                                       "heartbeat":  "2026-11-01T11:11:53.3164665Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,12 +60,12 @@
                       "id":  "SW-301",
                       "number":  301,
                       "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T10:57:25.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T11:11:40.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -128,6 +128,16 @@
                                       "t":  "2026-11-01T10:57:29.4254001Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T11:11:39.8532132Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 14 min, tokens 6567k/61k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T11:11:43.7165477Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
