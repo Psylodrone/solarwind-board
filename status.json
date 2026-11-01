@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T23:41:49.1337291Z",
+    "updated":  "2026-11-01T23:42:58.1183869Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T23:40:46.5827386Z",
+                                       "heartbeat":  "2026-11-01T23:41:57.7064816Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -21,6 +21,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-11-01T20:40:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-310",
+                      "number":  310,
+                      "title":  "Ship screen: same header on every tab, wider map panel, gamepad scroll",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T23:33:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -535,6 +551,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-01T23:11:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-311",
+                      "number":  311,
+                      "title":  "Confirm: The cannon on the Crescent ship is locked so the game cannot read its",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-01T23:40:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
