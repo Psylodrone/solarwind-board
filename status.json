@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-01T18:30:08.3395832Z",
+    "updated":  "2026-11-01T18:31:19.3158410Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T18:29:16.4073055Z",
+                                       "heartbeat":  "2026-11-01T18:30:26.3575689Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-01T18:24:52.1504826Z",
+                                    "heartbeat":  "2026-11-01T18:29:41.9061634Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -5820,96 +5820,6 @@
                                       "t":  "2026-10-25T22:01:39.7196411Z",
                                       "actor":  "watcher",
                                       "text":  "committed 4a7efd38 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-166",
-                      "number":  166,
-                      "title":  "The alert watchdog kills a hung watcher",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T18:30:29.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-25T15:10:16.1262398Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T15:51:28.5567343Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 41 min, tokens 1967k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T15:51:32.1291702Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T15:53:22.5239988Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T15:53:24.2354026Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:17:01.3432505Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 22 min, tokens 2554k/23k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:18:53.0998967Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:21:08.1201418Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-blocked)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:22:07.0515220Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:43:03.6588585Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 20 min, tokens 803k/8k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:43:06.9043860Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:45:00.2799764Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to Claude to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T16:45:02.2075971Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T17:05:56.6507667Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 21 min, tokens 1220k/15k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-10-25T17:08:42.5845411Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   }
