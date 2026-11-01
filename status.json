@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T10:18:21.9592424Z",
+    "updated":  "2026-11-01T10:19:29.5718971Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T10:17:29.4138769Z",
+                                       "heartbeat":  "2026-11-01T10:18:36.7328659Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-301",
-                      "number":  301,
-                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-01T09:01:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-299",
                       "number":  299,
@@ -73,19 +57,28 @@
                               ]
                   },
                   {
-                      "id":  "SW-300",
-                      "number":  300,
-                      "title":  "Rockets are fired with X on the gamepad",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
+                      "id":  "SW-301",
+                      "number":  301,
+                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-01T10:12:33.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-01T10:18:41.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-01T10:18:42.4893377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:18:56.1091342Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
@@ -482,6 +475,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T21:42:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-300",
+                      "number":  300,
+                      "title":  "Rockets are fired with X on the gamepad",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T10:17:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
