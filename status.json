@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T22:40:18.8318250Z",
+    "updated":  "2026-11-01T22:41:30.0194292Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T22:39:08.4886912Z",
+                                       "heartbeat":  "2026-11-01T22:40:23.4808539Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,12 +47,12 @@
                       "id":  "SW-306",
                       "number":  306,
                       "title":  "One screen with Map as the first tab, then the ship tabs",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T22:27:45.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T22:40:19.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -165,6 +165,16 @@
                                       "t":  "2026-11-01T22:27:49.3658944Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:40:18.8992122Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 12 min, tokens 1906k/18k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:40:31.8966973Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -594,6 +604,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-01T21:29:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-308",
+                      "number":  308,
+                      "title":  "Confirm: Should this card also clean up old test log messages in test files",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-01T22:40:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
