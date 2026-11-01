@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T20:40:11.1302768Z",
+    "updated":  "2026-11-01T20:41:18.2908362Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T20:39:21.2346985Z",
+                                       "heartbeat":  "2026-11-01T20:40:26.9119913Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,54 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-304",
+                      "number":  304,
+                      "title":  "Turret turns about the middle of its base circle",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T20:40:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-305",
+                      "number":  305,
+                      "title":  "POI icons get a translucent background",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T20:40:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-306",
+                      "number":  306,
+                      "title":  "One screen with Map as the first tab, then the ship tabs",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T20:40:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
