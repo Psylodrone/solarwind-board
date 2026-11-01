@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T09:20:43.7399570Z",
+    "updated":  "2026-11-01T09:22:16.3464500Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T09:20:36.8365678Z",
+                                       "heartbeat":  "2026-11-01T09:21:43.6431640Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -73,16 +73,32 @@
                               ]
                   },
                   {
+                      "id":  "SW-300",
+                      "number":  300,
+                      "title":  "Rockets are fired with X on the gamepad",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-01T09:27:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-302",
                       "number":  302,
                       "title":  "Orbit circles are drawn a bit lower, below the ship",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-01T09:13:01.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T09:20:39.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -105,22 +121,6 @@
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-300",
-                      "number":  300,
-                      "title":  "Rockets are fired with X on the gamepad",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-01T09:27:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
