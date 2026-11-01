@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T21:58:53.6204533Z",
+    "updated":  "2026-11-01T22:00:00.0030910Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T21:57:57.1867984Z",
+                                       "heartbeat":  "2026-11-01T21:59:03.8448281Z",
                                        "watcher":  "running",
                                        "idle":  "tree-dirty (1)"
                                    },
@@ -48,12 +48,12 @@
                       "id":  "SW-306",
                       "number":  306,
                       "title":  "One screen with Map as the first tab, then the ship tabs",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T21:43:30.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-01T21:58:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -101,6 +101,21 @@
                                       "t":  "2026-11-01T21:43:30.9249566Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T21:58:56.4926693Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T21:59:29.1351416Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T21:59:39.5940933Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
