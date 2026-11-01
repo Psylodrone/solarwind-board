@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T04:47:39.0032203Z",
+    "updated":  "2026-11-01T04:48:48.4430068Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T04:46:50.6483604Z",
+                                       "heartbeat":  "2026-11-01T04:47:54.8527588Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-290",
                       "number":  290,
                       "title":  "A blocked card is not restarted, and a paused card parks its work",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-01T04:05:40.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T04:47:45.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -63,6 +63,11 @@
                                       "t":  "2026-11-01T04:25:36.6071217Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 2 min, tokens 2193k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T04:47:55.2150888Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
