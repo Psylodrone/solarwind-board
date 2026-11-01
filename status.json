@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T03:18:02.6199743Z",
+    "updated":  "2026-11-01T03:20:00.6524441Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T03:16:59.5787055Z",
+                                       "heartbeat":  "2026-11-01T03:19:10.2452254Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,55 +15,19 @@
                       "id":  "SW-298",
                       "number":  298,
                       "title":  "Scanner rays come from the antenna dish, and the dish turns to the scan target",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-01T01:11:44.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T03:20:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-297",
-                      "number":  297,
-                      "title":  "The turret turns about its own centre and sits on the ship\u0027s head",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-01T03:16:44.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
                                   {
-                                      "t":  "2026-11-01T03:06:58.3063432Z",
+                                      "t":  "2026-11-01T03:20:01.7679471Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:07:11.1101255Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:16:44.8010530Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 9 min, tokens 2376k/18k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:16:48.2104323Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:18:02.2582405Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
@@ -495,6 +459,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-297",
+                      "number":  297,
+                      "title":  "The turret turns about its own centre and sits on the ship\u0027s head",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T03:18:43.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T03:06:58.3063432Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T03:07:11.1101255Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T03:16:44.8010530Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 9 min, tokens 2376k/18k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T03:16:48.2104323Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T03:18:02.2582405Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T03:18:44.6984559Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 363d31e3 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
