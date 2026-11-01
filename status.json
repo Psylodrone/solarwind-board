@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-01T07:58:04.5866955Z",
+    "updated":  "2026-11-01T07:59:07.2795966Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T07:57:11.4756611Z",
+                                       "heartbeat":  "2026-11-01T07:58:16.9955908Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-01T07:53:31.9037427Z",
+                                    "heartbeat":  "2026-11-01T07:57:40.7946176Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,13 +15,13 @@
                       "id":  "SW-299",
                       "number":  299,
                       "title":  "The ship screen uses the hand-made blueprint image",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-11-01T07:56:57.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-01T07:59:09.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -43,6 +43,11 @@
                                       "t":  "2026-11-01T07:57:00.3255365Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T07:59:10.0281256Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
