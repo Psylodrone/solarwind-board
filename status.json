@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T14:32:50.4234630Z",
+    "updated":  "2026-11-01T14:34:51.8053969Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T14:31:59.6556319Z",
+                                       "heartbeat":  "2026-11-01T14:33:23.6310938Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -6006,22 +6006,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-211",
-                      "number":  211,
-                      "title":  "A Codex job still running when the driver ends early is waited for",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-25T14:33:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
