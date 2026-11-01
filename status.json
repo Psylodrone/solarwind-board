@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T07:46:43.4967570Z",
+    "updated":  "2026-11-01T07:47:49.2020936Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T07:45:46.3677426Z",
+                                       "heartbeat":  "2026-11-01T07:46:52.8141819Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,26 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-299",
+                      "number":  299,
+                      "title":  "The ship screen uses the hand-made blueprint image",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T07:47:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T07:47:50.5539503Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
