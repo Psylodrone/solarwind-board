@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T22:05:32.1258816Z",
+    "updated":  "2026-11-01T22:06:39.0809608Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T22:04:37.8378401Z",
+                                       "heartbeat":  "2026-11-01T22:05:42.8372214Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,12 +47,12 @@
                       "id":  "SW-306",
                       "number":  306,
                       "title":  "One screen with Map as the first tab, then the ship tabs",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T21:58:54.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T22:05:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -115,6 +115,16 @@
                                       "t":  "2026-11-01T21:59:39.5940933Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:05:47.7375920Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 6 min, tokens 1886k/12k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T22:06:41.5988494Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
