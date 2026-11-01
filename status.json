@@ -1,9 +1,10 @@
 {
-    "updated":  "2026-11-01T21:43:31.1591453Z",
+    "updated":  "2026-11-01T21:44:37.7995245Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T21:42:28.5481243Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-11-01T21:43:34.0157487Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (1)"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-01T21:40:59.8419591Z",
@@ -47,12 +48,12 @@
                       "id":  "SW-306",
                       "number":  306,
                       "title":  "One screen with Map as the first tab, then the ship tabs",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-01T21:15:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T21:43:30.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
