@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-01T08:00:15.0887324Z",
+    "updated":  "2026-11-01T08:00:27.6139707Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-11-01T07:59:22.2358664Z",
@@ -19,7 +19,7 @@
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
+                      "actor":  "watcher",
                       "since":  "2026-11-01T07:59:09.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -48,6 +48,11 @@
                                       "t":  "2026-11-01T07:59:10.0281256Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T08:00:26.7673771Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
                                   }
                               ]
                   },
