@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T09:12:51.7299500Z",
+    "updated":  "2026-11-01T09:14:51.4851357Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T09:12:00.9214657Z",
+                                       "heartbeat":  "2026-11-01T09:13:07.1477665Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,47 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-302",
-                      "number":  302,
-                      "title":  "Orbit circles are drawn a bit lower, below the ship",
+                      "id":  "SW-299",
+                      "number":  299,
+                      "title":  "The ship screen uses the hand-made blueprint image",
                       "stage":  "Ready",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-11-01T09:01:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-300",
-                      "number":  300,
-                      "title":  "Rockets are fired with X on the gamepad",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-01T09:27:58.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-299",
-                      "number":  299,
-                      "title":  "The ship screen uses the hand-made blueprint image",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T07:59:09.0000000Z",
+                      "since":  "2026-11-01T09:13:49.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -102,6 +70,47 @@
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-302",
+                      "number":  302,
+                      "title":  "Orbit circles are drawn a bit lower, below the ship",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-01T09:13:01.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T09:13:02.3588413Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T09:13:15.8296415Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-300",
+                      "number":  300,
+                      "title":  "Rockets are fired with X on the gamepad",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-01T09:27:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
