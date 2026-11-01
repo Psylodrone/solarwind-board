@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T08:00:27.6139707Z",
+    "updated":  "2026-11-01T08:01:28.3449951Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T07:59:22.2358664Z",
+                                       "heartbeat":  "2026-11-01T08:00:29.4117115Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,54 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-300",
+                      "number":  300,
+                      "title":  "Rockets are fired with X on the gamepad",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T09:01:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-301",
+                      "number":  301,
+                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T09:01:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-302",
+                      "number":  302,
+                      "title":  "Orbit circles are drawn a bit lower, below the ship",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-01T09:01:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-299",
                       "number":  299,
