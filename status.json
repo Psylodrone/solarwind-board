@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T01:17:10.2702719Z",
+    "updated":  "2026-11-01T01:18:16.8991731Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T01:16:15.9754844Z",
+                                       "heartbeat":  "2026-11-01T01:17:22.8295828Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -437,22 +437,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-291",
-                      "number":  291,
-                      "title":  "Confirm: When the laptop\u0027s board folder is missing on this computer, should the",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-31T09:42:37.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-293",
                       "number":  293,
                       "title":  "Confirm: Should the cannon turn test check the barrel direction instead of the",
@@ -478,6 +462,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T21:42:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-291",
+                      "number":  291,
+                      "title":  "Confirm: When the laptop\u0027s board folder is missing on this computer, should the",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T01:18:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
