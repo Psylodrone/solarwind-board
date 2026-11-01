@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T10:31:33.7415485Z",
+    "updated":  "2026-11-01T10:32:43.4572147Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T10:30:42.4599677Z",
+                                       "heartbeat":  "2026-11-01T10:31:49.2882209Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,31 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-301",
-                      "number":  301,
-                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T10:18:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T10:18:42.4893377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T10:18:56.1091342Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-299",
                       "number":  299,
@@ -78,6 +53,41 @@
                                       "t":  "2026-11-01T08:00:26.7673771Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-301",
+                      "number":  301,
+                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
+                      "stage":  "Review",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-01T10:31:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T10:18:42.4893377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:18:56.1091342Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:31:33.8291559Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 12 min, tokens 6979k/40k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:31:37.2293620Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
