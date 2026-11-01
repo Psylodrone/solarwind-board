@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T10:20:34.4592046Z",
+    "updated":  "2026-11-01T10:21:41.5748602Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T10:19:44.1082845Z",
+                                       "heartbeat":  "2026-11-01T10:20:49.4229541Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,15 +12,40 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-301",
+                      "number":  301,
+                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-01T10:18:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T10:18:42.4893377Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:18:56.1091342Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
+                  {
                       "id":  "SW-299",
                       "number":  299,
                       "title":  "The ship screen uses the hand-made blueprint image",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "laptop",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-01T09:13:49.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T10:20:21.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -53,31 +78,6 @@
                                       "t":  "2026-11-01T08:00:26.7673771Z",
                                       "actor":  "watcher",
                                       "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-301",
-                      "number":  301,
-                      "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-01T10:18:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T10:18:42.4893377Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T10:18:56.1091342Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
