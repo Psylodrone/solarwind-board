@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T11:40:14.2686150Z",
+    "updated":  "2026-11-01T11:41:21.4698837Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T11:39:22.5356395Z",
+                                       "heartbeat":  "2026-11-01T11:40:27.2862025Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,51 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-299",
-                      "number":  299,
-                      "title":  "The ship screen uses the hand-made blueprint image",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T11:32:34.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T07:47:50.5539503Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T07:48:05.5998955Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T07:56:57.0550783Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 1565k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T07:57:00.3255365Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T07:59:10.0281256Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T08:00:26.7673771Z",
-                                      "actor":  "watcher",
-                                      "text":  "moved to the other machine"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -470,6 +425,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-299",
+                      "number":  299,
+                      "title":  "The ship screen uses the hand-made blueprint image",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T11:39:59.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T07:47:50.5539503Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T07:48:05.5998955Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T07:56:57.0550783Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 1565k/13k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T07:57:00.3255365Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T07:59:10.0281256Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T08:00:26.7673771Z",
+                                      "actor":  "watcher",
+                                      "text":  "moved to the other machine"
+                                  }
                               ]
                   },
                   {
