@@ -1,16 +1,41 @@
 {
-    "updated":  "2026-11-01T01:03:50.0689101Z",
+    "updated":  "2026-11-01T01:04:54.4053957Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T01:02:52.7093447Z",
+                                       "heartbeat":  "2026-11-01T01:03:59.6741562Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-01T00:58:34.0424427Z",
+                                    "heartbeat":  "2026-11-01T01:03:12.3124290Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-290",
+                      "number":  290,
+                      "title":  "A blocked card is not restarted, and a paused card parks its work",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-01T01:04:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-01T01:03:51.4480227Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T01:04:08.0707992Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -405,22 +430,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-31T15:03:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-290",
-                      "number":  290,
-                      "title":  "A blocked card is not restarted, and a paused card parks its work",
-                      "stage":  "Needs Taras",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-31T17:13:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
