@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-01T10:55:20.6950702Z",
+    "updated":  "2026-11-01T10:57:23.2747782Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-01T10:54:18.3656757Z",
+                                       "heartbeat":  "2026-11-01T10:56:29.7379809Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -60,13 +60,13 @@
                       "id":  "SW-301",
                       "number":  301,
                       "title":  "Captain\u0027s view: R3 switches the camera to a cabin under the antenna",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-01T10:54:03.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY",
+                      "since":  "2026-11-01T10:57:25.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -113,6 +113,16 @@
                                       "t":  "2026-11-01T10:54:14.9736781Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:57:26.0692369Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-01T10:57:27.9323716Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
