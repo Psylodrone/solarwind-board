@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-02T12:15:56.5599960Z",
+    "updated":  "2026-11-02T12:17:10.5374615Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T12:14:51.2180443Z",
+                                       "heartbeat":  "2026-11-02T12:16:04.3790297Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T12:10:09.5265745Z",
+                                    "heartbeat":  "2026-11-02T12:14:51.7358819Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-313",
                       "number":  313,
                       "title":  "War Table: mission type filters instead of tabs, steady header",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-02T12:14:42.0000000Z",
+                      "since":  "2026-11-02T12:14:52.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -123,6 +123,11 @@
                                       "t":  "2026-11-02T12:14:41.8716044Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 0 min, tokens 355k/3k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T12:15:56.6470975Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
