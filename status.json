@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T00:46:06.7651273Z",
+    "updated":  "2026-11-02T00:47:12.9404709Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T00:45:06.0650983Z",
+                                       "heartbeat":  "2026-11-02T00:46:12.4729746Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-310",
                       "number":  310,
                       "title":  "Ship screen: same header on every tab, wider map panel, gamepad scroll",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T00:35:53.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T00:47:13.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -74,6 +74,11 @@
                                       "t":  "2026-11-02T00:35:56.6280947Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T00:47:13.0988167Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 11 min, tokens 3326k/28k, passing to the headless check"
                                   }
                               ]
                   },
