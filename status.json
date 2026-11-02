@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T23:18:08.4199788Z",
+    "updated":  "2026-11-02T23:19:17.0208445Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T23:17:05.2005122Z",
+                                       "heartbeat":  "2026-11-02T23:18:13.0138780Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-317",
+                      "number":  317,
+                      "title":  "Station tab: say why a line is still locked",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-02T23:19:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
