@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T01:16:00.7952287Z",
+    "updated":  "2026-11-02T01:17:10.1680040Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T01:15:01.2448274Z",
+                                       "heartbeat":  "2026-11-02T01:16:08.2938249Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-304",
                       "number":  304,
                       "title":  "Turret turns about the middle of its base circle",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-02T01:13:39.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-02T01:15:06.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -109,6 +109,16 @@
                                       "t":  "2026-11-02T01:15:07.6089754Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown has found 4 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:16:02.5144361Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:16:03.6493854Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
