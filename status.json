@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T01:13:38.4954859Z",
+    "updated":  "2026-11-02T01:14:49.0371273Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T01:12:38.7359584Z",
+                                       "heartbeat":  "2026-11-02T01:13:43.6336840Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-304",
                       "number":  304,
                       "title":  "Turret turns about the middle of its base circle",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T01:07:59.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-02T01:13:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -94,6 +94,16 @@
                                       "t":  "2026-11-02T01:08:05.8021354Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:13:38.5606377Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 5 min, tokens 1414k/8k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:13:43.3924849Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
