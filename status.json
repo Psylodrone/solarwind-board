@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T07:59:29.6270319Z",
+    "updated":  "2026-11-02T08:00:39.5380746Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T07:58:25.0051987Z",
+                                       "heartbeat":  "2026-11-02T07:59:34.1782824Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-312",
                       "number":  312,
                       "title":  "Ship screen fixes: close button, right stick, tab centre, War Table on Select",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T07:33:48.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-02T08:00:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -33,6 +33,16 @@
                                       "t":  "2026-11-02T07:34:03.6464053Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T08:00:40.2722121Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 25 min, tokens 15993k/69k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T08:00:43.5476582Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
