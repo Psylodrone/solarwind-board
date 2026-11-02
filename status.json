@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-11-02T07:32:26.0484118Z",
+    "updated":  "2026-11-02T07:33:38.9996658Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T07:31:19.3134295Z",
+                                       "heartbeat":  "2026-11-02T07:32:33.5457755Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T07:28:27.8426313Z",
+                                    "heartbeat":  "2026-11-02T07:32:34.3684305Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-312",
+                      "number":  312,
+                      "title":  "Ship screen fixes: close button, right stick, tab centre, War Table on Select",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-02T07:31:55.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
