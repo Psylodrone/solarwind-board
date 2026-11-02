@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T16:09:18.2789199Z",
+    "updated":  "2026-11-02T16:10:37.4391053Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T16:08:08.6152535Z",
+                                       "heartbeat":  "2026-11-02T16:09:23.1309230Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-315",
                       "number":  315,
                       "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-02T16:05:24.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-02T16:09:37.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -59,6 +59,21 @@
                                       "t":  "2026-11-02T16:05:26.7108197Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:09:37.9206854Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:10:39.5717350Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:10:40.8031564Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
