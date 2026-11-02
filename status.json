@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T02:31:02.2173749Z",
+    "updated":  "2026-11-02T02:32:09.1045039Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T02:30:03.0711019Z",
+                                       "heartbeat":  "2026-11-02T02:31:08.8099997Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-305",
-                      "number":  305,
-                      "title":  "POI icons get a translucent background",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-02T02:14:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -501,6 +485,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-01T23:40:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-305",
+                      "number":  305,
+                      "title":  "POI icons get a translucent background",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T02:25:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
