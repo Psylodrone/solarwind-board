@@ -1,26 +1,42 @@
 {
-    "updated":  "2026-11-02T15:50:20.3612622Z",
+    "updated":  "2026-11-02T15:51:39.1085261Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T15:49:07.7087012Z",
+                                       "heartbeat":  "2026-11-02T15:50:28.2068013Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T15:44:34.0049072Z",
+                                    "heartbeat":  "2026-11-02T15:48:37.5325563Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
                   {
-                      "id":  "SW-315",
-                      "number":  315,
-                      "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
+                      "id":  "SW-316",
+                      "number":  316,
+                      "title":  "World clock runs slower while the game window is not focused",
                       "stage":  "Ready",
-                      "machine":  "workhorse",
+                      "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-11-02T15:48:10.0000000Z",
+                      "since":  "2026-11-02T15:51:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-315",
+                      "number":  315,
+                      "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-02T15:49:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
