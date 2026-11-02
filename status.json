@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-02T00:10:35.5944055Z",
+    "updated":  "2026-11-02T00:11:42.8985105Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T00:09:31.6167025Z",
+                                       "heartbeat":  "2026-11-02T00:10:43.1760761Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T00:04:37.1772370Z",
+                                    "heartbeat":  "2026-11-02T00:10:18.8641599Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -47,12 +47,12 @@
                       "id":  "SW-304",
                       "number":  304,
                       "title":  "Turret turns about the middle of its base circle",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-01T23:00:00.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T00:10:43.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -95,6 +95,11 @@
                                       "t":  "2026-11-02T00:09:43.0373610Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 70 min, tokens 10474k/47k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T00:11:42.9821072Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
