@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T13:15:35.0951944Z",
+    "updated":  "2026-11-02T13:16:50.9646258Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T13:14:28.9520592Z",
+                                       "heartbeat":  "2026-11-02T13:15:42.6374167Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-313",
                       "number":  313,
                       "title":  "War Table: mission type filters instead of tabs, steady header",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-02T12:14:52.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-02T13:15:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -128,6 +128,16 @@
                                       "t":  "2026-11-02T12:15:56.6470975Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T13:15:38.5402671Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T13:16:54.3400573Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
