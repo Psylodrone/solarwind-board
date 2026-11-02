@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T00:34:43.6261646Z",
+    "updated":  "2026-11-02T00:35:49.8391831Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T00:33:41.1429528Z",
+                                       "heartbeat":  "2026-11-02T00:34:48.8772810Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-310",
                       "number":  310,
                       "title":  "Ship screen: same header on every tab, wider map panel, gamepad scroll",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-11-02T00:32:19.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-02T00:35:53.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -59,6 +59,11 @@
                                       "t":  "2026-11-02T00:32:22.0278179Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T00:35:53.7337068Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
