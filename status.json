@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T15:47:41.2265553Z",
+    "updated":  "2026-11-02T15:48:57.8516760Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T15:46:28.9301282Z",
+                                       "heartbeat":  "2026-11-02T15:47:46.0077903Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-315",
+                      "number":  315,
+                      "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-02T15:48:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
