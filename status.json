@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-02T01:14:49.0371273Z",
+    "updated":  "2026-11-02T01:16:00.7952287Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T01:13:43.6336840Z",
+                                       "heartbeat":  "2026-11-02T01:15:01.2448274Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T01:04:23.3096315Z",
+                                    "heartbeat":  "2026-11-02T01:14:57.0350226Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -37,7 +37,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-11-02T01:13:39.0000000Z",
-                      "round":  0,
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -104,6 +104,11 @@
                                       "t":  "2026-11-02T01:13:43.3924849Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:15:07.6089754Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 4 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
