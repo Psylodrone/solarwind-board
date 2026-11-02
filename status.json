@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T23:54:04.4116194Z",
+    "updated":  "2026-11-02T23:55:17.9715157Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T23:52:55.6202484Z",
+                                       "heartbeat":  "2026-11-02T23:54:08.8897179Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -53,6 +53,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-11-02T23:34:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-320",
+                      "number":  320,
+                      "title":  "Unfocused world clock also in the editor, per machine switch",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-02T23:54:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
