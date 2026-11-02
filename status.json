@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T17:49:58.5178719Z",
+    "updated":  "2026-11-02T17:51:12.7335994Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T17:48:52.8648194Z",
+                                       "heartbeat":  "2026-11-02T17:50:03.0831828Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,16 +15,20 @@
                       "id":  "SW-316",
                       "number":  316,
                       "title":  "World clock runs slower while the game window is not focused",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-02T15:51:35.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T17:51:13.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-02T17:51:14.0642051Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
