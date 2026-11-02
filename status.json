@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T18:08:05.3165132Z",
+    "updated":  "2026-11-02T18:09:24.7126154Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T18:06:55.2483528Z",
+                                       "heartbeat":  "2026-11-02T18:08:10.1264932Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-316",
                       "number":  316,
                       "title":  "World clock runs slower while the game window is not focused",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T18:05:34.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-02T18:08:05.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -58,6 +58,16 @@
                                       "t":  "2026-11-02T18:05:38.5943570Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T18:08:05.3794244Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 2 min, tokens 1772k/12k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T18:08:08.7075659Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
