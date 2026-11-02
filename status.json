@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T11:57:49.9008748Z",
+    "updated":  "2026-11-02T11:59:02.4951082Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T11:56:32.0627837Z",
+                                       "heartbeat":  "2026-11-02T11:57:54.5841319Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-313",
                       "number":  313,
                       "title":  "War Table: mission type filters instead of tabs, steady header",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T11:33:04.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T11:59:03.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -68,6 +68,11 @@
                                       "t":  "2026-11-02T11:33:07.2705593Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T11:59:03.4164878Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 25 min, tokens 13165k/77k, passing to the headless check"
                                   }
                               ]
                   },
@@ -545,6 +550,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-01T23:40:34.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-314",
+                      "number":  314,
+                      "title":  "Confirm: When the player has no living pilot, should the offers that need a",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-02T11:57:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
