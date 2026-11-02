@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-02T12:00:26.6637215Z",
+    "updated":  "2026-11-02T12:01:43.6139700Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T11:59:15.2334940Z",
+                                       "heartbeat":  "2026-11-02T12:00:34.2349566Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T11:53:26.5857832Z",
+                                    "heartbeat":  "2026-11-02T11:59:17.2448606Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-313",
                       "number":  313,
                       "title":  "War Table: mission type filters instead of tabs, steady header",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
-                      "since":  "2026-11-02T11:59:03.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-02T12:00:29.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -78,6 +78,21 @@
                                       "t":  "2026-11-02T11:59:07.2708391Z",
                                       "actor":  "Claude claude-sonnet-5-5",
                                       "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T12:00:30.1595571Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 has found 2 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T12:00:32.1122809Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T12:00:33.5096274Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
