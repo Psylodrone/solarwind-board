@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T16:14:39.0787518Z",
+    "updated":  "2026-11-02T16:15:56.2278639Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T16:13:28.5027401Z",
+                                       "heartbeat":  "2026-11-02T16:14:44.2746529Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-315",
                       "number":  315,
                       "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T16:09:37.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-02T16:15:57.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -74,6 +74,16 @@
                                       "t":  "2026-11-02T16:10:40.8031564Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:15:56.2687473Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 701k/6k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:16:00.3143675Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
