@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T16:19:08.7085310Z",
+    "updated":  "2026-11-02T16:20:31.8120053Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T16:17:50.4950087Z",
+                                       "heartbeat":  "2026-11-02T16:19:19.6158740Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -89,6 +89,11 @@
                                       "t":  "2026-11-02T16:18:00.6094231Z",
                                       "actor":  "AGY unknown",
                                       "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T16:19:25.9619129Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 421b345c and pushed, card Done and issue closed"
                                   }
                               ]
                   },
