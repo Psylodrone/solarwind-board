@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-02T12:10:52.8311898Z",
+    "updated":  "2026-11-02T12:12:07.1144892Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T12:09:45.2843086Z",
+                                       "heartbeat":  "2026-11-02T12:11:00.3868139Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-02T12:04:12.7097774Z",
+                                    "heartbeat":  "2026-11-02T12:10:09.5265745Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-313",
                       "number":  313,
                       "title":  "War Table: mission type filters instead of tabs, steady header",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-02T12:00:29.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-02T12:12:08.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -93,6 +93,11 @@
                                       "t":  "2026-11-02T12:00:33.5096274Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T12:12:07.9003001Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 4078k/29k, passing to the headless check"
                                   }
                               ]
                   },
