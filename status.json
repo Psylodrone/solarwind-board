@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-02T01:06:50.0321156Z",
+    "updated":  "2026-11-02T01:07:57.9751438Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-02T01:05:51.8334305Z",
+                                       "heartbeat":  "2026-11-02T01:06:57.7376851Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-304",
                       "number":  304,
                       "title":  "Turret turns about the middle of its base circle",
-                      "stage":  "Stopped",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-02T00:10:43.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-02T01:07:59.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -84,6 +84,11 @@
                                       "t":  "2026-11-02T00:11:42.9821072Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-02T01:08:00.6969761Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
