@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T02:05:55.4776110Z",
+    "updated":  "2026-11-03T02:07:08.5183357Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T02:04:50.2848479Z",
+                                       "heartbeat":  "2026-11-03T02:06:00.0147160Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -63,12 +63,12 @@
                       "id":  "SW-318",
                       "number":  318,
                       "title":  "Derelict drones chase a shooter beyond their leash",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T02:03:28.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-03T02:05:56.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -106,6 +106,16 @@
                                       "t":  "2026-11-03T02:03:39.9221054Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:05:55.5254753Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 412k/3k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:05:58.9035290Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
