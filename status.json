@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T02:29:10.4115060Z",
+    "updated":  "2026-11-03T02:30:19.3015655Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T02:28:08.6302985Z",
+                                       "heartbeat":  "2026-11-03T02:29:15.0551066Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,31 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-319",
-                      "number":  319,
-                      "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-02T23:34:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T02:21:04.9604631Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:21:10.4740286Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-320",
                       "number":  320,
@@ -69,72 +44,27 @@
                               ]
                   },
                   {
-                      "id":  "SW-321",
-                      "number":  321,
-                      "title":  "Camera zone gizmo stops logging a warning every repaint",
-                      "stage":  "Review",
+                      "id":  "SW-319",
+                      "number":  319,
+                      "title":  "Enemy ships steer around planets and stations",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-03T02:17:12.0000000Z",
-                      "round":  1,
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-03T02:21:04.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-03T00:58:11.0330520Z",
+                                      "t":  "2026-11-03T02:21:04.9604631Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-11-03T00:58:25.0267404Z",
+                                      "t":  "2026-11-03T02:21:10.4740286Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T01:06:30.9349062Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 8 min, tokens 2587k/16k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T01:08:11.9706728Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:09:39.1652788Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:10:55.7272436Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:10:57.4458295Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:17:11.0701786Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 6 min, tokens 856k/5k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:17:15.8549521Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:18:41.1081374Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:19:51.7470339Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 2b0ec042 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -632,6 +562,76 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-321",
+                      "number":  321,
+                      "title":  "Camera zone gizmo stops logging a warning every repaint",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T02:19:51.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T00:58:11.0330520Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T00:58:25.0267404Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T01:06:30.9349062Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 8 min, tokens 2587k/16k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T01:08:11.9706728Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:09:39.1652788Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:10:55.7272436Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:10:57.4458295Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:17:11.0701786Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 6 min, tokens 856k/5k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:17:15.8549521Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:18:41.1081374Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:19:51.7470339Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 2b0ec042 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
