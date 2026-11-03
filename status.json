@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T02:07:08.5183357Z",
+    "updated":  "2026-11-03T02:08:25.5183016Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T02:06:00.0147160Z",
+                                       "heartbeat":  "2026-11-03T02:07:18.1026620Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -69,7 +69,7 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-11-03T02:05:56.0000000Z",
-                      "round":  1,
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -116,6 +116,11 @@
                                       "t":  "2026-11-03T02:05:58.9035290Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:07:26.8821488Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
