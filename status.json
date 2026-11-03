@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T05:28:53.7588401Z",
+    "updated":  "2026-11-03T05:30:09.6256470Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T05:27:38.8811878Z",
+                                       "heartbeat":  "2026-11-03T05:29:01.5594756Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-320",
                       "number":  320,
                       "title":  "Unfocused world clock also in the editor, per machine switch",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T04:50:06.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-03T05:27:43.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -158,6 +158,11 @@
                                       "t":  "2026-11-03T05:27:46.8147730Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T05:30:13.9091762Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
