@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-03T03:19:05.5430500Z",
+    "updated":  "2026-11-03T03:20:19.5676902Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T03:17:58.7645899Z",
+                                       "heartbeat":  "2026-11-03T03:19:10.2912785Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-03T03:13:56.3867941Z",
+                                    "heartbeat":  "2026-11-03T03:19:10.8441121Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,28 +15,67 @@
                       "id":  "SW-322",
                       "number":  322,
                       "title":  "Watcher pulls an incoming scene when no editor step is running",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-03T01:02:28.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T03:20:20.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-03T03:20:21.3250592Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-319",
+                      "number":  319,
+                      "title":  "Enemy ships steer around planets and stations",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T02:48:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T02:21:04.9604631Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:21:10.4740286Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:47:40.4617471Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 26 min, tokens 5776k/50k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:49:47.5963260Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
                       "id":  "SW-320",
                       "number":  320,
                       "title":  "Unfocused world clock also in the editor, per machine switch",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-03T03:17:50.0000000Z",
+                      "since":  "2026-11-03T03:17:59.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -129,39 +168,9 @@
                                       "t":  "2026-11-03T03:17:49.5856792Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 0 min, tokens 171k/3k, passing to the headless check"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-319",
-                      "number":  319,
-                      "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-03T02:48:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T02:21:04.9604631Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-11-03T02:21:10.4740286Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:47:40.4617471Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 26 min, tokens 5776k/50k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:49:47.5963260Z",
+                                      "t":  "2026-11-03T03:19:05.6388435Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
