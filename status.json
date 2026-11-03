@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T04:19:08.7735164Z",
+    "updated":  "2026-11-03T04:20:21.3448576Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T04:18:00.5965843Z",
+                                       "heartbeat":  "2026-11-03T04:19:13.4663003Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-319",
                       "number":  319,
                       "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T03:58:44.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-03T04:19:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -53,6 +53,16 @@
                                       "t":  "2026-11-03T04:00:01.8011255Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T04:19:09.2263935Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 5 min, tokens 5929k/21k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T04:19:12.5072341Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
