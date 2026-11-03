@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T00:57:01.1385945Z",
+    "updated":  "2026-11-03T00:58:09.8500832Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T00:55:44.2593608Z",
+                                       "heartbeat":  "2026-11-03T00:57:05.8774501Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-321",
-                      "number":  321,
-                      "title":  "Camera zone gizmo stops logging a warning every repaint",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-03T00:03:29.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-317",
                       "number":  317,
@@ -89,6 +73,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-321",
+                      "number":  321,
+                      "title":  "Camera zone gizmo stops logging a warning every repaint",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T00:58:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T00:58:11.0330520Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
