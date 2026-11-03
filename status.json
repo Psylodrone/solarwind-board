@@ -1,56 +1,16 @@
 {
-    "updated":  "2026-11-03T13:51:50.4240605Z",
+    "updated":  "2026-11-03T13:53:09.5484087Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T13:50:39.2315945Z",
+                                       "heartbeat":  "2026-11-03T13:51:57.9762280Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-03T13:46:15.7765169Z",
+                                    "heartbeat":  "2026-11-03T13:51:08.6625378Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-325",
-                      "number":  325,
-                      "title":  "Mothership shoves lighter ships and ramming works",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-03T13:41:44.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T13:02:18.9982829Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T13:41:44.4432469Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 19 min, tokens 19421k/54k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T13:41:47.9362479Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T13:48:48.9333659Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T13:50:35.4000140Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 67162434 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -561,6 +521,46 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-325",
+                      "number":  325,
+                      "title":  "Mothership shoves lighter ships and ramming works",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T13:50:34.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T13:02:18.9982829Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T13:41:44.4432469Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 19 min, tokens 19421k/54k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T13:41:47.9362479Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T13:48:48.9333659Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T13:50:35.4000140Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 67162434 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
