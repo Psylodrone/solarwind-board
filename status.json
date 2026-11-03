@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T03:01:00.9336720Z",
+    "updated":  "2026-11-03T03:02:13.6850890Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T02:59:52.1185727Z",
+                                       "heartbeat":  "2026-11-03T03:01:05.6400491Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-320",
                       "number":  320,
                       "title":  "Unfocused world clock also in the editor, per machine switch",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-03T02:59:39.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-03T03:01:03.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -59,6 +59,21 @@
                                       "t":  "2026-11-03T02:59:42.6698388Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:01:04.4741348Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:01:06.2057562Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:01:07.6760877Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
