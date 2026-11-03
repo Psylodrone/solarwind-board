@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T01:02:06.1914889Z",
+    "updated":  "2026-11-03T01:03:13.2353625Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T01:00:59.9046356Z",
+                                       "heartbeat":  "2026-11-03T01:02:10.7909361Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -69,6 +69,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-11-02T23:54:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-322",
+                      "number":  322,
+                      "title":  "Watcher pulls an incoming scene when no editor step is running",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-03T01:02:28.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
