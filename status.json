@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T02:48:39.2943253Z",
+    "updated":  "2026-11-03T02:49:47.5139062Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T02:47:34.6570639Z",
+                                       "heartbeat":  "2026-11-03T02:48:43.8433385Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,12 +47,12 @@
                       "id":  "SW-319",
                       "number":  319,
                       "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-03T02:21:04.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T02:48:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -70,6 +70,11 @@
                                       "t":  "2026-11-03T02:47:40.4617471Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 26 min, tokens 5776k/50k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T02:49:47.5963260Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
