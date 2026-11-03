@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T03:56:16.5893425Z",
+    "updated":  "2026-11-03T03:57:27.6048833Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T03:55:09.4501586Z",
+                                       "heartbeat":  "2026-11-03T03:56:21.2908911Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,31 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-322",
-                      "number":  322,
-                      "title":  "Watcher pulls an incoming scene when no editor step is running",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T03:20:20.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T03:20:21.3250592Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T03:20:27.7517252Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-319",
                       "number":  319,
@@ -178,6 +153,36 @@
                                       "t":  "2026-11-03T03:19:05.6388435Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-322",
+                      "number":  322,
+                      "title":  "Watcher pulls an incoming scene when no editor step is running",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T03:56:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T03:20:21.3250592Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:20:27.7517252Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:56:16.8506053Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 35 min, tokens 7127k/66k, result blocked"
                                   }
                               ]
                   },
