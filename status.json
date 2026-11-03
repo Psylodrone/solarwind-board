@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T03:11:09.3247270Z",
+    "updated":  "2026-11-03T03:12:32.4287873Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T03:10:04.0113277Z",
+                                       "heartbeat":  "2026-11-03T03:11:13.9219382Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,12 +31,12 @@
                       "id":  "SW-320",
                       "number":  320,
                       "title":  "Unfocused world clock also in the editor, per machine switch",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T03:01:03.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-03T03:12:33.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -74,6 +74,16 @@
                                       "t":  "2026-11-03T03:01:07.6760877Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:12:32.4841147Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 611k/8k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:12:36.4656894Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -602,6 +612,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-02T11:57:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-323",
+                      "number":  323,
+                      "title":  "Confirm: The project rules say the world clock catches up only in player",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-03T03:12:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
