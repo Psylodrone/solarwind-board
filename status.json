@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T12:01:10.9869315Z",
+    "updated":  "2026-11-03T12:02:26.9116975Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T11:59:56.8538651Z",
+                                       "heartbeat":  "2026-11-03T12:01:15.5260529Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,26 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-324",
+                      "number":  324,
+                      "title":  "War table opens in about one second",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T12:01:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T12:01:12.4786338Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
