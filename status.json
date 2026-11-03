@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T04:41:09.7911595Z",
+    "updated":  "2026-11-03T04:42:31.1731586Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T04:40:03.8775799Z",
+                                       "heartbeat":  "2026-11-03T04:41:14.4527352Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-320",
                       "number":  320,
                       "title":  "Unfocused world clock also in the editor, per machine switch",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-03T04:26:58.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T04:42:33.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -128,6 +128,11 @@
                                       "t":  "2026-11-03T04:28:24.6870693Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T04:42:32.3505527Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 6 min, tokens 2090k/18k, passing to the headless check"
                                   }
                               ]
                   },
