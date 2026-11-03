@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T13:02:17.2871223Z",
+    "updated":  "2026-11-03T13:04:47.1793127Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T13:00:37.3733728Z",
+                                       "heartbeat":  "2026-11-03T13:02:24.8960834Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,26 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-325",
+                      "number":  325,
+                      "title":  "Mothership shoves lighter ships and ramming works",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T13:02:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T13:02:18.9982829Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
