@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T06:17:08.8807292Z",
+    "updated":  "2026-11-03T06:18:28.0873856Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T06:15:58.7378764Z",
+                                       "heartbeat":  "2026-11-03T06:17:21.1912818Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -53,6 +53,16 @@
                                       "t":  "2026-11-03T05:34:17.9849128Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T06:17:15.2486310Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 7 min, tokens 5611k/23k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T06:17:18.8177790Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
