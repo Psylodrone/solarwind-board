@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-03T12:28:25.6940068Z",
+    "updated":  "2026-11-03T12:29:45.7842146Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T12:27:10.6090533Z",
+                                       "heartbeat":  "2026-11-03T12:28:33.1569388Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-03T12:23:06.4391846Z",
+                                    "heartbeat":  "2026-11-03T12:27:40.5163461Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-324",
                       "number":  324,
                       "title":  "War table opens in about one second",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-03T12:01:11.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-03T12:29:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -28,6 +28,16 @@
                                       "t":  "2026-11-03T12:01:12.4786338Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:29:46.2838398Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 13 min, tokens 7880k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:29:49.7563990Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
