@@ -1,51 +1,16 @@
 {
-    "updated":  "2026-11-03T12:33:58.9889581Z",
+    "updated":  "2026-11-03T12:35:37.8933621Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T12:32:40.7368729Z",
+                                       "heartbeat":  "2026-11-03T12:34:06.5672238Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-03T12:27:40.5163461Z",
+                                    "heartbeat":  "2026-11-03T12:33:02.0908184Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-324",
-                      "number":  324,
-                      "title":  "War table opens in about one second",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-03T12:29:47.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T12:01:12.4786338Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T12:29:46.2838398Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 13 min, tokens 7880k/43k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T12:29:49.7563990Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T12:32:41.0834987Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -556,6 +521,46 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-324",
+                      "number":  324,
+                      "title":  "War table opens in about one second",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-03T12:34:04.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-03T12:01:12.4786338Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:29:46.2838398Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 13 min, tokens 7880k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:29:49.7563990Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:32:41.0834987Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T12:34:04.9562104Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed f70531a0 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
