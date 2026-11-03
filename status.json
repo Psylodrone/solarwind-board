@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T01:24:04.3405990Z",
+    "updated":  "2026-11-03T01:25:14.6780915Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T01:22:52.9229673Z",
+                                       "heartbeat":  "2026-11-03T01:24:11.7868201Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -79,13 +79,13 @@
                       "id":  "SW-317",
                       "number":  317,
                       "title":  "Station tab: say why a line is still locked",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-03T01:21:40.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY",
+                      "since":  "2026-11-03T01:24:15.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -107,6 +107,21 @@
                                       "t":  "2026-11-03T01:22:44.2068332Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T01:24:15.6540037Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T01:24:17.3021782Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T01:24:18.5273760Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
