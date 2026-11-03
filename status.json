@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-03T03:58:44.0297276Z",
+    "updated":  "2026-11-03T03:59:58.5965361Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T03:57:37.1150708Z",
+                                       "heartbeat":  "2026-11-03T03:58:51.4344504Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-03T03:52:42.6996292Z",
+                                    "heartbeat":  "2026-11-03T03:57:39.2028215Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-319",
                       "number":  319,
                       "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-03T02:48:43.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-03T03:58:44.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -43,6 +43,16 @@
                                       "t":  "2026-11-03T02:49:47.5963260Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T03:58:46.9567478Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-03T04:00:01.8011255Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
