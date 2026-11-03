@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-03T00:04:31.0702515Z",
+    "updated":  "2026-11-03T00:05:46.7907567Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-03T00:03:18.3161182Z",
+                                       "heartbeat":  "2026-11-03T00:04:38.4817896Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-321",
+                      "number":  321,
+                      "title":  "Camera zone gizmo stops logging a warning every repaint",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-03T00:03:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-317",
                       "number":  317,
