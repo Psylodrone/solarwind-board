@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T14:02:01.7707130Z",
+    "updated":  "2026-11-05T14:03:21.0255011Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T14:00:36.8963493Z",
+                                       "heartbeat":  "2026-11-05T14:02:06.3842342Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,13 +335,13 @@
                       "id":  "SW-348",
                       "number":  348,
                       "title":  "The watcher restarts a workhorse editor stuck in an error flood",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-05T13:17:56.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-11-05T14:00:31.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -358,6 +358,11 @@
                                       "t":  "2026-11-05T14:00:34.9228088Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T14:03:23.3230380Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
                                   }
                               ]
                   },
