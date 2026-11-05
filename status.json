@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T14:07:34.6514992Z",
+    "updated":  "2026-11-05T14:08:57.5582408Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T14:06:22.0598506Z",
+                                       "heartbeat":  "2026-11-05T14:07:39.0408381Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-05T12:53:25.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-05T14:07:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -538,6 +538,11 @@
                                       "t":  "2026-11-05T12:54:44.6097465Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T14:09:01.2712827Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
