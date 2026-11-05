@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T10:00:53.8770591Z",
+    "updated":  "2026-11-05T10:03:03.0989127Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T09:58:04.4329277Z",
+                                       "heartbeat":  "2026-11-05T10:01:05.0263503Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T09:49:52.4761227Z",
+                                    "heartbeat":  "2026-11-05T09:59:55.8018626Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-05T09:39:52.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-05T10:03:09.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -463,6 +463,11 @@
                                       "t":  "2026-11-05T09:41:20.4302129Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T10:03:03.5109440Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 17 min, tokens 14413k/71k, passing to the headless check"
                                   }
                               ]
                   },
