@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T15:46:06.6668291Z",
+    "updated":  "2026-11-05T15:47:40.6036058Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T15:44:28.8401369Z",
+                                       "heartbeat":  "2026-11-05T15:46:14.6411357Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-05T15:15:41.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-05T15:44:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -583,6 +583,11 @@
                                       "t":  "2026-11-05T15:44:25.3666101Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 20 min, tokens 3792k/27k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T15:46:11.2095140Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
