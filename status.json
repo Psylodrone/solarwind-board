@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T11:52:52.3615902Z",
+    "updated":  "2026-11-05T11:54:32.2143635Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T11:51:34.5334059Z",
+                                       "heartbeat":  "2026-11-05T11:53:04.4298760Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -341,7 +341,7 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-11-05T10:53:09.0000000Z",
-                      "round":  2,
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -513,6 +513,11 @@
                                       "t":  "2026-11-05T10:54:31.3066328Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T11:53:11.5079184Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-blocked)"
                                   }
                               ]
                   },
