@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T07:55:03.3878220Z",
+    "updated":  "2026-11-05T07:56:20.3553604Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T07:53:49.7117871Z",
+                                       "heartbeat":  "2026-11-05T07:55:10.8733423Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T07:50:32.2247635Z",
+                                    "heartbeat":  "2026-11-05T07:54:57.6964523Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-11-05T07:51:49.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-05T07:55:05.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -433,6 +433,16 @@
                                       "t":  "2026-11-05T07:51:52.3356908Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:55:06.7512397Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 6 issues in review round 3, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:55:08.4929245Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
                                   }
                               ]
                   },
