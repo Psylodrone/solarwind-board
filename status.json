@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T10:44:37.1030344Z",
+    "updated":  "2026-11-05T10:45:55.7144964Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T10:43:22.8316515Z",
+                                       "heartbeat":  "2026-11-05T10:44:41.4959916Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,13 +335,13 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-11-05T10:43:11.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-05T10:45:58.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -493,6 +493,11 @@
                                       "t":  "2026-11-05T10:43:13.9067871Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T10:45:58.9269292Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 4 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
