@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T07:51:48.2000558Z",
+    "updated":  "2026-11-05T07:53:36.0987532Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T07:50:23.2317200Z",
+                                       "heartbeat":  "2026-11-05T07:51:55.6049715Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-05T07:16:38.0000000Z",
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-11-05T07:51:49.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -423,6 +423,16 @@
                                       "t":  "2026-11-05T07:16:40.9746236Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:51:48.6072585Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 24 min, tokens 17852k/64k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:51:52.3356908Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
                                   }
                               ]
                   },
