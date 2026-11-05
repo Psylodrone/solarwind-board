@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T06:08:43.6510955Z",
+    "updated":  "2026-11-05T06:09:55.8680271Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T06:07:16.2341115Z",
+                                       "heartbeat":  "2026-11-05T06:08:47.9575019Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,13 +335,13 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-05T05:55:52.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-05T06:09:57.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -378,6 +378,11 @@
                                       "t":  "2026-11-05T05:58:21.1152249Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T06:09:58.9393711Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 8 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
