@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T13:16:38.8513021Z",
+    "updated":  "2026-11-05T13:17:56.1023075Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T13:15:22.3470230Z",
+                                       "heartbeat":  "2026-11-05T13:16:43.4563086Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -329,6 +329,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-348",
+                      "number":  348,
+                      "title":  "The watcher restarts a workhorse editor stuck in an error flood",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-05T13:17:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-05T13:17:57.6103103Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
