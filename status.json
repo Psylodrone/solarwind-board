@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T12:52:01.1945925Z",
+    "updated":  "2026-11-05T12:53:15.9933901Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T12:50:28.0049113Z",
+                                       "heartbeat":  "2026-11-05T12:52:05.6901907Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T12:42:18.0962497Z",
+                                    "heartbeat":  "2026-11-05T12:50:50.2401054Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -339,7 +339,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-11-05T11:53:08.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -528,6 +528,11 @@
                                       "t":  "2026-11-05T12:33:47.6063823Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T12:53:16.0784642Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 18 min, tokens 6951k/44k, result blocked"
                                   }
                               ]
                   },
@@ -1037,6 +1042,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-03T03:12:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-347",
+                      "number":  347,
+                      "title":  "Confirm: Can the agent close a search window that keeps logging errors in the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-05T12:51:58.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
