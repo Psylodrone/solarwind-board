@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T07:14:41.5432942Z",
+    "updated":  "2026-11-05T07:16:36.3714531Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T07:13:19.9103033Z",
+                                       "heartbeat":  "2026-11-05T07:14:49.0513206Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,13 +335,13 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-05T07:03:29.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY",
+                      "since":  "2026-11-05T07:16:38.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -413,6 +413,16 @@
                                       "t":  "2026-11-05T07:06:08.0753580Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:16:39.1691580Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 8 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:16:40.9746236Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
