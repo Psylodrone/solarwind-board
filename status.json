@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T08:39:54.4031536Z",
+    "updated":  "2026-11-05T08:41:24.9924143Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T08:38:45.4386683Z",
+                                       "heartbeat":  "2026-11-05T08:40:06.5148652Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -448,6 +448,11 @@
                                       "t":  "2026-11-05T08:38:41.3819410Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 28 min, tokens 24266k/123k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T08:40:01.2390204Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
