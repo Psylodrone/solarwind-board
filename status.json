@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T11:54:32.2143635Z",
+    "updated":  "2026-11-05T11:55:50.8220857Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T11:53:04.4298760Z",
+                                       "heartbeat":  "2026-11-05T11:54:39.9514017Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T11:47:46.5256969Z",
+                                    "heartbeat":  "2026-11-05T11:53:07.6234031Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-05T10:53:09.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-05T11:53:08.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -518,6 +518,11 @@
                                       "t":  "2026-11-05T11:53:11.5079184Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T11:54:35.3619225Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
