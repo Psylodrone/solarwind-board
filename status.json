@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T16:46:32.4458850Z",
+    "updated":  "2026-11-05T16:47:59.7039040Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T16:45:01.9511164Z",
+                                       "heartbeat":  "2026-11-05T16:46:40.0818184Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,25 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-05T15:44:32.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-05T16:45:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T04:53:20.4259042Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T04:58:43.4723122Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-05T05:55:52.6548982Z",
                                       "actor":  "Claude",
@@ -593,6 +583,16 @@
                                       "t":  "2026-11-05T16:45:03.5637248Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T16:46:38.0138601Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T16:46:53.9500044Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
