@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T22:58:44.4415760Z",
+    "updated":  "2026-11-05T23:00:12.4063358Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T22:57:34.8188285Z",
+                                       "heartbeat":  "2026-11-05T22:58:52.9434718Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3858,51 +3858,6 @@
                                       "t":  "2026-10-29T23:16:55.4572643Z",
                                       "actor":  "watcher",
                                       "text":  "committed 603a0cf0 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-277",
-                      "number":  277,
-                      "title":  "Snapshot git calls must not share the process environment with the feed push",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-10-29T23:00:02.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-29T22:38:01.5976847Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:38:07.5327030Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:42:28.7830862Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 4 min, tokens 1983k/54k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:59:01.2670942Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T22:59:45.7251591Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-29T23:00:03.0226774Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 0bb5b840 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
