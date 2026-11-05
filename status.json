@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T17:01:30.7737747Z",
+    "updated":  "2026-11-05T17:03:13.0642242Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T16:59:54.2724187Z",
+                                       "heartbeat":  "2026-11-05T17:01:35.7731720Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,20 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY claude-sonnet-5-5-high",
-                      "since":  "2026-11-05T16:58:12.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-05T17:03:17.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T05:57:58.0333064Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
                                   {
                                       "t":  "2026-11-05T05:58:21.1152249Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-05T16:58:31.5585093Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T17:03:19.1457400Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 4 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
