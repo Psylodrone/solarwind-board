@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T09:38:24.0448433Z",
+    "updated":  "2026-11-05T09:39:52.3300743Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T09:37:07.0516622Z",
+                                       "heartbeat":  "2026-11-05T09:38:32.3237059Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T09:32:01.7500082Z",
+                                    "heartbeat":  "2026-11-05T09:38:04.3377478Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -335,13 +335,13 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-05T08:38:53.0000000Z",
-                      "round":  3,
+                      "since":  "2026-11-05T09:39:52.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -453,6 +453,11 @@
                                       "t":  "2026-11-05T08:40:01.2390204Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T09:39:55.9971707Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (review-rounds)"
                                   }
                               ]
                   },
