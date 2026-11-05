@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T05:57:07.6551867Z",
+    "updated":  "2026-11-05T05:58:21.1010590Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T05:55:54.4146043Z",
+                                       "heartbeat":  "2026-11-05T05:57:15.4518129Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-05T04:53:19.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-05T05:55:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -368,6 +368,16 @@
                                       "t":  "2026-11-05T05:56:16.0620939Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
                                       "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T05:57:58.0333064Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T05:58:21.1152249Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
                                   }
                               ]
                   },
