@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T14:13:08.6619360Z",
+    "updated":  "2026-11-05T14:14:38.6989323Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T14:11:57.2527820Z",
+                                       "heartbeat":  "2026-11-05T14:13:13.1005778Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -339,7 +339,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
+                      "actor":  "Claude",
                       "since":  "2026-11-05T14:07:50.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -548,6 +548,11 @@
                                       "t":  "2026-11-05T14:09:13.7930104Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T14:14:38.7676194Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 5 min, tokens 1410k/13k, result blocked"
                                   }
                               ]
                   },
