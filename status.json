@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-05T07:03:16.1680439Z",
+    "updated":  "2026-11-05T07:04:42.9559919Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T07:01:53.8521473Z",
+                                       "heartbeat":  "2026-11-05T07:03:20.6148826Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-05T06:09:57.0000000Z",
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-11-05T07:03:29.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -388,6 +388,21 @@
                                       "t":  "2026-11-05T06:10:00.8543175Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:03:27.8573726Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 35 min, tokens 33098k/127k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:03:33.2007644Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T07:03:58.1935280Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
                                   }
                               ]
                   },
