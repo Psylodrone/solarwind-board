@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T17:17:34.4625541Z",
+    "updated":  "2026-11-05T17:19:50.3449300Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T17:15:54.4743169Z",
+                                       "heartbeat":  "2026-11-05T17:17:42.6710777Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T15:41:18.7222536Z",
+                                    "heartbeat":  "2026-11-05T17:15:24.6112399Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -1118,6 +1118,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-05T12:51:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-349",
+                      "number":  349,
+                      "title":  "Confirm: Can this UI card finish while one combat test fails that also fails",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-05T17:19:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
