@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-05T10:53:01.8099449Z",
+    "updated":  "2026-11-05T10:54:30.9669580Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-05T10:51:54.0044385Z",
+                                       "heartbeat":  "2026-11-05T10:53:09.2535457Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-05T10:48:04.1690311Z",
+                                    "heartbeat":  "2026-11-05T10:52:17.8820779Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -335,12 +335,12 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-05T10:45:58.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-05T10:53:09.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -503,6 +503,16 @@
                                       "t":  "2026-11-05T10:46:01.0232634Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T10:53:01.8508084Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 4910k/29k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-11-05T10:54:31.3066328Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
