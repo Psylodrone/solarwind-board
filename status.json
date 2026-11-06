@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T15:53:24.5725800Z",
+    "updated":  "2026-11-06T15:55:03.8522403Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T15:52:00.9945839Z",
+                                       "heartbeat":  "2026-11-06T15:53:35.2616933Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -377,11 +377,6 @@
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-05T16:46:53.9500044Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
                                       "t":  "2026-11-05T16:58:09.1903610Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 10 min, tokens 2301k/18k, passing to the headless check"
@@ -625,6 +620,11 @@
                                       "t":  "2026-11-06T15:51:54.0702039Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 42 min, tokens 8721k/58k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T15:53:35.3981053Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
