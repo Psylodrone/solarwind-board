@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T11:25:30.8712824Z",
+    "updated":  "2026-11-06T11:30:42.1618150Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T11:23:17.7704774Z",
+                                       "heartbeat":  "2026-11-06T11:29:05.2195385Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -355,16 +355,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-06T11:25:31.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T10:54:31.3066328Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-11-05T11:53:11.5079184Z",
                                       "actor":  "watcher",
@@ -609,6 +604,11 @@
                                       "t":  "2026-11-06T11:25:31.2994143Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 19 min, tokens 23823k/71k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:25:44.4739008Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
