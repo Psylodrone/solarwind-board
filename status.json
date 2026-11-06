@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T21:12:26.4987111Z",
+    "updated":  "2026-11-06T21:13:51.4080688Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T21:11:04.6347126Z",
+                                       "heartbeat":  "2026-11-06T21:12:35.9422721Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -375,11 +375,6 @@
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-05T17:03:22.1156011Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
                                       "t":  "2026-11-05T17:03:47.6586663Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
@@ -623,6 +618,11 @@
                                       "t":  "2026-11-06T20:21:14.8560056Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:12:37.3539236Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
