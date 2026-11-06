@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T11:47:48.4554719Z",
+    "updated":  "2026-11-06T11:50:09.4220218Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T11:47:05.0781128Z",
+                                       "heartbeat":  "2026-11-06T11:48:06.0045856Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -355,16 +355,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude claude-sonnet-5-5",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-06T11:25:31.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T14:16:08.3059284Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
                                   {
                                       "t":  "2026-11-05T15:15:44.5840402Z",
                                       "actor":  "watcher",
@@ -609,6 +604,11 @@
                                       "t":  "2026-11-06T11:43:33.4091163Z",
                                       "actor":  "Claude claude-sonnet-5-5",
                                       "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 6), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:50:13.9332462Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
