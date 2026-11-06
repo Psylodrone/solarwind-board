@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T09:31:52.7987128Z",
+    "updated":  "2026-11-06T09:33:12.8758168Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T09:30:32.9564703Z",
+                                       "heartbeat":  "2026-11-06T09:32:00.1288393Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,20 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-06T09:19:04.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T09:32:02.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T10:43:13.9067871Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-11-05T10:45:58.9269292Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T09:19:07.9985610Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T09:31:52.8471506Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 12 min, tokens 10277k/63k, result blocked"
                                   }
                               ]
                   },
