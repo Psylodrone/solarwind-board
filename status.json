@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T15:55:03.8522403Z",
+    "updated":  "2026-11-06T15:56:36.6891779Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T15:53:35.2616933Z",
+                                       "heartbeat":  "2026-11-06T15:55:08.3290583Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-352",
-                      "number":  352,
-                      "title":  "Stalled card and network-down alarms, runs survive a network drop",
-                      "stage":  "Ready",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-06T15:52:03.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-327",
                       "number":  327,
@@ -361,6 +345,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-352",
+                      "number":  352,
+                      "title":  "Stalled card and network-down alarms, runs survive a network drop",
+                      "stage":  "In progress",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T15:55:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-06T15:55:04.9328194Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
