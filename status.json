@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T19:19:34.4938510Z",
+    "updated":  "2026-11-06T19:26:23.8005099Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T19:17:18.6750463Z",
+                                       "heartbeat":  "2026-11-06T19:20:58.1080509Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,16 +335,20 @@
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-06T10:23:03.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T19:26:24.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-06T19:26:29.4140415Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
