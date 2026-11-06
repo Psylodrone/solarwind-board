@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T20:15:58.8890038Z",
+    "updated":  "2026-11-06T20:19:01.2696594Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T20:14:11.3338127Z",
+                                       "heartbeat":  "2026-11-06T20:16:18.5845459Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,20 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-06T19:17:23.0000000Z",
+                      "since":  "2026-11-06T20:19:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T16:58:31.5585093Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
                                   {
                                       "t":  "2026-11-05T17:03:19.1457400Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T19:19:38.9395068Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T20:19:04.7241632Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
