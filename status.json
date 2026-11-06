@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T01:11:39.8140624Z",
+    "updated":  "2026-11-06T01:14:05.1424042Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T01:09:57.3084587Z",
+                                       "heartbeat":  "2026-11-06T01:11:43.9866980Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,20 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-06T01:06:10.0000000Z",
-                      "round":  2,
+                      "since":  "2026-11-06T01:14:08.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T07:51:52.3356908Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
                                   {
                                       "t":  "2026-11-05T07:55:06.7512397Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T01:06:23.7618061Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T01:14:08.5251838Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 8 issues in review round 3, passing to AGY to check and fix"
                                   }
                               ]
                   },
