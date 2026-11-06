@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T01:06:05.5610864Z",
+    "updated":  "2026-11-06T01:07:24.0640549Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T01:04:31.3818582Z",
+                                       "heartbeat":  "2026-11-06T01:06:10.2889240Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -335,25 +335,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-06T00:42:55.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-06T01:06:10.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T07:16:40.9746236Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T07:51:48.6072585Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 24 min, tokens 17852k/64k, passing to the headless check"
-                                  },
                                   {
                                       "t":  "2026-11-05T07:51:52.3356908Z",
                                       "actor":  "AGY claude-sonnet-5-5-high",
@@ -593,6 +583,16 @@
                                       "t":  "2026-11-06T00:42:58.6996177Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T01:06:06.5063116Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 22 min, tokens 8804k/65k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T01:06:23.7618061Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
