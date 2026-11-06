@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T11:30:42.1618150Z",
+    "updated":  "2026-11-06T11:47:48.4554719Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T11:29:05.2195385Z",
+                                       "heartbeat":  "2026-11-06T11:47:05.0781128Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -355,51 +355,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "Claude claude-sonnet-5-5",
                       "since":  "2026-11-06T11:25:31.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T11:53:11.5079184Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-blocked)"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T11:54:35.3619225Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T12:33:47.6063823Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T12:53:16.0784642Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 18 min, tokens 6951k/44k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T12:54:44.6097465Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T14:09:01.2712827Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T14:09:13.7930104Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-05T14:14:38.7676194Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 5 min, tokens 1410k/13k, result blocked"
-                                  },
                                   {
                                       "t":  "2026-11-05T14:16:08.3059284Z",
                                       "actor":  "watcher",
@@ -609,6 +569,46 @@
                                       "t":  "2026-11-06T11:25:44.4739008Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:36:39.1149725Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:36:46.6037299Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:36:46.6447558Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:37:03.6085213Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 3), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:37:20.5676509Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 4), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:37:20.6094691Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 5)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:40:23.0569516Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 5), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T11:43:33.4091163Z",
+                                      "actor":  "Claude claude-sonnet-5-5",
+                                      "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 6), trying again or the next reviewer"
                                   }
                               ]
                   },
