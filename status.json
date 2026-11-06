@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T16:16:43.9963921Z",
+    "updated":  "2026-11-06T16:18:11.7079288Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T16:15:18.4633909Z",
+                                       "heartbeat":  "2026-11-06T16:16:48.3073933Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -371,13 +371,13 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-06T15:52:05.0000000Z",
-                      "round":  3,
+                      "since":  "2026-11-06T16:18:04.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -3655,22 +3655,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-278",
-                      "number":  278,
-                      "title":  "The monitor recovers known failures without a person",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:risky",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-30T16:17:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
