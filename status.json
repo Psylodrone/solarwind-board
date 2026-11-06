@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T21:18:19.8400217Z",
+    "updated":  "2026-11-06T21:22:22.8771066Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T21:16:54.4578760Z",
+                                       "heartbeat":  "2026-11-06T21:18:39.3077842Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-354",
+                      "number":  354,
+                      "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-06T21:20:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-327",
                       "number":  327,
