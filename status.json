@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T21:23:57.8364286Z",
+    "updated":  "2026-11-06T21:25:22.6109442Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T21:22:34.8688225Z",
+                                       "heartbeat":  "2026-11-06T21:24:05.1180359Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -348,46 +348,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-350",
-                      "number":  350,
-                      "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-06T21:15:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-06T19:26:29.4140415Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T19:35:40.0434392Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 3354k/35k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T19:35:47.9107313Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T21:13:54.0689352Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-blocked)"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T21:15:19.9240341Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
@@ -395,16 +355,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-06T21:15:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T17:03:47.6586663Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-06T00:22:38.5588905Z",
                                       "actor":  "AGY",
@@ -647,6 +602,61 @@
                                   },
                                   {
                                       "t":  "2026-11-06T21:12:37.3539236Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:25:26.0583208Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-350",
+                      "number":  350,
+                      "title":  "No false Taras-returned stop when a run took no editor lock",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T21:24:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-06T19:26:29.4140415Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T19:35:40.0434392Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 3354k/35k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T19:35:47.9107313Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:13:54.0689352Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-blocked)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:15:19.9240341Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:23:57.8732588Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 4327k/39k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T21:24:08.1053305Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
