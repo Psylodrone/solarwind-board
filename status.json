@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T09:12:45.1993324Z",
+    "updated":  "2026-11-06T09:14:16.7002525Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T09:11:32.9865278Z",
+                                       "heartbeat":  "2026-11-06T09:12:55.0754620Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -339,16 +339,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-06T09:12:45.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T10:07:47.2654551Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 8 issues in review round 1, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-11-05T10:07:49.1517083Z",
                                       "actor":  "AGY",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T09:11:37.3677822Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 33 min, tokens 34230k/129k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T09:12:52.0362180Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
