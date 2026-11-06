@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T10:16:30.2945062Z",
+    "updated":  "2026-11-06T10:17:50.7004337Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T10:15:12.0373287Z",
+                                       "heartbeat":  "2026-11-06T10:16:34.6249413Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -339,16 +339,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-06T10:14:20.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T10:46:01.0232634Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
                                   {
                                       "t":  "2026-11-05T10:53:01.8508084Z",
                                       "actor":  "AGY",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T09:33:24.0602312Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T10:16:33.5786162Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
                                   }
                               ]
                   },
