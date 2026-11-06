@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T21:11:00.2914801Z",
+    "updated":  "2026-11-06T21:12:26.4987111Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T21:09:44.9097736Z",
+                                       "heartbeat":  "2026-11-06T21:11:04.6347126Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -332,15 +332,45 @@
                               ]
                   },
                   {
-                      "id":  "SW-326",
-                      "number":  326,
-                      "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "id":  "SW-350",
+                      "number":  350,
+                      "title":  "No false Taras-returned stop when a run took no editor lock",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-06T20:19:01.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T19:35:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-06T19:26:29.4140415Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T19:35:40.0434392Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 3354k/35k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T19:35:47.9107313Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-326",
+                      "number":  326,
+                      "title":  "UI text sizes and colour tokens for couch reading",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T21:11:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -593,36 +623,6 @@
                                       "t":  "2026-11-06T20:21:14.8560056Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-350",
-                      "number":  350,
-                      "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-06T19:35:47.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-06T19:26:29.4140415Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T19:35:40.0434392Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 8 min, tokens 3354k/35k, result blocked"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T19:35:47.9107313Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
