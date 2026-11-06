@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T15:51:53.5520213Z",
+    "updated":  "2026-11-06T15:53:24.5725800Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T15:50:12.4972390Z",
+                                       "heartbeat":  "2026-11-06T15:52:00.9945839Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-352",
+                      "number":  352,
+                      "title":  "Stalled card and network-down alarms, runs survive a network drop",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-06T15:52:03.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-327",
                       "number":  327,
@@ -351,20 +367,15 @@
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-06T12:00:34.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-06T15:52:05.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T16:46:38.0138601Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
                                   {
                                       "t":  "2026-11-05T16:46:53.9500044Z",
                                       "actor":  "AGY",
@@ -609,6 +620,11 @@
                                       "t":  "2026-11-06T15:05:14.8076376Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 9 min, tokens 256k/2k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T15:51:54.0702039Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 42 min, tokens 8721k/58k, passing to the headless check"
                                   }
                               ]
                   },
@@ -1166,6 +1182,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-06T10:52:49.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-353",
+                      "number":  353,
+                      "title":  "Confirm: choice Q4 on SW-326",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-06T15:51:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
