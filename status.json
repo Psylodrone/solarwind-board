@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-06T20:19:01.2696594Z",
+    "updated":  "2026-11-06T20:21:11.0199288Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T20:16:18.5845459Z",
+                                       "heartbeat":  "2026-11-06T20:19:13.2610318Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-06T20:12:36.2023749Z",
+                                    "heartbeat":  "2026-11-06T20:17:30.0442852Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -339,16 +339,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-06T20:19:01.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-05T17:03:19.1457400Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 4 issues in review round 1, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-11-05T17:03:22.1156011Z",
                                       "actor":  "AGY",
@@ -593,6 +588,11 @@
                                       "t":  "2026-11-06T20:19:04.7241632Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T20:21:14.8560056Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
