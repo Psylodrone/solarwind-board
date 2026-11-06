@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T10:22:15.3445605Z",
+    "updated":  "2026-11-06T10:23:42.9066472Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T10:20:54.3613516Z",
+                                       "heartbeat":  "2026-11-06T10:22:22.9590426Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -325,6 +325,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-11-05T04:54:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-350",
+                      "number":  350,
+                      "title":  "No false Taras-returned stop when a run took no editor lock",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-06T10:23:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
