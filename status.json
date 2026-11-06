@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T10:51:12.2767651Z",
+    "updated":  "2026-11-06T10:52:52.8178214Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T10:49:38.5774483Z",
+                                       "heartbeat":  "2026-11-06T10:51:16.5811793Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -1150,6 +1150,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-05T17:19:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-351",
+                      "number":  351,
+                      "title":  "Confirm: Can the pipeline revert the ship prefabs that were modified by the",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-06T10:52:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
