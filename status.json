@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-06T17:50:01.6895266Z",
+    "updated":  "2026-11-06T17:51:25.5531205Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T17:48:35.1712251Z",
+                                       "heartbeat":  "2026-11-06T17:50:09.0396199Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-06T17:45:05.1504233Z",
+                                    "heartbeat":  "2026-11-06T17:49:49.7883485Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -351,12 +351,12 @@
                       "id":  "SW-352",
                       "number":  352,
                       "title":  "Stalled card and network-down alarms, runs survive a network drop",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-06T15:55:04.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-06T17:50:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -364,6 +364,16 @@
                                       "t":  "2026-11-06T15:55:04.9328194Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T17:50:10.6935846Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 7449k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T17:51:26.0990285Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
