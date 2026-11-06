@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-06T17:56:44.0961054Z",
+    "updated":  "2026-11-06T17:58:55.0000195Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-06T17:54:47.6415561Z",
+                                       "heartbeat":  "2026-11-06T17:56:57.2741494Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -348,36 +348,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-352",
-                      "number":  352,
-                      "title":  "Stalled card and network-down alarms, runs survive a network drop",
-                      "stage":  "Review",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-06T17:50:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-06T15:55:04.9328194Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T17:50:10.6935846Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 7449k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-06T17:51:26.0990285Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-326",
                       "number":  326,
                       "title":  "UI text sizes and colour tokens for couch reading",
@@ -639,6 +609,41 @@
                                       "t":  "2026-11-06T15:53:35.3981053Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-352",
+                      "number":  352,
+                      "title":  "Stalled card and network-down alarms, runs survive a network drop",
+                      "stage":  "Changes requested",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-06T17:59:03.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-06T15:55:04.9328194Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T17:50:10.6935846Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 7449k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T17:51:26.0990285Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-06T17:59:05.5927462Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
