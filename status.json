@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T19:09:38.6705504Z",
+    "updated":  "2026-11-07T19:11:03.1196433Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T19:08:24.9721634Z",
+                                       "heartbeat":  "2026-11-07T19:09:46.2212369Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -316,55 +316,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-327",
-                      "number":  327,
-                      "title":  "One focus style across every screen",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-07T18:57:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-07T16:53:50.6788451Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T17:13:12.4064887Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:54:31.1554617Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:57:01.0862809Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T19:01:21.9466734Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-06T21:24:07.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-11-07T19:09:20.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -402,6 +362,46 @@
                                       "t":  "2026-11-06T21:24:08.1053305Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-327",
+                      "number":  327,
+                      "title":  "One focus style across every screen",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-07T18:57:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-07T16:53:50.6788451Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T17:13:12.4064887Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:54:31.1554617Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:57:01.0862809Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T19:01:21.9466734Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
