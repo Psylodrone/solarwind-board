@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T18:54:28.3419102Z",
+    "updated":  "2026-11-07T18:56:59.7439264Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T18:53:10.5985655Z",
+                                       "heartbeat":  "2026-11-07T18:55:39.7338878Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -319,12 +319,12 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-07T18:54:28.0000000Z",
+                      "since":  "2026-11-07T18:57:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -342,6 +342,11 @@
                                       "t":  "2026-11-07T18:54:31.1554617Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:57:01.0862809Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
