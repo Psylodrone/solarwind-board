@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T17:12:56.2159357Z",
+    "updated":  "2026-11-07T17:14:40.8712912Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T17:11:37.1327018Z",
+                                       "heartbeat":  "2026-11-07T17:13:11.6225454Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -316,26 +316,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-327",
-                      "number":  327,
-                      "title":  "One focus style across every screen",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-07T16:53:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-07T16:53:50.6788451Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
@@ -410,6 +390,31 @@
                                   },
                                   {
                                       "t":  "2026-11-07T16:52:37.3081294Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-327",
+                      "number":  327,
+                      "title":  "One focus style across every screen",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T17:13:11.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-07T16:53:50.6788451Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T17:13:12.4064887Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
