@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T20:25:13.1766557Z",
+    "updated":  "2026-11-07T20:26:40.7661209Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T20:23:55.9211284Z",
+                                       "heartbeat":  "2026-11-07T20:25:17.3051137Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,12 +369,12 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-07T20:07:21.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T20:26:41.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -452,6 +452,11 @@
                                       "t":  "2026-11-07T20:07:27.3672508Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T20:26:41.2197854Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 19 min, tokens 2206k/22k, passing to the headless check"
                                   }
                               ]
                   },
