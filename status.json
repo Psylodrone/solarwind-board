@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T19:34:52.9720206Z",
+    "updated":  "2026-11-07T19:36:16.7127272Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T19:33:38.7825152Z",
+                                       "heartbeat":  "2026-11-07T19:35:00.0130933Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,13 +369,13 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-07T19:29:02.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-07T19:36:18.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -412,6 +412,11 @@
                                       "t":  "2026-11-07T19:29:06.6352675Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T19:36:19.9044289Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 7 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
