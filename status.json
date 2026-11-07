@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T19:28:59.8809892Z",
+    "updated":  "2026-11-07T19:30:27.4230591Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T19:27:47.4036982Z",
+                                       "heartbeat":  "2026-11-07T19:29:04.1508859Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,12 +369,12 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-07T18:57:00.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-07T19:29:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -402,6 +402,16 @@
                                       "t":  "2026-11-07T19:01:21.9466734Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T19:29:00.5346639Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 27 min, tokens 25445k/118k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T19:29:06.6352675Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
