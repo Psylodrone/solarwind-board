@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-07T22:38:42.2294901Z",
+    "updated":  "2026-11-07T22:40:12.8244447Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T22:37:22.8525866Z",
+                                       "heartbeat":  "2026-11-07T22:38:49.2942778Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-07T22:32:53.9932247Z",
+                                    "heartbeat":  "2026-11-07T22:38:13.4007537Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -287,12 +287,12 @@
                       "id":  "SW-329",
                       "number":  329,
                       "title":  "War Table Research and Holds work with one focus zone",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-07T21:35:09.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-07T22:38:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -305,6 +305,16 @@
                                       "t":  "2026-11-07T21:35:16.6738345Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:38:51.2190875Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 64 min, tokens 47771k/212k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:38:54.3637411Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
