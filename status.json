@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T22:50:38.9521213Z",
+    "updated":  "2026-11-07T22:52:04.8683062Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T22:49:19.5545906Z",
+                                       "heartbeat":  "2026-11-07T22:50:45.9924165Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -268,31 +268,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-346",
-                      "number":  346,
-                      "title":  "Death screen shows what happens next",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:54:04.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-07T22:40:21.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-11-07T22:49:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -360,7 +344,28 @@
                                       "t":  "2026-11-07T22:49:20.8171569Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:50:43.9629304Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 1 min, tokens 792k/14k, passing to the headless check"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-346",
+                      "number":  346,
+                      "title":  "Death screen shows what happens next",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-07T22:50:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
