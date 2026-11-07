@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T22:07:27.0485549Z",
+    "updated":  "2026-11-07T22:08:53.7108045Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T22:06:05.9187074Z",
+                                       "heartbeat":  "2026-11-07T22:07:35.9220608Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3343,51 +3343,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-295",
-                      "number":  295,
-                      "title":  "The eclipse dims ships and objects, never planets",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-31T22:08:27.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-10-31T21:51:09.0310890Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T21:51:23.5178725Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T22:04:21.4438367Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 12 min, tokens 4725k/43k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T22:04:24.7265895Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T22:07:51.7066394Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-10-31T22:08:29.2355976Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 6c2708b7 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
