@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T20:07:12.0597362Z",
+    "updated":  "2026-11-07T20:08:43.6845683Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T20:05:52.6649068Z",
+                                       "heartbeat":  "2026-11-07T20:07:16.1651583Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,13 +369,13 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-07T20:02:37.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY",
+                      "since":  "2026-11-07T20:07:21.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -437,6 +437,21 @@
                                       "t":  "2026-11-07T20:02:42.7519227Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T20:07:23.5868157Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T20:07:25.7066795Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T20:07:27.3672508Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
