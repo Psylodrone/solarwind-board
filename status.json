@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T18:16:33.0580089Z",
+    "updated":  "2026-11-07T18:17:57.2088298Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T18:15:14.9613900Z",
+                                       "heartbeat":  "2026-11-07T18:16:37.5118909Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3242,22 +3242,6 @@
                                       "actor":  "watcher",
                                       "text":  "committed 4c65787a and pushed, card Done and issue closed"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-289",
-                      "number":  289,
-                      "title":  "A hung watcher is killed even when its start record is old",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-10-31T18:17:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   }
               ]
