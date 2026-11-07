@@ -1,9 +1,10 @@
 {
-    "updated":  "2026-11-07T16:27:11.1063306Z",
+    "updated":  "2026-11-07T16:28:56.1051486Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T16:23:27.4547986Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-11-07T16:27:24.3319598Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (1)"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-07T10:44:49.2325175Z",
@@ -355,16 +356,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "AGY",
                       "since":  "2026-11-06T21:15:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-06T00:23:58.6200505Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-06T00:39:49.6543430Z",
                                       "actor":  "Claude",
@@ -609,6 +605,11 @@
                                       "t":  "2026-11-07T16:27:13.1495993Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 0, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T16:27:50.9326031Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
