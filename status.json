@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T22:47:44.0158999Z",
+    "updated":  "2026-11-07T22:49:10.8099602Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T22:46:24.4858699Z",
+                                       "heartbeat":  "2026-11-07T22:47:48.1841042Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -350,51 +350,6 @@
                                       "t":  "2026-11-07T21:01:30.0294715Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-329",
-                      "number":  329,
-                      "title":  "War Table Research and Holds work with one focus zone",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-07T22:38:51.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-07T21:35:10.4557695Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T21:35:16.6738345Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T22:38:51.2190875Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 64 min, tokens 47771k/212k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T22:38:54.3637411Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T22:46:16.1663282Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T22:46:31.8902289Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 830607ce and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -1004,6 +959,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-329",
+                      "number":  329,
+                      "title":  "War Table Research and Holds work with one focus zone",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T22:46:30.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-07T21:35:10.4557695Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T21:35:16.6738345Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:38:51.2190875Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 64 min, tokens 47771k/212k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:38:54.3637411Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:46:16.1663282Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T22:46:31.8902289Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 830607ce and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
