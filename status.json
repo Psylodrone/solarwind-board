@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T20:01:04.9486411Z",
+    "updated":  "2026-11-07T20:02:36.9920203Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T19:59:36.0678362Z",
+                                       "heartbeat":  "2026-11-07T20:01:11.9807161Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -369,12 +369,12 @@
                       "id":  "SW-327",
                       "number":  327,
                       "title":  "One focus style across every screen",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-07T19:36:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T20:02:37.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -427,6 +427,11 @@
                                       "t":  "2026-11-07T19:36:23.1641255Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T20:02:37.5010857Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 26 min, tokens 2352k/26k, passing to the headless check"
                                   }
                               ]
                   },
@@ -1000,6 +1005,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-07T19:49:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-356",
+                      "number":  356,
+                      "title":  "Confirm: Should this card go through while the War Table shows no focus marker",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-07T20:01:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
