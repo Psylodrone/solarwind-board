@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T18:44:39.0234800Z",
+    "updated":  "2026-11-07T18:46:06.2724084Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T18:43:23.4181401Z",
+                                       "heartbeat":  "2026-11-07T18:44:46.5263712Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -319,12 +319,12 @@
                       "id":  "SW-354",
                       "number":  354,
                       "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:risky",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-11-07T17:54:19.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-07T18:43:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
