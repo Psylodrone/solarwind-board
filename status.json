@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T18:53:03.0972318Z",
+    "updated":  "2026-11-07T18:54:28.3419102Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T18:51:49.3442806Z",
+                                       "heartbeat":  "2026-11-07T18:53:10.5985655Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -316,77 +316,32 @@
                               ]
                   },
                   {
-                      "id":  "SW-354",
-                      "number":  354,
-                      "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
-                      "stage":  "Review",
+                      "id":  "SW-327",
+                      "number":  327,
+                      "title":  "One focus style across every screen",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-07T18:43:22.0000000Z",
-                      "round":  1,
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T18:54:28.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-07T16:45:20.8833275Z",
+                                      "t":  "2026-11-07T16:53:50.6788451Z",
                                       "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-11-07T16:52:20.6514516Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 6 min, tokens 4008k/86k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T16:52:37.3081294Z",
+                                      "t":  "2026-11-07T17:13:12.4064887Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   },
                                   {
-                                      "t":  "2026-11-07T17:54:21.7831627Z",
+                                      "t":  "2026-11-07T18:54:31.1554617Z",
                                       "actor":  "watcher",
-                                      "text":  "restarted at its retry time (tools-denied)"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T17:57:21.2415048Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:05:07.7317461Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 6 min, tokens 51k/8, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:08:03.9700940Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 797k/17k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:43:26.3413468Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:43:33.0085135Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:44:39.0635282Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:50:29.2803495Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T18:51:58.0418996Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed aa31507b and pushed, card Done and issue closed"
+                                      "text":  "restarted after a watcher update (run-error)"
                                   }
                               ]
                   },
@@ -435,31 +390,6 @@
                                   },
                                   {
                                       "t":  "2026-11-06T21:24:08.1053305Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-327",
-                      "number":  327,
-                      "title":  "One focus style across every screen",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-07T17:13:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-07T16:53:50.6788451Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T17:13:12.4064887Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
@@ -1023,6 +953,81 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-354",
+                      "number":  354,
+                      "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T18:51:57.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-07T16:45:20.8833275Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T16:52:20.6514516Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 6 min, tokens 4008k/86k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T16:52:37.3081294Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T17:54:21.7831627Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (tools-denied)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T17:57:21.2415048Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:05:07.7317461Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 6 min, tokens 51k/8, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:08:03.9700940Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 797k/17k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:43:26.3413468Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:43:33.0085135Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:44:39.0635282Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 2)"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:50:29.2803495Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T18:51:58.0418996Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed aa31507b and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
