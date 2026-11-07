@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-07T16:53:49.5020793Z",
+    "updated":  "2026-11-07T16:55:13.0726386Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-07T16:52:29.1490212Z",
+                                       "heartbeat":  "2026-11-07T16:53:54.6278205Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-327",
-                      "number":  327,
-                      "title":  "One focus style across every screen",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:52:42.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-328",
                       "number":  328,
@@ -332,32 +316,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-354",
-                      "number":  354,
-                      "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
+                      "id":  "SW-327",
+                      "number":  327,
+                      "title":  "One focus style across every screen",
                       "stage":  "In progress",
                       "machine":  "workhorse",
-                      "risk":  "risk:risky",
-                      "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-11-07T16:45:20.0000000Z",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T16:53:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-07T16:45:20.8833275Z",
+                                      "t":  "2026-11-07T16:53:50.6788451Z",
                                       "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T16:52:20.6514516Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 6 min, tokens 4008k/86k, result denied"
-                                  },
-                                  {
-                                      "t":  "2026-11-07T16:52:37.3081294Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
@@ -406,6 +380,36 @@
                                   },
                                   {
                                       "t":  "2026-11-06T21:24:08.1053305Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-354",
+                      "number":  354,
+                      "title":  "Codex usage limit in a Gemini-driven run falls back to the Claude driver",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:risky",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-07T16:52:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-07T16:45:20.8833275Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to Claude for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T16:52:20.6514516Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 6 min, tokens 4008k/86k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-11-07T16:52:37.3081294Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
