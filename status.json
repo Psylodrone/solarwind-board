@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:02:47.2441588Z",
+    "updated":  "2026-11-08T03:04:08.3417461Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:01:18.7598644Z",
+                                       "heartbeat":  "2026-11-08T03:02:51.5921957Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -239,13 +239,13 @@
                       "id":  "SW-330",
                       "number":  330,
                       "title":  "War Table Dispatch has one focus zone and honest prompts",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-08T02:56:38.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-08T03:04:10.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -292,6 +292,11 @@
                                       "t":  "2026-11-08T02:56:41.3163009Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:04:11.0525976Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
