@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:05:42.3109515Z",
+    "updated":  "2026-11-08T03:07:12.3981305Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:04:17.0289943Z",
+                                       "heartbeat":  "2026-11-08T03:05:49.5053447Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -239,12 +239,12 @@
                       "id":  "SW-330",
                       "number":  330,
                       "title":  "War Table Dispatch has one focus zone and honest prompts",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-08T03:04:10.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-08T03:05:42.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -307,6 +307,16 @@
                                       "t":  "2026-11-08T03:04:14.3358291Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:05:42.7399351Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 425k/3k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:05:45.7323804Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
