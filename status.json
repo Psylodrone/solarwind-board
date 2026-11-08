@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T05:34:59.1299520Z",
+    "updated":  "2026-11-08T05:36:24.5533032Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T05:33:38.8309755Z",
+                                       "heartbeat":  "2026-11-08T05:35:07.1223517Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -188,31 +188,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-346",
-                      "number":  346,
-                      "title":  "Death screen shows what happens next",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-08T00:06:41.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-331",
                       "number":  331,
                       "title":  "War Table pilot picker shows success and keeps its place",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-08T03:52:25.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-08T05:34:59.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -235,7 +219,33 @@
                                       "t":  "2026-11-08T03:53:40.7934266Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:35:01.8815257Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:36:27.8585707Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-346",
+                      "number":  346,
+                      "title":  "Death screen shows what happens next",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T00:06:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
