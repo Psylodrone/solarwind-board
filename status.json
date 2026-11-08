@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T09:22:31.6355378Z",
+    "updated":  "2026-11-08T09:24:01.4719058Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T09:21:09.1204248Z",
+                                       "heartbeat":  "2026-11-08T09:22:40.6479565Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3502,51 +3502,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-302",
-                      "number":  302,
-                      "title":  "Orbit circles are drawn a bit lower, below the ship",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T09:22:51.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T09:13:02.3588413Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T09:13:15.8296415Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T09:20:39.0910913Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 6 min, tokens 2418k/11k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T09:20:42.1427497Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T09:22:20.9547728Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T09:22:52.1968081Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 22bd46c0 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
