@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T22:30:09.6403597Z",
+    "updated":  "2026-11-08T22:31:43.6756032Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T22:28:45.7116561Z",
+                                       "heartbeat":  "2026-11-08T22:30:16.8276624Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,27 +12,11 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-336",
-                      "number":  336,
-                      "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:53:20.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-337",
                       "number":  337,
                       "title":  "Inventory rows and crafting readable on a gamepad",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -48,7 +32,7 @@
                       "number":  338,
                       "title":  "Galaxy map panel shows what you decide on",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -64,7 +48,7 @@
                       "number":  339,
                       "title":  "Galaxy map nodes, focus and navigation",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -80,7 +64,7 @@
                       "number":  340,
                       "title":  "Flight HUD shows the interaction prompt with the glyph",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -96,7 +80,7 @@
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -112,7 +96,7 @@
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -128,7 +112,7 @@
                       "number":  343,
                       "title":  "POI marker text legible",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -144,7 +128,7 @@
                       "number":  344,
                       "title":  "Pirate contact dialog shows what B does and the decision data",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -160,7 +144,7 @@
                       "number":  345,
                       "title":  "Away summary readable and scrollable with a gamepad",
                       "stage":  "Ready",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "architect",
@@ -176,7 +160,7 @@
                       "number":  346,
                       "title":  "Death screen shows what happens next",
                       "stage":  "In progress",
-                      "machine":  "laptop",
+                      "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "by hand",
@@ -185,6 +169,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-336",
+                      "number":  336,
+                      "title":  "Ship screen popup, slots and prompts fixed",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T22:31:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T22:31:45.2024380Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
