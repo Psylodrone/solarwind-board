@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T01:01:57.7489495Z",
+    "updated":  "2026-11-08T01:03:22.4137732Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T01:00:36.3121113Z",
+                                       "heartbeat":  "2026-11-08T01:02:02.6245336Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -252,31 +252,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-330",
-                      "number":  330,
-                      "title":  "War Table Dispatch has one focus zone and honest prompts",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-08T00:21:39.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-08T00:21:40.7806985Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T00:21:47.4166604Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-346",
                       "number":  346,
                       "title":  "Death screen shows what happens next",
@@ -290,6 +265,41 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-330",
+                      "number":  330,
+                      "title":  "War Table Dispatch has one focus zone and honest prompts",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T01:02:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T00:21:40.7806985Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T00:21:47.4166604Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T01:01:58.3626534Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 40 min, tokens 35225k/161k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T01:03:22.5030559Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
