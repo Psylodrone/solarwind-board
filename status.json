@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T07:17:28.8432660Z",
+    "updated":  "2026-11-08T07:18:52.5122426Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T07:16:08.2643449Z",
+                                       "heartbeat":  "2026-11-08T07:17:33.0558266Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -175,13 +175,13 @@
                       "id":  "SW-335",
                       "number":  335,
                       "title":  "Station growth and ship tabs show decisions, not static panels",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-08T07:13:00.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-08T07:18:54.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -203,6 +203,11 @@
                                       "t":  "2026-11-08T07:13:03.1730545Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T07:18:55.3085324Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 4 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
