@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:17:39.7333888Z",
+    "updated":  "2026-11-08T03:19:03.7671331Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:16:20.5064078Z",
+                                       "heartbeat":  "2026-11-08T03:17:44.9709812Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3488,51 +3488,6 @@
                                       "t":  "2026-11-01T03:33:20.6444258Z",
                                       "actor":  "watcher",
                                       "text":  "committed 8ed35e7d and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-297",
-                      "number":  297,
-                      "title":  "The turret turns about its own centre and sits on the ship\u0027s head",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T03:18:43.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T03:06:58.3063432Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:07:11.1101255Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:16:44.8010530Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 9 min, tokens 2376k/18k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:16:48.2104323Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:18:02.2582405Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:18:44.6984559Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 363d31e3 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
