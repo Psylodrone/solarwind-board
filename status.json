@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T05:43:34.0969806Z",
+    "updated":  "2026-11-08T05:44:57.5369785Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T05:42:15.8408319Z",
+                                       "heartbeat":  "2026-11-08T05:43:41.3421804Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -191,12 +191,12 @@
                       "id":  "SW-331",
                       "number":  331,
                       "title":  "War Table pilot picker shows success and keeps its place",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-08T05:34:59.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T05:45:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -234,6 +234,11 @@
                                       "t":  "2026-11-08T05:36:28.8562309Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:45:00.6805754Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 9 min, tokens 1459k/10k, passing to the headless check"
                                   }
                               ]
                   },
