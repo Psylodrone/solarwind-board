@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T00:04:22.3408358Z",
+    "updated":  "2026-11-08T00:06:46.7394639Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T00:03:03.6309612Z",
+                                       "heartbeat":  "2026-11-08T00:04:30.9418174Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -268,22 +268,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-346",
-                      "number":  346,
-                      "title":  "Death screen shows what happens next",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-07T22:50:35.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
@@ -381,6 +365,22 @@
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 2 min, tokens 1113k/15k, passing to the headless check"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-346",
+                      "number":  346,
+                      "title":  "Death screen shows what happens next",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T00:06:41.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
