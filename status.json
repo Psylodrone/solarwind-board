@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T23:39:58.1218072Z",
+    "updated":  "2026-11-08T23:41:45.7773135Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T23:38:28.3478530Z",
+                                       "heartbeat":  "2026-11-08T23:40:10.9848102Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -213,6 +213,11 @@
                                       "t":  "2026-11-08T23:07:00.9806390Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:40:04.6886324Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
