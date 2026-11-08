@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:52:17.6967709Z",
+    "updated":  "2026-11-08T03:53:40.7100847Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:50:56.0549758Z",
+                                       "heartbeat":  "2026-11-08T03:52:22.1154495Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -220,31 +220,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-331",
-                      "number":  331,
-                      "title":  "War Table pilot picker shows success and keeps its place",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-08T03:11:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-08T03:11:44.8864066Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:11:51.3396421Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-346",
                       "number":  346,
                       "title":  "Death screen shows what happens next",
@@ -258,6 +233,41 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-331",
+                      "number":  331,
+                      "title":  "War Table pilot picker shows success and keeps its place",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T03:52:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T03:11:44.8864066Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:11:51.3396421Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:52:18.2273939Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 40 min, tokens 30546k/176k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:53:40.7934266Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
                               ]
                   },
                   {
