@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:11:42.9561224Z",
+    "updated":  "2026-11-08T03:13:08.7886152Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:10:22.8003793Z",
+                                       "heartbeat":  "2026-11-08T03:11:47.1256506Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-331",
-                      "number":  331,
-                      "title":  "War Table pilot picker shows success and keeps its place",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:52:59.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-333",
                       "number":  333,
@@ -236,97 +220,27 @@
                               ]
                   },
                   {
-                      "id":  "SW-330",
-                      "number":  330,
-                      "title":  "War Table Dispatch has one focus zone and honest prompts",
-                      "stage":  "Review",
+                      "id":  "SW-331",
+                      "number":  331,
+                      "title":  "War Table pilot picker shows success and keeps its place",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-08T03:05:42.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY",
+                      "since":  "2026-11-08T03:11:43.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-08T00:21:40.7806985Z",
+                                      "t":  "2026-11-08T03:11:44.8864066Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-11-08T00:21:47.4166604Z",
+                                      "t":  "2026-11-08T03:11:51.3396421Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T01:01:58.3626534Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 40 min, tokens 35225k/161k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T01:03:22.5030559Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T02:28:42.4047880Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T02:30:07.8719868Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T02:30:09.0024042Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T02:56:37.9971468Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 25 min, tokens 10152k/52k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T02:56:41.3163009Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:04:11.0525976Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:04:13.1918828Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:04:14.3358291Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:05:42.7399351Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 1 min, tokens 425k/3k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:05:45.7323804Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:08:51.2698109Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T03:10:16.6168717Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 48d2dc96 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -952,6 +866,101 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-330",
+                      "number":  330,
+                      "title":  "War Table Dispatch has one focus zone and honest prompts",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T03:10:15.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T00:21:40.7806985Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T00:21:47.4166604Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T01:01:58.3626534Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 40 min, tokens 35225k/161k, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T01:03:22.5030559Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T02:28:42.4047880Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T02:30:07.8719868Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T02:30:09.0024042Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T02:56:37.9971468Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 25 min, tokens 10152k/52k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T02:56:41.3163009Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:04:11.0525976Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:04:13.1918828Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:04:14.3358291Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:05:42.7399351Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 1 min, tokens 425k/3k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:05:45.7323804Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:08:51.2698109Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T03:10:16.6168717Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 48d2dc96 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
