@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T05:32:06.1194749Z",
+    "updated":  "2026-11-08T05:33:29.6196727Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T05:30:47.7950525Z",
+                                       "heartbeat":  "2026-11-08T05:32:10.3423116Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -185,41 +185,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-334",
-                      "number":  334,
-                      "title":  "Station module fitting without a sideways jump",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-08T05:27:41.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-08T04:52:41.1717594Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T04:52:46.8528174Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T05:27:39.3432085Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 34 min, tokens 28038k/158k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T05:27:45.3482807Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  }
                               ]
                   },
                   {
@@ -879,6 +844,51 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-334",
+                      "number":  334,
+                      "title":  "Station module fitting without a sideways jump",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-08T05:33:33.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T04:52:41.1717594Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T04:52:46.8528174Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:27:39.3432085Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 34 min, tokens 28038k/158k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:27:45.3482807Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:32:09.4996489Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T05:33:34.1327909Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed b62df28f and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
