@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T03:32:10.8192212Z",
+    "updated":  "2026-11-08T03:33:34.8842468Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T03:30:50.6390172Z",
+                                       "heartbeat":  "2026-11-08T03:32:18.0843562Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3443,51 +3443,6 @@
                                       "t":  "2026-11-01T05:16:14.4659219Z",
                                       "actor":  "watcher",
                                       "text":  "committed fa1076c5 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-298",
-                      "number":  298,
-                      "title":  "Scanner rays come from the antenna dish, and the dish turns to the scan target",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-01T03:33:19.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-01T03:20:01.7679471Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:20:07.5755413Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:30:51.5911459Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 11 min, tokens 2563k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:30:54.5891821Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:33:07.5475778Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-01T03:33:20.6444258Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 8ed35e7d and pushed, card Done and issue closed"
                                   }
                               ]
                   }
