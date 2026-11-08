@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T23:00:21.5458673Z",
+    "updated":  "2026-11-08T23:02:09.2850335Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T22:58:20.3298073Z",
+                                       "heartbeat":  "2026-11-08T23:00:32.2689598Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -198,6 +198,11 @@
                                       "t":  "2026-11-08T22:58:19.3848676Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:00:36.0600383Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
                                   }
                               ]
                   },
