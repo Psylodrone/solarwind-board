@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-08T00:11:44.9640176Z",
+    "updated":  "2026-11-08T00:13:12.8245370Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T00:10:20.8405506Z",
+                                       "heartbeat":  "2026-11-08T00:11:52.2414228Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-08T00:06:29.1241296Z",
+                                    "heartbeat":  "2026-11-08T00:10:30.0568007Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -271,12 +271,12 @@
                       "id":  "SW-350",
                       "number":  350,
                       "title":  "No false Taras-returned stop when a run took no editor lock",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-07T23:30:13.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-08T00:11:46.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -364,6 +364,11 @@
                                       "t":  "2026-11-07T23:33:11.3123149Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 2 min, tokens 1113k/15k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T00:11:49.1993828Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
