@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T06:24:07.9364435Z",
+    "updated":  "2026-11-08T06:25:48.2817524Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T06:22:48.5112650Z",
+                                       "heartbeat":  "2026-11-08T06:24:12.2436125Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -191,12 +191,12 @@
                       "id":  "SW-331",
                       "number":  331,
                       "title":  "War Table pilot picker shows success and keeps its place",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-08T05:50:55.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-08T06:25:48.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -259,6 +259,16 @@
                                       "t":  "2026-11-08T05:51:00.2000641Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T06:25:48.7487577Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 35 min, tokens 18709k/77k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T06:25:52.5938298Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
@@ -880,6 +890,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-07T20:19:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-358",
+                      "number":  358,
+                      "title":  "Confirm: Can two War Table screenshots and one focus check be left for later",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-08T06:25:45.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
