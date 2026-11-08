@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-08T23:05:20.0108825Z",
+    "updated":  "2026-11-08T23:06:56.0697075Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-08T23:03:49.5708503Z",
+                                       "heartbeat":  "2026-11-08T23:05:24.2383093Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -175,13 +175,13 @@
                       "id":  "SW-336",
                       "number":  336,
                       "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-08T22:58:16.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY",
+                      "since":  "2026-11-08T23:06:58.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -203,6 +203,16 @@
                                       "t":  "2026-11-08T23:00:36.0600383Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:06:59.1248648Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:07:00.9806390Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
