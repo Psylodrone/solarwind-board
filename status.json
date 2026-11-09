@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T10:56:54.2576387Z",
+    "updated":  "2026-11-09T10:58:29.8285590Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T10:55:21.9560166Z",
+                                       "heartbeat":  "2026-11-09T10:57:01.8853148Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T10:51:22.9079125Z",
+                                    "heartbeat":  "2026-11-09T10:55:52.6578534Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -124,55 +124,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-346",
-                      "number":  346,
-                      "title":  "Death screen shows what happens next",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T10:48:44.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-09T10:14:43.0974015Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:48:42.4621142Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 16 min, tokens 14658k/48k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:48:48.3837467Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:55:16.5436033Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:55:36.1665100Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 6ccf822f and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-338",
                       "number":  338,
                       "title":  "Galaxy map panel shows what you decide on",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-09T06:51:24.0000000Z",
+                      "since":  "2026-11-09T10:58:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -205,6 +165,11 @@
                                       "t":  "2026-11-09T06:51:44.9635807Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:58:32.8780841Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
@@ -846,6 +811,46 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-346",
+                      "number":  346,
+                      "title":  "Death screen shows what happens next",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T10:55:35.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T10:14:43.0974015Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:48:42.4621142Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 16 min, tokens 14658k/48k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:48:48.3837467Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:55:16.5436033Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:55:36.1665100Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 6ccf822f and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
