@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-11-09T15:18:49.5391000Z",
+    "updated":  "2026-11-09T15:20:28.4867012Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T15:17:19.3045676Z",
+                                       "heartbeat":  "2026-11-09T15:18:57.0423453Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T15:12:15.2105443Z",
+                                    "heartbeat":  "2026-11-09T15:17:21.5060154Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-341",
-                      "number":  341,
-                      "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:53:42.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-342",
                       "number":  342,
@@ -92,62 +76,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-339",
-                      "number":  339,
-                      "title":  "Galaxy map nodes, focus and navigation",
-                      "stage":  "Review",
+                      "id":  "SW-341",
+                      "number":  341,
+                      "title":  "Mining site collects with A and keeps focus",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T15:12:04.0000000Z",
-                      "round":  2,
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T15:20:29.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-09T14:00:45.2713257Z",
+                                      "t":  "2026-11-09T15:20:29.8401852Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T14:45:16.7822993Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 21 min, tokens 18431k/59k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T14:45:20.2868666Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T14:53:45.0795696Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T14:53:47.1502386Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T15:12:04.0154701Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 11 min, tokens 7280k/39k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T15:12:07.3026776Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T15:17:14.5361965Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T15:17:29.0129970Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 6c111ad8 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -789,6 +733,66 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-339",
+                      "number":  339,
+                      "title":  "Galaxy map nodes, focus and navigation",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T15:17:28.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T14:00:45.2713257Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T14:45:16.7822993Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 21 min, tokens 18431k/59k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T14:45:20.2868666Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T14:53:45.0795696Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T14:53:47.1502386Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T15:12:04.0154701Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 11 min, tokens 7280k/39k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T15:12:07.3026776Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T15:17:14.5361965Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T15:17:29.0129970Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 6c111ad8 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
