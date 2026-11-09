@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T07:53:51.3086318Z",
+    "updated":  "2026-11-09T07:55:21.3137630Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T07:52:26.5550851Z",
+                                       "heartbeat":  "2026-11-09T07:53:55.6050589Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -124,22 +124,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-346",
-                      "number":  346,
-                      "title":  "Death screen shows what happens next",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-08T19:05:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-340",
                       "number":  340,
                       "title":  "Flight HUD shows the interaction prompt with the glyph",
@@ -222,6 +206,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-346",
+                      "number":  346,
+                      "title":  "Death screen shows what happens next",
+                      "stage":  "Changes requested",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-09T07:53:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
