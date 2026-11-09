@@ -1,10 +1,9 @@
 {
-    "updated":  "2026-11-09T06:58:45.7284097Z",
+    "updated":  "2026-11-09T07:00:24.3937456Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T06:57:23.4645318Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (6)"
+                                       "heartbeat":  "2026-11-09T06:58:50.1813270Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-09T00:09:35.6563675Z",
@@ -160,13 +159,13 @@
                       "id":  "SW-336",
                       "number":  336,
                       "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-08T23:38:37.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY",
+                      "since":  "2026-11-09T06:59:00.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -203,6 +202,16 @@
                                       "t":  "2026-11-08T23:40:04.6886324Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:59:02.4723830Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T07:00:27.8504685Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
