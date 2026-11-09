@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T10:14:39.8231468Z",
+    "updated":  "2026-11-09T10:16:17.3807443Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T10:13:11.8376201Z",
+                                       "heartbeat":  "2026-11-09T10:14:48.2019481Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T10:10:09.6846408Z",
+                                    "heartbeat":  "2026-11-09T10:14:38.7916992Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -124,96 +124,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-336",
-                      "number":  336,
-                      "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T10:04:47.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-08T22:31:45.2024380Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T22:58:13.6017492Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 14 min, tokens 15842k/74k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T22:58:19.3848676Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T23:00:36.0600383Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T23:06:59.1248648Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T23:07:00.9806390Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-08T23:40:04.6886324Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T06:59:02.4723830Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T07:00:27.8504685Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T07:36:19.6174196Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:45:22.1820478Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:04:46.7044093Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 9 min, tokens 3937k/27k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:04:51.6082885Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:11:39.6508714Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T10:13:19.7054211Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 45e036fb and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-346",
                       "number":  346,
                       "title":  "Death screen shows what happens next",
@@ -221,12 +131,16 @@
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-09T07:53:15.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-09T10:14:43.0974015Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  }
                               ]
                   },
                   {
@@ -912,6 +826,96 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-336",
+                      "number":  336,
+                      "title":  "Ship screen popup, slots and prompts fixed",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T10:13:18.0000000Z",
+                      "round":  1,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T22:31:45.2024380Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T22:58:13.6017492Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 14 min, tokens 15842k/74k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T22:58:19.3848676Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:00:36.0600383Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:06:59.1248648Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:07:00.9806390Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-08T23:40:04.6886324Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:59:02.4723830Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T07:00:27.8504685Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T07:36:19.6174196Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:45:22.1820478Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:04:46.7044093Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 9 min, tokens 3937k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:04:51.6082885Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:11:39.6508714Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:13:19.7054211Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 45e036fb and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
