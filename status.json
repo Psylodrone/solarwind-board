@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-11-09T17:42:30.6082951Z",
+    "updated":  "2026-11-09T17:44:07.1321456Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T17:40:56.9425454Z",
+                                       "heartbeat":  "2026-11-09T17:42:38.1212920Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T17:34:36.8369189Z",
+                                    "heartbeat":  "2026-11-09T17:41:31.3312496Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-09T17:41:04.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-341",
                       "number":  341,
