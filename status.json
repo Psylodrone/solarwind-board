@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T10:04:46.2479741Z",
+    "updated":  "2026-11-09T10:06:19.5812173Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T10:03:17.9440112Z",
+                                       "heartbeat":  "2026-11-09T10:04:50.6653411Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -127,12 +127,12 @@
                       "id":  "SW-336",
                       "number":  336,
                       "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-09T07:39:05.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-09T10:04:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -190,6 +190,16 @@
                                       "t":  "2026-11-09T09:45:22.1820478Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:04:46.7044093Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 9 min, tokens 3937k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T10:04:51.6082885Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
