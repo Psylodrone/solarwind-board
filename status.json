@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T16:57:09.1681557Z",
+    "updated":  "2026-11-09T17:06:06.0039335Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T16:55:09.0280258Z",
+                                       "heartbeat":  "2026-11-09T17:02:02.5199367Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T16:50:49.8869479Z",
+                                    "heartbeat":  "2026-11-09T16:55:10.5407495Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-09T16:02:44.0000000Z",
+                      "since":  "2026-11-09T17:06:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -43,6 +43,11 @@
                                       "t":  "2026-11-09T16:05:09.3899421Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:06:10.1377234Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
