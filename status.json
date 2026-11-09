@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T17:14:47.6046251Z",
+    "updated":  "2026-11-09T17:19:39.3424851Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T17:13:10.5536189Z",
+                                       "heartbeat":  "2026-11-09T17:15:00.2312830Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T17:09:09.5713587Z",
+                                    "heartbeat":  "2026-11-09T17:13:46.0556109Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -15,12 +15,12 @@
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-09T16:08:40.0000000Z",
+                      "since":  "2026-11-09T17:14:54.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -43,6 +43,11 @@
                                       "t":  "2026-11-09T16:08:40.8435353Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:14:58.1878156Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
@@ -50,12 +55,12 @@
                       "id":  "SW-345",
                       "number":  345,
                       "title":  "Away summary readable and scrollable with a gamepad",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-09T16:12:16.0000000Z",
+                      "since":  "2026-11-09T17:19:40.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -78,6 +83,11 @@
                                       "t":  "2026-11-09T16:12:16.8632185Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:19:42.4608139Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
