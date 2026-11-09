@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T11:26:34.2469906Z",
+    "updated":  "2026-11-09T11:28:07.6489546Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T11:25:02.3442258Z",
+                                       "heartbeat":  "2026-11-09T11:26:39.0370503Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -127,12 +127,12 @@
                       "id":  "SW-338",
                       "number":  338,
                       "title":  "Galaxy map panel shows what you decide on",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-09T10:58:30.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-09T11:26:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -175,6 +175,16 @@
                                       "t":  "2026-11-09T11:00:17.4794296Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T11:26:34.6930144Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 11 min, tokens 10191k/35k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T11:26:41.6729500Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
