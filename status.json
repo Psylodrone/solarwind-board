@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T13:40:52.8740556Z",
+    "updated":  "2026-11-09T13:42:28.4029458Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T13:39:20.0484718Z",
+                                       "heartbeat":  "2026-11-09T13:41:00.4292334Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T13:35:10.7451807Z",
+                                    "heartbeat":  "2026-11-09T13:40:18.2668686Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -111,12 +111,12 @@
                       "id":  "SW-337",
                       "number":  337,
                       "title":  "Inventory rows and crafting readable on a gamepad",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-09T13:26:11.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-09T13:42:29.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -144,6 +144,16 @@
                                       "t":  "2026-11-09T13:26:14.5347976Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:42:28.8170610Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 8436k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:42:32.1982072Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
