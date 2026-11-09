@@ -1,12 +1,13 @@
 {
-    "updated":  "2026-11-09T15:57:48.5045233Z",
+    "updated":  "2026-11-09T16:02:15.2874885Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T15:57:27.5445044Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-11-09T15:58:28.8282144Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (4)"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T15:38:12.1348999Z",
+                                    "heartbeat":  "2026-11-09T15:52:37.0838707Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -83,7 +84,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-09T15:20:29.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -92,6 +93,11 @@
                                       "t":  "2026-11-09T15:20:29.8401852Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:02:17.4347462Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
