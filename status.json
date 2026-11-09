@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T16:10:33.5097458Z",
+    "updated":  "2026-11-09T16:12:08.1036055Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T16:08:49.5198499Z",
+                                       "heartbeat":  "2026-11-09T16:10:37.8297442Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -47,16 +47,30 @@
                       "id":  "SW-345",
                       "number":  345,
                       "title":  "Away summary readable and scrollable with a gamepad",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:53:59.0000000Z",
+                      "actor":  "Claude",
+                      "since":  "2026-11-09T16:10:34.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-09T16:10:34.8823247Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:10:41.4642409Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:12:08.4700475Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  }
                               ]
                   },
                   {
