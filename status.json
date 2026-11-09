@@ -1,9 +1,10 @@
 {
-    "updated":  "2026-11-09T06:02:58.1604466Z",
+    "updated":  "2026-11-09T06:04:46.6221851Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T06:00:47.3618154Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-11-09T06:03:11.7858294Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (6)"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-09T00:09:35.6563675Z",
@@ -163,7 +164,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
+                      "actor":  "AGY",
                       "since":  "2026-11-09T06:02:59.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -177,6 +178,11 @@
                                       "t":  "2026-11-09T06:03:00.8353540Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high has found 10 issues in review round 0, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:03:52.6919744Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
