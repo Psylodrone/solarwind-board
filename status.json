@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T18:09:49.1396849Z",
+    "updated":  "2026-11-09T18:13:10.2616775Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T18:07:22.6314610Z",
+                                       "heartbeat":  "2026-11-09T18:10:09.5851810Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T18:04:16.6351383Z",
+                                    "heartbeat":  "2026-11-09T18:08:22.6665468Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -3205,76 +3205,6 @@
                                       "t":  "2026-11-03T01:37:56.7254665Z",
                                       "actor":  "watcher",
                                       "text":  "committed f96d4231 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-316",
-                      "number":  316,
-                      "title":  "World clock runs slower while the game window is not focused",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-02T18:10:51.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-02T17:51:14.0642051Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T17:51:29.3573368Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:01:31.2559336Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 8 min, tokens 3270k/24k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:01:37.6100481Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:05:35.4360153Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:05:37.2444489Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:05:38.5943570Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:08:05.3794244Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 2 min, tokens 1772k/12k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:08:08.7075659Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:09:36.3677135Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T18:10:52.0686793Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 9e99510c and pushed, card Done and issue closed"
                                   }
                               ]
                   }
