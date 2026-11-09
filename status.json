@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T11:33:16.0205701Z",
+    "updated":  "2026-11-09T11:34:50.1483288Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T11:31:44.0431075Z",
+                                       "heartbeat":  "2026-11-09T11:33:23.3871302Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -127,13 +127,13 @@
                       "id":  "SW-338",
                       "number":  338,
                       "title":  "Galaxy map panel shows what you decide on",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T11:26:38.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY",
+                      "since":  "2026-11-09T11:34:52.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -185,6 +185,16 @@
                                       "t":  "2026-11-09T11:26:41.6729500Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T11:34:52.9493583Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T11:34:54.8121026Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
                               ]
                   },
