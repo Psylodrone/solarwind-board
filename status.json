@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T09:45:12.6101842Z",
+    "updated":  "2026-11-09T09:46:45.6127541Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T09:43:46.2818616Z",
+                                       "heartbeat":  "2026-11-09T09:45:17.0620040Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -124,86 +124,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-340",
-                      "number":  340,
-                      "title":  "Flight HUD shows the interaction prompt with the glyph",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T09:38:39.0000000Z",
-                      "round":  3,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-09T07:37:53.7011711Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:38:36.4245580Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 37 min, tokens 48776k/130k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:38:42.1670095Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:45:00.0292059Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:45:02.1685859Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:59:19.1513946Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 4166k/20k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T08:59:22.4899738Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:05:44.7283311Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:05:46.8850265Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:38:39.1951549Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 20 min, tokens 8620k/34k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:38:42.5519144Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:43:38.6476336Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T09:43:52.9916531Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 28743794 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
                       "id":  "SW-336",
                       "number":  336,
                       "title":  "Ship screen popup, slots and prompts fixed",
@@ -211,7 +131,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-09T07:39:05.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -265,6 +185,11 @@
                                       "t":  "2026-11-09T07:36:19.6174196Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:45:22.1820478Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
@@ -967,6 +892,86 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-340",
+                      "number":  340,
+                      "title":  "Flight HUD shows the interaction prompt with the glyph",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T09:43:52.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T07:37:53.7011711Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:38:36.4245580Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 37 min, tokens 48776k/130k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:38:42.1670095Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:45:00.0292059Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:45:02.1685859Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:59:19.1513946Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 4166k/20k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T08:59:22.4899738Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:05:44.7283311Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:05:46.8850265Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:38:39.1951549Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 20 min, tokens 8620k/34k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:38:42.5519144Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:43:38.6476336Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:43:52.9916531Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 28743794 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
