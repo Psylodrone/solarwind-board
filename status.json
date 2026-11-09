@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T22:11:21.1553150Z",
+    "updated":  "2026-11-09T22:13:02.6578288Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T22:09:51.3339303Z",
+                                       "heartbeat":  "2026-11-09T22:11:25.5187314Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -12,31 +12,15 @@
                  },
     "cards":  [
                   {
-                      "id":  "SW-360",
-                      "number":  360,
-                      "title":  "A dead board Claude login falls back to the default login",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-09T18:01:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Stopped",
+                      "stage":  "Ready",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-09T21:41:58.0000000Z",
+                      "actor":  "architect",
+                      "since":  "2026-11-09T22:12:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -105,6 +89,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-09T18:01:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
