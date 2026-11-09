@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T09:43:34.1348841Z",
+    "updated":  "2026-11-09T09:45:12.6101842Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T09:42:05.3701883Z",
+                                       "heartbeat":  "2026-11-09T09:43:46.2818616Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -195,6 +195,11 @@
                                       "t":  "2026-11-09T09:43:38.6476336Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T09:43:52.9916531Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 28743794 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -271,7 +276,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "by hand",
+                      "actor":  "watcher",
                       "since":  "2026-11-09T07:53:15.0000000Z",
                       "round":  0,
                       "now":  null,
