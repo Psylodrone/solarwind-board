@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T17:38:56.9644913Z",
+    "updated":  "2026-11-09T17:40:44.5406962Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T17:37:27.3168130Z",
+                                       "heartbeat":  "2026-11-09T17:39:01.2665248Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,61 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-345",
-                      "number":  345,
-                      "title":  "Away summary readable and scrollable with a gamepad",
-                      "stage":  "In progress",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Claude",
-                      "since":  "2026-11-09T17:37:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-09T16:10:34.8823247Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:10:41.4642409Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:12:08.4700475Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:12:16.8632185Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:19:42.4608139Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:37:19.3606265Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:37:25.3915070Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:37:30.8847132Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-341",
                       "number":  341,
@@ -301,6 +246,66 @@
                                   },
                                   {
                                       "t":  "2026-11-09T17:34:17.5076064Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-345",
+                      "number":  345,
+                      "title":  "Away summary readable and scrollable with a gamepad",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T17:39:02.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T16:10:34.8823247Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:10:41.4642409Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:12:08.4700475Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:12:16.8632185Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:19:42.4608139Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:37:19.3606265Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:37:25.3915070Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:37:30.8847132Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:39:03.3135386Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
