@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T16:12:08.1036055Z",
+    "updated":  "2026-11-09T16:13:51.4559583Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T16:10:37.8297442Z",
+                                       "heartbeat":  "2026-11-09T16:12:17.5303775Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -70,6 +70,11 @@
                                       "t":  "2026-11-09T16:12:08.4700475Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:12:16.8632185Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
