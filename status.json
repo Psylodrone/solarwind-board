@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T13:47:28.2898158Z",
+    "updated":  "2026-11-09T13:48:59.9479638Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T13:45:57.3681232Z",
+                                       "heartbeat":  "2026-11-09T13:47:32.7361797Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -111,13 +111,13 @@
                       "id":  "SW-337",
                       "number":  337,
                       "title":  "Inventory rows and crafting readable on a gamepad",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T13:42:29.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-09T13:49:02.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -154,6 +154,11 @@
                                       "t":  "2026-11-09T13:42:32.1982072Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:49:03.4801763Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
