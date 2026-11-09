@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T16:18:44.0167070Z",
+    "updated":  "2026-11-09T16:20:40.5563661Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T16:17:11.0195860Z",
+                                       "heartbeat":  "2026-11-09T16:18:56.1891036Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T16:12:16.6388656Z",
+                                    "heartbeat":  "2026-11-09T16:17:24.8587276Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -38,6 +38,11 @@
                                       "t":  "2026-11-09T16:18:44.0334192Z",
                                       "actor":  "Claude",
                                       "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:18:51.8331606Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
@@ -3129,76 +3134,6 @@
                                       "t":  "2026-11-02T18:10:52.0686793Z",
                                       "actor":  "watcher",
                                       "text":  "committed 9e99510c and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-315",
-                      "number":  315,
-                      "title":  "POI markers: count badge, thinner outline, labels on demand, shrink when zoomed",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-02T16:19:25.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-02T15:49:08.1230244Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T15:49:22.3168732Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:05:23.4424144Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 15 min, tokens 5600k/37k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:05:26.7108197Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:09:37.9206854Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:10:39.5717350Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:10:40.8031564Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:15:56.2687473Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 5 min, tokens 701k/6k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:16:00.3143675Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:18:00.6094231Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T16:19:25.9619129Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 421b345c and pushed, card Done and issue closed"
                                   }
                               ]
                   }
