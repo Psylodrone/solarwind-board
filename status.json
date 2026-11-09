@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T14:00:43.8601807Z",
+    "updated":  "2026-11-09T14:02:24.8173555Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T13:59:05.4901649Z",
+                                       "heartbeat":  "2026-11-09T14:00:52.3842055Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-339",
-                      "number":  339,
-                      "title":  "Galaxy map nodes, focus and navigation",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-05T04:53:34.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-341",
                       "number":  341,
@@ -108,82 +92,22 @@
                               ]
                   },
                   {
-                      "id":  "SW-337",
-                      "number":  337,
-                      "title":  "Inventory rows and crafting readable on a gamepad",
-                      "stage":  "Review",
+                      "id":  "SW-339",
+                      "number":  339,
+                      "title":  "Galaxy map nodes, focus and navigation",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-09T13:54:03.0000000Z",
-                      "round":  3,
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T14:00:44.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
-                                      "t":  "2026-11-09T12:10:32.6042030Z",
+                                      "t":  "2026-11-09T14:00:45.2713257Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:19:32.7610138Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 29 min, tokens 29233k/116k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:19:35.9308890Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:26:12.4904547Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:26:14.5347976Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:42:28.8170610Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 8436k/43k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:42:32.1982072Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:49:03.4801763Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:49:05.4431496Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:54:03.2674907Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 4 min, tokens 2022k/23k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:54:06.5450490Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:57:24.9892090Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T13:58:58.2301239Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 5e5ee266 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -825,6 +749,86 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-337",
+                      "number":  337,
+                      "title":  "Inventory rows and crafting readable on a gamepad",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T13:58:57.0000000Z",
+                      "round":  3,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T12:10:32.6042030Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:19:32.7610138Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 29 min, tokens 29233k/116k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:19:35.9308890Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:26:12.4904547Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:26:14.5347976Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:42:28.8170610Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 8436k/43k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:42:32.1982072Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:49:03.4801763Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:49:05.4431496Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:54:03.2674907Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 4 min, tokens 2022k/23k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:54:06.5450490Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:57:24.9892090Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 3: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:58:58.2301239Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 5e5ee266 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
