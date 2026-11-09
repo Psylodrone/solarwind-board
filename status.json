@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T13:54:02.8266485Z",
+    "updated":  "2026-11-09T13:55:37.5700875Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T13:52:27.7851675Z",
+                                       "heartbeat":  "2026-11-09T13:54:07.3918946Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -111,12 +111,12 @@
                       "id":  "SW-337",
                       "number":  337,
                       "title":  "Inventory rows and crafting readable on a gamepad",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-09T13:49:02.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-09T13:54:03.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -164,6 +164,16 @@
                                       "t":  "2026-11-09T13:49:05.4431496Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:54:03.2674907Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 4 min, tokens 2022k/23k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T13:54:06.5450490Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
