@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-09T00:50:34.2055357Z",
+    "updated":  "2026-11-09T00:51:46.4725193Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T00:49:42.0689785Z",
+                                       "heartbeat":  "2026-11-09T00:51:43.2148556Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3184,76 +3184,6 @@
                                       "t":  "2026-11-02T01:29:41.8313304Z",
                                       "actor":  "watcher",
                                       "text":  "committed d812c7cf and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-310",
-                      "number":  310,
-                      "title":  "Ship screen: same header on every tab, wider map panel, gamepad scroll",
-                      "stage":  "Done",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-02T00:50:51.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-02T00:12:52.7245783Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:13:03.8797077Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:32:18.7063882Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 19 min, tokens 6456k/33k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:32:22.0278179Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:35:53.7337068Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:35:55.3819937Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:35:56.6280947Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:47:13.0988167Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude fix run finished in 11 min, tokens 3326k/28k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:47:24.9486096Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:49:40.8490049Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T00:50:52.5592421Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 41006b0d and pushed, card Done and issue closed"
                                   }
                               ]
                   }
