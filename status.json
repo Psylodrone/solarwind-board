@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T17:31:12.7716842Z",
+    "updated":  "2026-11-09T17:33:54.4921676Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T17:29:19.4512351Z",
+                                       "heartbeat":  "2026-11-09T17:31:25.8458802Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T17:23:35.6151535Z",
+                                    "heartbeat":  "2026-11-09T17:29:26.5693563Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -55,12 +55,12 @@
                       "id":  "SW-344",
                       "number":  344,
                       "title":  "Pirate contact dialog shows what B does and the decision data",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-09T17:23:14.0000000Z",
+                      "since":  "2026-11-09T17:33:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -88,6 +88,11 @@
                                       "t":  "2026-11-09T17:23:16.7539305Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:33:55.9565527Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
                               ]
                   },
