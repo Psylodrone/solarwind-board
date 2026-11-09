@@ -1,10 +1,9 @@
 {
-    "updated":  "2026-11-09T07:34:41.4113605Z",
+    "updated":  "2026-11-09T07:36:15.4656534Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T07:33:07.9466359Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (6)"
+                                       "heartbeat":  "2026-11-09T07:34:48.7377005Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-09T07:32:56.0746947Z",
@@ -157,15 +156,60 @@
                               ]
                   },
                   {
-                      "id":  "SW-336",
-                      "number":  336,
-                      "title":  "Ship screen popup, slots and prompts fixed",
-                      "stage":  "Changes requested",
+                      "id":  "SW-338",
+                      "number":  338,
+                      "title":  "Galaxy map panel shows what you decide on",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-09T06:59:00.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T06:51:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-08T23:41:46.7425286Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:03:00.8353540Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 10 issues in review round 0, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:03:52.6919744Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:51:00.2831100Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:51:09.8124347Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T06:51:44.9635807Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  }
+                              ]
+                  },
+                  {
+                      "id":  "SW-336",
+                      "number":  336,
+                      "title":  "Ship screen popup, slots and prompts fixed",
+                      "stage":  "Stopped",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-09T07:34:51.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -213,49 +257,9 @@
                                       "t":  "2026-11-09T07:00:27.8504685Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-338",
-                      "number":  338,
-                      "title":  "Galaxy map panel shows what you decide on",
-                      "stage":  "Stopped",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-09T06:51:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-08T23:41:46.7425286Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   },
                                   {
-                                      "t":  "2026-11-09T06:03:00.8353540Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 10 issues in review round 0, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T06:03:52.6919744Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T06:51:00.2831100Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T06:51:09.8124347Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T06:51:44.9635807Z",
+                                      "t":  "2026-11-09T07:36:19.6174196Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
