@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-09T08:04:59.5975403Z",
+    "updated":  "2026-11-09T08:06:41.1611600Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-09T08:03:32.3116397Z",
+                                       "heartbeat":  "2026-11-09T08:05:10.9908746Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-09T07:59:08.8938097Z",
+                                    "heartbeat":  "2026-11-09T08:04:53.3237519Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -3042,51 +3042,6 @@
                                       "t":  "2026-11-02T14:27:54.6990145Z",
                                       "actor":  "watcher",
                                       "text":  "committed 2704b7fd and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-312",
-                      "number":  312,
-                      "title":  "Ship screen fixes: close button, right stick, tab centre, War Table on Select",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-02T08:06:12.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-02T07:33:49.3000182Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T07:34:03.6464053Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T08:00:40.2722121Z",
-                                      "actor":  "Claude",
-                                      "text":  "Codex implementation complete, Claude implement run finished in 25 min, tokens 15993k/69k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T08:00:43.5476582Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T08:05:57.1860167Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-02T08:06:13.7258420Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed a4e5e1b3 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
