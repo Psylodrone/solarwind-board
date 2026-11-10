@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T03:26:46.5497978Z",
+    "updated":  "2026-11-10T03:28:21.8314840Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T03:25:15.6440978Z",
+                                       "heartbeat":  "2026-11-10T03:26:53.7029346Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -211,12 +211,12 @@
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-10T03:23:25.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T03:26:49.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -284,6 +284,21 @@
                                       "t":  "2026-11-10T03:23:35.5557410Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T03:26:49.8194667Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T03:26:51.8536604Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T03:26:53.0514919Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
