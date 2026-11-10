@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T06:54:48.5993116Z",
+    "updated":  "2026-11-10T06:56:33.5720809Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T06:53:07.3637957Z",
+                                       "heartbeat":  "2026-11-10T06:54:52.8937011Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -402,20 +402,15 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T06:52:58.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T06:55:00.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T01:21:55.4442985Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-10T01:45:23.2260653Z",
                                       "actor":  "Claude",
@@ -660,6 +655,11 @@
                                       "t":  "2026-11-10T06:53:02.7650987Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T06:54:49.0503183Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 386k/4k, passing to the headless check"
                                   }
                               ]
                   },
