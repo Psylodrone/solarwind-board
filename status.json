@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T17:17:38.6487533Z",
+    "updated":  "2026-11-10T17:19:59.0814682Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T17:15:28.7087325Z",
+                                       "heartbeat":  "2026-11-10T17:17:50.8240445Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -572,16 +572,32 @@
                               ]
                   },
                   {
+                      "id":  "SW-374",
+                      "number":  374,
+                      "title":  "Two PlayMode tests fail only in the full run",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-10T17:19:03.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T16:56:28.0000000Z",
-                      "round":  3,
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T17:19:05.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -813,6 +829,11 @@
                                       "t":  "2026-11-10T16:58:43.9524086Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T17:20:02.3843716Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
