@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T07:47:29.0622749Z",
+    "updated":  "2026-11-10T07:49:38.1587153Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T07:45:52.9546039Z",
+                                       "heartbeat":  "2026-11-10T07:47:41.4427837Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T07:43:02.8208109Z",
+                                    "heartbeat":  "2026-11-10T07:47:35.3173511Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -326,12 +326,12 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T07:29:25.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T07:49:39.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -414,6 +414,11 @@
                                       "t":  "2026-11-10T07:29:28.8422859Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:49:38.5892093Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 20 min, tokens 1239k/11k, passing to the headless check"
                                   }
                               ]
                   },
@@ -1364,6 +1369,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T06:36:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-366",
+                      "number":  366,
+                      "title":  "Confirm: The one game test that fails on the full run is about ship physics and",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T07:49:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
