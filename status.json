@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T10:32:14.7874362Z",
+    "updated":  "2026-11-10T10:34:24.1171782Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T10:30:23.3606176Z",
+                                       "heartbeat":  "2026-11-10T10:32:27.8147181Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T10:25:32.4242544Z",
+                                    "heartbeat":  "2026-11-10T10:31:11.9743877Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -1417,6 +1417,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T10:03:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-370",
+                      "number":  370,
+                      "title":  "Confirm: Should the drone test check that no drone sinks into the mothership,",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T10:34:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
