@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T07:49:38.1587153Z",
+    "updated":  "2026-11-10T07:51:39.8937311Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T07:47:41.4427837Z",
+                                       "heartbeat":  "2026-11-10T07:49:50.2178222Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -326,13 +326,13 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T07:49:39.0000000Z",
-                      "round":  1,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T07:51:42.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -419,6 +419,16 @@
                                       "t":  "2026-11-10T07:49:38.5892093Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 20 min, tokens 1239k/11k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:49:50.8278717Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:51:43.0023805Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
