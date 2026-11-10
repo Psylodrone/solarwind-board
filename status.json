@@ -1,9 +1,10 @@
 {
-    "updated":  "2026-11-10T01:21:26.0728193Z",
+    "updated":  "2026-11-10T01:23:18.8761985Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T01:20:00.7839301Z",
-                                       "watcher":  "running"
+                                       "heartbeat":  "2026-11-10T01:21:34.9933608Z",
+                                       "watcher":  "running",
+                                       "idle":  "tree-dirty (1)"
                                    },
                      "laptop":  {
                                     "heartbeat":  "2026-11-10T01:18:07.1785415Z",
@@ -124,6 +125,16 @@
                                       "t":  "2026-11-09T22:16:29.2368495Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T01:21:43.0277629Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T01:21:55.4442985Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
