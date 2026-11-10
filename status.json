@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T16:31:39.5432147Z",
+    "updated":  "2026-11-10T16:33:57.9557472Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T16:29:28.8311826Z",
+                                       "heartbeat":  "2026-11-10T16:31:49.4954205Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T15:43:57.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-10T16:31:45.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -783,6 +783,16 @@
                                       "t":  "2026-11-10T15:44:00.3003231Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:31:45.1076123Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 21 min, tokens 18292k/77k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:31:52.9210895Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
