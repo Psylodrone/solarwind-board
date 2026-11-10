@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T08:38:20.0913589Z",
+    "updated":  "2026-11-10T08:40:49.1082736Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T08:36:13.3224424Z",
+                                       "heartbeat":  "2026-11-10T08:38:48.6451521Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T08:33:46.5297760Z",
+                                    "heartbeat":  "2026-11-10T08:38:24.1755573Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -330,7 +330,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY",
                       "since":  "2026-11-10T08:38:20.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -479,6 +479,11 @@
                                       "t":  "2026-11-10T08:38:24.2586945Z",
                                       "actor":  "watcher",
                                       "text":  "restarted after a watcher update (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:40:52.4777477Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
