@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T15:37:09.7109064Z",
+    "updated":  "2026-11-10T15:39:21.4762929Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T15:35:00.4421341Z",
+                                       "heartbeat":  "2026-11-10T15:37:22.6294099Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -579,7 +579,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-10T15:37:13.0000000Z",
                       "round":  1,
                       "now":  null,
@@ -768,6 +768,11 @@
                                       "t":  "2026-11-10T15:37:10.1559800Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 17 min, tokens 12704k/75k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T15:37:21.9792051Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
