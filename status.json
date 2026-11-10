@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T20:32:33.5866285Z",
+    "updated":  "2026-11-10T20:34:48.0308498Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T20:30:31.5745438Z",
+                                       "heartbeat":  "2026-11-10T20:32:45.6992781Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T20:26:26.9003826Z",
+                                    "heartbeat":  "2026-11-10T20:31:16.3169835Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -591,20 +591,15 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T19:59:18.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T20:32:49.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T09:11:48.6534662Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-11-10T09:12:01.0976638Z",
                                       "actor":  "AGY",
@@ -849,6 +844,11 @@
                                       "t":  "2026-11-10T20:13:09.3048731Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T20:34:52.2893960Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
