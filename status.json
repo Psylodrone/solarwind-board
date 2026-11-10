@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T16:56:14.4291637Z",
+    "updated":  "2026-11-10T16:58:39.0285716Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T16:53:55.7757835Z",
+                                       "heartbeat":  "2026-11-10T16:56:24.2568223Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T16:56:15.0000000Z",
+                      "since":  "2026-11-10T16:56:28.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -808,6 +808,11 @@
                                       "t":  "2026-11-10T16:56:14.8426639Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 1905k/33k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:58:43.9524086Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
