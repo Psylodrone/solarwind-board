@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T21:28:29.5774628Z",
+    "updated":  "2026-11-10T21:34:06.8930732Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T21:25:25.1403290Z",
+                                       "heartbeat":  "2026-11-10T21:30:59.4922149Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -607,20 +607,15 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T20:42:59.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T21:28:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T09:39:06.5446311Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 27 min, tokens 9566k/51k, passing to the headless check"
-                                  },
                                   {
                                       "t":  "2026-11-10T09:40:48.2963474Z",
                                       "actor":  "AGY unknown",
@@ -865,6 +860,11 @@
                                       "t":  "2026-11-10T20:44:15.6082965Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T21:28:30.0013595Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 3 min, tokens 1276k/13k, passing to the headless check"
                                   }
                               ]
                   },
