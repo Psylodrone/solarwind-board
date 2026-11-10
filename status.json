@@ -1,13 +1,12 @@
 {
-    "updated":  "2026-11-10T01:23:18.8761985Z",
+    "updated":  "2026-11-10T01:25:54.4158325Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T01:21:34.9933608Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (1)"
+                                       "heartbeat":  "2026-11-10T01:23:26.9263969Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T01:18:07.1785415Z",
+                                    "heartbeat":  "2026-11-10T01:22:51.5604719Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -26,116 +25,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-341",
-                      "number":  341,
-                      "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-10T01:20:40.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-09T15:20:29.8401852Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:02:17.4347462Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:02:25.5616570Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T16:05:09.3899421Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:06:10.1377234Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:08:18.7879198Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:08:20.1204091Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:08:26.9689737Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T17:12:53.6688435Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T21:39:57.9110527Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T21:40:13.4996601Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T21:41:48.5618903Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T21:43:30.8235621Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T22:13:08.5971179Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T22:13:21.6357701Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T22:14:46.9174445Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-09T22:16:29.2368495Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T01:21:43.0277629Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T01:21:55.4442985Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  }
                               ]
                   },
                   {
@@ -392,6 +281,116 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-341",
+                      "number":  341,
+                      "title":  "Mining site collects with A and keeps focus",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T01:21:42.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-09T15:20:29.8401852Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:02:17.4347462Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:02:25.5616570Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T16:05:09.3899421Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:06:10.1377234Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:08:18.7879198Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:08:20.1204091Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:08:26.9689737Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T17:12:53.6688435Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T21:39:57.9110527Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T21:40:13.4996601Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T21:41:48.5618903Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T21:43:30.8235621Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T22:13:08.5971179Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T22:13:21.6357701Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T22:14:46.9174445Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-09T22:16:29.2368495Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T01:21:43.0277629Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T01:21:55.4442985Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  }
                               ]
                   },
                   {
