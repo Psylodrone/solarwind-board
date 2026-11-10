@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T16:53:41.9015759Z",
+    "updated":  "2026-11-10T16:56:14.4291637Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T16:51:16.8365146Z",
+                                       "heartbeat":  "2026-11-10T16:53:55.7757835Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T16:48:36.3126754Z",
+                                    "heartbeat":  "2026-11-10T16:53:11.2682561Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T16:36:22.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T16:56:15.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -803,6 +803,11 @@
                                       "t":  "2026-11-10T16:36:24.6376299Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:56:14.8426639Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 1905k/33k, passing to the headless check"
                                   }
                               ]
                   },
