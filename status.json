@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T06:34:15.2755591Z",
+    "updated":  "2026-11-10T06:36:17.3785324Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T06:32:42.8797701Z",
+                                       "heartbeat":  "2026-11-10T06:34:24.1088098Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -1329,6 +1329,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T05:55:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-365",
+                      "number":  365,
+                      "title":  "Confirm: Can this card be finished while one older physics test still fails,",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T06:36:14.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
