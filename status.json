@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T09:06:17.6447669Z",
+    "updated":  "2026-11-10T09:08:27.8243940Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T09:04:28.2463815Z",
+                                       "heartbeat":  "2026-11-10T09:06:24.8772400Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T09:00:50.9299865Z",
+                                    "heartbeat":  "2026-11-10T09:05:45.3604113Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -591,12 +591,12 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T08:56:55.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T09:08:28.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -804,6 +804,11 @@
                                       "t":  "2026-11-10T08:56:58.9465250Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T09:08:28.2574153Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 11 min, tokens 768k/11k, passing to the headless check"
                                   }
                               ]
                   },
@@ -1505,6 +1510,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T07:49:36.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-367",
+                      "number":  367,
+                      "title":  "Confirm: Should this card be accepted even though the review copy of its",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T09:08:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
