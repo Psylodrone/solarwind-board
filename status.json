@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T22:10:24.8267749Z",
+    "updated":  "2026-11-10T22:12:51.0618137Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T22:04:28.7976463Z",
+                                       "heartbeat":  "2026-11-10T22:10:37.6411928Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T22:01:55.4709328Z",
+                                    "heartbeat":  "2026-11-10T22:06:41.6309668Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -342,20 +342,15 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T21:46:19.0000000Z",
+                      "since":  "2026-11-10T22:12:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T05:08:23.2012143Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 2 issues in review round 2, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-11-10T05:08:25.4397081Z",
                                       "actor":  "AGY",
@@ -600,6 +595,11 @@
                                       "t":  "2026-11-10T21:46:19.7826768Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T22:12:52.1510321Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY implement run finished in 9 min, tokens 5802k/23k, passing to the headless check"
                                   }
                               ]
                   },
