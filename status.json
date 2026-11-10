@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T10:01:39.3604192Z",
+    "updated":  "2026-11-10T10:03:50.3554870Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T09:59:49.5490733Z",
+                                       "heartbeat":  "2026-11-10T10:01:51.2333866Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T09:42:50.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T10:03:51.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -618,6 +618,16 @@
                                       "t":  "2026-11-10T09:42:54.1896929Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T10:03:50.7880705Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 21 min, tokens 3201k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T10:03:55.0454791Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
@@ -1351,6 +1361,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T09:33:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-369",
+                      "number":  369,
+                      "title":  "Confirm: Should we skip the full old-version check for this task and schedule",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T10:03:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
