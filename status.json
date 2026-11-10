@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T05:40:30.8510001Z",
+    "updated":  "2026-11-10T05:42:20.9583107Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T05:39:02.1572501Z",
+                                       "heartbeat":  "2026-11-10T05:40:38.0461272Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -195,12 +195,12 @@
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T04:21:18.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T05:40:39.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -303,6 +303,16 @@
                                       "t":  "2026-11-10T05:32:21.9939684Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T05:40:38.1897579Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 8 min, tokens 2081k/16k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T05:40:42.4248759Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
