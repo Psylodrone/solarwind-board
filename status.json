@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T13:08:27.9664581Z",
+    "updated":  "2026-11-10T13:11:03.1178157Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T13:05:51.5197502Z",
+                                       "heartbeat":  "2026-11-10T13:08:40.7346153Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T13:01:22.7153404Z",
+                                    "heartbeat":  "2026-11-10T13:06:01.8470102Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "Claude",
-                      "since":  "2026-11-10T12:26:23.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T13:08:36.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -723,6 +723,11 @@
                                       "t":  "2026-11-10T13:08:28.4241570Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 41 min, tokens 24094k/81k, result denied"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T13:11:03.4649942Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
