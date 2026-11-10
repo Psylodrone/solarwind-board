@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T11:10:41.6831266Z",
+    "updated":  "2026-11-10T11:12:47.5017533Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T11:08:50.7175938Z",
+                                       "heartbeat":  "2026-11-10T11:10:54.8551766Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T11:04:31.2842880Z",
+                                    "heartbeat":  "2026-11-10T11:09:06.2532406Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T10:22:35.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T11:12:48.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -668,6 +668,11 @@
                                       "t":  "2026-11-10T10:22:38.8178664Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T11:12:47.9621274Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 50 min, tokens 5974k/39k, passing to the headless check"
                                   }
                               ]
                   },
