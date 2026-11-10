@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T07:27:03.8727875Z",
+    "updated":  "2026-11-10T07:29:22.2865844Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T07:25:10.7336904Z",
+                                       "heartbeat":  "2026-11-10T07:27:13.3698656Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -326,13 +326,13 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T07:27:05.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T07:29:25.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -394,6 +394,16 @@
                                       "t":  "2026-11-10T07:27:04.6129241Z",
                                       "actor":  "Claude",
                                       "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 8728k/49k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:27:08.6166992Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:29:25.5496445Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
