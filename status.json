@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T05:50:44.3827006Z",
+    "updated":  "2026-11-10T05:52:21.2734672Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T05:49:14.1659239Z",
+                                       "heartbeat":  "2026-11-10T05:50:51.7143761Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T05:45:52.2092253Z",
+                                    "heartbeat":  "2026-11-10T05:50:25.4776388Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -189,22 +189,6 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-360",
-                      "number":  360,
-                      "title":  "A dead board Claude login falls back to the default login",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T05:44:09.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -1278,6 +1262,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T04:43:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T05:50:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
