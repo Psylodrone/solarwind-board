@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T22:12:51.0618137Z",
+    "updated":  "2026-11-10T22:15:10.2320359Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T22:10:37.6411928Z",
+                                       "heartbeat":  "2026-11-10T22:13:04.4764152Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T22:06:41.6309668Z",
+                                    "heartbeat":  "2026-11-10T22:11:48.1397840Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -346,16 +346,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-10T22:12:52.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T05:08:25.4397081Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
                                   {
                                       "t":  "2026-11-10T05:08:26.6154258Z",
                                       "actor":  "AGY",
@@ -600,6 +595,11 @@
                                       "t":  "2026-11-10T22:12:52.1510321Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 9 min, tokens 5802k/23k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T22:13:00.4333491Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
