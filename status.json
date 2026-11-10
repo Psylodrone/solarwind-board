@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T08:30:36.6512719Z",
+    "updated":  "2026-11-10T08:32:29.3880957Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T08:28:17.6905350Z",
+                                       "heartbeat":  "2026-11-10T08:30:49.4214240Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T08:24:50.9482199Z",
+                                    "heartbeat":  "2026-11-10T08:29:33.1729430Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -332,24 +332,9 @@
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
                       "since":  "2026-11-10T08:28:08.0000000Z",
-                      "round":  2,
+                      "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T04:43:35.0913041Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T04:47:57.2196774Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T04:47:59.4392070Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
                                   {
                                       "t":  "2026-11-10T04:48:00.6041422Z",
                                       "actor":  "AGY",
@@ -584,6 +569,21 @@
                                       "t":  "2026-11-10T08:28:14.0687847Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:30:58.3488836Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 3, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:31:00.5847603Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:31:01.6086467Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
                               ]
                   },
