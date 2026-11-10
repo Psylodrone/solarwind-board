@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T08:00:54.4645421Z",
+    "updated":  "2026-11-10T08:02:37.4323111Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T07:59:16.1525567Z",
+                                       "heartbeat":  "2026-11-10T08:00:58.6667804Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -326,25 +326,15 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T06:55:00.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T08:00:55.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T01:45:29.7897472Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T01:52:04.4590045Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown has found 6 issues in review round 1, passing to AGY to check and fix"
-                                  },
                                   {
                                       "t":  "2026-11-10T01:52:06.6782597Z",
                                       "actor":  "AGY",
@@ -584,6 +574,16 @@
                                       "t":  "2026-11-10T06:56:44.2972616Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:00:57.4128840Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:02:41.0517994Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
