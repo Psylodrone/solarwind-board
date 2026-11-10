@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T04:22:19.7748748Z",
+    "updated":  "2026-11-10T04:23:52.6261855Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T04:20:52.7714370Z",
+                                       "heartbeat":  "2026-11-10T04:22:24.1929450Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -393,31 +393,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-360",
-                      "number":  360,
-                      "title":  "A dead board Claude login falls back to the default login",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T02:08:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T03:51:49.0000000Z",
+                      "since":  "2026-11-10T04:21:18.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -511,6 +495,22 @@
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T02:08:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
