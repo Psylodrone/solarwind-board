@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T04:25:31.8667210Z",
+    "updated":  "2026-11-10T04:27:04.2273370Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T04:24:04.5611464Z",
+                                       "heartbeat":  "2026-11-10T04:25:39.4066639Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -3091,71 +3091,6 @@
                                       "t":  "2026-11-03T05:31:35.3953273Z",
                                       "actor":  "watcher",
                                       "text":  "committed 691e6dd2 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-319",
-                      "number":  319,
-                      "title":  "Enemy ships steer around planets and stations",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-03T04:25:47.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-03T02:21:04.9604631Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:21:10.4740286Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:47:40.4617471Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 26 min, tokens 5776k/50k, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T02:49:47.5963260Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T03:58:46.9567478Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T04:00:01.8011255Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T04:19:09.2263935Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 5 min, tokens 5929k/21k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T04:19:12.5072341Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T04:24:30.8192597Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-03T04:25:47.6888742Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 0a0f70c3 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
