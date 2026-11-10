@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T08:22:47.3075333Z",
+    "updated":  "2026-11-10T08:24:32.5018658Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T08:21:08.2360998Z",
+                                       "heartbeat":  "2026-11-10T08:22:51.7072096Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -326,25 +326,15 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T08:10:13.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T08:22:49.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T02:21:12.9287138Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
-                                  {
-                                      "t":  "2026-11-10T02:42:08.2315098Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude fix run finished in 20 min, tokens 18041k/76k, result blocked"
-                                  },
                                   {
                                       "t":  "2026-11-10T02:43:48.2139471Z",
                                       "actor":  "watcher",
@@ -584,6 +574,16 @@
                                       "t":  "2026-11-10T08:10:17.8093752Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:22:47.9874837Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude fix run finished in 12 min, tokens 2720k/38k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:23:02.9705250Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
