@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T21:43:59.3583606Z",
+    "updated":  "2026-11-10T21:46:14.9118121Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T21:41:56.6976624Z",
+                                       "heartbeat":  "2026-11-10T21:44:12.1319718Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T21:38:33.1374856Z",
+                                    "heartbeat":  "2026-11-10T21:43:07.5945381Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -307,23 +307,50 @@
                               ]
                   },
                   {
-                      "id":  "SW-341",
-                      "number":  341,
-                      "title":  "Mining site collects with A and keeps focus",
+                      "id":  "SW-374",
+                      "number":  374,
+                      "title":  "Two PlayMode tests fail only in the full run",
                       "stage":  "Ready",
                       "machine":  "workhorse",
-                      "risk":  "risk:logic",
+                      "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "architect",
-                      "since":  "2026-11-10T08:53:13.0000000Z",
+                      "since":  "2026-11-10T17:19:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T05:04:49.3356979Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 1)"
-                                  },
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T20:45:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-341",
+                      "number":  341,
+                      "title":  "Mining site collects with A and keeps focus",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T21:46:19.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
                                   {
                                       "t":  "2026-11-10T05:08:23.2012143Z",
                                       "actor":  "AGY unknown",
@@ -568,39 +595,12 @@
                                       "t":  "2026-11-10T08:36:09.3642240Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T21:46:19.7826768Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-374",
-                      "number":  374,
-                      "title":  "Two PlayMode tests fail only in the full run",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-10T17:19:03.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T20:45:33.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
