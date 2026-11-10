@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T15:41:37.7468018Z",
+    "updated":  "2026-11-10T15:43:54.0227218Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T15:39:34.2106586Z",
+                                       "heartbeat":  "2026-11-10T15:41:50.4457359Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,13 +575,13 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-10T15:37:13.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-10T15:43:57.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -773,6 +773,11 @@
                                       "t":  "2026-11-10T15:37:21.9792051Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T15:43:57.8647722Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
