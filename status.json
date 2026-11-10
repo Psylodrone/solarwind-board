@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T22:15:10.2320359Z",
+    "updated":  "2026-11-10T22:17:26.4985255Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T22:13:04.4764152Z",
+                                       "heartbeat":  "2026-11-10T22:15:19.9737144Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -323,22 +323,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T20:45:33.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
@@ -601,6 +585,22 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T22:16:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
