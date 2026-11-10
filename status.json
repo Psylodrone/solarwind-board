@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T02:09:48.0774400Z",
+    "updated":  "2026-11-10T02:11:19.1612065Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T02:08:21.7509747Z",
+                                       "heartbeat":  "2026-11-10T02:09:55.7341550Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-361",
-                      "number":  361,
-                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-09T22:20:52.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-342",
                       "number":  342,
@@ -268,15 +252,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-360",
-                      "number":  360,
-                      "title":  "A dead board Claude login falls back to the default login",
+                      "id":  "SW-361",
+                      "number":  361,
+                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
                       "stage":  "In progress",
                       "machine":  "laptop",
-                      "risk":  "risk:logic",
+                      "risk":  "risk:small",
                       "priority":  "High",
                       "actor":  "by hand",
-                      "since":  "2026-11-09T18:01:16.0000000Z",
+                      "since":  "2026-11-10T02:10:50.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -416,6 +400,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T02:08:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
