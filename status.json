@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T06:43:12.9499644Z",
+    "updated":  "2026-11-10T06:45:45.0182348Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T06:41:32.6741739Z",
+                                       "heartbeat":  "2026-11-10T06:43:24.7589491Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T06:37:10.9678128Z",
+                                    "heartbeat":  "2026-11-10T06:42:57.3359301Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -390,16 +390,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY unknown",
                       "since":  "2026-11-10T06:43:14.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-09T21:39:57.9110527Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
                                   {
                                       "t":  "2026-11-09T21:40:13.4996601Z",
                                       "actor":  "AGY",
@@ -644,6 +639,11 @@
                                       "t":  "2026-11-10T06:43:13.4114964Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 19 min, tokens 2742k/27k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T06:43:27.9519789Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
