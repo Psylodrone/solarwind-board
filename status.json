@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T02:42:07.5683682Z",
+    "updated":  "2026-11-10T02:45:18.0655020Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T02:40:41.9611708Z",
+                                       "heartbeat":  "2026-11-10T02:43:49.2897360Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T02:38:26.8346349Z",
+                                    "heartbeat":  "2026-11-10T02:43:44.4427619Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -268,15 +268,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-360",
+                      "number":  360,
+                      "title":  "A dead board Claude login falls back to the default login",
+                      "stage":  "Stopped",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T02:08:56.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T02:21:09.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T02:42:16.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -424,23 +440,17 @@
                                       "t":  "2026-11-10T02:21:12.9287138Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T02:42:08.2315098Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 20 min, tokens 18041k/76k, result blocked"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T02:43:48.2139471Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-360",
-                      "number":  360,
-                      "title":  "A dead board Claude login falls back to the default login",
-                      "stage":  "Stopped",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T02:08:56.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
