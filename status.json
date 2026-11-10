@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T12:23:51.5214445Z",
+    "updated":  "2026-11-10T12:26:20.0636274Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T12:21:58.4176163Z",
+                                       "heartbeat":  "2026-11-10T12:24:04.1040021Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T12:19:32.1713686Z",
+                                    "heartbeat":  "2026-11-10T12:23:55.1409886Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -575,13 +575,13 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T12:23:52.0000000Z",
-                      "round":  0,
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T12:26:23.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -698,6 +698,16 @@
                                       "t":  "2026-11-10T12:23:51.9486909Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 7 min, tokens 803k/5k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T12:23:58.5175038Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T12:26:23.8365333Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
