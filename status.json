@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T10:19:56.1639397Z",
+    "updated":  "2026-11-10T10:22:32.8423795Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T10:17:50.6937880Z",
+                                       "heartbeat":  "2026-11-10T10:20:06.7999223Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,13 +575,13 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY unknown",
-                      "since":  "2026-11-10T10:19:57.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T10:22:35.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -653,6 +653,16 @@
                                       "t":  "2026-11-10T10:20:01.5061023Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T10:22:35.8044964Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 3, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T10:22:37.5486246Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
                                   }
                               ]
                   },
