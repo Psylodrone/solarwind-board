@@ -1,16 +1,32 @@
 {
-    "updated":  "2026-11-10T20:41:33.5561578Z",
+    "updated":  "2026-11-10T20:44:11.9660313Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T20:39:23.8296136Z",
+                                       "heartbeat":  "2026-11-10T20:41:46.7067134Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T20:35:39.5333884Z",
+                                    "heartbeat":  "2026-11-10T20:40:36.3267722Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-10T20:42:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-344",
                       "number":  344,
@@ -591,20 +607,15 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T20:32:49.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T20:42:59.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-10T09:12:01.0976638Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-10T09:39:06.5446311Z",
                                       "actor":  "Claude",
@@ -849,6 +860,11 @@
                                       "t":  "2026-11-10T20:34:52.2893960Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T20:44:15.6082965Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
