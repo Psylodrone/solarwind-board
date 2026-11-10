@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T09:38:55.5285810Z",
+    "updated":  "2026-11-10T09:40:45.5968746Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T09:37:12.4522437Z",
+                                       "heartbeat":  "2026-11-10T09:38:59.7474565Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T09:11:47.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T09:39:07.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -593,6 +593,16 @@
                                       "t":  "2026-11-10T09:12:01.0976638Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T09:39:06.5446311Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 27 min, tokens 9566k/51k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T09:40:48.2963474Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
