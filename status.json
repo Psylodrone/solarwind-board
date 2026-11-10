@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T11:12:47.5017533Z",
+    "updated":  "2026-11-10T11:14:52.9410842Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T11:10:54.8551766Z",
+                                       "heartbeat":  "2026-11-10T11:12:59.8757180Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -575,12 +575,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T11:12:48.0000000Z",
+                      "since":  "2026-11-10T11:12:59.0000000Z",
                       "round":  3,
                       "now":  null,
                       "log":  [
@@ -673,6 +673,11 @@
                                       "t":  "2026-11-10T11:12:47.9621274Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 50 min, tokens 5974k/39k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T11:14:53.0297252Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
                               ]
                   },
