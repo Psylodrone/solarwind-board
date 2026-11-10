@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T01:43:43.2760508Z",
+    "updated":  "2026-11-10T01:45:22.4844620Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T01:42:39.1793272Z",
+                                       "heartbeat":  "2026-11-10T01:43:50.5424413Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T01:38:13.0264347Z",
+                                    "heartbeat":  "2026-11-10T01:43:35.2768883Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -287,12 +287,12 @@
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T01:21:42.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T01:45:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -390,6 +390,11 @@
                                       "t":  "2026-11-10T01:21:55.4442985Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T01:45:23.2260653Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude implement run finished in 21 min, tokens 10401k/68k, passing to the headless check"
                                   }
                               ]
                   },
