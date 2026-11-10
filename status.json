@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T03:23:23.6378087Z",
+    "updated":  "2026-11-10T03:25:05.7242526Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T03:21:58.4561102Z",
+                                       "heartbeat":  "2026-11-10T03:23:30.9623837Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T03:18:31.6505240Z",
+                                    "heartbeat":  "2026-11-10T03:23:06.2166163Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -211,12 +211,12 @@
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T02:45:18.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T03:23:25.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -274,6 +274,16 @@
                                       "t":  "2026-11-10T02:45:32.5142439Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T03:23:24.5484231Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 36 min, tokens 15376k/60k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T03:23:35.5557410Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
