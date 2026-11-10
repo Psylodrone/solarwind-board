@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T16:33:57.9557472Z",
+    "updated":  "2026-11-10T16:36:19.2486995Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T16:31:49.4954205Z",
+                                       "heartbeat":  "2026-11-10T16:34:12.5957861Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T16:28:58.0483537Z",
+                                    "heartbeat":  "2026-11-10T16:33:49.1703516Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -575,13 +575,13 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-10T16:31:45.0000000Z",
-                      "round":  2,
+                      "actor":  "AGY",
+                      "since":  "2026-11-10T16:36:22.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
                                   {
@@ -793,6 +793,16 @@
                                       "t":  "2026-11-10T16:31:52.9210895Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:36:22.6296242Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 3, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T16:36:24.6376299Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
                                   }
                               ]
                   },
