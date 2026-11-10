@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T08:48:20.3363987Z",
+    "updated":  "2026-11-10T08:50:20.4475170Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T08:46:07.9175006Z",
+                                       "heartbeat":  "2026-11-10T08:48:33.4359744Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T08:42:24.8314457Z",
+                                    "heartbeat":  "2026-11-10T08:46:45.3980111Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -326,12 +326,12 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T08:38:20.0000000Z",
+                      "actor":  "AGY unknown",
+                      "since":  "2026-11-10T08:50:21.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -489,6 +489,16 @@
                                       "t":  "2026-11-10T08:40:54.2426145Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:50:20.8655144Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 9 min, tokens 822k/7k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:50:25.5101519Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
