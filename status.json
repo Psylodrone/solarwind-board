@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T06:51:13.6972306Z",
+    "updated":  "2026-11-10T06:52:55.2477519Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T06:49:24.1704325Z",
+                                       "heartbeat":  "2026-11-10T06:51:17.8784580Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -383,23 +383,34 @@
                               ]
                   },
                   {
+                      "id":  "SW-361",
+                      "number":  361,
+                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T05:52:45.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-11-10T06:49:17.0000000Z",
-                      "round":  2,
+                      "since":  "2026-11-10T06:52:58.0000000Z",
+                      "round":  3,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-09T22:14:46.9174445Z",
-                                      "actor":  "Claude",
-                                      "text":  "Claude implement run finished in 0 min, tokens 0/0, result error"
-                                  },
                                   {
                                       "t":  "2026-11-09T22:16:29.2368495Z",
                                       "actor":  "watcher",
@@ -644,23 +655,12 @@
                                       "t":  "2026-11-10T06:49:22.5137569Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T06:52:59.3718788Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 1 issues in review round 3, passing to AGY to check and fix"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-361",
-                      "number":  361,
-                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T05:52:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
