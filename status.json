@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T06:49:15.6819614Z",
+    "updated":  "2026-11-10T06:51:13.6972306Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T06:47:41.9207694Z",
+                                       "heartbeat":  "2026-11-10T06:49:24.1704325Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -390,16 +390,11 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY unknown",
                       "since":  "2026-11-10T06:49:17.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
-                                  {
-                                      "t":  "2026-11-09T22:13:21.6357701Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
-                                  },
                                   {
                                       "t":  "2026-11-09T22:14:46.9174445Z",
                                       "actor":  "Claude",
@@ -644,6 +639,11 @@
                                       "t":  "2026-11-10T06:49:16.1137359Z",
                                       "actor":  "Claude",
                                       "text":  "Claude fix run finished in 0 min, tokens 300k/4k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T06:49:22.5137569Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "review started with AGY unknown (attempt 1)"
                                   }
                               ]
                   },
