@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T16:51:05.7652361Z",
+    "updated":  "2026-11-10T16:53:41.9015759Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T16:49:04.4117979Z",
+                                       "heartbeat":  "2026-11-10T16:51:16.8365146Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -1600,6 +1600,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T12:46:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-373",
+                      "number":  373,
+                      "title":  "Confirm: Should the swarm return timing failure seen only during the full test",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T16:53:38.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
