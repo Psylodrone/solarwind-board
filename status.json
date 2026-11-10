@@ -1,13 +1,12 @@
 {
-    "updated":  "2026-11-10T22:53:10.2730557Z",
+    "updated":  "2026-11-10T22:57:44.8122588Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T22:48:34.5248075Z",
-                                       "watcher":  "running",
-                                       "idle":  "tree-dirty (3)"
+                                       "heartbeat":  "2026-11-10T22:53:30.8165598Z",
+                                       "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T22:45:09.9396593Z",
+                                    "heartbeat":  "2026-11-10T22:49:56.9974479Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -149,15 +148,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T22:16:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "In progress",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T22:24:27.0000000Z",
+                      "since":  "2026-11-10T22:53:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -325,23 +340,12 @@
                                       "t":  "2026-11-10T22:24:28.4415450Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T22:57:45.1371601Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T22:16:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
