@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T07:25:02.5007586Z",
+    "updated":  "2026-11-10T07:27:03.8727875Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T07:23:20.2457737Z",
+                                       "heartbeat":  "2026-11-10T07:25:10.7336904Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T07:18:46.0277899Z",
+                                    "heartbeat":  "2026-11-10T07:23:51.8375022Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -326,12 +326,12 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T06:59:40.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T07:27:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -389,23 +389,12 @@
                                       "t":  "2026-11-10T06:59:53.9600888Z",
                                       "actor":  "AGY",
                                       "text":  "AGY implement run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T07:27:04.6129241Z",
+                                      "actor":  "Claude",
+                                      "text":  "Codex implementation complete, Claude implement run finished in 26 min, tokens 8728k/49k, passing to the headless check"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-361",
-                      "number":  361,
-                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T07:18:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -1355,6 +1344,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T06:36:14.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-361",
+                      "number":  361,
+                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T07:24:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
