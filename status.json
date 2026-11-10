@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T04:41:35.6114695Z",
+    "updated":  "2026-11-10T04:43:21.4137627Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T04:40:06.3016197Z",
+                                       "heartbeat":  "2026-11-10T04:41:39.8391111Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -192,31 +192,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-361",
-                      "number":  361,
-                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T03:45:17.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-341",
                       "number":  341,
                       "title":  "Mining site collects with A and keeps focus",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-10T03:54:50.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-10T04:43:22.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -389,7 +373,28 @@
                                       "t":  "2026-11-10T03:56:38.4366909Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T04:43:22.2573543Z",
+                                      "actor":  "Claude",
+                                      "text":  "Claude fix run finished in 46 min, tokens 16872k/78k, passing to the headless check"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-361",
+                      "number":  361,
+                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T03:45:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
@@ -1147,6 +1152,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-08T23:25:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-362",
+                      "number":  362,
+                      "title":  "Confirm: Should the highlight that shows which row the player is on be fixed in",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T04:43:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
