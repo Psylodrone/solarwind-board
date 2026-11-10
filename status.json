@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T08:50:20.4475170Z",
+    "updated":  "2026-11-10T08:52:50.7414001Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T08:48:33.4359744Z",
+                                       "heartbeat":  "2026-11-10T08:50:30.7887757Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -326,13 +326,13 @@
                       "id":  "SW-343",
                       "number":  343,
                       "title":  "POI marker text legible",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "AGY unknown",
-                      "since":  "2026-11-10T08:50:21.0000000Z",
-                      "round":  0,
+                      "since":  "2026-11-10T08:52:53.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
@@ -499,6 +499,11 @@
                                       "t":  "2026-11-10T08:50:25.5101519Z",
                                       "actor":  "AGY unknown",
                                       "text":  "review started with AGY unknown (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T08:52:53.8554192Z",
+                                      "actor":  "AGY unknown",
+                                      "text":  "AGY unknown has found 2 issues in review round 1, passing to AGY to check and fix"
                                   }
                               ]
                   },
