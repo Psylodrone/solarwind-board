@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T09:31:02.9305868Z",
+    "updated":  "2026-11-10T09:33:14.6792877Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T09:29:22.0725967Z",
+                                       "heartbeat":  "2026-11-10T09:31:14.9899953Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -1310,6 +1310,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T09:08:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-368",
+                      "number":  368,
+                      "title":  "Confirm: choice Q1 on SW-364",
+                      "stage":  "Needs Taras",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "Taras",
+                      "since":  "2026-11-10T09:33:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
