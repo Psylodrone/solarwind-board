@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T19:53:32.0372085Z",
+    "updated":  "2026-11-10T19:59:17.9390630Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T19:52:01.4820249Z",
+                                       "heartbeat":  "2026-11-10T19:53:39.6418217Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T19:43:34.2922819Z",
+                                    "heartbeat":  "2026-11-10T19:53:33.7590359Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -591,12 +591,12 @@
                       "id":  "SW-364",
                       "number":  364,
                       "title":  "Drone ring PlayMode test fails, find the cause",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-11-10T18:41:24.0000000Z",
+                      "since":  "2026-11-10T19:59:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -839,6 +839,11 @@
                                       "t":  "2026-11-10T18:43:27.4462257Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-10T19:59:27.2485425Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted at its retry time (run-error)"
                                   }
                               ]
                   },
