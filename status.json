@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-10T03:43:34.4003823Z",
+    "updated":  "2026-11-10T03:45:17.4564769Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T03:41:58.2304279Z",
+                                       "heartbeat":  "2026-11-10T03:43:42.3871891Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-10T03:37:55.4367098Z",
+                                    "heartbeat":  "2026-11-10T03:43:26.3219266Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -192,22 +192,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-361",
-                      "number":  361,
-                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
-                      "stage":  "In progress",
-                      "machine":  "laptop",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T02:10:50.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
@@ -300,6 +284,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 0 min, tokens unknown/unknown, result error"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-361",
+                      "number":  361,
+                      "title":  "The Gemini model probe uses a prompt that cannot make the model call a tool",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:small",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T03:45:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
