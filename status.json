@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-10T20:44:11.9660313Z",
+    "updated":  "2026-11-10T20:46:28.8314641Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-10T20:41:46.7067134Z",
+                                       "heartbeat":  "2026-11-10T20:44:25.1424985Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-10T20:42:43.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-344",
                       "number":  344,
@@ -597,6 +581,22 @@
                       "priority":  "Normal",
                       "actor":  "architect",
                       "since":  "2026-11-10T17:19:03.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "In progress",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T20:45:33.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
