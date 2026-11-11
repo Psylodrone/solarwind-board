@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T12:33:00.7573813Z",
+    "updated":  "2026-11-11T12:34:01.6947226Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T12:31:13.6885512Z",
+                                       "heartbeat":  "2026-11-11T12:33:05.2467220Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -51,28 +51,12 @@
                       "id":  "SW-272",
                       "number":  272,
                       "title":  "An unlock never leaves the editor in play mode",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "laptop",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "by hand",
-                      "since":  "2026-11-11T12:12:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-234",
-                      "number":  234,
-                      "title":  "Confirm: Should one older test be updated to expect a new warning message that",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-26T19:15:55.0000000Z",
+                      "since":  "2026-11-11T12:31:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -96,54 +80,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-238",
-                      "number":  238,
-                      "title":  "Confirm: Can we skip the batch-mode check of the new frame test for now and run",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T14:13:11.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-245",
-                      "number":  245,
-                      "title":  "Confirm: Can the walk in the real game save over your save, if your save is",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T18:59:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-246",
-                      "number":  246,
-                      "title":  "Confirm: Should this small change still run the full Unity checks, even though",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T19:23:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-247",
                       "number":  247,
                       "title":  "Confirm: A rescue beacon in one crowded star system cannot find a clear spot,",
@@ -153,22 +89,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T20:14:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-248",
-                      "number":  248,
-                      "title":  "Confirm: Trying the rescue steps by hand in the game would change the saved",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T20:16:19.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -192,102 +112,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-251",
-                      "number":  251,
-                      "title":  "Confirm: Should the task report keep the test count that the automatic check",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T12:13:51.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-252",
-                      "number":  252,
-                      "title":  "Confirm: Should unrelated background test timing timeouts be waived so the card",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T13:02:06.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-254",
-                      "number":  254,
-                      "title":  "Confirm: Should unrelated suite timing failures outside this task be waived?",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T15:34:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-255",
-                      "number":  255,
-                      "title":  "Confirm: Can this fix be finished on this machine, with the two laptop test",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T16:30:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-264",
-                      "number":  264,
-                      "title":  "Confirm: choice Q1 on SW-249",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T21:28:35.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-265",
-                      "number":  265,
-                      "title":  "Confirm: choice Q2 on SW-249",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-28T21:28:44.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-268",
                       "number":  268,
                       "title":  "Confirm: Git cannot remove a saved work set by its ID, so may the watcher",
@@ -297,22 +121,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-29T03:44:03.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-269",
-                      "number":  269,
-                      "title":  "Confirm: Can the game walk test run now, given that it would overwrite your",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-29T04:51:56.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -352,54 +160,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-308",
-                      "number":  308,
-                      "title":  "Confirm: Should this card also clean up old test log messages in test files",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-01T22:40:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-355",
-                      "number":  355,
-                      "title":  "Confirm: Should this card go through with one colour contrast check still",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-07T19:49:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-356",
-                      "number":  356,
-                      "title":  "Confirm: Should this card go through while the War Table shows no focus marker",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-07T20:01:02.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-357",
                       "number":  357,
                       "title":  "Confirm: Should the teal fills used for hover and for the main accent be made",
@@ -409,54 +169,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-07T20:19:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-358",
-                      "number":  358,
-                      "title":  "Confirm: Can two War Table screenshots and one focus check be left for later",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-08T06:25:45.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-359",
-                      "number":  359,
-                      "title":  "Confirm: Should overlapping table header labels on the ship inventory screen be",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-08T23:25:10.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-362",
-                      "number":  362,
-                      "title":  "Confirm: Should the highlight that shows which row the player is on be fixed in",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T04:43:18.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -489,22 +201,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T10:48:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-376",
-                      "number":  376,
-                      "title":  "Confirm: Should the unrelated test suite failure outside this task\u0027s scope be",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T23:36:11.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -809,6 +505,310 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-11T11:49:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-234",
+                      "number":  234,
+                      "title":  "Confirm: Should one older test be updated to expect a new warning message that",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:33:30.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-362",
+                      "number":  362,
+                      "title":  "Confirm: Should the highlight that shows which row the player is on be fixed in",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-359",
+                      "number":  359,
+                      "title":  "Confirm: Should overlapping table header labels on the ship inventory screen be",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:54.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-358",
+                      "number":  358,
+                      "title":  "Confirm: Can two War Table screenshots and one focus check be left for later",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-356",
+                      "number":  356,
+                      "title":  "Confirm: Should this card go through while the War Table shows no focus marker",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:47.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-355",
+                      "number":  355,
+                      "title":  "Confirm: Should this card go through with one colour contrast check still",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:44.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-308",
+                      "number":  308,
+                      "title":  "Confirm: Should this card also clean up old test log messages in test files",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:40.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-269",
+                      "number":  269,
+                      "title":  "Confirm: Can the game walk test run now, given that it would overwrite your",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-255",
+                      "number":  255,
+                      "title":  "Confirm: Can this fix be finished on this machine, with the two laptop test",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:32.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-265",
+                      "number":  265,
+                      "title":  "Confirm: choice Q2 on SW-249",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:28.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-264",
+                      "number":  264,
+                      "title":  "Confirm: choice Q1 on SW-249",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:24.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-251",
+                      "number":  251,
+                      "title":  "Confirm: Should the task report keep the test count that the automatic check",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:21.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-246",
+                      "number":  246,
+                      "title":  "Confirm: Should this small change still run the full Unity checks, even though",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:16.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-248",
+                      "number":  248,
+                      "title":  "Confirm: Trying the rescue steps by hand in the game would change the saved",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-376",
+                      "number":  376,
+                      "title":  "Confirm: Should the unrelated test suite failure outside this task\u0027s scope be",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:10.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-245",
+                      "number":  245,
+                      "title":  "Confirm: Can the walk in the real game save over your save, if your save is",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:08.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-254",
+                      "number":  254,
+                      "title":  "Confirm: Should unrelated suite timing failures outside this task be waived?",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:07.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-238",
+                      "number":  238,
+                      "title":  "Confirm: Can we skip the batch-mode check of the new frame test for now and run",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:05.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-252",
+                      "number":  252,
+                      "title":  "Confirm: Should unrelated background test timing timeouts be waived so the card",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:32:02.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
