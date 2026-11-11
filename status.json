@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T13:31:59.8432383Z",
+    "updated":  "2026-11-11T13:33:30.4070858Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T13:31:44.7333338Z",
+                                       "heartbeat":  "2026-11-11T13:33:02.3982593Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,13 +31,13 @@
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
                       "actor":  "watcher",
-                      "since":  "2026-11-11T13:31:54.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-11T13:33:30.0000000Z",
+                      "round":  0,
                       "now":  null,
                       "log":  [
                                   {
@@ -69,6 +69,11 @@
                                       "t":  "2026-11-11T13:32:04.4671695Z",
                                       "actor":  "watcher",
                                       "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:33:34.1067205Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
                                   }
                               ]
                   },
