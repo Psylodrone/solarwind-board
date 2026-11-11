@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-11T00:24:56.5696012Z",
+    "updated":  "2026-11-11T00:27:11.1759387Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T00:22:54.6014217Z",
+                                       "heartbeat":  "2026-11-11T00:25:12.6804339Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-11T00:18:19.1336930Z",
+                                    "heartbeat":  "2026-11-11T00:24:52.2267724Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,12 +31,12 @@
                       "id":  "SW-345",
                       "number":  345,
                       "title":  "Away summary readable and scrollable with a gamepad",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-10T23:41:56.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-11T00:27:12.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -89,6 +89,16 @@
                                       "t":  "2026-11-10T23:41:57.2241476Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T00:27:11.5921319Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 18 min, tokens 29935k/55k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T00:27:15.1880051Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
