@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T02:36:37.9908845Z",
+    "updated":  "2026-11-11T02:38:47.2021686Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T02:34:40.6459260Z",
+                                       "heartbeat":  "2026-11-11T02:36:51.8688781Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -29,22 +29,6 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T22:16:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -889,6 +873,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-11T02:03:35.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "Needs Taras",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "Taras",
+                      "since":  "2026-11-11T02:37:17.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
