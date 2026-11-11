@@ -1,32 +1,16 @@
 {
-    "updated":  "2026-11-11T13:29:35.9969163Z",
+    "updated":  "2026-11-11T13:30:45.5501275Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T13:29:34.1570424Z",
+                                       "heartbeat":  "2026-11-11T13:30:35.3094867Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-11T12:57:59.3929243Z",
+                                    "heartbeat":  "2026-11-11T13:29:16.7343504Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-11T12:57:24.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-378",
                       "number":  378,
@@ -65,6 +49,22 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-11T13:25:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
