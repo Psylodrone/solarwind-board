@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-11T11:33:01.2940952Z",
+    "updated":  "2026-11-11T11:34:22.2707800Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T11:31:13.9459460Z",
+                                       "heartbeat":  "2026-11-11T11:33:08.7261122Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-11T11:27:58.8314518Z",
+                                    "heartbeat":  "2026-11-11T11:32:26.1235092Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -348,22 +348,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-285",
-                      "number":  285,
-                      "title":  "Confirm: Should this small card fix a status-checker test that only fails in",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-31T01:27:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-308",
                       "number":  308,
                       "title":  "Confirm: Should this card also clean up old test log messages in test files",
@@ -405,22 +389,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-03T03:12:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-349",
-                      "number":  349,
-                      "title":  "Confirm: Can this UI card finish while one combat test fails that also fails",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-05T17:19:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -524,22 +492,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-365",
-                      "number":  365,
-                      "title":  "Confirm: Can this card be finished while one older physics test still fails,",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T06:36:14.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-367",
                       "number":  367,
                       "title":  "Confirm: Should this card be accepted even though the review copy of its",
@@ -549,38 +501,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T09:08:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-368",
-                      "number":  368,
-                      "title":  "Confirm: choice Q1 on SW-364",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T09:33:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-369",
-                      "number":  369,
-                      "title":  "Confirm: Should we skip the full old-version check for this task and schedule",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T10:03:48.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -636,22 +556,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-373",
-                      "number":  373,
-                      "title":  "Confirm: Should the swarm return timing failure seen only during the full test",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T16:53:38.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-376",
                       "number":  376,
                       "title":  "Confirm: Should the unrelated test suite failure outside this task\u0027s scope be",
@@ -668,22 +572,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-377",
-                      "number":  377,
-                      "title":  "Confirm: choice Q1 on SW-374",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-11T02:03:35.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-375",
                       "number":  375,
                       "title":  "An agy run that dies on a network drop waits instead of stopping",
@@ -693,6 +581,118 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-11-11T02:37:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-377",
+                      "number":  377,
+                      "title":  "Confirm: choice Q1 on SW-374",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:59.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-373",
+                      "number":  373,
+                      "title":  "Confirm: Should the swarm return timing failure seen only during the full test",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:57.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-369",
+                      "number":  369,
+                      "title":  "Confirm: Should we skip the full old-version check for this task and schedule",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:53.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-368",
+                      "number":  368,
+                      "title":  "Confirm: choice Q1 on SW-364",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:51.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-365",
+                      "number":  365,
+                      "title":  "Confirm: Can this card be finished while one older physics test still fails,",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:48.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-349",
+                      "number":  349,
+                      "title":  "Confirm: Can this UI card finish while one combat test fails that also fails",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-285",
+                      "number":  285,
+                      "title":  "Confirm: Should this small card fix a status-checker test that only fails in",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:32:39.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
