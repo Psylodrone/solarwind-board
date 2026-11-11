@@ -1,5 +1,5 @@
 {
-    "updated":  "2026-11-11T13:31:52.2916803Z",
+    "updated":  "2026-11-11T13:31:59.8432383Z",
     "machines":  {
                      "workhorse":  {
                                        "heartbeat":  "2026-11-11T13:31:44.7333338Z",
@@ -12,15 +12,31 @@
                  },
     "cards":  [
                   {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-11T13:25:33.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "Changes requested",
+                      "stage":  "Stopped",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-11T12:44:01.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T13:31:54.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -48,23 +64,12 @@
                                       "t":  "2026-11-11T12:44:04.4552498Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:32:04.4671695Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-11T13:25:33.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
