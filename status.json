@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T11:35:47.0242027Z",
+    "updated":  "2026-11-11T11:37:31.8951946Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T11:34:31.5513308Z",
+                                       "heartbeat":  "2026-11-11T11:35:51.6919849Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-378",
+                      "number":  378,
+                      "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-11T11:37:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-234",
                       "number":  234,
@@ -300,22 +316,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-279",
-                      "number":  279,
-                      "title":  "Confirm: Should the pace at which the drones circle the derelict be a setting",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-29T22:29:18.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-275",
                       "number":  275,
                       "title":  "A slow GitHub call does not idle the watcher for minutes",
@@ -357,38 +357,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-01T22:40:16.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-314",
-                      "number":  314,
-                      "title":  "Confirm: When the player has no living pilot, should the offers that need a",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-02T11:57:47.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-323",
-                      "number":  323,
-                      "title":  "Confirm: The project rules say the world clock catches up only in player",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-03T03:12:30.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -508,22 +476,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-370",
-                      "number":  370,
-                      "title":  "Confirm: Should the drone test check that no drone sinks into the mothership,",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T10:34:21.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-371",
                       "number":  371,
                       "title":  "Confirm: The drone test lets drones sink into the mothership by a tiny amount.",
@@ -533,22 +485,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-10T10:48:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-372",
-                      "number":  372,
-                      "title":  "Confirm: Should enemy drones steer around your mothership, the way they already",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-11-10T12:46:00.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -581,6 +517,86 @@
                       "priority":  "High",
                       "actor":  "Taras",
                       "since":  "2026-11-11T02:37:17.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-372",
+                      "number":  372,
+                      "title":  "Confirm: Should enemy drones steer around your mothership, the way they already",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:37:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-370",
+                      "number":  370,
+                      "title":  "Confirm: Should the drone test check that no drone sinks into the mothership,",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:37:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-323",
+                      "number":  323,
+                      "title":  "Confirm: The project rules say the world clock catches up only in player",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:37:18.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-314",
+                      "number":  314,
+                      "title":  "Confirm: When the player has no living pilot, should the offers that need a",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:37:15.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-279",
+                      "number":  279,
+                      "title":  "Confirm: Should the pace at which the drones circle the derelict be a setting",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:36:59.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
