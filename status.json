@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T12:37:10.6371247Z",
+    "updated":  "2026-11-11T12:38:11.0844543Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T12:36:27.2537504Z",
+                                       "heartbeat":  "2026-11-11T12:37:33.5307539Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,22 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-11T11:42:13.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
                   {
                       "id":  "SW-378",
                       "number":  378,
@@ -58,6 +42,22 @@
                               ]
                   },
                   {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-11T12:36:20.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-236",
                       "number":  236,
                       "title":  "Confirm: Should a new offer that appears at a station be announced in the",
@@ -67,22 +67,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-27T08:29:30.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-247",
-                      "number":  247,
-                      "title":  "Confirm: A rescue beacon in one crowded star system cannot find a clear spot,",
-                      "stage":  "Needs Taras",
-                      "machine":  "any",
-                      "risk":  null,
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-27T20:14:32.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -499,6 +483,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-11T11:49:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-247",
+                      "number":  247,
+                      "title":  "Confirm: A rescue beacon in one crowded star system cannot find a clear spot,",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  null,
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:37:03.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
