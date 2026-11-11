@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T11:41:13.1839010Z",
+    "updated":  "2026-11-11T11:42:26.1791884Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T11:40:06.0117293Z",
+                                       "heartbeat":  "2026-11-11T11:41:20.5294689Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,38 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-275",
+                      "number":  275,
+                      "title":  "A slow GitHub call does not idle the watcher for minutes",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "architect",
+                      "since":  "2026-11-11T11:42:13.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-272",
+                      "number":  272,
+                      "title":  "An unlock never leaves the editor in play mode",
+                      "stage":  "Ready",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-11T11:42:12.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-378",
                       "number":  378,
@@ -313,38 +345,6 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-10-29T21:25:22.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "Taras",
-                      "since":  "2026-10-30T04:15:23.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-272",
-                      "number":  272,
-                      "title":  "An unlock never leaves the editor in play mode",
-                      "stage":  "Needs Taras",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "Taras",
-                      "since":  "2026-10-30T07:15:46.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
