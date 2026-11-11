@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T03:32:55.9908260Z",
+    "updated":  "2026-11-11T03:35:08.3603849Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T03:30:48.9149258Z",
+                                       "heartbeat":  "2026-11-11T03:33:08.9257743Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-374",
                       "number":  374,
                       "title":  "Two PlayMode tests fail only in the full run",
-                      "stage":  "Review",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
                       "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-11T03:30:41.0000000Z",
-                      "round":  1,
+                      "since":  "2026-11-11T03:35:11.0000000Z",
+                      "round":  2,
                       "now":  null,
                       "log":  [
                                   {
@@ -58,6 +58,11 @@
                                       "t":  "2026-11-11T03:30:44.7430530Z",
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T03:35:11.8361064Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 1 issues in review round 2, passing to AGY to check and fix"
                                   }
                               ]
                   },
