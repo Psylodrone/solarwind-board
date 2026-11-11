@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T14:54:07.7998428Z",
+    "updated":  "2026-11-11T14:56:24.1534332Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T14:53:05.6993961Z",
+                                       "heartbeat":  "2026-11-11T14:54:14.4145436Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-11T14:05:01.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-11T14:54:09.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -83,6 +83,16 @@
                                       "t":  "2026-11-11T14:05:32.6400341Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:54:08.2210554Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 28 min, tokens 10204k/41k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:54:12.4055605Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
