@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T04:05:14.9662393Z",
+    "updated":  "2026-11-11T04:07:22.3909655Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T04:03:17.0481360Z",
+                                       "heartbeat":  "2026-11-11T04:05:27.4567179Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-374",
                       "number":  374,
                       "title":  "Two PlayMode tests fail only in the full run",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-11T03:35:11.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-11T04:07:23.0000000Z",
                       "round":  2,
                       "now":  null,
                       "log":  [
@@ -68,6 +68,16 @@
                                       "t":  "2026-11-11T03:35:13.7227742Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 2 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T04:07:23.1660378Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 6 min, tokens 3355k/20k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T04:07:26.9585927Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
