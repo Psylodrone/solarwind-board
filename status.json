@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T11:43:44.7228156Z",
+    "updated":  "2026-11-11T11:44:52.5206863Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T11:42:38.4944975Z",
+                                       "heartbeat":  "2026-11-11T11:43:49.0927911Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,22 +28,6 @@
                               ]
                   },
                   {
-                      "id":  "SW-272",
-                      "number":  272,
-                      "title":  "An unlock never leaves the editor in play mode",
-                      "stage":  "Ready",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-11T11:42:12.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
@@ -61,6 +45,22 @@
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-272",
+                      "number":  272,
+                      "title":  "An unlock never leaves the editor in play mode",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-11T11:42:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
