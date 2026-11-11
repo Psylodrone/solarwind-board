@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T11:38:47.3036302Z",
+    "updated":  "2026-11-11T11:39:56.5599294Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T11:37:44.2792938Z",
+                                       "heartbeat":  "2026-11-11T11:38:52.3506055Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,16 +15,20 @@
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "architect",
-                      "since":  "2026-11-11T11:37:12.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T11:38:47.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
+                                  {
+                                      "t":  "2026-11-11T11:38:48.3375873Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
