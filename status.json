@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T00:48:28.5031414Z",
+    "updated":  "2026-11-11T00:50:35.0151877Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T00:46:29.8360218Z",
+                                       "heartbeat":  "2026-11-11T00:48:40.8467433Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,31 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-375",
-                      "number":  375,
-                      "title":  "An agy run that dies on a network drop waits instead of stopping",
-                      "stage":  "Changes requested",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "by hand",
-                      "since":  "2026-11-10T22:16:25.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-342",
                       "number":  342,
                       "title":  "Fleet widget shows stranded pilots, toasts answer actions first",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-11T00:35:51.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T00:50:36.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -235,7 +219,28 @@
                                       "t":  "2026-11-11T00:38:00.5603145Z",
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T00:50:35.4307267Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 5 min, tokens 3909k/22k, passing to the headless check"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-375",
+                      "number":  375,
+                      "title":  "An agy run that dies on a network drop waits instead of stopping",
+                      "stage":  "Changes requested",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "by hand",
+                      "since":  "2026-11-10T22:16:25.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
