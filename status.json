@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-11T12:35:09.9569285Z",
+    "updated":  "2026-11-11T12:36:10.5000199Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T12:34:12.6677602Z",
+                                       "heartbeat":  "2026-11-11T12:35:19.9035832Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-11T12:30:33.3710211Z",
+                                    "heartbeat":  "2026-11-11T12:35:01.2499990Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -31,12 +31,12 @@
                       "id":  "SW-378",
                       "number":  378,
                       "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "High",
-                      "actor":  "AGY",
-                      "since":  "2026-11-11T11:38:47.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-11T12:35:06.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -55,22 +55,6 @@
                                       "actor":  "AGY gemini-3.8-flash-high",
                                       "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-272",
-                      "number":  272,
-                      "title":  "An unlock never leaves the editor in play mode",
-                      "stage":  "Review",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-11T12:31:32.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -515,6 +499,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-11T11:49:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-272",
+                      "number":  272,
+                      "title":  "An unlock never leaves the editor in play mode",
+                      "stage":  "Done",
+                      "machine":  "laptop",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T12:34:35.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
