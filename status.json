@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-11T15:14:51.5978102Z",
+    "updated":  "2026-11-11T15:15:53.8408185Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T15:13:50.5720183Z",
+                                       "heartbeat":  "2026-11-11T15:15:00.4447315Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,101 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-378",
-                      "number":  378,
-                      "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-11T14:54:09.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-11T11:38:48.3375873Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T12:35:05.5895101Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 14 min, tokens 11048k/60k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T12:35:09.2195214Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T12:44:02.4557775Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T12:44:04.4552498Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T13:32:04.4671695Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T13:33:34.1067205Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted after a watcher update (run-error)"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T13:34:15.9797031Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T13:53:48.7557789Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 4 min, tokens 1834k/13k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T13:53:51.9436107Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T14:05:02.0850852Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T14:05:32.6400341Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T14:54:08.2210554Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 28 min, tokens 10204k/41k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T14:54:12.4055605Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T15:03:45.3943975Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-11T15:13:43.2835165Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed daa1ca28 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-275",
                       "number":  275,
@@ -552,6 +457,101 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-378",
+                      "number":  378,
+                      "title":  "War Table: mission type filters instead of tabs, steady header: change after Tar",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "High",
+                      "actor":  "watcher",
+                      "since":  "2026-11-11T15:13:42.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-11T11:38:48.3375873Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T12:35:05.5895101Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 14 min, tokens 11048k/60k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T12:35:09.2195214Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T12:44:02.4557775Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 2 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T12:44:04.4552498Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:32:04.4671695Z",
+                                      "actor":  "watcher",
+                                      "text":  "stopped; waiting for a watcher update or its retry time"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:33:34.1067205Z",
+                                      "actor":  "watcher",
+                                      "text":  "restarted after a watcher update (run-error)"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:34:15.9797031Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:53:48.7557789Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY fix run finished in 4 min, tokens 1834k/13k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T13:53:51.9436107Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:05:02.0850852Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high has found 3 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:05:32.6400341Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:54:08.2210554Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 28 min, tokens 10204k/41k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T14:54:12.4055605Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T15:03:45.3943975Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T15:13:43.2835165Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed daa1ca28 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
