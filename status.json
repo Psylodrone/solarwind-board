@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-11T00:50:35.0151877Z",
+    "updated":  "2026-11-11T00:52:46.6183284Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-11T00:48:40.8467433Z",
+                                       "heartbeat":  "2026-11-11T00:50:47.2079612Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-11T00:43:39.1999596Z",
+                                    "heartbeat":  "2026-11-11T00:48:47.3946263Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -35,7 +35,7 @@
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
+                      "actor":  "AGY gemini-3.8-flash-high",
                       "since":  "2026-11-11T00:50:36.0000000Z",
                       "round":  0,
                       "now":  null,
@@ -224,6 +224,11 @@
                                       "t":  "2026-11-11T00:50:35.4307267Z",
                                       "actor":  "AGY",
                                       "text":  "AGY fix run finished in 5 min, tokens 3909k/22k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-11T00:50:40.1747545Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
