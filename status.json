@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T00:36:16.8799155Z",
+    "updated":  "2026-11-18T00:37:17.0291460Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T00:35:11.4965699Z",
+                                       "heartbeat":  "2026-11-18T00:36:20.6405486Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -28,15 +28,31 @@
                               ]
                   },
                   {
+                      "id":  "SW-383",
+                      "number":  383,
+                      "title":  "A stopped card restarts where it stopped",
+                      "stage":  "Changes requested",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-17T23:08:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
                       "id":  "SW-385",
                       "number":  385,
                       "title":  "The status feed repairs a corrupt clone and alerts when it stalls",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
                       "actor":  "AGY",
-                      "since":  "2026-11-18T00:10:38.0000000Z",
+                      "since":  "2026-11-18T00:35:39.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -55,22 +71,6 @@
                                       "actor":  "AGY",
                                       "text":  "AGY is checking and fixing the findings, round 1 of 3"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-383",
-                      "number":  383,
-                      "title":  "A stopped card restarts where it stopped",
-                      "stage":  "Changes requested",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-17T23:08:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
