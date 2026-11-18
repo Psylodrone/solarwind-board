@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T12:03:50.4223803Z",
+    "updated":  "2026-11-18T12:04:50.6329107Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T12:03:15.9696035Z",
+                                       "heartbeat":  "2026-11-18T12:04:24.2693414Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-388",
                       "number":  388,
                       "title":  "A hung watcher loop shows up as a stale loop heartbeat",
-                      "stage":  "Stopped",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-18T11:03:22.0000000Z",
+                      "actor":  "AGY",
+                      "since":  "2026-11-18T12:03:43.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -93,6 +93,11 @@
                                       "t":  "2026-11-18T12:03:46.7679873Z",
                                       "actor":  "watcher",
                                       "text":  "restarted at its retry time (review-rounds)"
+                                  },
+                                  {
+                                      "t":  "2026-11-18T12:04:26.1096657Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
                                   }
                               ]
                   },
