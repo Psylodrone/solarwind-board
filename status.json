@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T08:20:01.7904839Z",
+    "updated":  "2026-11-18T08:21:03.9164802Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T08:19:27.5961096Z",
+                                       "heartbeat":  "2026-11-18T08:20:35.2856836Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,26 +11,6 @@
                                 }
                  },
     "cards":  [
-                  {
-                      "id":  "SW-387",
-                      "number":  387,
-                      "title":  "Watcher git and gh calls run through one timed runner",
-                      "stage":  "Ready",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-18T08:18:26.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-18T08:19:00.9130827Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  }
-                              ]
-                  },
                   {
                       "id":  "SW-388",
                       "number":  388,
@@ -45,6 +25,26 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-387",
+                      "number":  387,
+                      "title":  "Watcher git and gh calls run through one timed runner",
+                      "stage":  "In progress",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-18T08:19:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-18T08:19:00.9130827Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
                               ]
                   },
                   {
