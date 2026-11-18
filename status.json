@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-18T00:55:49.4356853Z",
+    "updated":  "2026-11-18T00:56:59.9955181Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T00:55:24.6472900Z",
+                                       "heartbeat":  "2026-11-18T00:56:30.8753921Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-18T00:51:03.1569176Z",
+                                    "heartbeat":  "2026-11-18T00:55:36.9408331Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -28,31 +28,15 @@
                               ]
                   },
                   {
-                      "id":  "SW-383",
-                      "number":  383,
-                      "title":  "A stopped card restarts where it stopped",
-                      "stage":  "Changes requested",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-17T23:08:00.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
                       "id":  "SW-385",
                       "number":  385,
                       "title":  "The status feed repairs a corrupt clone and alerts when it stalls",
-                      "stage":  "Changes requested",
+                      "stage":  "Review",
                       "machine":  "any",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-18T00:35:39.0000000Z",
+                      "actor":  "AGY claude-sonnet-5-5-high",
+                      "since":  "2026-11-18T00:57:02.0000000Z",
                       "round":  1,
                       "now":  null,
                       "log":  [
@@ -75,7 +59,28 @@
                                       "t":  "2026-11-18T00:45:41.4412122Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 7582k/55k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-18T00:57:04.9735520Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
                                   }
+                              ]
+                  },
+                  {
+                      "id":  "SW-383",
+                      "number":  383,
+                      "title":  "A stopped card restarts where it stopped",
+                      "stage":  "Changes requested",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "by hand",
+                      "since":  "2026-11-17T23:08:00.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
                               ]
                   },
                   {
