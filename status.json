@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T15:28:56.2743383Z",
+    "updated":  "2026-11-18T15:30:05.6967855Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T15:28:30.0921911Z",
+                                       "heartbeat":  "2026-11-18T15:29:37.2307044Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -935,22 +935,6 @@
                       "priority":  "Normal",
                       "actor":  "watcher",
                       "since":  "2026-11-17T19:45:19.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-275",
-                      "number":  275,
-                      "title":  "A slow GitHub call does not idle the watcher for minutes",
-                      "stage":  "Done",
-                      "machine":  "laptop",
-                      "risk":  "risk:logic",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-11T15:28:59.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
