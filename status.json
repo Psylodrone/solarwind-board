@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T00:10:06.1734610Z",
+    "updated":  "2026-11-18T00:11:05.6565007Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T00:09:26.4933535Z",
+                                       "heartbeat":  "2026-11-18T00:10:38.8307206Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,26 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-385",
+                      "number":  385,
+                      "title":  "The status feed repairs a corrupt clone and alerts when it stalls",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-18T00:09:58.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-18T00:10:38.8990609Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  }
+                              ]
+                  },
                   {
                       "id":  "SW-383",
                       "number":  383,
