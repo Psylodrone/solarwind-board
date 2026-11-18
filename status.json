@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-18T01:17:12.9323388Z",
+    "updated":  "2026-11-18T01:18:34.9736872Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T01:15:52.6527540Z",
+                                       "heartbeat":  "2026-11-18T01:17:25.6915117Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-18T01:13:56.0322183Z",
+                                    "heartbeat":  "2026-11-18T01:17:35.1994017Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -34,22 +34,6 @@
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY implement run finished in 5 min, tokens 3528k/35k, passing to the headless check"
                                   }
-                              ]
-                  },
-                  {
-                      "id":  "SW-383",
-                      "number":  383,
-                      "title":  "A stopped card restarts where it stopped",
-                      "stage":  "Review",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "by hand",
-                      "since":  "2026-11-18T01:14:36.0000000Z",
-                      "round":  0,
-                      "now":  null,
-                      "log":  [
-
                               ]
                   },
                   {
@@ -478,6 +462,22 @@
                       "priority":  "Normal",
                       "actor":  "Taras",
                       "since":  "2026-11-11T11:49:43.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-383",
+                      "number":  383,
+                      "title":  "A stopped card restarts where it stopped",
+                      "stage":  "Done",
+                      "machine":  "any",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-18T01:16:05.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
