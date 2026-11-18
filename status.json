@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-18T07:48:51.7152827Z",
+    "updated":  "2026-11-18T07:50:15.0395589Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T07:48:25.8294095Z",
+                                       "heartbeat":  "2026-11-18T07:49:27.0734810Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-18T01:26:33.3538078Z",
+                                    "heartbeat":  "2026-11-18T07:46:59.8276783Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -93,6 +93,11 @@
                                       "t":  "2026-11-18T01:44:12.9619535Z",
                                       "actor":  "Claude claude-sonnet-5-5",
                                       "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 8), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-18T07:49:11.9852323Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
