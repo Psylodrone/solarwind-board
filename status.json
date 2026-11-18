@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T09:55:29.6631339Z",
+    "updated":  "2026-11-18T09:56:37.7293748Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T09:55:04.1193707Z",
+                                       "heartbeat":  "2026-11-18T09:56:10.7700954Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,13 +15,13 @@
                       "id":  "SW-388",
                       "number":  388,
                       "title":  "A hung watcher loop shows up as a stale loop heartbeat",
-                      "stage":  "In progress",
+                      "stage":  "Changes requested",
                       "machine":  "workhorse",
                       "risk":  "risk:logic",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-18T09:29:40.0000000Z",
-                      "round":  0,
+                      "actor":  "watcher",
+                      "since":  "2026-11-18T09:56:39.0000000Z",
+                      "round":  1,
                       "now":  null,
                       "log":  [
                                   {
