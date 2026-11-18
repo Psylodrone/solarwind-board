@@ -1,16 +1,48 @@
 {
-    "updated":  "2026-11-18T08:17:42.9462675Z",
+    "updated":  "2026-11-18T08:18:48.1040816Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T08:17:10.9577557Z",
+                                       "heartbeat":  "2026-11-18T08:18:21.5675512Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-18T08:13:55.9617325Z",
+                                    "heartbeat":  "2026-11-18T08:18:25.6237938Z",
                                     "watcher":  "unknown"
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-387",
+                      "number":  387,
+                      "title":  "Watcher git and gh calls run through one timed runner",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-18T08:18:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-388",
+                      "number":  388,
+                      "title":  "A hung watcher loop shows up as a stale loop heartbeat",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-18T08:18:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-236",
                       "number":  236,
