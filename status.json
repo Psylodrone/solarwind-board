@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-18T00:15:31.3337538Z",
+    "updated":  "2026-11-18T00:16:38.5699802Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-18T00:15:06.6396170Z",
+                                       "heartbeat":  "2026-11-18T00:16:12.2513108Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,22 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-386",
+                      "number":  386,
+                      "title":  "Status page has a manual refresh button",
+                      "stage":  "Ready",
+                      "machine":  "any",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-18T00:15:23.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-385",
                       "number":  385,
