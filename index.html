@@ -25,14 +25,17 @@ main{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:1
 }
 .log{padding-left:18px;font-size:12px;overflow-wrap:anywhere}.log li{margin:6px 0}
 button{font:inherit;color:var(--accent);background:transparent;border:0;padding:2px 0;cursor:pointer;text-decoration:underline}
+button:disabled{opacity:.5;cursor:default}
 .empty{color:var(--muted);font-size:12px}@media(max-width:560px){body{padding:12px}main{grid-template-columns:1fr}}
 </style>
-<header><h1>Solar Wind board</h1><span id="updated">Waiting for feed</span></header>
+<header><h1>Solar Wind board</h1><span id="updated">Waiting for feed</span><button id="refresh" type="button">Refresh</button></header>
 <div id="machines"></div><div id="error" role="status"></div><main id="board"></main>
 <script>
 'use strict';
+const RAW_FEED = 'https://raw.githubusercontent.com/Psylodrone/solarwind-board/main/status.json';
   const stages=['Ready','In progress','Review','Changes requested','Stopped','Needs Taras','Done'];
-const source=new URLSearchParams(location.search).get('src')||'status.json';
+const searchSrc = new URLSearchParams(location.search).get('src');
+const source = searchSrc || 'status.json';
 const expanded=new Set();let lastGood=null,lastFeed=null;
 const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n};
 const timeFmt = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit', hour12: false });
@@ -86,11 +89,37 @@ function render(feed){
  }
  freshness();
 }
+function accept(feed){
+ if(!feed||!feed.updated||!feed.machines||!Array.isArray(feed.cards))throw Error('invalid feed');
+ const ms=Date.parse(feed.updated);if(!Number.isFinite(ms))throw Error('invalid feed');
+ if(lastFeed){const prevMs=Date.parse(lastFeed.updated);if(Number.isFinite(prevMs)&&ms<prevMs)return;}
+ lastFeed=feed;lastGood=Date.now();render(feed);document.getElementById('error').textContent='';
+}
 async function refresh(){try{
  const response=await fetch(source,{cache:'no-store'});if(!response.ok)throw Error('unreachable');
- const feed=await response.json();if(!feed||!feed.updated||!feed.machines||!Array.isArray(feed.cards))throw Error('invalid feed');
- lastFeed=feed;lastGood=Date.now();render(feed);document.getElementById('error').textContent='';
+ const feed=await response.json();
+ accept(feed);
  }catch{document.getElementById('error').textContent='feed unreachable'+(lastGood?' · last good fetch '+age(lastGood):' · no successful fetch yet');}}
+const refreshBtn=document.getElementById('refresh');
+if(refreshBtn){
+ refreshBtn.onclick=async()=>{
+  refreshBtn.disabled=true;
+  refreshBtn.textContent='Refreshing...';
+  try{
+   const target=searchSrc||RAW_FEED;
+   const u=target+(target.includes('?')?'&':'?')+'t='+Date.now();
+   const response=await fetch(u,{cache:'no-store'});
+   if(!response.ok)throw Error('unreachable');
+   const feed=await response.json();
+   accept(feed);
+  }catch{
+   document.getElementById('error').textContent='refresh failed'+(lastGood?' · last good fetch '+age(lastGood):' · no successful fetch yet');
+  }finally{
+   refreshBtn.disabled=false;
+   refreshBtn.textContent='Refresh';
+  }
+ };
+}
 refresh();setInterval(refresh,30000);setInterval(()=>{if(lastFeed)render(lastFeed)},10000);
 </script>
 </html>
