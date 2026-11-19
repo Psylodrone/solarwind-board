@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-19T07:39:59.2354485Z",
+    "updated":  "2026-11-19T07:41:10.6339778Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-19T07:39:09.9588340Z",
+                                       "heartbeat":  "2026-11-19T07:40:18.4913060Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -15,12 +15,12 @@
                       "id":  "SW-391",
                       "number":  391,
                       "title":  "The timed-runner kill test waits for its child instead of racing",
-                      "stage":  "In progress",
+                      "stage":  "Review",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "AGY",
-                      "since":  "2026-11-19T07:18:39.0000000Z",
+                      "actor":  "AGY gemini-3.8-flash-high",
+                      "since":  "2026-11-19T07:39:16.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
@@ -33,6 +33,11 @@
                                       "t":  "2026-11-19T07:25:36.8415772Z",
                                       "actor":  "AGY",
                                       "text":  "Codex implementation complete, AGY implement run finished in 6 min, tokens 1408k/39k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T07:40:00.3083024Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
                                   }
                               ]
                   },
