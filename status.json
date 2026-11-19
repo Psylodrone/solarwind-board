@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-19T02:13:32.4763888Z",
+    "updated":  "2026-11-19T02:14:44.3488853Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-19T02:12:46.8982488Z",
+                                       "heartbeat":  "2026-11-19T02:14:03.0120431Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -11,6 +11,54 @@
                                 }
                  },
     "cards":  [
+                  {
+                      "id":  "SW-391",
+                      "number":  391,
+                      "title":  "The timed-runner kill test waits for its child instead of racing",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-19T02:12:26.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-389",
+                      "number":  389,
+                      "title":  "Docs cite watcher functions, not line numbers",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:small",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-19T02:12:27.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
+                  {
+                      "id":  "SW-390",
+                      "number":  390,
+                      "title":  "The remaining watcher gh calls run through the timed runner",
+                      "stage":  "Ready",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "architect",
+                      "since":  "2026-11-19T02:12:29.0000000Z",
+                      "round":  0,
+                      "now":  null,
+                      "log":  [
+
+                              ]
+                  },
                   {
                       "id":  "SW-236",
                       "number":  236,
