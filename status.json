@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-19T05:35:15.5408582Z",
+    "updated":  "2026-11-19T05:36:53.4123551Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-19T05:34:27.6964189Z",
+                                       "heartbeat":  "2026-11-19T05:36:19.2408278Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -31,95 +31,19 @@
                       "id":  "SW-389",
                       "number":  389,
                       "title":  "Docs cite watcher functions, not line numbers",
-                      "stage":  "Ready",
+                      "stage":  "In progress",
                       "machine":  "workhorse",
                       "risk":  "risk:small",
                       "priority":  "Normal",
-                      "actor":  "architect",
-                      "since":  "2026-11-19T02:12:27.0000000Z",
+                      "actor":  "watcher",
+                      "since":  "2026-11-19T05:36:53.0000000Z",
                       "round":  0,
                       "now":  null,
                       "log":  [
-
-                              ]
-                  },
-                  {
-                      "id":  "SW-390",
-                      "number":  390,
-                      "title":  "The remaining watcher gh calls run through the timed runner",
-                      "stage":  "Review",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "AGY gemini-3.8-flash-high",
-                      "since":  "2026-11-19T05:27:31.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
                                   {
-                                      "t":  "2026-11-19T02:14:56.6726190Z",
+                                      "t":  "2026-11-19T05:36:54.5584280Z",
                                       "actor":  "watcher",
                                       "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:08:15.1674765Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 5259k/53k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:26:49.2868489Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:29:40.9901073Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:29:42.8743790Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:40:46.7513795Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 3274k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:14:09.2589156Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 3274k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:27:34.3151089Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:15.8359058Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:39.8585537Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:57.9156300Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:34:53.9707910Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:35:09.4437585Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 613e3713 and pushed, card Done and issue closed"
                                   }
                               ]
                   },
@@ -553,6 +477,86 @@
                       "now":  null,
                       "log":  [
 
+                              ]
+                  },
+                  {
+                      "id":  "SW-390",
+                      "number":  390,
+                      "title":  "The remaining watcher gh calls run through the timed runner",
+                      "stage":  "Done",
+                      "machine":  "workhorse",
+                      "risk":  "risk:logic",
+                      "priority":  "Normal",
+                      "actor":  "watcher",
+                      "since":  "2026-11-19T05:35:08.0000000Z",
+                      "round":  2,
+                      "now":  null,
+                      "log":  [
+                                  {
+                                      "t":  "2026-11-19T02:14:56.6726190Z",
+                                      "actor":  "watcher",
+                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T04:08:15.1674765Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 5259k/53k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T04:26:49.2868489Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T04:29:40.9901073Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 1, passing to AGY to check and fix"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T04:29:42.8743790Z",
+                                      "actor":  "AGY",
+                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T04:40:46.7513795Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 3274k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:14:09.2589156Z",
+                                      "actor":  "AGY",
+                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 3274k/42k, passing to the headless check"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:27:34.3151089Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:28:15.8359058Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:28:39.8585537Z",
+                                      "actor":  "AGY claude-sonnet-5-5-high",
+                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:28:57.9156300Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:34:53.9707910Z",
+                                      "actor":  "AGY gemini-3.8-flash-high",
+                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
+                                  },
+                                  {
+                                      "t":  "2026-11-19T05:35:09.4437585Z",
+                                      "actor":  "watcher",
+                                      "text":  "committed 613e3713 and pushed, card Done and issue closed"
+                                  }
                               ]
                   },
                   {
