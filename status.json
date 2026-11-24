@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-24T21:19:32.0932759Z",
+    "updated":  "2026-11-24T21:20:35.9139406Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-24T21:18:54.3069859Z",
+                                       "heartbeat":  "2026-11-24T21:20:03.4284096Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -993,46 +993,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-384",
-                      "number":  384,
-                      "title":  "A review that hangs on agy tries the next reviewer",
-                      "stage":  "Done",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "High",
-                      "actor":  "watcher",
-                      "since":  "2026-11-17T21:19:45.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-17T20:55:46.9021834Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T21:04:23.4831547Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 7 min, tokens 3428k/22k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T21:16:07.4889309Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T21:19:23.3475564Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T21:19:37.7315608Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed dfc66a3f and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
