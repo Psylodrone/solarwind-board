@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-24T20:53:53.0913765Z",
+    "updated":  "2026-11-24T20:55:03.3402639Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-24T20:53:20.6344049Z",
+                                       "heartbeat":  "2026-11-24T20:54:29.3554328Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-24T20:49:16.3596386Z",
+                                    "heartbeat":  "2026-11-24T20:53:45.6632418Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -1032,86 +1032,6 @@
                                       "t":  "2026-11-17T21:19:37.7315608Z",
                                       "actor":  "watcher",
                                       "text":  "committed dfc66a3f and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-381",
-                      "number":  381,
-                      "title":  "A failed jump rolls state back",
-                      "stage":  "Done",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-17T20:54:51.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-17T19:37:42.2866568Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:27:08.3689962Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 21 min, tokens 17597k/55k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:27:16.5266724Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:27:41.3471462Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:28:45.8066865Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 4 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:28:47.5463080Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:49:22.7199272Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 4861k/22k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:49:26.1497499Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:49:39.6394261Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:49:53.4799068Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:50:06.2865975Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:54:12.4882468Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-17T20:54:43.2652803Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed ea0676b9 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
