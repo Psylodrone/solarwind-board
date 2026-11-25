@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-25T07:52:36.9513397Z",
+    "updated":  "2026-11-25T07:53:45.0642242Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-25T07:52:05.6044128Z",
+                                       "heartbeat":  "2026-11-25T07:53:12.3152837Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -805,106 +805,6 @@
                                       "t":  "2026-11-18T09:28:04.5804014Z",
                                       "actor":  "watcher",
                                       "text":  "committed 294b2b13 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-386",
-                      "number":  386,
-                      "title":  "Status page has a manual refresh button",
-                      "stage":  "Done",
-                      "machine":  "any",
-                      "risk":  "risk:small",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-18T07:52:38.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-18T01:01:04.4285903Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:12:31.5945906Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 5 min, tokens 3528k/35k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:28:03.5416376Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:35:49.1533853Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:35:56.6587942Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:35:56.6927826Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 3)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:36:15.2013507Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 3), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:36:33.9413381Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 4), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:36:33.9730881Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "review started with AGY unknown (attempt 5)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:36:50.1192957Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 5), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:37:33.5054296Z",
-                                      "actor":  "AGY unknown",
-                                      "text":  "AGY unknown gave no usable answer (attempt 6), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:37:33.5477671Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "review started with Claude claude-sonnet-5-5 (attempt 7)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:41:00.5822618Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 7), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T01:44:12.9619535Z",
-                                      "actor":  "Claude claude-sonnet-5-5",
-                                      "text":  "Claude claude-sonnet-5-5 gave no usable answer (attempt 8), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T07:49:11.9852323Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T07:52:22.8442869Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T07:52:38.7922164Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 880152c0 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
