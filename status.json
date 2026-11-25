@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-25T00:59:19.4846617Z",
+    "updated":  "2026-11-25T01:00:26.4484010Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-25T00:58:52.7123021Z",
+                                       "heartbeat":  "2026-11-25T00:59:58.4218883Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -922,61 +922,6 @@
                       "now":  null,
                       "log":  [
 
-                              ]
-                  },
-                  {
-                      "id":  "SW-385",
-                      "number":  385,
-                      "title":  "The status feed repairs a corrupt clone and alerts when it stalls",
-                      "stage":  "Done",
-                      "machine":  "any",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-18T00:59:20.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-18T00:10:38.8990609Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:23:50.1188109Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 7 min, tokens 6088k/43k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:36:16.2192683Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:45:41.4412122Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 7582k/55k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:57:04.9735520Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:57:22.5095023Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:58:45.3193559Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T00:59:21.1397599Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 322d4852 and pushed, card Done and issue closed"
-                                  }
                               ]
                   }
               ]
