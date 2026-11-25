@@ -1,8 +1,8 @@
 {
-    "updated":  "2026-11-25T12:22:10.1943583Z",
+    "updated":  "2026-11-25T12:23:14.7345266Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-25T12:21:33.2241939Z",
+                                       "heartbeat":  "2026-11-25T12:22:43.0645536Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
@@ -630,116 +630,6 @@
                                       "t":  "2026-11-19T05:35:09.4437585Z",
                                       "actor":  "watcher",
                                       "text":  "committed 613e3713 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-388",
-                      "number":  388,
-                      "title":  "A hung watcher loop shows up as a stale loop heartbeat",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-18T12:22:16.0000000Z",
-                      "round":  1,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-18T09:29:41.8064209Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T09:44:27.7882280Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 6017k/51k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T09:57:16.3495079Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:21:38.7892842Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 9 min, tokens 4292k/39k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:34:27.3831324Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:35:53.0897858Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 2 issues in review round 2, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:35:54.8447015Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 2 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:43:31.7729155Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 3337k/36k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:56:14.0888003Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:57:40.3310900Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 3, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T10:57:42.8735201Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 3 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T11:03:13.5547774Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 5 min, tokens 1965k/26k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T11:03:38.8982043Z",
-                                      "actor":  "watcher",
-                                      "text":  "stopped; waiting for a watcher update or its retry time"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:03:46.7679873Z",
-                                      "actor":  "watcher",
-                                      "text":  "restarted at its retry time (review-rounds)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:04:26.1096657Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 0 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:07:44.4135028Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY fix run finished in 3 min, tokens 644k/18k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:21:10.9015743Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:21:56.6476090Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high review round 1: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-18T12:22:18.2256679Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed eee2f8fc and pushed, card Done and issue closed"
                                   }
                               ]
                   }
