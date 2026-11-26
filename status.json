@@ -1,12 +1,12 @@
 {
-    "updated":  "2026-11-26T04:47:36.4069997Z",
+    "updated":  "2026-11-26T06:16:55.4111277Z",
     "machines":  {
                      "workhorse":  {
-                                       "heartbeat":  "2026-11-26T04:46:35.6537008Z",
+                                       "heartbeat":  "2026-11-26T06:16:46.6126658Z",
                                        "watcher":  "running"
                                    },
                      "laptop":  {
-                                    "heartbeat":  "2026-11-26T04:43:58.9756821Z",
+                                    "heartbeat":  "2026-11-26T06:13:56.8090037Z",
                                     "watcher":  "unknown"
                                 }
                  },
@@ -550,86 +550,6 @@
                                       "t":  "2026-11-19T07:17:47.8742629Z",
                                       "actor":  "watcher",
                                       "text":  "committed 7dde65f1 and pushed, card Done and issue closed"
-                                  }
-                              ]
-                  },
-                  {
-                      "id":  "SW-390",
-                      "number":  390,
-                      "title":  "The remaining watcher gh calls run through the timed runner",
-                      "stage":  "Done",
-                      "machine":  "workhorse",
-                      "risk":  "risk:logic",
-                      "priority":  "Normal",
-                      "actor":  "watcher",
-                      "since":  "2026-11-19T05:35:08.0000000Z",
-                      "round":  2,
-                      "now":  null,
-                      "log":  [
-                                  {
-                                      "t":  "2026-11-19T02:14:56.6726190Z",
-                                      "actor":  "watcher",
-                                      "text":  "watcher@workhorse took the card, passing to AGY for implementation"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:08:15.1674765Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY implement run finished in 9 min, tokens 5259k/53k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:26:49.2868489Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:29:40.9901073Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high has found 1 issues in review round 1, passing to AGY to check and fix"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:29:42.8743790Z",
-                                      "actor":  "AGY",
-                                      "text":  "AGY is checking and fixing the findings, round 1 of 3"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T04:40:46.7513795Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 7 min, tokens 3274k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:14:09.2589156Z",
-                                      "actor":  "AGY",
-                                      "text":  "Codex implementation complete, AGY fix run finished in 6 min, tokens 3274k/42k, passing to the headless check"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:27:34.3151089Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "review started with AGY claude-sonnet-5-5-high (attempt 1)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:15.8359058Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 1), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:39.8585537Z",
-                                      "actor":  "AGY claude-sonnet-5-5-high",
-                                      "text":  "AGY claude-sonnet-5-5-high gave no usable answer (attempt 2), trying again or the next reviewer"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:28:57.9156300Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "review started with AGY gemini-3.8-flash-high (attempt 3)"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:34:53.9707910Z",
-                                      "actor":  "AGY gemini-3.8-flash-high",
-                                      "text":  "AGY gemini-3.8-flash-high review round 2: clean, passing to the watcher to commit"
-                                  },
-                                  {
-                                      "t":  "2026-11-19T05:35:09.4437585Z",
-                                      "actor":  "watcher",
-                                      "text":  "committed 613e3713 and pushed, card Done and issue closed"
                                   }
                               ]
                   }
